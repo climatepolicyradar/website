@@ -1,0 +1,127 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+local_backend: true
+logo_url: /images/logo.svg
+publish_mode: editorial_workflow
+
+media_folder: 'static/images' # Media files will be stored in the repo under public/images/uploads
+public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: 'latest' # Used in routes, e.g., /admin/collections/blog
+    label: 'Latest' # Used in the UI
+    folder: 'src/routes/latest' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{title}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: '../../../static/images/{{slug}}'
+    public_folder: '/images/{{slug}}'
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'latest' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Featured Image', name: 'thumb', widget: 'image' }
+      - {
+          label: 'Topics',
+          name: 'topics',
+          widget: 'select',
+          multiple: true,
+          options: ['Blog', 'News'],
+        }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Author', name: 'author', widget: 'string', required: false }
+      - {
+          label: 'Featured',
+          name: 'featured',
+          widget: 'boolean',
+          default: false,
+        }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: 'jobs'
+    label: 'Jobs'
+    folder: 'src/routes/jobs'
+    create: true
+    slug: '{{title}}'
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'jobs' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Topics',
+          name: 'topics',
+          widget: 'select',
+          multiple: true,
+          options: ['jobs'],
+        }
+      - { label: 'Date', name: 'date', widget: 'datetime' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Apply link', name: 'applyLink', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+  - label: 'Pages'
+    name: 'pages'
+    files:
+      - label: 'About Page'
+        name: 'about'
+        file: 'src/data/about.json'
+        fields:
+          - label: 'Team'
+            name: 'team'
+            widget: 'list'
+            label_singular: 'team member'
+            fields:
+              - label: 'Name'
+                name: 'name'
+                widget: 'string'
+              - label: 'Role'
+                name: 'role'
+                widget: 'string'
+              - label: 'Group'
+                name: 'group'
+                widget: 'select'
+                options: ['Team', 'Board', 'Advisory']
+              - label: 'Image'
+                name: 'image'
+                widget: 'object'
+                required: false
+                fields:
+                  - label: 'Image'
+                    name: 'src'
+                    widget: 'image'
+                    required: false
+                    media_folder: '/static/images/team'
+                    public_folder: 'images/team'
+                  - label: 'Alt'
+                    name: 'alt'
+                    widget: 'string'
+                    required: false
+                  - label: 'Width'
+                    name: 'width'
+                    widget: 'number'
+                    required: false
+                  - label: 'Height'
+                    name: 'height'
+                    widget: 'number'
+                    required: false
+              - label: 'Bio'
+                name: 'bio'
+                widget: 'markdown'
+                required: false
+              - label: 'Highlights'
+                name: 'highlights'
+                widget: 'list'
+                required: false
+                field: { label: Item, name: item, widget: string }
+              - label: 'Social'
+                name: 'social'
+                widget: 'list'
+                required: false
+                fields:
+                  - label: 'Network'
+                    name: 'network'
+                    widget: 'select'
+                    options:
+                      - label: 'Twitter'
+                        value: 'twitter'
+                      - label: 'Linked In'
+                        value: 'linkedin'
+                  - label: 'URL'
+                    name: 'url'
+                    widget: 'string'

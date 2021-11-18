@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 137 35">
+  <g fill="#c00">
+    <g transform="translate(32 6)">
+      <rect width="12" height="2" x="16" y="9" rx="1"/>
+      <rect width="28" height="2" y="6" rx="1"/>
+      <rect width="31" height="2" y="21" rx="1"/>
+      <rect width="31" height="2" y="24" rx="1"/>
+      <rect width="31" height="2" y="27" rx="1"/>
+      <rect width="28" height="2" y="3" rx="1"/>
+      <rect width="28" height="2" rx="1"/>
+      <rect width="12" height="2" x="16" y="12" rx="1"/>
+      <rect width="12" height="2" x="16" y="15" rx="1"/>
+      <rect width="12" height="2" x="16" y="18" rx="1"/>
+    </g>
+    <g transform="translate(65 6)">
+      <rect width="12" height="2" y="12" rx="1"/>
+      <rect width="12" height="2" y="15" rx="1"/>
+      <rect width="12" height="2" y="18" rx="1"/>
+      <rect width="12" height="2" y="21" rx="1"/>
+      <rect width="12" height="2" y="24" rx="1"/>
+      <rect width="12" height="2" y="27" rx="1"/>
+      <rect width="12" height="2" y="6" rx="1"/>
+      <rect width="12" height="2" y="3" rx="1"/>
+      <rect width="12" height="2" rx="1"/>
+      <rect width="12" height="2" y="9" rx="1"/>
+    </g>
+    <g transform="translate(79)">
+      <rect width="28" height="2" y="12" rx="1"/>
+      <rect width="12" height="2" x="16" y="15" rx="1"/>
+      <rect width="12" height="2" x="16" y="18" rx="1"/>
+      <rect width="12" height="2" x="16" y="21" rx="1"/>
+      <rect width="12" height="2" x="16" y="24" rx="1"/>
+      <rect width="22" height="2" x="5" y="27" rx="1"/>
+      <rect width="19" height="2" x="5" y="30" rx="1"/>
+      <rect width="15" height="2" x="5" y="33" rx="1"/>
+      <rect width="28" height="2" y="9" rx="1"/>
+      <rect width="28" height="2" y="6" rx="1"/>
+      <rect width="13" height="2" y="3" rx="1"/>
+      <rect width="13" height="2" rx="1"/>
+    </g>
+    <g transform="translate(110 6)">
+      <rect width="12" height="2" y="27" rx="1"/>
+      <rect width="11" height="2" x="16" y="27" rx="1"/>
+      <rect width="11" height="2" x="15" y="24" rx="1"/>
+      <rect width="11" height="2" x="14" y="21" rx="1"/>
+      <rect width="12" height="2" y="21" rx="1"/>
+      <rect width="24" height="2" y="18" rx="1"/>
+      <rect width="12" height="2" x="11" y="15" rx="1"/>
+      <rect width="12" height="2" x="10" y="12" rx="1"/>
+      <rect width="12" height="2" x="9" y="9" rx="1"/>
+      <rect width="20" height="2" y="6" rx="1"/>
+      <rect width="19" height="2" y="3" rx="1"/>
+      <rect width="18" height="2" rx="1"/>
+      <rect width="12" height="2" y="24" rx="1"/>
+    </g>
+    <g transform="translate(0 6)">
+      <rect width="30" height="2" rx="1"/>
+      <rect width="30" height="2" y="3" rx="1"/>
+      <rect width="30" height="2" y="6" rx="1"/>
+      <rect width="28" height="2" y="21" rx="1"/>
+      <rect width="11" height="2" y="18" rx="1"/>
+      <rect width="11" height="2" y="15" rx="1"/>
+      <rect width="11" height="2" y="12" rx="1"/>
+      <rect width="11" height="2" y="9" rx="1"/>
+      <rect width="11" height="2" x="19" y="9" rx="1"/>
+      <rect width="11" height="2" x="19" y="12" rx="1"/>
+      <rect width="11" height="2" x="19" y="15" rx="1"/>
+      <rect width="11" height="2" x="19" y="18" rx="1"/>
+      <rect width="26" height="2" y="24" rx="1"/>
+      <rect width="24" height="2" y="27" rx="1"/>
+    </g>
+  </g>
+</svg>

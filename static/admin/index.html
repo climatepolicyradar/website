@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Content Manager</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <!-- Include the script that builds the page and powers Netlify CMS -->
+  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <script>
+    
+    var PostPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        var image = entry.getIn(['data', 'image']);
+        var bg = this.props.getAsset(image);
+        return h('div', {"className": "o-wrapper o-wrapper--content-wide o-wrapper--center svelte-17nnfco"},
+        this.props.widgetsFor('topics').map(function(author, index) {
+          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, entry.getIn(['data', 'topics']))
+        }),
+          
+          h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
+          h('h1', {"className": ""}, entry.getIn(['data', 'title'])),
+          // h('img', {src: bg.toString()}),
+          h('div', {"className": "b-content__wrapper svelte-308d19"}, this.props.widgetFor('body'))
+        );
+      }
+    });
+    var JobPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        return h('div', {"className": "o-wrapper o-wrapper--content-wide o-wrapper--center svelte-17nnfco"},
+        this.props.widgetsFor('topics').map(function(topic, index) {
+          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, entry.getIn(['data', 'topics']))
+        }),
+          
+          h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
+          h('h1', {"className": ""}, entry.getIn(['data', 'title'])),
+          h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
+          h('div', {"className": "b-content__wrapper svelte-308d19"}, this.props.widgetFor('body'))
+        );
+      }
+    });
+    CMS.registerPreviewTemplate("latest", PostPreview);
+    CMS.registerPreviewTemplate("jobs", JobPreview);
+    CMS.registerPreviewStyle("/preview.css");
+  </script>
+</body>
+</html>

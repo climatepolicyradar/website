@@ -1,0 +1,26 @@
+# netlify -> primary domain
+http://climatepolicyradar.netlify.app/* https://climatepolicyradar.org/:splat 301!
+https://climatepolicyradar.netlify.app/* https://climatepolicyradar.org/:splat 301!
+
+# http -> https
+http://climatepolicyradar.org/* https://climatepolicyradar.org/:splat 301!
+
+# www
+http://www.climatepolicyradar.org/* https://climatepolicyradar.org/:splat 301!
+https://www.climatepolicyradar.org/* https://climatepolicyradar.org/:splat 301!
+
+# pages
+https://climatepolicyradar.org/team/?$ /about#team 301
+https://climatepolicyradar.org/values/?$ /about#values 301
+https://climatepolicyradar.org/contact-us/?$ /contact 301
+
+# jobs
+https://climatepolicyradar.org/senior-software-engineer-1/?$ /jobs/senior-software-engineer/ 301
+https://climatepolicyradar.org/senior-data-scientist/?$ /jobs/senior-data-scientist-nlp/ 301
+https://climatepolicyradar.org/senior-policy-fellow/?$ /jobs/senior-policy-fellow/ 301
+
+# blogs
+https://climatepolicyradar.org/cop26/?$ /latest/climate-policy-radar-at-cop26/ 301
+https://climatepolicyradar.org/were-going-to-cop26/?$ /latest/climate-policy-radar-at-cop26/ 301
+https://climatepolicyradar.org/blog/?$ https://climatepolicyradar.org/latest/ 301
+http://www.climatepolicyradar.org/blog/* https://climatepolicyradar.org/latest/:splat 301!
