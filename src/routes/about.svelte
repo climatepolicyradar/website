@@ -13,7 +13,7 @@
   import IconListItem from '$lib/Components/IconListItem.svelte';
 
   async function getTeam() {
-    let response = await fetch("./src/data/about.json");
+    let response = await fetch("../data/about.json");
     let aboutInfo = await response.json();
     const { team } = aboutInfo;
     return team;
