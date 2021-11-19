@@ -8,6 +8,7 @@
 [functions]
   directory = "netlify/functions"
   node_bundler = "esbuild"
+  included_files = ["static/data/**"]
 
 # [[headers]]
 #   for = "/*"
