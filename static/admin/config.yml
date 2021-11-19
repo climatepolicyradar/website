@@ -42,6 +42,7 @@ collections:
     folder: 'src/routes/jobs'
     create: true
     slug: '{{title}}'
+    preview_path: 'jobs/{{slug}}'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'jobs' }
       - { label: 'Title', name: 'title', widget: 'string' }
