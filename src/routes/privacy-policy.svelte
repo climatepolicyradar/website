@@ -29,6 +29,7 @@
       we collect and use your Personal Data and sets out your rights under the relevant laws of Data
       Protection. All details are coming soon, but don't worry, you're safe, GDPR and all.
     </p>
+    <p>More info.</p>
   </div>
 </Banner>
 
