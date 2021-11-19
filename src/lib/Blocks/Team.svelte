@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { modalStore } from '$lib/stores/theme';
-  import { team, teamMembers, groups } from '$lib/stores/team-members';
+  import { groups } from '$lib/stores/team-members';
 
   import CardsGrid from '$lib/Components/CardsGrid.svelte';
   import CardTeam from '$lib/Components/CardTeam.svelte';
@@ -29,10 +29,8 @@
     activeFilter = group;
 
     if (activeFilter) {
-      // $teamMembers = team.filter((person) => person.group === activeFilter);
       visibleMembers = members.filter((person) => person.group === activeFilter);
     } else {
-      // $teamMembers = team;
       visibleMembers = members;
     }
   };

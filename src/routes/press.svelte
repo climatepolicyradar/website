@@ -7,6 +7,14 @@
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
 
+  async function getPressClippings() {
+    let response = await fetch("../data/press.json");
+    let press = await response.json();
+    const { pressClippings } = press;
+    return pressClippings;
+  }
+  const promise = getPressClippings();
+
   $theme = {
     footer: 'light',
     header: 'light',
@@ -33,7 +41,14 @@
 </Banner>
 
 <Wrapper>
-  <Press limit="9" showMore />
+  {#await promise}
+    <p>Loading...</p>
+  {:then pressClippings}
+    <Press limit="9" showMore {pressClippings} />
+  {:catch error}
+    <p style="color: red">{error.message}</p>
+  {/await}
+  
 </Wrapper>
 
 <style>

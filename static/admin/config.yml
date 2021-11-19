@@ -128,3 +128,51 @@ collections:
                   - label: 'URL'
                     name: 'url'
                     widget: 'string'
+      - label: 'Press page'
+        name: 'press'
+        file: '/static/data/press.json'
+        fields:
+          - label: 'Press Clippings'
+            name: 'pressClippings'
+            widget: 'list'
+            label_singular: 'press clipping'
+            fields:
+              - label: 'Type'
+                name: 'type'
+                widget: 'select'
+                options: ['Article', 'TV Interview']
+              - label: 'Date'
+                name: 'date'
+                widget: 'datetime'
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Source'
+                name: 'source'
+                widget: 'string'
+              - label: 'URL'
+                name: 'url'
+                widget: 'string'
+              - label: 'Logo'
+                name: 'logo'
+                widget: 'object'
+                required: false
+                fields:
+                  - label: 'Image'
+                    name: 'filename'
+                    widget: 'image'
+                    required: false
+                    media_folder: '/static/images/press'
+                    public_folder: 'images/press'
+                  - label: 'Alt'
+                    name: 'alt'
+                    widget: 'string'
+                    required: false
+                  - label: 'Width'
+                    name: 'width'
+                    widget: 'number'
+                    required: false
+                  - label: 'Height'
+                    name: 'height'
+                    widget: 'number'
+                    required: false

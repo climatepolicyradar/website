@@ -1,5 +1,5 @@
 <script>
-  import { pressClippings } from '$lib/stores/press-clippings';
+  // import { pressClippings } from '$lib/stores/press-clippings';
   import Button from '$lib/Components/Button.svelte';
   import CardsGrid from '$lib/Components/CardsGrid.svelte';
   import CardSquare from '$lib/Components/CardSquare.svelte';
@@ -8,6 +8,7 @@
   export let limit = 3;
   export let showMore = false;
   export let link = undefined;
+  export let pressClippings;
 
   $: items = pressClippings.slice(0, limit);
 
