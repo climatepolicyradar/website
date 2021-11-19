@@ -2,16 +2,15 @@
 layout: latest
 title: Announcing Climate Policy Radar - on a mission to map and analyse the
   global climate policy landscape
-slug: announcing-climate-policy-radar
 date: 10 February 2021
 thumb: /images/announcing-climate-policy-radar/thumb.png
 topics:
   - Blog
 excerpt: The renewed and growing political will to combat climate change is encouraging.
 author: Michal Nachmany
+slug: announcing-climate-policy-radar
 featured: false
 ---
-
 The renewed and growing political will to combat climate change is encouraging: the tall stack of climate executive orders signed by President Biden, the commitments from the EU, China, Japan, Korea and others to achieve net-zero in a timeframe that is in line, more or less, with scientific consensus, titan investors announcing climate portfolio commitments - are all signals in the right direction.
 
 ## But how do we actually reach our destination?
@@ -32,4 +31,4 @@ Climate Policy Radar will radically scale collection and analysis of climate pol
 
 Climate Policy Radar is going to build on the near-decade of work I did at the amazing Grantham Research Institute at LSE - where I led the work to [map national climate legislation in 200 countries](https://climatepolicyradar.org/). It’s now time to take this to the next level - we’ll creatively use technology to rapidly scale the collection of analysis of climate laws and policies worldwide, and build a dynamic, robust, credible knowledge resource for the public policy and research community, the private sector, and last but not least - for citizens - the real power behind climate action.
 
-Climate Policy Radar will be a proud member of the movement to harness digital technologies and AI for the planet. We will collaborate with all those with a shared vision of meeting the Sustainable Development Goals through developing digital public goods which are necessary conditions for an equitable, sustainable and resilient society. If that's you, please get in touch to see what we can do together.
+Climate Policy Radar will be a proud member of the movement to harness digital technologies and AI for the planet. We will collaborate with all those with a shared vision of meeting the Sustainable Development Goals through developing digital public goods which are necessary conditions for an equitable, sustainable and resilient society. If that's you, please get in touch to see what we can do together. 0
