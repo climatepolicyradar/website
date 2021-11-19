@@ -10,7 +10,7 @@
   export let link = undefined;
   export let pressClippings;
 
-  $: items = pressClippings.slice(0, limit);
+  $: items = pressClippings ? pressClippings.slice(0, limit) : [];
 
   const showAll = () => limit = 99;
 </script>
@@ -36,7 +36,7 @@
 
 <Spacer size="md" />
 
-{#if pressClippings.length > limit && showMore}
+{#if pressClippings?.length > limit && showMore}
    <div class="u-text-center">
      <Button color="grey" action={() => showAll()}>Show more</Button>
    </div>
