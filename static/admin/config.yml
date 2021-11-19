@@ -59,7 +59,6 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Pages'
     name: 'pages'
-    preview_path: 'about'
     files:
       - label: 'About Page'
         name: 'about'
