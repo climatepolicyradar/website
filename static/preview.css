@@ -864,3 +864,152 @@ strong {
     flex-direction: column;
   }
 }
+
+/* Team */
+.b-team {
+  padding: 64px 0;
+  color: #fff;
+  background-color: var(--color-indigo);
+  min-height: 80vh;
+}
+
+@media (min-width: 321px) {
+  .b-team {
+    padding: 120px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .b-team {
+    padding: 160px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .b-team__filter {
+    margin-top: 24px;
+  }
+}
+
+:global(.b-team__filter .c-button + .c-button) {
+  margin-left: 8px;
+}
+
+@media (min-width: 768px) {
+  :global(.b-team__filter .c-button + .c-button) {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 767px) {
+  :global(.b-team .c-heading) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+/* card */
+.c-card--team {
+  display: flex;
+  margin-bottom: 24px;
+  flex-direction: column;
+  gap: 16px;
+  border-radius: 30px;
+}
+
+@media only screen and (min-width: 321px) {
+  .c-card--team {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .c-card--team {
+    margin-bottom: 40px;
+    gap: 33px;
+  }
+}
+
+.c-card__media {
+  position: relative;
+}
+
+.c-card__image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 30px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.c-card--team.has-bio:hover .c-card__image {
+  cursor: pointer;
+  box-shadow: 0 0 32px rgba(255, 255, 255, 0.4);
+}
+
+.c-card__name {
+  margin-bottom: 8px;
+}
+
+:global(.c-card--team .c-icon) {
+  position: absolute;
+  bottom: 16px;
+  right: 16px;
+}
+/*cards grid */
+.c-cards-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gap);
+  width: 100%;
+}
+.c-cards-grid .c-card {
+  flex-basis: calc(
+    (100% / var(--mobile-cols)) - ((var(--mobile-cols) - 1) * var(--gap)) /
+      var(--mobile-cols)
+  );
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+/* wrapper */
+.o-wrapper {
+  width: 100%;
+  padding: 0 16px;
+}
+
+@media (min-width: 321px) {
+  .o-wrapper {
+    padding: 0 24px;
+  }
+}
+
+.o-wrapper--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.o-wrapper--x-wide {
+  max-width: 1440px;
+  padding: 0 8px;
+}
+
+.o-wrapper--wide {
+  max-width: 1280px;
+}
+
+.o-wrapper--standard {
+  max-width: 80%;
+}
+
+.o-wrapper--content {
+  padding: 0;
+  max-width: 768px;
+}
+
+.o-wrapper--content-wide {
+  max-width: 1160px;
+}
+
+.c-team-profile__content-inner p {
+  font-size: 1.1em;
+  line-height: 1.5;
+}
