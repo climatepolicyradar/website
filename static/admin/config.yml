@@ -9,7 +9,7 @@ media_folder: 'static/images' # Media files will be stored in the repo under pub
 public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: 'latest' # Used in routes, e.g., /admin/collections/blog
-    label: 'Latest' # Used in the UI
+    label: 'Blog' # Used in the UI
     folder: 'src/routes/latest' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{title}}' # Filename template, e.g., YYYY-MM-DD-title.md
