@@ -15,7 +15,8 @@
   async function getTeam() {
     let response = await fetch("../data/about.json");
     let aboutInfo = await response.json();
-    return aboutInfo;
+    const { team } = aboutInfo;
+    return team;
   }
   const promise = getTeam();
 
@@ -101,8 +102,8 @@
 <section id="team">
   {#await promise}
     <p>Loading...</p>
-  {:then aboutInfo}
-    <Team members={aboutInfo.team} groups={aboutInfo.groups} />
+  {:then team}
+    <Team members={team} />
   {:catch error}
     <p style="color: red">{error.message}</p>
   {/await}
