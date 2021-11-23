@@ -48,7 +48,6 @@
     var PartnersPreview = createClass({
       render: function() {
         var entry = this. props.entry;
-        console.log(this.props.entry)
         return h('div', {}, 
         this.props.widgetsFor('partnerList').map(function(partner, index) {
           var image = partner.getIn(['data', 'logo']);
