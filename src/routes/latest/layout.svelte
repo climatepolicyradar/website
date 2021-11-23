@@ -32,6 +32,12 @@
     const { posts } = await res.json();
     return posts;
   }
+  async function getTeam() {
+    let response = await fetch("../data/about.json");
+    let aboutInfo = await response.json();
+    return aboutInfo;
+  }
+  const promise = getTeam();
 
   onMount(() => {
     getLatestPosts().then((posts) => {
@@ -54,7 +60,14 @@
 
     <Spacer size="xs" />
     <h1>{title}</h1>
-    <PostMeta {author} {date} />
+    {#await promise}
+      <p>Loading...</p>
+    {:then aboutInfo}
+      <PostMeta {author} {date} team={aboutInfo.team} />
+    {:catch error}
+      <p style="color: red">{error.message}</p>
+    {/await}
+    
     <Spacer size="md" />
 
     <div class="b-content__inner">
