@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Content Manager</title>
+  <link href=/admin/config.yml type=text/yaml rel=cms-config-url>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
   <link href=/admin/config.yml type=text/yaml rel=cms-config-url>
 </head>
@@ -44,8 +45,49 @@
         );
       }
     });
+    var TeamPreview = createClass({
+      render: function() {
+        var entry = this.props.entry;
+        return h( 'section', {"id": "team"},
+          h( 'div', {"className": "b-team"},
+            h('div', {"className": "o-wrapper o-wrapper--standard o-wrapper--center"},
+              h('div', {"className": "c-heading"},
+                h('h3', {"className": "u-type-body-xxl"}, 'Our Team'),
+                h('div', {"className": "c-cards-grid", style: {"--desktop-cols:": "4", "--tablet-cols":"3", "--mobile-cols":"1", "--tiny-cols":"1", "--gap":"40px"}},
+
+                  this.props.widgetsFor('team').map(function(member, index) {
+                    var imageObj = member.getIn(['data', 'image'])
+                    const image = imageObj ? imageObj.getIn(['src']) : '';
+                    let highlights = member.getIn(['data','highlights']);
+                    if(!highlights) {
+                      highlights = [];
+                    }
+                    return h('div', {"className": "c-card c-card--team has-bio"},
+                        h('div', { "className": "c-card__media", key: index},
+                          h('img', { "className": "c-card__image", src: image.length ? '../' + image : ''}),
+                        ),
+                        h('div', { "className": 'c-card__content'},
+                          h('h3', {"className": "c-card__name"}, member.getIn(['data', 'name'])),
+                          h('div', { "className": "c-card__role"}, member.getIn(['data', 'role'])),
+                          h('div', { "className": "c-team-profile__content-inner"}, 
+                            h('p', { "className": "c-team-profile__bio s-spJeDtxop9L6"}, member.getIn(['data', 'bio']) ),
+                            highlights.map(function(info, index) {
+                              return h('p', {}, info)
+                            })
+                          )
+                        )
+                    )
+                  })
+                )
+              )
+            )
+          )
+        )
+      }
+    });
     CMS.registerPreviewTemplate("latest", PostPreview);
     CMS.registerPreviewTemplate("jobs", JobPreview);
+    CMS.registerPreviewTemplate("about", TeamPreview);
     CMS.registerPreviewStyle("/preview.css");
   </script>
 </body>

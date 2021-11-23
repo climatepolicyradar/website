@@ -1,7 +1,6 @@
 <script>
   import { onMount } from 'svelte';
   import { modalStore } from '$lib/stores/theme';
-  import { groups } from '$lib/stores/team-members';
 
   import CardsGrid from '$lib/Components/CardsGrid.svelte';
   import CardTeam from '$lib/Components/CardTeam.svelte';
@@ -39,6 +38,7 @@
     handleFilter('Team');
   });
   export let members;
+  export let groups;
   let visibleMembers = members;
 </script>
 

@@ -1,5 +1,4 @@
 <script>
-  // import { pressClippings } from '$lib/stores/press-clippings';
   import Button from '$lib/Components/Button.svelte';
   import CardsGrid from '$lib/Components/CardsGrid.svelte';
   import CardSquare from '$lib/Components/CardSquare.svelte';
