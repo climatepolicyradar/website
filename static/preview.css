@@ -1013,3 +1013,27 @@ strong {
   font-size: 1.1em;
   line-height: 1.5;
 }
+
+/* Partners */
+.o-p-wrapper {
+  border-bottom: 1px solid grey;
+  padding: 1em 0;
+}
+.o-p-row {
+  display: flex;
+  padding: 1em;
+}
+.o-p-col:first-child {
+  width: 15%;
+}
+.o-p-col {
+  width: 85%;
+}
+
+.o-p-col .c-p-image {
+  max-width: 100%;
+  max-height: 60px;
+}
+.o-p-col.c-p-label {
+  font-weight: bold;
+}

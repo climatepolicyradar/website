@@ -19,8 +19,8 @@
         var image = entry.getIn(['data', 'image']);
         var bg = this.props.getAsset(image);
         return h('div', {"className": "o-wrapper o-wrapper--content-wide o-wrapper--center svelte-17nnfco"},
-        this.props.widgetsFor('topics').map(function(author, index) {
-          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, entry.getIn(['data', 'topics']))
+        this.props.widgetsFor('topics').map(function(topic, index) {
+          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, topic.getIn(['data']))
         }),
           
           h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
@@ -35,7 +35,7 @@
         var entry = this.props.entry;
         return h('div', {"className": "o-wrapper o-wrapper--content-wide o-wrapper--center svelte-17nnfco"},
         this.props.widgetsFor('topics').map(function(topic, index) {
-          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, entry.getIn(['data', 'topics']))
+          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, topic.getIn(['data']))
         }),
           
           h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
@@ -45,6 +45,40 @@
         );
       }
     });
+    var PartnersPreview = createClass({
+      render: function() {
+        var entry = this. props.entry;
+        console.log(this.props.entry)
+        return h('div', {}, 
+        this.props.widgetsFor('partnerList').map(function(partner, index) {
+          var image = partner.getIn(['data', 'logo']);
+          return h('div', {'className': 'o-p-wrapper'},
+            h('div', {'className': 'o-p-row', key: index}, 
+            h('div', {'className': 'o-p-col c-p-label'}, 'Logo'),
+            h('a', {'className': 'o-p-col', href: partner.getIn(['data', 'url'])}, 
+              h('img', {'className': 'c-p-image', src: '../' + image.toString()})
+              )
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Name'),
+              h('div', {'className': 'o-p-col'}, partner.getIn(['data', 'name']))
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Group'),
+              h('div', {'className': 'o-p-col'}, partner.getIn(['data', 'group']))
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'URL'),
+              h('a', {'className': 'o-p-col', href: partner.getIn(['data', 'url'])},
+                h('div', {'className': 'o-p-col'}, partner.getIn(['data', 'url']))
+              )
+            )
+          )
+        })
+          
+        )
+      }
+    })
     var TeamPreview = createClass({
       render: function() {
         var entry = this.props.entry;
@@ -88,6 +122,7 @@
     CMS.registerPreviewTemplate("latest", PostPreview);
     CMS.registerPreviewTemplate("jobs", JobPreview);
     CMS.registerPreviewTemplate("team", TeamPreview);
+    CMS.registerPreviewTemplate("partners", PartnersPreview);
     CMS.registerPreviewStyle("/preview.css");
   </script>
 </body>
