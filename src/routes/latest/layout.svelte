@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, getContext } from 'svelte';
   import { theme } from '$lib/stores/theme';
 
   import BlogShare from '$lib/Components/BlogShare.svelte';
@@ -33,18 +33,14 @@
     const { posts } = await res.json();
     return posts;
   }
-  async function getTeam() {
-    let response = await fetch("../data/team.json");
-    let aboutInfo = await response.json();
-    return aboutInfo;
-  }
-  const promise = getTeam();
 
   onMount(() => {
     getLatestPosts().then((posts) => {
       relatedPosts = posts.filter((post) => post.title !== title);
     });
   });
+
+  const team = getContext('team');
 
 </script>
 
@@ -62,13 +58,7 @@
 
     <Spacer size="xs" />
     <h1>{title}</h1>
-    {#await promise}
-      <p>Loading...</p>
-    {:then aboutInfo}
-      <PostMeta {author} {date} team={aboutInfo.team} />
-    {:catch error}
-      <p style="color: red">{error.message}</p>
-    {/await}
+    <PostMeta {author} {date} {team} />
     
     <Spacer size="md" />
 

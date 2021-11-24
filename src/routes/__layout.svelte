@@ -2,8 +2,10 @@
   export async function load({ fetch }) {
     const res = await fetch(`/jobs/jobs.json`);
     const { jobs } = await res.json();
+    const teamRes = await fetch(`/data/team.json`);
+    const { team } = await teamRes.json();
     return {
-      props: { jobs },
+      props: { jobs, team },
     };
   }
 </script>
@@ -31,7 +33,9 @@
     }
   };
   export let jobs;
+  export let team;
   setContext('jobs', jobs);
+  setContext('team', team);
 </script>
 
 <svelte:body on:keydown={handleEscapeKey} />
