@@ -7,7 +7,7 @@
       "source": "Engineering & Technology - theiet.org",
       "url": "https://eandt.theiet.org/content/articles/2021/10/plug-the-gap-retrain-for-net-zero/",
       "logo": {
-        "filename": "eandt-logo.png",
+        "src": "images/press/eandt-logo.png",
         "width": 280,
         "height": 65,
         "alt": "Engineering & Technology logo"
@@ -20,7 +20,7 @@
       "source": "Current News",
       "url": "https://www.current-news.co.uk/blogs/open-data-and-collaboration-a-look-at-the-subak-accelerator",
       "logo": {
-        "filename": "current-news.svg",
+        "src": "images/press/current-news.svg",
         "width": 333,
         "height": 62,
         "alt": "Current News logo"
@@ -33,7 +33,7 @@
       "source": "stroudandclarke.com",
       "url": "https://www.stroudandclarke.com/magazine/tech-exec-issue-05/",
       "logo": {
-        "filename": "tech-exec.png",
+        "src": "images/press/tech-exec.png",
         "width": 96,
         "height": 53,
         "alt": "Tech Exec logo"
@@ -46,7 +46,7 @@
       "source": "BusinessWire",
       "url": "https://www.businesswire.com/news/home/20210928005083/en/Bright-Data-Supports-Data-Driven-Solutions-to-the-Climate-Emergency-With-Subak-Joining-The-Bright-Initiative",
       "logo": {
-        "filename": "bwlogo.png",
+        "src": "images/press/bwlogo.png",
         "width": 280,
         "height": 140,
         "alt": "BusinessWire logo"
@@ -59,7 +59,7 @@
       "source": "Globes Israel (in Hebrew)",
       "url": "https://www.globes.co.il/news/article.aspx?did=1001382828",
       "logo": {
-        "filename": "globes.svg",
+        "src": "images/press/globes.svg",
         "width": 137,
         "height": 35,
         "alt": "Globes Israel logo"
@@ -72,7 +72,7 @@
       "source": "The Observer",
       "url": "https://www.theguardian.com/environment/2021/jul/18/how-data-could-save-earth-from-climate-change",
       "logo": {
-        "filename": "the-observer.png",
+        "src": "images/press/the-observer.png",
         "width": 272,
         "height": 39,
         "alt": "The Observer logo"
@@ -85,7 +85,7 @@
       "source": "Sky News - YouTube Clip",
       "url": "https://www.youtube.com/watch?v=76KLvFNy0GY",
       "logo": {
-        "filename": "sky-news-logo.svg",
+        "src": "images/press/sky-news-logo.svg",
         "width": 177,
         "height": 43,
         "alt": "Sky News logo"
@@ -98,7 +98,7 @@
       "source": "BBC London",
       "url": "https://www.bbc.co.uk/news/av/uk-england-london-58522466",
       "logo": {
-        "filename": "bbc-london.svg",
+        "src": "images/press/bbc-london.svg",
         "width": 173,
         "height": 25,
         "alt": "BBC logo"
@@ -111,7 +111,7 @@
       "source": "Sky News",
       "url": "https://twitter.com/NEON_UK/status/1424431447599878149",
       "logo": {
-        "filename": "sky-news-logo.svg",
+        "src": "images/press/sky-news-logo.svg",
         "width": 177,
         "height": 43,
         "alt": "Sky News logo"
@@ -124,7 +124,7 @@
       "source": "Sky News",
       "url": "https://twitter.com/NEON_UK/status/1416039563156414471",
       "logo": {
-        "filename": "sky-news-logo.svg",
+        "src": "images/press/sky-news-logo.svg",
         "width": 177,
         "height": 43,
         "alt": "Sky News logo"

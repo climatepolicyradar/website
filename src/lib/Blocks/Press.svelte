@@ -25,7 +25,7 @@
       link={item.url}
       target="_blank"
       rel="noopener noreferrer external"
-      logo={item.logo.filename ? `/images/press/${item.logo.filename}` : null}
+      logo={item.logo.src ? `/${item.logo.src}` : null}
       logoWidth={item.logo.width}
       logoHeight={item.logo.height}
       logoAlt={item.logo.alt}

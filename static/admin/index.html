@@ -19,8 +19,9 @@
         var image = entry.getIn(['data', 'image']);
         var bg = this.props.getAsset(image);
         return h('div', {"className": "o-wrapper o-wrapper--content-wide o-wrapper--center svelte-17nnfco"},
+
         this.props.widgetsFor('topics').map(function(topic, index) {
-          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, topic.getIn(['data']))
+          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, topic?.getIn(['data']))
         }),
           
           h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
@@ -35,7 +36,7 @@
         var entry = this.props.entry;
         return h('div', {"className": "o-wrapper o-wrapper--content-wide o-wrapper--center svelte-17nnfco"},
         this.props.widgetsFor('topics').map(function(topic, index) {
-          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, topic.getIn(['data']))
+          return h('span', {"className": "c-pill c-pill--white svelte-542l83"}, topic?.getIn(['data']))
         }),
           
           h('div', {"className": "o-spacer o-spacer--xs svelte-5e0zcj"}),
@@ -55,7 +56,7 @@
             h('div', {'className': 'o-p-row', key: index}, 
             h('div', {'className': 'o-p-col c-p-label'}, 'Logo'),
             h('a', {'className': 'o-p-col', href: partner.getIn(['data', 'url'])}, 
-              h('img', {'className': 'c-p-image', src: '../' + image.toString()})
+              h('img', {'className': 'c-p-image', src: image?.length ? '../' + image : ''})
               )
             ),
             h('div', {'className': 'o-p-row'}, 
@@ -70,6 +71,47 @@
               h('div', {'className': 'o-p-col c-p-label'}, 'URL'),
               h('a', {'className': 'o-p-col', href: partner.getIn(['data', 'url'])},
                 h('div', {'className': 'o-p-col'}, partner.getIn(['data', 'url']))
+              )
+            )
+          )
+        })
+          
+        )
+      }
+    })
+    var PressPreview = createClass({
+      render: function() {
+        var entry = this. props.entry;
+        return h('div', {}, 
+        this.props.widgetsFor('pressClippings').map(function(press, index) {
+          // var image = partner.getIn(['data', 'logo']);
+          var imageObj = press.getIn(['data', 'logo'])
+          const image = imageObj ? imageObj.getIn(['src']) : '';
+          return h('div', {'className': 'o-p-wrapper', key: index},
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Title'),
+              h('div', {'className': 'o-p-col'}, press.getIn(['data', 'title']))
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Source'),
+              h('div', {'className': 'o-p-col'}, press.getIn(['data', 'source']))
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Logo'),
+              h('img', { "className": "c-p-image", src: image?.length ? '../' + image : ''}),
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Type'),
+              h('div', {'className': 'o-p-col'}, press.getIn(['data', 'type']))
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Date'),
+              h('div', {'className': 'o-p-col'}, press.getIn(['data', 'date'])?.toString())
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'URL'),
+              h('a', {'className': 'o-p-col', href: press.getIn(['data', 'url'])},
+                h('div', {'className': 'o-p-col'}, press.getIn(['data', 'url']))
               )
             )
           )
@@ -97,7 +139,7 @@
                     }
                     return h('div', {"className": "c-card c-card--team has-bio"},
                         h('div', { "className": "c-card__media", key: index},
-                          h('img', { "className": "c-card__image", src: image.length ? '../' + image : ''}),
+                          h('img', { "className": "c-card__image", src: image?.length ? '../' + image : ''}),
                         ),
                         h('div', { "className": 'c-card__content'},
                           h('h3', {"className": "c-card__name"}, member.getIn(['data', 'name'])),
@@ -122,6 +164,7 @@
     CMS.registerPreviewTemplate("jobs", JobPreview);
     CMS.registerPreviewTemplate("team", TeamPreview);
     CMS.registerPreviewTemplate("partners", PartnersPreview);
+    CMS.registerPreviewTemplate("press", PressPreview);
     CMS.registerPreviewStyle("/preview.css");
   </script>
 </body>

@@ -1,7 +1,7 @@
 <script lang="ts" context="module">
 
   export const load = async ({ fetch }) => {
-      const res = await fetch('/data/about.json');
+      const res = await fetch('/data/team.json');
       const data = await res.json();
       const { team } = data;
       return { props: { team } };
