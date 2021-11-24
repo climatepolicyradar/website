@@ -3,7 +3,7 @@
     const res = await fetch(`/latest/posts.json`);
     const { posts } = await res.json();
     const featuredPosts = posts.filter(post => post.featured);
-    const partnersRes = await fetch(`/partners`)
+    const partnersRes = await fetch(`/data/partners.json`)
     const { partnerList } = await partnersRes.json();
 
     return {
