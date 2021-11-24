@@ -3,9 +3,11 @@
     const res = await fetch(`/latest/posts.json`);
     const { posts } = await res.json();
     const featuredPosts = posts.filter(post => post.featured);
+    const partnersRes = await fetch(`/partners`)
+    const { partnerList } = await partnersRes.json();
 
     return {
-      props: { featuredPosts },
+      props: { featuredPosts, partnerList },
     };
   }
 </script>
@@ -32,6 +34,8 @@
   };
 
   export let featuredPosts;
+  export let partnerList;
+
 </script>
 
 <svelte:head>
@@ -67,7 +71,7 @@
 
 <About />
 
-<Partners />
+<Partners {partnerList} />
 
 <OpenData />
 

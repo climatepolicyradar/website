@@ -34,12 +34,23 @@
     }
   };
 
+  const getGroups = () => {
+    const groups = [];
+    members.forEach((member) => {
+      if (groups.indexOf(member.group) === -1) {
+        groups.push(member.group);
+      }
+    })
+    return groups;
+  }
+
   onMount(() => {
     handleFilter('Team');
   });
   export let members;
-  export let groups;
   let visibleMembers = members;
+  const groups = getGroups();
+
 </script>
 
 <div class="b-team">

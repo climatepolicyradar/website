@@ -1,3 +1,13 @@
+<script lang="ts" context="module">
+
+  export const load = async ({ fetch }) => {
+      const res = await fetch('/press-clippings');
+      const data = await res.json();
+      const { pressClippings } = data;
+      return { props: { pressClippings } };
+  };
+</script>
+
 <script>
   import { theme } from '$lib/stores/theme';
   import { Body } from 'svelte-body';
@@ -7,14 +17,7 @@
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
 
-  async function getPressClippings() {
-    let response = await fetch("../data/press.json");
-    let press = await response.json();
-    const { pressClippings } = press;
-    return pressClippings;
-  }
-  const promise = getPressClippings();
-
+  export let pressClippings;
   $theme = {
     footer: 'light',
     header: 'light',
@@ -41,14 +44,7 @@
 </Banner>
 
 <Wrapper>
-  {#await promise}
-    <p>Loading...</p>
-  {:then pressClippings}
-    <Press limit="9" showMore {pressClippings} />
-  {:catch error}
-    <p style="color: red">{error.message}</p>
-  {/await}
-  
+  <Press limit={9} showMore {pressClippings} />
 </Wrapper>
 
 <style>

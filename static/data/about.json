@@ -1,9 +1,4 @@
 {
-  "groups": [
-    "Team",
-    "Board",
-    "Advisory"
-  ],
   "team": [
     {
       "name": "Michal Nachmany",
