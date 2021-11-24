@@ -65,7 +65,7 @@ collections:
       - label: 'Team'
         name: 'team'
         file: '/static/data/team.json'
-        preview_path: 'about'
+        preview_path: 'about#team'
         fields:
           - label: 'Team members'
             name: 'team'
