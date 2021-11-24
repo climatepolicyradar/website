@@ -58,7 +58,7 @@
     },
     {
       "name": "Marcus Davies",
-      "role": "Policy Analyst",
+      "role": "Policy",
       "group": "Team",
       "image": {
         "src": "images/team/marcus.jpg",
@@ -85,7 +85,7 @@
     },
     {
       "name": "Paula Hightower",
-      "role": "Front-end Developer",
+      "role": "Front End",
       "group": "Team",
       "image": {
         "src": "images/team/paula.jpg",
@@ -112,7 +112,7 @@
     },
     {
       "name": "Kalyan Dutia",
-      "role": "Data Scientist",
+      "role": "Data Science",
       "group": "Team",
       "image": {
         "src": "images/team/kalyan.jpg",
