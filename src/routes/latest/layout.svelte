@@ -18,6 +18,7 @@
   export let author;
   export let excerpt;
   export let topics = [];
+  
 
   $theme = {
     footer: 'light',
@@ -33,7 +34,7 @@
     return posts;
   }
   async function getTeam() {
-    let response = await fetch("../data/about.json");
+    let response = await fetch("../data/team.json");
     let aboutInfo = await response.json();
     return aboutInfo;
   }
@@ -44,6 +45,7 @@
       relatedPosts = posts.filter((post) => post.title !== title);
     });
   });
+
 </script>
 
 <svelte:head>
