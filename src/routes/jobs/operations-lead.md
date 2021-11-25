@@ -4,8 +4,8 @@ title: Operations lead
 topics:
   - jobs
 date: 2021-11-25T12:16:44.469Z
-excerpt: We are looking for an Operations professional to join the team at
-  Climate Policy Radar CIC
+excerpt: We are looking for a brilliant and committed operations professional to
+  join our team.
 applyLink: mailto:jobs@climatepolicyradar.org
 ---
 <!--StartFragment-->
