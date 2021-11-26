@@ -13,11 +13,7 @@ applyLink: mailto:jobs@climatepolicyradar.org
 
 We are looking for an Operations professional to join the team at Climate Policy Radar CIC. We are a not-for-profit climate startup on a mission to map the global policy landscape, using AI to create the evidence base for informed decision-making. Our work helps governments, private sector, researchers and civil society advance effective climate change policies.
 
- 
-
 We are looking for a brilliant, committed individual to make sure the organisation runs smoothly and that our team has the best conditions to be happy and productive. 
-
- 
 
 In this role, you will:
 
@@ -31,19 +27,15 @@ In this role, you will:
 * Provide ad hoc support, including administrative, to the CEO, CTO and the team.
 * Help us grow and develop Climate Policy Radar in many other ways 
 
- 
-
 What you will bring: 
 
 * Excitement about the autonomy and dynamic nature of an early stage startup.
-* 4+ years experience as an operations professional, at least half of that with a small to medium startup.
+* 4+ years experience as an operations professional, at least half of that with a small to medium startup/boutique firm.
 * Attention to detail and strong analytical and problem-solving skills.
 * Strong organisational and administrative skills.
 * Excellent communication skills, both written and verbal.
 * Ability to work independently - and excellent team skills. 
 * High proficiency in productivity tools (such as Microsoft Office, G-Suite) and web-based operations software (such as accounting, hiring or CRM systems).
-
- 
 
 We offer:
 
