@@ -47,13 +47,11 @@
       flex-direction: column;
       align-items: flex-start;
       padding: 2rem;
-      top: 120px;
-      width: calc(100% - 48px);
-      height: 300px;
-      left: 50%;
-      transform: translateX(-50%);
+      top: 0;
+      min-height: 100vh;
+      left: 0;
+      right: 0;
       background-color: var(--color-sky);
-      border-radius: 30px;
       isolation: isolate;
       z-index: 1;
       box-shadow: 0 0 14px rgba(164, 205, 251, 0.7);
