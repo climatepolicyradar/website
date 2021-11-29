@@ -99,7 +99,7 @@
   .c-sticky-nav {
     position: sticky;
     top: 105px;
-    z-index: 101;
+    z-index: 99;
     transform: translateY(-50%);
   }
 

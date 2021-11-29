@@ -51,11 +51,11 @@
   }
 
 
-  @media (min-width: 768px) {
+  /* @media (min-width: 768px) {
     .c-site-header {
       top: 0;
     }
-  }
+  } */
 
   .c-site-header__inner {
     display: flex;
@@ -103,7 +103,7 @@
     z-index: 101;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
    :global(.c-site-header__menu-button) {
       display: none !important;
     }
