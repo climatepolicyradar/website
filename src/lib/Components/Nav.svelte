@@ -1,10 +1,10 @@
 <script>
+  import { onMount } from 'svelte';
   import { modalStore, mobileMenuOpen } from '$lib/stores/theme';
   import { activeSubMenu, menu } from '$lib/stores/navigation';
   import Badge from './Badge.svelte';
   import Button from './Button.svelte';
   import SubMenu from './SubMenu.svelte';
-import IconListItem from './IconListItem.svelte';
 
   const toggleSubMenu = (e, name) => {
     e.preventDefault();
@@ -21,14 +21,29 @@ import IconListItem from './IconListItem.svelte';
 
   }
 
-  const closeSubMenu = () => {
+  const closeSubMenu = (e) => {
     $activeSubMenu = null;
   }
+
+  let fixedBody = () => {};
+
+  $: $mobileMenuOpen, fixedBody();
 
 
   export let theme;
   export let active;
   export let jobs;
+
+  onMount(() => {
+    fixedBody = () => {
+      if($mobileMenuOpen) {
+        document?.querySelector(`body`).classList.add('mobile-fixed');
+      }
+      else {
+        document?.querySelector(`body`).classList.remove('mobile-fixed');
+      }
+    }
+  });
 </script>
 
 <nav
@@ -41,7 +56,7 @@ import IconListItem from './IconListItem.svelte';
     <div class="c-primary-nav-item">
       <a on:click={(e) => {
         if(!item.submenu.length) {
-          return closeSubMenu();
+          return closeSubMenu(e);
         };
         return toggleSubMenu(e, item.link);
         }} sveltekit:prefetch href={`/${item.link}`} class:is-active={active === item.link}> 
@@ -79,11 +94,14 @@ import IconListItem from './IconListItem.svelte';
   }
 
   /* Mobile Nav */
+
   @media (max-width: 1023px) {
     nav {
       display: none;
     }
-
+    .c-primary-nav--dark a {
+      color: var(--color-indigo);
+    }
     nav.is-open {
       position: fixed;
       display: flex;
@@ -91,13 +109,15 @@ import IconListItem from './IconListItem.svelte';
       align-items: flex-start;
       padding: 2rem;
       top: 0;
-      min-height: 100vh;
+      height: 100vh;
       left: 0;
       right: 0;
       background-color: var(--color-sky);
       isolation: isolate;
       z-index: 1;
       box-shadow: 0 0 14px rgba(164, 205, 251, 0.7);
+      overflow-x: hidden;
+      overflow-y: auto;
     }
 
     nav.is-open .c-primary-nav-item {
@@ -109,8 +129,9 @@ import IconListItem from './IconListItem.svelte';
     }
 
     :global(nav .c-button--cta) {
-      margin-top: auto;
-      margin-bottom: 0;
+      margin-top: 2rem;
+      /* margin-top: auto;
+      margin-bottom: 32px; */
       width: 100%;
     }
   }
@@ -143,22 +164,34 @@ import IconListItem from './IconListItem.svelte';
     position: relative;
     color: var(--color-indigo);
     text-decoration: none;
+    transition: color 0.3s;
+  }
+  a:hover {
+    color: var(--color-indigo-500);
   }
 
   a.is-active {
     color: var(--color-blue);
   }
 
+  .c-secondary-nav-link {
+    padding: 0.75em 1em;
+    display: block;
+    color: var(--color-indigo) !important;
+  }
+
   /* Sub nav */
   @media (min-width: 1024px) {
     .c-secondary-nav-link {
-      display: block;
+      padding: 0;
       width: 50%;
-      color: var(--color-indigo) !important;
       margin-top: 2rem;
     }
     .c-secondary-nav-link + .c-secondary-nav-link {
       margin-left: 0;
+    }
+    .c-secondary-nav-link:hover {
+      color: var(--color-indigo-500) !important;
     }
   }
 </style>

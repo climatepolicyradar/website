@@ -1,6 +1,5 @@
 <script>
   import { theme, mobileMenuOpen } from '$lib/stores/theme';
-
   import Logo from '$lib/Components/Logo.svelte';
   import Nav from '$lib/Components/Nav.svelte';
   import Wrapper from './Wrapper.svelte';
@@ -15,6 +14,7 @@
 
   export let active;
   export let jobs;
+
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -49,13 +49,6 @@
     z-index: 100;
     transition: all 0.2s ease;
   }
-
-
-  /* @media (min-width: 768px) {
-    .c-site-header {
-      top: 0;
-    }
-  } */
 
   .c-site-header__inner {
     display: flex;

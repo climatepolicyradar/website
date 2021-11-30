@@ -65,7 +65,7 @@ const menu = readable([
   },
   {
     label: 'Contact',
-    link: 'what',
+    link: 'contact',
     submenu: []
   }
 ])
