@@ -1,19 +1,21 @@
 <script>
-  import { team } from '$lib/stores/team-members';
   export let author = '';
   export let date = '';
 
-  let authorData = team.filter(member => member.name === author);
+  export let team;
+
+  let authorData = team?.filter(member => member.name === author);
+
 </script>
 
 
-  {#if authorData.length}
+  {#if authorData?.length}
     <div class="c-post-meta">
-      <img src="/images/team/{authorData[0].image.filename}" alt={authorData[0].image.alt} class="c-post-meta__image">
+      <img src="/{authorData[0].image.src}" alt={authorData[0].image.alt} class="c-post-meta__image">
       <div class="c-post-meta__content">
         <div class="c-post-meta__author">
           <p class="c-post-meta__name">{author}</p>
-          <p class="c-post-meta__role">{authorData.length ? authorData[0].role : ''}</p>
+          <p class="c-post-meta__role">{authorData?.length ? authorData[0].role : ''}</p>
         </div>
         
         <p class="c-post-meta__date">{date}</p>

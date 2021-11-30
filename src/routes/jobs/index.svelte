@@ -35,10 +35,10 @@
   <h1 slot="heading">Join us to build tools that help inform better decisions</h1>
 </Banner>
 
-<StickyNav>
+<!-- <StickyNav>
   <a href="#working-here">Working here</a>
   <a href="#open-positions">Open Positions</a>
-</StickyNav>
+</StickyNav> -->
 
 <Spacer size="2xl" />
 

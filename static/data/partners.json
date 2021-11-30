@@ -1,0 +1,58 @@
+{
+  "partnerList": [
+    {
+      "name": "Quadrature",
+      "logo": "images/partners/quadrature-logo.png",
+      "group": "Funders",
+      "url": "https://quadrature.ai"
+    },
+    {
+      "name": "Subak",
+      "logo": "images/partners/subak-logo.png",
+      "group": "Funders",
+      "url": "https://climatesubak.org"
+    },
+    {
+      "name": "LSE",
+      "logo": "images/partners/lse-logo.png",
+      "group": "Partners",
+      "url": "https://www.lse.ac.uk"
+    },
+    {
+      "name": "Grantham Reasearch Institute on Climate Change and the Environment",
+      "logo": "images/partners/grantham-logo.png",
+      "group": "Partners",
+      "url": "https://www.lse.ac.uk/granthaminstitute/"
+    },
+    {
+      "name": "WORLD Policy Analysis Center",
+      "logo": "images/partners/world-policy-logo.png",
+      "group": "Partners",
+      "url": "https://www.worldpolicycenter.org/about/about-world"
+    },
+    {
+      "name": "The World Bank",
+      "logo": "images/partners/world-bank-logo.png",
+      "group": "Partners",
+      "url": "https://www.worldbank.org/en/home"
+    },
+    {
+      "name": "South South North",
+      "logo": "images/partners/south-south-north-logo.png",
+      "group": "Partners",
+      "url": "https://southsouthnorth.org/"
+    },
+    {
+      "name": "Climate & Development Knowledge Network",
+      "logo": "images/partners/cdkn-logo.png",
+      "group": "Partners",
+      "url": "https://cdkn.org/"
+    },
+    {
+      "name": "Adobe",
+      "logo": "images/partners/adobe-logo.png",
+      "group": "Partners",
+      "url": "https://www.adobe.com/"
+    }
+  ]
+}

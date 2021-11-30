@@ -1,5 +1,5 @@
 <script>
-  import { onMount } from 'svelte';
+  import { onMount, getContext } from 'svelte';
   import { theme } from '$lib/stores/theme';
 
   import BlogShare from '$lib/Components/BlogShare.svelte';
@@ -18,6 +18,7 @@
   export let author;
   export let excerpt;
   export let topics = [];
+  
 
   $theme = {
     footer: 'light',
@@ -38,6 +39,9 @@
       relatedPosts = posts.filter((post) => post.title !== title);
     });
   });
+
+  const team = getContext('team');
+
 </script>
 
 <svelte:head>
@@ -54,7 +58,8 @@
 
     <Spacer size="xs" />
     <h1>{title}</h1>
-    <PostMeta {author} {date} />
+    <PostMeta {author} {date} {team} />
+    
     <Spacer size="md" />
 
     <div class="b-content__inner">

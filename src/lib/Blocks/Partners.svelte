@@ -1,58 +1,40 @@
 <script>
-  import Pill from '$lib/Components/Pill.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
+
+  const setGroups = () => {
+    let groups = [];
+    partnerList.forEach((partner) => {
+      if(groups.indexOf(partner.group) === -1) {
+        groups.push(partner.group)
+      }
+    })
+    return groups;
+  }
+
+  export let partnerList;
+  const groups = setGroups();
+  
 </script>
 
 <Wrapper>
-  <div class="b-partners">
-    <div class="b-partners__group">
-      <div class="b-partners__group__header">
-        <h3 class="u-type-body-xxl">Our funders</h3>
-      </div>
-      <div class="b-partners__group__items">
-        <a class="b-partners__group__item" href="https://quadrature.ai/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/quadrature-logo.png" alt="Quadrature logo" width="412" height="70" loading="lazy" />
-        </a>
-        <a class="b-partners__group__item" href="https://climatesubak.org/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/subak-logo.png" alt="Subak logo" width="322" height="136" loading="lazy" />
-        </a>
-      </div>
-    </div>
-    <div class="b-partners__group">
-      <div class="b-partners__group__header">
-        <h3 class="u-type-body-xxl">Our partners</h3>
-      </div>
-      <div class="b-partners__group__items b-partners__group__items--partners">
-        <a class="b-partners__group__item" href="https://www.lse.ac.uk/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/lse-logo.png" alt="LSE logo" width="235" height="240" loading="lazy" />
-        </a>
-
-        <a class="b-partners__group__item" href="https://www.lse.ac.uk/granthaminstitute/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/grantham-logo.png" alt="Grantham Research Institute on Climate Change and the Environment logo" width="696 " height="180" loading="lazy" />
-        </a>
-
-        <a class="b-partners__group__item" href="https://www.worldpolicycenter.org/about/about-world" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/world-policy-logo.png" alt="The World Policy Analysis Center logo" width="400" height="300" loading="lazy" />
-        </a>
-
-        <a class="b-partners__group__item" href="https://www.worldbank.org/en/home" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/world-bank-logo.png" alt="The World Bank logo" width="600" height="140" loading="lazy" />
-        </a>
-
-        <a class="b-partners__group__item" href="https://southsouthnorth.org/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/south-south-north-logo.png" alt="South South North logo" width="280" height="280" loading="lazy" />
-        </a>
-
-        <a class="b-partners__group__item" href="https://cdkn.org/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/cdkn-logo.png" alt="Climate & Development Knowledge Network logo" width="539" height="240" loading="lazy" />
-        </a>
-
-        <a class="b-partners__group__item" href="https://www.adobe.com/" target="_blank" rel="nofollow noopener noreferrer">
-          <img src="/images/partners/adobe-logo.png" alt="Adobe logo" width="720" height="188" loading="lazy" />
-        </a>
+  {#each groups as group}
+    <div class="b-partners">
+      <div class="b-partners__group">
+        <div class="b-partners__group__header">
+          <h3 class="u-type-body-xxl">Our {group}</h3>
+        </div>
+        <div class="b-partners__group__items b-partners__group__items--partners">
+          {#each partnerList as partner}
+            {#if partner.group === group}
+              <a class="b-partners__group__item" href={partner.url} target="_blank" rel="nofollow noopener noreferrer">
+                <img src={partner.logo} alt={`${partner.name} logo`} width="235" height="240" loading="lazy" />
+              </a>
+            {/if}
+          {/each}
+        </div>
       </div>
     </div>
-  </div>
+  {/each}
 </Wrapper>
 
 <style>

@@ -9,12 +9,14 @@ media_folder: 'static/images' # Media files will be stored in the repo under pub
 public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
 collections:
   - name: 'latest' # Used in routes, e.g., /admin/collections/blog
-    label: 'Latest' # Used in the UI
+    label: 'Blog' # Used in the UI
     folder: 'src/routes/latest' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{title}}' # Filename template, e.g., YYYY-MM-DD-title.md
     media_folder: '../../../static/images/{{slug}}'
     public_folder: '/images/{{slug}}'
+    preview_path: 'latest/{{slug}}'
+    label_singular: 'Article'
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'latest' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -41,6 +43,8 @@ collections:
     folder: 'src/routes/jobs'
     create: true
     slug: '{{title}}'
+    preview_path: 'jobs/{{slug}}'
+    label_singular: 'Job'
     fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'jobs' }
       - { label: 'Title', name: 'title', widget: 'string' }
@@ -55,17 +59,19 @@ collections:
       - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
       - { label: 'Apply link', name: 'applyLink', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
-  - label: 'Pages'
-    name: 'pages'
+  - label: 'Other content'
+    name: 'other'
     files:
-      - label: 'About Page'
-        name: 'about'
-        file: 'src/data/about.json'
+      - label: 'Team'
+        name: 'team'
+        file: '/static/data/team.json'
+        preview_path: 'about#team'
         fields:
-          - label: 'Team'
+          - label: 'Team members'
             name: 'team'
             widget: 'list'
             label_singular: 'team member'
+            add_to_top: true
             fields:
               - label: 'Name'
                 name: 'name'
@@ -125,3 +131,78 @@ collections:
                   - label: 'URL'
                     name: 'url'
                     widget: 'string'
+      - label: 'Media'
+        name: 'press'
+        file: '/static/data/press.json'
+        preview_path: 'press'
+        fields:
+          - label: 'Press Clippings'
+            name: 'pressClippings'
+            widget: 'list'
+            add_to_top: true
+            label_singular: 'press clipping'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Type'
+                name: 'type'
+                widget: 'select'
+                options: ['Article', 'TV Interview']
+              - label: 'Date'
+                name: 'date'
+                widget: 'datetime'
+              - label: 'Source'
+                name: 'source'
+                widget: 'string'
+              - label: 'URL'
+                name: 'url'
+                widget: 'string'
+              - label: 'Logo'
+                name: 'logo'
+                widget: 'object'
+                required: false
+                fields:
+                  - label: 'Image'
+                    name: 'src'
+                    widget: 'image'
+                    required: false
+                    media_folder: '/static/images/press'
+                    public_folder: 'images/press'
+                  - label: 'Alt'
+                    name: 'alt'
+                    widget: 'string'
+                    required: false
+                  - label: 'Width'
+                    name: 'width'
+                    widget: 'number'
+                    required: false
+                  - label: 'Height'
+                    name: 'height'
+                    widget: 'number'
+                    required: false
+      - label: 'Partners & Funders'
+        name: 'partners'
+        file: '/static/data/partners.json'
+        fields:
+          - label: 'Partners/funders'
+            name: 'partnerList'
+            widget: 'list'
+            add_to_top: true
+            label_singular: 'partner or funder'
+            fields:
+              - label: 'Name'
+                name: 'name'
+                widget: 'string'
+              - label: 'Group'
+                name: 'group'
+                widget: 'select'
+                options: ['Partners', 'Funders']
+              - label: 'Logo'
+                name: 'logo'
+                widget: 'image'
+                media_folder: '/static/images/partners'
+                public_folder: 'images/partners'
+              - label: 'URL'
+                name: 'url'
+                widget: 'string'

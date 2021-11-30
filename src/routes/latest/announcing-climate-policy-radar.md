@@ -2,16 +2,15 @@
 layout: latest
 title: Announcing Climate Policy Radar - on a mission to map and analyse the
   global climate policy landscape
-slug: announcing-climate-policy-radar
 date: 10 February 2021
 thumb: /images/announcing-climate-policy-radar/thumb.png
 topics:
   - Blog
 excerpt: The renewed and growing political will to combat climate change is encouraging.
 author: Michal Nachmany
+slug: announcing-climate-policy-radar
 featured: false
 ---
-
 The renewed and growing political will to combat climate change is encouraging: the tall stack of climate executive orders signed by President Biden, the commitments from the EU, China, Japan, Korea and others to achieve net-zero in a timeframe that is in line, more or less, with scientific consensus, titan investors announcing climate portfolio commitments - are all signals in the right direction.
 
 ## But how do we actually reach our destination?

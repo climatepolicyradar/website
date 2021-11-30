@@ -1,3 +1,13 @@
+<script lang="ts" context="module">
+
+  export const load = async ({ fetch }) => {
+      const res = await fetch('/data/team.json');
+      const data = await res.json();
+      const { team } = data;
+      return { props: { team } };
+  };
+</script>
+
 <script>
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
@@ -12,15 +22,7 @@
   import IconList from '$lib/Components/IconList.svelte';
   import IconListItem from '$lib/Components/IconListItem.svelte';
 
-  async function getTeam() {
-    let response = await fetch("../data/about.json");
-    let aboutInfo = await response.json();
-    const { team } = aboutInfo;
-    return team;
-  }
-  const promise = getTeam();
-
- 
+  export let team;
 
   $theme = {
     footer: 'light',
@@ -44,11 +46,11 @@
   <h1 slot="heading">We are an open data <br> climate startup</h1>
 </Banner>
 
-<StickyNav>
+<!-- <StickyNav>
   <a href="#mission">Our Mission</a>
   <a href="#values">Values</a>
   <a href="#team">Team</a>
-</StickyNav>
+</StickyNav> -->
 
 <Spacer size="2xl" />
 
@@ -100,12 +102,5 @@
 <Spacer size="lg" />
 
 <section id="team">
-  {#await promise}
-    <p>Loading...</p>
-  {:then team}
-    <Team members={team} />
-  {:catch error}
-    <p style="color: red">{error.message}</p>
-  {/await}
-  
+  <Team members={team} />
 </section>

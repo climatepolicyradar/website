@@ -86,7 +86,7 @@
     margin-bottom: 8px;
   }
 
-  :global(.c-card--team .c-icon) {
+  :global(.c-card--team .c-icon) {  
     position: absolute;
     bottom: 16px;
     right: 16px;

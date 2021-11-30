@@ -1,5 +1,4 @@
 <script>
-  import { pressClippings } from '$lib/stores/press-clippings';
   import Button from '$lib/Components/Button.svelte';
   import CardsGrid from '$lib/Components/CardsGrid.svelte';
   import CardSquare from '$lib/Components/CardSquare.svelte';
@@ -8,8 +7,9 @@
   export let limit = 3;
   export let showMore = false;
   export let link = undefined;
+  export let pressClippings;
 
-  $: items = pressClippings.slice(0, limit);
+  $: items = pressClippings ? pressClippings.slice(0, limit) : [];
 
   const showAll = () => limit = 99;
 </script>
@@ -25,7 +25,7 @@
       link={item.url}
       target="_blank"
       rel="noopener noreferrer external"
-      logo={item.logo.filename ? `/images/press/${item.logo.filename}` : null}
+      logo={item.logo.src ? `/${item.logo.src}` : null}
       logoWidth={item.logo.width}
       logoHeight={item.logo.height}
       logoAlt={item.logo.alt}
@@ -35,7 +35,7 @@
 
 <Spacer size="md" />
 
-{#if pressClippings.length > limit && showMore}
+{#if pressClippings?.length > limit && showMore}
    <div class="u-text-center">
      <Button color="grey" action={() => showAll()}>Show more</Button>
    </div>

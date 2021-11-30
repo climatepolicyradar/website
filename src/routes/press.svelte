@@ -1,3 +1,13 @@
+<script lang="ts" context="module">
+
+  export const load = async ({ fetch }) => {
+      const res = await fetch('/data/press.json');
+      const data = await res.json();
+      const { pressClippings } = data;
+      return { props: { pressClippings } };
+  };
+</script>
+
 <script>
   import { theme } from '$lib/stores/theme';
   import { Body } from 'svelte-body';
@@ -7,6 +17,7 @@
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
 
+  export let pressClippings;
   $theme = {
     footer: 'light',
     header: 'light',
@@ -33,7 +44,7 @@
 </Banner>
 
 <Wrapper>
-  <Press limit="9" showMore />
+  <Press limit={9} showMore {pressClippings} />
 </Wrapper>
 
 <style>

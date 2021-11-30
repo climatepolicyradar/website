@@ -58,7 +58,7 @@
     },
     {
       "name": "Marcus Davies",
-      "role": "Policy Analyst",
+      "role": "Policy",
       "group": "Team",
       "image": {
         "src": "images/team/marcus.jpg",
@@ -84,30 +84,8 @@
       ]
     },
     {
-      "name": "Kristyna Skriczka",
-      "role": "Head of Operations",
-      "group": "Team",
-      "image": {
-        "src": "images/team/kristyna.jpg",
-        "width": 600,
-        "height": 812,
-        "alt": "Kristyna Skriczka"
-      },
-      "bio": "Kristyna has over 13 years of experience providing operations and business support in a multinational organisation.",
-      "highlights": [
-        "She holds a BPS accredited BSc degree in Psychology.",
-        "Recently completed her MA at the UCL Social Research Institute, focusing her dissertation on business engagement with children in the context of climate crisis, promoting children’s right to inherit a livable planet."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/kristyna-skriczka/"
-        }
-      ]
-    },
-    {
       "name": "Paula Hightower",
-      "role": "Front-end Developer",
+      "role": "Front End",
       "group": "Team",
       "image": {
         "src": "images/team/paula.jpg",
@@ -134,7 +112,7 @@
     },
     {
       "name": "Kalyan Dutia",
-      "role": "Data Scientist",
+      "role": "Data Science",
       "group": "Team",
       "image": {
         "src": "images/team/kalyan.jpg",
