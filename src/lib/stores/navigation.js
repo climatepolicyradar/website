@@ -44,15 +44,15 @@ const menu = readable([
     submenu: [
       {
         label: 'Product',
-        link: 'what#product'
+        link: 'what-we-do#product'
       },
       {
         label: 'Technology',
-        link: 'what#tech'
+        link: 'what-we-do#tech'
       },
       {
         label: 'Our Data',
-        link: 'what#data'
+        link: 'what-we-do#data'
       },
     ]
   },
