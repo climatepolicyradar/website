@@ -40,8 +40,21 @@ const menu = readable([
   },
   {
     label: 'What we do',
-    link: 'what',
-    submenu: []
+    link: 'what-we-do',
+    submenu: [
+      {
+        label: 'Product',
+        link: 'what#product'
+      },
+      {
+        label: 'Technology',
+        link: 'what#tech'
+      },
+      {
+        label: 'Our Data',
+        link: 'what#data'
+      },
+    ]
   },
   {
     label: 'Newsroom',

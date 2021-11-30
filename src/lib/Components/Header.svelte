@@ -1,5 +1,6 @@
 <script>
   import { theme, mobileMenuOpen } from '$lib/stores/theme';
+  import { activeSubMenu } from '$lib/stores/navigation';
   import Logo from '$lib/Components/Logo.svelte';
   import Nav from '$lib/Components/Nav.svelte';
   import Wrapper from './Wrapper.svelte';
@@ -23,7 +24,7 @@
   <Wrapper type="full">
     <Wrapper type="x-wide">
       <div class="c-site-header__inner">
-        <a class="c-site-header__logo" href="/">
+        <a class="c-site-header__logo" href="/" on:click={() => ($activeSubMenu = null)}>
           <Logo theme={sticky ? 'light' : $theme.header} />
         </a>
 
