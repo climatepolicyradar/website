@@ -1,4 +1,4 @@
-/** Dispatch event on click outside of node */
+/** Dispatch event on click outside of node **/
 export function clickOutside(node, classToExclude = null) {
 
   const handleClick = event => {
