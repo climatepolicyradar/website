@@ -13,6 +13,7 @@
 </script>
 
 <script>
+  import { onMount } from 'svelte';
   import { modalStore, theme } from '$lib/stores/theme';
   import About from '$lib/Blocks/About.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
@@ -35,7 +36,9 @@
 
   export let featuredPosts;
   export let partnerList;
-
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 </script>
 
 <svelte:head>

@@ -9,6 +9,7 @@
 </script>
 
 <script>
+  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
@@ -29,7 +30,9 @@
     header: 'dark',
   };
 
-
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 </script>
 
 <svelte:head>
@@ -46,11 +49,11 @@
   <h1 slot="heading">We are an open data <br> climate startup</h1>
 </Banner>
 
-<StickyNav>
+<!-- <StickyNav>
   <a href="#mission">Our Mission</a>
   <a href="#values">Values</a>
   <a href="#team">Team</a>
-</StickyNav>
+</StickyNav> -->
 
 <Spacer size="2xl" />
 
