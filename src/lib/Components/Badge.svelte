@@ -10,7 +10,6 @@
   .c-badge {
     position: absolute;
     top: -10px;
-    right: -16px;
     font-size: 10px;
     height: 16px;
     min-width: 16px;

@@ -18,9 +18,7 @@
       padding: 0 24px;
     }
   }
-  .o-wrapper--full {
-    padding: 0;
-  }
+
   .o-wrapper--center {
     margin-left: auto;
     margin-right: auto;

@@ -35,22 +35,18 @@
         Object.keys(sections).map((sectionId) => {
           const section = sections[sectionId];
           highestRatio = section.ratio > highestRatio ? section.ratio : highestRatio;
-          
 
           if (highestRatio === section.ratio || (section.passed.half && !section.passed.top)) {
             activeSection = section.id;
           }
-          // default if page not scrolled
-          if(highestRatio === 0) {
-            activeSection = Object.keys(sections)[0];
-          }
         });
-        //console.log('ACTIVE', activeSection);
+        // console.log('ACTIVE', activeSection);
 
         const currentlyActiveItem = document.querySelector(
           `.c-sticky-nav a[href="#${activeSection}"]`
         );
         currentlyActiveItem.classList.add('is-active');
+
         if (navIndicator) {
           navIndicator.style.transform = `translate(${currentlyActiveItem.offsetLeft}px, -50%)`;
           navIndicator.style.width = `${currentlyActiveItem.offsetWidth}px`;
@@ -98,14 +94,14 @@
 <style>
   .c-sticky-nav {
     position: sticky;
-    top: 105px;
-    z-index: 99;
+    top: 55px;
+    z-index: 101;
     transform: translateY(-50%);
   }
 
   @media (min-width: 768px) {
     .c-sticky-nav {
-      top: 170px;
+      top: 70px;
     }
   }
 
