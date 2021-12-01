@@ -84,11 +84,11 @@
 
 <Spacer size="sm" />
 
-<Wrapper>
+<!-- <Wrapper>
   <Heading>
     <h3>In the press</h3>
   </Heading>
   <Press limit="3" link="/press" />
-</Wrapper>
+</Wrapper> -->
 
 <Spacer size="lg" />

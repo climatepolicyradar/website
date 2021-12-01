@@ -22,6 +22,8 @@
   import Icon from '$lib/Components/Icon.svelte';
   import IconList from '$lib/Components/IconList.svelte';
   import IconListItem from '$lib/Components/IconListItem.svelte';
+  import Heading from '$lib/Components/Heading.svelte';
+  import Press from '$lib/Blocks/Press.svelte';
 
   export let team;
 
@@ -31,7 +33,7 @@
   };
 
   onMount(() => {
-    window.scrollTo(0,0)
+    //window.scrollTo(0,0)
   })
 </script>
 
@@ -106,4 +108,15 @@
 
 <section id="team">
   <Team members={team} />
+</section>
+
+<Spacer size="lg" />
+
+<section id="media">
+  <Wrapper>
+    <Heading>
+      <h3 class="u-type-body-xxl">In the Media</h3>
+    </Heading>
+    <Press limit={3} link="/press" />
+  </Wrapper>
 </section>
