@@ -9,6 +9,7 @@
 </script>
 
 <script>
+  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import { Body } from 'svelte-body';
   import Banner from '$lib/Blocks/Banner.svelte';
@@ -22,6 +23,10 @@
     footer: 'light',
     header: 'light',
   };
+
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 </script>
 
 <svelte:head>

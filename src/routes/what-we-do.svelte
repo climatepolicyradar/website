@@ -1,4 +1,5 @@
 <script>
+  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
@@ -9,6 +10,9 @@
     footer: 'light',
     header: 'dark',
   };
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 
 </script>
 

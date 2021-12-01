@@ -1,5 +1,5 @@
 <script>
-  import {getContext} from 'svelte';
+  import {getContext, onMount} from 'svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import Button from '$lib/Components/Button.svelte';
   import CardCompact from '$lib/Components/CardCompact.svelte';
@@ -19,6 +19,9 @@
     header: 'dark',
   };
   const jobs = getContext('jobs');
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 </script>
 
 <svelte:head>

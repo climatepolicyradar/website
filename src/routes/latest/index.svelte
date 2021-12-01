@@ -10,6 +10,7 @@
 </script>
 
 <script>
+  import { onMount } from 'svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import CardsList from '$lib/Components/CardsList.svelte';
   import CardSplit from '$lib/Components/CardSplit.svelte';
@@ -24,6 +25,10 @@
   };
 
   export let posts;
+
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 </script>
 
 <svelte:head>

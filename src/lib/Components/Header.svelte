@@ -27,7 +27,6 @@
         <a class="c-site-header__logo" href="/" on:click={() => ($activeSubMenu = null)}>
           <Logo theme={sticky ? 'light' : $theme.header} />
         </a>
-
         <Button class="c-site-header__menu-button" {color} size="cta" action={() => ($mobileMenuOpen = !$mobileMenuOpen)}>
           {#if $mobileMenuOpen}
             Close

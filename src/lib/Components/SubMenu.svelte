@@ -1,16 +1,20 @@
 <script>
+  import { clickOutside } from '$lib/helpers/clickOutside';
+  import { activeSubMenu } from '$lib/stores/navigation';
+
+  const  menuItemClass = 'c-primary-nav-item-link';
   export let theme;
   export let name;
-  export let activeSubMenu;
   export let align;
   export let count;
+  export let toggleSubMenu;
 
   let active;
-  $: active = name === activeSubMenu;
+  $: active = name === $activeSubMenu;
 
 </script>
 
-<nav class="c-secondary-nav c-secondary-nav--{theme} {align === 'center' ? 'center-align': ''} {count < 3 ? 'no-flex': ''}" class:active>
+<nav use:clickOutside={menuItemClass} on:click_outside={toggleSubMenu} class="c-secondary-nav c-secondary-nav--{theme} {align === 'center' ? 'center-align': ''} {count < 3 ? 'no-flex': ''}" class:active>
   <slot />
 </nav>
 
