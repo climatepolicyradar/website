@@ -8,22 +8,18 @@
 
   const toggleSubMenu = (e, name) => {
     e.preventDefault();
-    const lastActive = document.querySelector(`.c-secondary-nav.active`);
-    if (lastActive) {
-      lastActive.classList.remove('active');
-    }
     if($activeSubMenu === name) {
       closeSubMenu();
     }
     else {
       $activeSubMenu = name;
     }
-
   }
 
   const closeSubMenu = (e) => {
     $activeSubMenu = null;
   }
+
 
   let fixedBody = () => {};
 
@@ -54,7 +50,7 @@
 >
   {#each $menu as item}
     <div class="c-primary-nav-item">
-      <a on:click={(e) => {
+      <a  class="c-primary-nav-item-link" on:click={(e) => {
         if(!item.submenu.length) {
           return closeSubMenu(e);
         };
@@ -66,7 +62,7 @@
           {/if}
       </a>
       {#if item.submenu.length}
-        <SubMenu {theme} name={item.link} align={item.submenuAlign} count={item.submenu.length} bind:activeSubMenu={$activeSubMenu}>
+        <SubMenu {theme} name={item.link} align={item.submenuAlign} count={item.submenu.length} {toggleSubMenu}>
           {#each item.submenu as subItem}
             <a class="c-secondary-nav-link" on:click={closeSubMenu} href={`/${subItem.link}`}>{subItem.label}</a>
           {/each}
