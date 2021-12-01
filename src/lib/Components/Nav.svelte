@@ -5,6 +5,7 @@
   import Badge from './Badge.svelte';
   import Button from './Button.svelte';
   import SubMenu from './SubMenu.svelte';
+  import Chevron from './Chevron.svelte';
 
   const toggleSubMenu = (e, name) => {
     e.preventDefault();
@@ -57,6 +58,9 @@
         return toggleSubMenu(e, item.link);
         }} sveltekit:prefetch href={`/${item.link}`} class:is-active={active === item.link}> 
           {item.label}
+          {#if item.submenu.length}
+            <Chevron />
+          {/if}
           {#if item.link === 'jobs'}
             <Badge color="blue">{jobs.length}</Badge>
           {/if}
@@ -87,6 +91,11 @@
   }
   nav .c-primary-nav-item {
     position: relative;
+  }
+
+  nav .c-primary-nav-item-link {
+    display: flex;
+    align-items: center;
   }
 
   /* Mobile Nav */
@@ -126,8 +135,6 @@
 
     :global(nav .c-button--cta) {
       margin-top: 2rem;
-      /* margin-top: auto;
-      margin-bottom: 32px; */
       width: 100%;
     }
   }
@@ -174,6 +181,12 @@
     padding: 0.75em 1em;
     display: block;
     color: var(--color-indigo) !important;
+  }
+
+  /* Chevron */
+  :global(.c-chevron) {
+    margin-left: 6px;
+    pointer-events: none;
   }
 
   /* Sub nav */
