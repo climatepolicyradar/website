@@ -3,6 +3,7 @@
 </script>
 
 <script>
+  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import { Body } from 'svelte-body';
   import Pill from '$lib/Components/Pill.svelte';
@@ -14,6 +15,9 @@
     footer: 'dark',
     header: 'dark',
   };
+  onMount(() => {
+    window.scrollTo(0,0)
+  })
 </script>
 
 <svelte:head>
