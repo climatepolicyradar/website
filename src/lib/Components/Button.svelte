@@ -61,14 +61,12 @@
       padding: 24px 40px;
     }
   }
-  @media only screen and (min-width: 1024px) {
-    .c-button:hover {
-      background-color: var(--color-white);
-      box-shadow: 0 0 32px rgba(31, 147, 255, 0.12);
-      color: var(--color-indigo);
-    }
+
+  .c-button:hover {
+    background-color: var(--color-white);
+    box-shadow: 0 0 32px rgba(31, 147, 255, 0.12);
+    color: var(--color-indigo);
   }
-  
 
   .c-button--cta {
     flex-shrink: 0;

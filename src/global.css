@@ -1,30 +1,24 @@
 @font-face {
-  font-family: 'Neue Haas Grotesk Display';
-  src: url('/fonts/5549031/5e356b56-25c1-43ac-9524-44e597eb7172.woff2')
-      format('woff2'),
-    url('/fonts/5549031/bb63728c-a742-41fb-929f-64692e41d2e7.woff')
-      format('woff');
+  font-family: "Neue Haas Grotesk Display";
+  src:url("/fonts/5549031/5e356b56-25c1-43ac-9524-44e597eb7172.woff2") format("woff2"),url("/fonts/5549031/bb63728c-a742-41fb-929f-64692e41d2e7.woff") format("woff");
   /* font-display: swap; */
   font-weight: 400;
 }
 
 @font-face {
-  font-family: 'Neue Haas Grotesk Display';
-  src: url('/fonts/5548986/4746c4e5-3355-4f8f-8395-3f7abfcbf4b8.woff2')
-      format('woff2'),
-    url('/fonts/5548986/0058324c-ca31-42b1-bf5b-b9d9025c1a9c.woff')
-      format('woff');
+  font-family: "Neue Haas Grotesk Display";
+  src:url("/fonts/5548986/4746c4e5-3355-4f8f-8395-3f7abfcbf4b8.woff2") format("woff2"),url("/fonts/5548986/0058324c-ca31-42b1-bf5b-b9d9025c1a9c.woff") format("woff");
   /* font-display: swap; */
   font-weight: 500;
 }
 
 :root {
-  --color-indigo-100: #f9fafa;
-  --color-indigo-200: #e4e6ea;
-  --color-indigo-300: #c7ccd5;
-  --color-indigo-400: #939bad;
-  --color-indigo-500: #616c85;
-  --color-indigo-600: #071e4a;
+  --color-indigo-100:#f9fafa;
+  --color-indigo-200:#e4e6ea;
+  --color-indigo-300:#c7ccd5;
+  --color-indigo-400:#939bad;
+  --color-indigo-500:#616c85;
+  --color-indigo-600:#071E4A;
   --color-indigo: var(--color-indigo-600);
 
   --color-sky-600: #ebf2ff;
@@ -34,49 +28,44 @@
   --color-blue-200: #d0e5fd;
   --color-blue-300: #a4cdfb;
   --color-blue-400: #7cb4fa;
-  --color-blue-500: #1f93ff;
-  --color-blue: var(--color-blue-500);
+  --color-blue-500: #1F93FF;
+  --color-blue:var(--color-blue-500);
 
   --color-purple-100: #f0edfe;
   --color-purple-200: #e2dafc;
   --color-purple-300: #c4b6f7;
   --color-purple-400: #a993f5;
   --color-purple-500: #8e73f1;
-  --color-purple: var(--color-purple-500);
+  --color-purple:var(--color-purple-500);
 
   --color-yellow-100: #fefaf1;
   --color-yellow-200: #fcf5e1;
   --color-yellow-300: #faeac3;
   --color-yellow-400: #f6e0a8;
   --color-yellow-500: #f1cb73;
-  --color-yellow: var(--color-yellow-500);
+  --color-yellow:var(--color-yellow-500);
 
   --color-green-100: #ecfaf6;
   --color-green-200: #d8f4ec;
   --color-green-300: #b4e8d9;
   --color-green-400: #93dec6;
   --color-green-500: #5fc8a1;
-  --color-green: var(--color-green-500);
+  --color-green:var(--color-green-500);
 
   --color-orange-100: #fcefed;
   --color-orange-200: #f9dfda;
   --color-orange-300: #f2c0b7;
   --color-orange-400: #eea295;
   --color-orange-500: #e56b57;
-  --color-orange: var(--color-orange-500);
+  --color-orange:var(--color-orange-500);
 
   --color-grey-100: #f3f4f6;
-  --color-grey: var(--color-grey-100);
+  --color-grey:var(--color-grey-100);
 
   --color-white-100: #fff;
-  --color-white: var(--color-white-100);
+  --color-white:var(--color-white-100);
 
-  --gradient-indigo: linear-gradient(
-    134.5deg,
-    #071d49 48.58%,
-    #071d49 72.99%,
-    rgba(22, 134, 238, 0.38) 122.32%
-  );
+  --gradient-indigo: linear-gradient(134.5deg, #071D49 48.58%, #071D49 72.99%, rgba(22, 134, 238, 0.38) 122.32%);
 }
 
 *,
@@ -98,20 +87,9 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Neue Haas Grotesk Display', 'Helvetica Neue', 'Arial Nova',
-    Helvetica, Arial, sans-serif;
+  font-family: 'Neue Haas Grotesk Display', 'Helvetica Neue', 'Arial Nova', Helvetica, Arial, sans-serif;
   font-weight: 400;
-  background-image: linear-gradient(
-    134.5deg,
-    rgba(50, 35, 50, 1) 0%,
-    rgba(235, 242, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 35%
-  );
-}
-@media (max-width: 1023px) {
-  .mobile-fixed {
-    position: fixed;
-  }
+  background-image: linear-gradient(134.5deg, rgba(50,35,50,1) 0%, rgba(235,242,255,1) 0%, rgba(255,255,255,1) 35%);
 }
 
 [id] {
@@ -131,7 +109,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: 'Neue Haas Grotesk Display';
+  font-family: "Neue Haas Grotesk Display";
   font-weight: 500;
 }
 
@@ -164,8 +142,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo,
-    monospace;
+  font-family: ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
   font-size: 1em;
 }
 
@@ -269,6 +246,7 @@ strong {
   font-weight: 500;
 }
 
+
 /* Screen Reader Only */
 .u-sr-only {
   position: absolute !important;
@@ -281,7 +259,7 @@ strong {
   white-space: nowrap !important;
   border: 0 !important;
   -webkit-clip-path: inset(50%) !important;
-  clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
 }
 
 /*
@@ -297,48 +275,29 @@ strong {
   margin: auto !important;
   white-space: normal !important;
   -webkit-clip-path: none !important;
-  clip-path: none !important;
+    clip-path: none !important;
 }
+
 
 /* .has-gradient */
 .has-gradient--dark-blue {
   color: #fff;
-  background: linear-gradient(
-    134.5deg,
-    #071d49 48.58%,
-    #071d49 72.99%,
-    rgba(22, 134, 238, 0.38) 122.32%
-  );
+  background: linear-gradient(134.5deg, #071D49 48.58%, #071D49 72.99%, rgba(22, 134, 238, 0.38) 122.32%);
   background-color: var(--color-indigo-600);
 }
 
 .has-gradient--blue-to-white {
-  background-image: linear-gradient(
-    134.5deg,
-    rgba(50, 35, 50, 1) 0%,
-    rgba(235, 242, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 35%
-  );
+  background-image: linear-gradient(134.5deg, rgba(50,35,50,1) 0%, rgba(235,242,255,1) 0%, rgba(255,255,255,1) 35%);
 }
 
 .u-gradient-text--dark-to-blue {
-  background: linear-gradient(
-    134.5deg,
-    #071e4a 48.58%,
-    #1f93ff 72.99%,
-    rgba(22, 134, 238, 0.38) 122.32%
-  );
+  background: linear-gradient(134.5deg, #071e4a 48.58%, #1f93ff 72.99%, rgba(22, 134, 238, 0.38) 122.32%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .u-gradient-text--blue-to-white {
-  background: linear-gradient(
-    134.5deg,
-    rgba(50, 35, 50, 1) 0%,
-    rgba(31, 147, 255, 1) 0%,
-    rgba(255, 255, 255, 1) 53%
-  );
+  background: linear-gradient(134.5deg, rgba(50,35,50,1) 0%, rgba(31,147,255,1) 0%, rgba(255,255,255,1) 53%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

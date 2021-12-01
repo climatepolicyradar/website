@@ -1,5 +1,4 @@
 <script>
-  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
@@ -10,9 +9,6 @@
     footer: 'light',
     header: 'light',
   };
-  onMount(() => {
-    window.scrollTo(0,0)
-  })
 </script>
 
 <svelte:head>

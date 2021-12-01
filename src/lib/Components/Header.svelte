@@ -1,6 +1,6 @@
 <script>
   import { theme, mobileMenuOpen } from '$lib/stores/theme';
-  import { activeSubMenu } from '$lib/stores/navigation';
+
   import Logo from '$lib/Components/Logo.svelte';
   import Nav from '$lib/Components/Nav.svelte';
   import Wrapper from './Wrapper.svelte';
@@ -10,44 +10,51 @@
   let y = 0;
   $: sticky = y > 40;
 
-  let color;
-  $: color = sticky || $mobileMenuOpen || $theme.header === 'light' ? 'dark-glow' : 'white';
-
   export let active;
   export let jobs;
-
 </script>
 
 <svelte:window bind:scrollY={y} />
 
-<header class="c-site-header" class:sticky>
-  <Wrapper type="full">
-    <Wrapper type="x-wide">
-      <div class="c-site-header__inner">
-        <a class="c-site-header__logo" href="/" on:click={() => ($activeSubMenu = null)}>
-          <Logo theme={sticky ? 'light' : $theme.header} />
-        </a>
-        <Button class="c-site-header__menu-button" {color} size="cta" action={() => ($mobileMenuOpen = !$mobileMenuOpen)}>
-          {#if $mobileMenuOpen}
-            Close
-          {:else}
-            Menu
-          {/if}
-        </Button>
+<header class="c-site-header">
+  <Wrapper type="x-wide">
+    <div class="c-site-header__inner" class:sticky>
+      <a class="c-site-header__logo" href="/">
+        <Logo theme={sticky ? 'light' : $theme.header} />
+      </a>
 
-        <Nav theme={sticky ? 'light' : $theme.header} {active} {jobs} open={$mobileMenuOpen} />
-      </div>
-    </Wrapper>
+      <Button class="c-site-header__menu-button" color="dark-glow" size="cta" action={() => ($mobileMenuOpen = !$mobileMenuOpen)}>
+        {#if $mobileMenuOpen}
+          Close
+        {:else}
+          Menu
+        {/if}
+      </Button>
+
+      <Nav theme={sticky ? 'light' : $theme.header} {active} {jobs} open={$mobileMenuOpen} />
+    </div>
   </Wrapper>
 </header>
 
 <style>
   .c-site-header {
     position: fixed;
-    top: 0;
+    top: 16px;
     width: 100%;
     z-index: 100;
     transition: all 0.2s ease;
+  }
+
+  @media (max-width: 320px) {
+    .c-site-header {
+      padding: 8px;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .c-site-header {
+      top: 32px;
+    }
   }
 
   .c-site-header__inner {
@@ -56,6 +63,7 @@
     padding: 8px 16px;
     align-items: center;
     justify-content: space-between;
+    border-radius: 60px;
     transition: all 0.3s ease;
     isolation: isolate;
   }
@@ -86,17 +94,7 @@
     height: 40px;
   }
 
-  :global(.c-site-header__menu-button) {
-    position: relative;
-    z-index: 101;
-  }
-
-  :global(.c-site-header__menu-button.open) {
-    position: relative;
-    z-index: 101;
-  }
-
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
    :global(.c-site-header__menu-button) {
       display: none !important;
     }
