@@ -3,115 +3,116 @@
   import AccordionItem from '$lib/Components/AccordionItem.svelte';
   import Heading from '$lib/Components/Heading.svelte';
   import TwoColumn from '$lib/Components/TwoColumn.svelte';
+  import Wrapper from '$lib/Components/Wrapper.svelte';
+  import Spacer from '$lib/Components/Spacer.svelte';
 
   export let id = undefined;
 </script>
 
-<TwoColumn {id}>
-  <svelte:fragment slot="col-1">
-    <div class="b-values__header">
-      <Heading>
-        <h3 class="u-type-body-xxl">Our Values</h3>
-      </Heading>
-    </div>
-  </svelte:fragment>
+<Wrapper>
 
-  <svelte:fragment slot="col-2">
-    <Accordion>
-      <AccordionItem
-        number="1"
-        color="indigo"
-        type="statement"
-        title="Moonshot intention with grounded urgent action"
-      >
+  <div class="b-values__header">
+    <Heading>
+      <h3 class="u-type-body-xxl">Our Values</h3>
+    </Heading>
+  </div>
+
+  <Spacer size="md" />
+
+  <Accordion>
+    <AccordionItem
+      number="1"
+      color="indigo"
+      type="statement"
+      title="Moonshot intention with grounded urgent action"
+    >
+      <p class="u-type-body-md">
+        We seek to bring about meaningful change towards a better future, using data effectively
+        to make a difference to people and planet.
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We seek to bring about meaningful change towards a better future, using data effectively
-          to make a difference to people and planet.
+          In particular, we want to influence and change the way evidence informs policy and
+          investment decisions. While this is a marathon, and we’re in it for the long haul, the
+          urgency of the challenge means we are committed to sprints and to achieving short term
+          goals, without losing sight of our long term mission.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            In particular, we want to influence and change the way evidence informs policy and
-            investment decisions. While this is a marathon, and we’re in it for the long haul, the
-            urgency of the challenge means we are committed to sprints and to achieving short term
-            goals, without losing sight of our long term mission.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-      <AccordionItem number="2" color="indigo" type="statement" title="Excellence">
+      </svelte:fragment>
+    </AccordionItem>
+    <AccordionItem number="2" color="indigo" type="statement" title="Excellence">
+      <p class="u-type-body-md">
+        We strive to be excellent at what we do and how we do it.
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We strive to be excellent at what we do and how we do it.
+          Holding ourselves to the highest standard of research and development, operations, management and engagement with our stakeholders.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            Holding ourselves to the highest standard of research and development, operations, management and engagement with our stakeholders.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-      <AccordionItem number="3" color="indigo" type="statement" title="Truth seeking">
+      </svelte:fragment>
+    </AccordionItem>
+    <AccordionItem number="3" color="indigo" type="statement" title="Truth seeking">
+      <p class="u-type-body-md">
+        We will be honest and act with integrity in the data we produce and the way that we
+        communicate what it means.
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We will be honest and act with integrity in the data we produce and the way that we
-          communicate what it means.
+          We will make an active effort to avoid bias in all our practices and importantly, in the way we collect, curate and communicate data. We will be dispassionate about any given course of action as long as there is evidence to show its effectiveness - there are no silver bullets.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            We will make an active effort to avoid bias in all our practices and importantly, in the way we collect, curate and communicate data. We will be dispassionate about any given course of action as long as there is evidence to show its effectiveness - there are no silver bullets.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-      <AccordionItem number="4" color="indigo" type="statement" title="Transparency">
+      </svelte:fragment>
+    </AccordionItem>
+    <AccordionItem number="4" color="indigo" type="statement" title="Transparency">
+      <p class="u-type-body-md">
+        We will make our data, analyses and platform available for others to use and build on.
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We will make our data, analyses and platform available for others to use and build on.
+          We will be open about how we work and what we do, and explain our data and analyses clearly using language that is readily understood by our target audiences. We will be leaders in open sourcing climate data and contributing to open source efforts globally.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            We will be open about how we work and what we do, and explain our data and analyses clearly using language that is readily understood by our target audiences. We will be leaders in open sourcing climate data and contributing to open source efforts globally.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-      <AccordionItem number="5" color="indigo" type="statement" title="Learning and experimenting">
+      </svelte:fragment>
+    </AccordionItem>
+    <AccordionItem number="5" color="indigo" type="statement" title="Learning and experimenting">
+      <p class="u-type-body-md">
+        We seek to continuously learn and improve ourselves and our organisation and to advance a
+        culture of evidence-based decision making
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We seek to continuously learn and improve ourselves and our organisation and to advance a
-          culture of evidence-based decision making
+          Through constant learning from others’ successes, mistakes and through innovation and experimentation where things have not been tried before. We embrace failure, will interrogate our mistakes openly, and try and improve on our weaknesses.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            Through constant learning from others’ successes, mistakes and through innovation and experimentation where things have not been tried before. We embrace failure, will interrogate our mistakes openly, and try and improve on our weaknesses.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-      <AccordionItem number="6" color="indigo" type="statement" title="Emotional intelligence">
+      </svelte:fragment>
+    </AccordionItem>
+    <AccordionItem number="6" color="indigo" type="statement" title="Emotional intelligence">
+      <p class="u-type-body-md">
+        We are committed to intelligent and empathic communication with our team, stakeholders,
+        and audiences.
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We are committed to intelligent and empathic communication with our team, stakeholders,
-          and audiences.
+          We will be honest, reliable, approachable, and practice generosity and integrity in all our dealings with others, both in Climate Policy Radar and externally.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            We will be honest, reliable, approachable, and practice generosity and integrity in all our dealings with others, both in Climate Policy Radar and externally.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-      <AccordionItem
-        number="7"
-        color="indigo"
-        type="statement"
-        title="Bridge building and collaboration"
-      >
+      </svelte:fragment>
+    </AccordionItem>
+    <AccordionItem
+      number="7"
+      color="indigo"
+      type="statement"
+      title="Bridge building and collaboration"
+    >
+      <p class="u-type-body-md">
+        We take a radical collaboration approach to our work - both internally and externally. We
+        do not view other people and organisations as competitors, but rather as allies.
+      </p>
+      <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
-          We take a radical collaboration approach to our work - both internally and externally. We
-          do not view other people and organisations as competitors, but rather as allies.
+          We do not view other people and organisations as competitors, but rather as allies. Everyone in the team will contribute their unique skills, insights and work with others to maximise synergies. We will build links with the broad climate change community, and collaborate and integrate with other climate change data providers and organisations.
         </p>
-        <svelte:fragment slot="expanded">
-          <p class="u-type-body-md">
-            We do not view other people and organisations as competitors, but rather as allies. Everyone in the team will contribute their unique skills, insights and work with others to maximise synergies. We will build links with the broad climate change community, and collaborate and integrate with other climate change data providers and organisations.
-          </p>
-        </svelte:fragment>
-      </AccordionItem>
-    </Accordion>
-  </svelte:fragment>
-</TwoColumn>
+      </svelte:fragment>
+    </AccordionItem>
+  </Accordion>
+</Wrapper>
 
 <style>
-  :global(.b-values .b-values__header) {
+  /* :global(.b-values .b-values__header) {
     padding-bottom: 32px;
   }
 
@@ -122,7 +123,56 @@
       padding-right: 64px;
       padding-bottom: 160px;
     }
+  } */
+
+  :global(.c-accordion) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap);
+    width: 100%;
   }
+
+  
+
+  @media (min-width: 768px) {
+    :global(.c-accordion .c-accordion-item) {
+      width: 50%;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+  }
+  @media (min-width: 1024px) {
+    :global(.c-accordion .c-accordion-item) {
+      width: 33%;
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+  }
+  /* :global(.c-accordion .c-accordion-item) {
+      flex-basis: calc((100% / var(--tiny-cols)) - ((var(--tiny-cols) - 1) * var(--gap)) / var(--tiny-cols));
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+
+  @media (min-width: 321px) {
+    :global(.c-accordion .c-accordion-item) {
+      flex-basis: calc((100% / var(--mobile-cols)) - ((var(--mobile-cols) - 1) * var(--gap)) / var(--mobile-cols));
+      flex-grow: 0;
+      flex-shrink: 0;
+    }
+  }
+
+  @media (min-width: 580px) {
+    :global(.c-accordion .c-accordion-item) {
+      flex-basis: calc((100% / var(--tablet-cols)) - ((var(--tablet-cols) - 1) * var(--gap)) / var(--tablet-cols));
+    }
+  }
+
+  @media (min-width: 900px) {
+    :global(.c-accordion .c-accordion-item) {
+      flex-basis: calc((100% / var(--desktop-cols)) - ((var(--desktop-cols) - 1) * var(--gap)) / var(--desktop-cols));
+    }
+  } */
 
   :global(.b-values .b-values__header .c-heading) {
     margin-bottom: 0;
