@@ -4,7 +4,12 @@
       const res = await fetch('/data/team.json');
       const data = await res.json();
       const { team } = data;
-      return { props: { team } };
+
+      const pressRes = await fetch('/data/press.json');
+      const pressData = await pressRes.json();
+      const { pressClippings } = pressData;
+
+      return { props: { team, pressClippings } };
   };
 </script>
 
@@ -26,6 +31,7 @@
   import Press from '$lib/Blocks/Press.svelte';
 
   export let team;
+  export let pressClippings;
 
   $theme = {
     footer: 'light',
@@ -117,6 +123,6 @@
     <Heading>
       <h3 class="u-type-body-xxl">In the Media</h3>
     </Heading>
-    <Press limit={3} link="/press" />
+    <Press limit={3} link="/media" {pressClippings} />
   </Wrapper>
 </section>

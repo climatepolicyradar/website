@@ -11,7 +11,9 @@
         "width": 280,
         "height": 65,
         "alt": "Engineering & Technology logo"
-      }
+      },
+      "excerpt": "Climate Policy Radar CTO, Chris Ballard explains his career change towards climate change. ",
+      "background": "#1f93ff"
     },
     {
       "type": "Article",
@@ -24,7 +26,9 @@
         "width": 333,
         "height": 62,
         "alt": "Current News logo"
-      }
+      },
+      "excerpt": "An excerpt for this",
+      "background": "#f1cb73"
     },
     {
       "type": "Article",
@@ -37,7 +41,8 @@
         "width": 96,
         "height": 53,
         "alt": "Tech Exec logo"
-      }
+      },
+      "background": "#8e73f1"
     },
     {
       "type": "Article",
@@ -46,11 +51,12 @@
       "source": "BusinessWire",
       "url": "https://www.businesswire.com/news/home/20210928005083/en/Bright-Data-Supports-Data-Driven-Solutions-to-the-Climate-Emergency-With-Subak-Joining-The-Bright-Initiative",
       "logo": {
-        "src": "images/press/bwlogo.png",
+        "src": "images/press/bwlogo.svg",
         "width": 280,
         "height": 140,
         "alt": "BusinessWire logo"
-      }
+      },
+      "background": "#e56b57"
     },
     {
       "type": "Article",
@@ -63,7 +69,8 @@
         "width": 137,
         "height": 35,
         "alt": "Globes Israel logo"
-      }
+      },
+      "background": "#f1cb73"
     },
     {
       "type": "Article",
@@ -76,7 +83,8 @@
         "width": 272,
         "height": 39,
         "alt": "The Observer logo"
-      }
+      },
+      "background": "#8e73f1"
     },
     {
       "type": "TV Interview",
@@ -89,7 +97,8 @@
         "width": 177,
         "height": 43,
         "alt": "Sky News logo"
-      }
+      },
+      "background": "#f1cb73"
     },
     {
       "type": "TV Interview",
@@ -102,7 +111,8 @@
         "width": 173,
         "height": 25,
         "alt": "BBC logo"
-      }
+      },
+      "background": "#e56b57"
     },
     {
       "type": "TV Interview",
@@ -115,7 +125,8 @@
         "width": 177,
         "height": 43,
         "alt": "Sky News logo"
-      }
+      },
+      "background": "#f1cb73"
     },
     {
       "type": "TV Interview",
@@ -128,7 +139,8 @@
         "width": 177,
         "height": 43,
         "alt": "Sky News logo"
-      }
+      },
+      "background": "#1f93ff"
     }
   ]
 }

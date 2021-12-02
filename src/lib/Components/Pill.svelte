@@ -35,6 +35,10 @@
     color: #fff;
     background-color: var(--color-blue-500);
   }
+  .c-pill--indigo {
+    color: #fff;
+    background-color: var(--color-indigo);
+  }
 
   .c-pill--blue-100 {
     color: var(--color-indigo);

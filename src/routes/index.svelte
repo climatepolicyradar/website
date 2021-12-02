@@ -82,13 +82,4 @@
 
 <LatestPosts posts={featuredPosts} limit="1" cardTheme="dark" />
 
-<Spacer size="sm" />
-
-<!-- <Wrapper>
-  <Heading>
-    <h3>In the press</h3>
-  </Heading>
-  <Press limit="3" link="/press" />
-</Wrapper> -->
-
 <Spacer size="lg" />
