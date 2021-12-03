@@ -9,7 +9,10 @@
       const pressData = await pressRes.json();
       const { pressClippings } = pressData;
 
-      return { props: { team, pressClippings } };
+      const partnersRes = await fetch(`/data/partners.json`)
+      const { partnerList } = await partnersRes.json();
+
+      return { props: { team, pressClippings, partnerList } };
   };
 </script>
 
@@ -29,9 +32,11 @@
   import IconListItem from '$lib/Components/IconListItem.svelte';
   import Heading from '$lib/Components/Heading.svelte';
   import Press from '$lib/Blocks/Press.svelte';
+  import Partners from '$lib/Blocks/Partners.svelte';
 
   export let team;
   export let pressClippings;
+  export let partnerList;
 
   $theme = {
     footer: 'light',
@@ -115,6 +120,13 @@
 <section id="team">
   <Team members={team} />
 </section>
+
+<Spacer size="lg" />
+
+<section>
+  <Partners {partnerList} />
+</section>
+
 
 <Spacer size="lg" />
 

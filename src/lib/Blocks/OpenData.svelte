@@ -13,7 +13,7 @@
   </svelte:fragment>
 
   <svelte:fragment slot="col-2">
-    <Accordion>
+    <Accordion type="simple">
       <AccordionItem number="1" color="grey" type="simple">
         <p>
           We believe everyone should have access to data, and work to make ours interoperable with

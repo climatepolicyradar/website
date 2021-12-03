@@ -115,15 +115,6 @@
 </Wrapper>
 
 <style>
-  
-  @media (min-width: 768px) {
-    :global(.c-accordion) {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 40px;
-    }
-
-  }
 
   :global(.b-values .b-values__header .c-heading) {
     margin-bottom: 0;

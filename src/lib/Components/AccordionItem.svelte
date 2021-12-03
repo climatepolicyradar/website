@@ -22,11 +22,11 @@
   aria-expanded={$$slots.expanded && expanded}
   on:click={handleClick}
 >
-  <!-- {#if number}
+  {#if number && type === 'simple'}
     <div class="c-accordion-item__number u-type-body-xxl">
       {number}
     </div>
-  {/if} -->
+  {/if}
   {#if icon}
     <div class="c-accordion-item__icon">
       <Icon name={icon} />

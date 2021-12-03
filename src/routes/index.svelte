@@ -75,6 +75,8 @@
 
 <Partners {partnerList} />
 
+<Spacer size="md" />
+
 <OpenData />
 
 <Spacer size="lg" />
