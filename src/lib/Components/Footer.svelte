@@ -26,9 +26,9 @@
       >
       <a
         sveltekit:prefetch
-        href="/press"
+        href="/media"
         class="c-site-footer__nav-item u-type-body-md"
-        class:is-active={active === 'press'}>Press</a
+        class:is-active={active === 'media'}>Media</a
       >
       <a
         sveltekit:prefetch

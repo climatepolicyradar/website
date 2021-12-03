@@ -98,7 +98,13 @@
             ),
             h('div', {'className': 'o-p-row'}, 
               h('div', {'className': 'o-p-col c-p-label'}, 'Logo'),
-              h('img', { "className": "c-p-image", src: image?.length ? '../' + image : ''}),
+              h('div', {'className': 'o-p-col c-p-logo', style: {background: press.getIn(['data', 'background'])}},
+                h('img', { "className": "c-p-image", src: image?.length ? '../' + image : ''})
+              ),
+            ),
+            h('div', {'className': 'o-p-row'}, 
+              h('div', {'className': 'o-p-col c-p-label'}, 'Description'),
+              h('div', {'className': 'o-p-col small'}, press.getIn(['data', 'excerpt']))
             ),
             h('div', {'className': 'o-p-row'}, 
               h('div', {'className': 'o-p-col c-p-label'}, 'Type'),

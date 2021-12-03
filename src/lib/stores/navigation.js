@@ -33,8 +33,8 @@ const menu = readable([
       link: 'about#partners'
     },
     {
-      label: 'Press',
-      link: 'about#press'
+      label: 'Media',
+      link: 'about#media'
     }
   ]
   },

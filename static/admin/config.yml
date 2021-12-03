@@ -20,7 +20,13 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'latest' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'D MMMM YYYY',
+          date_format: true,
+        }
       - { label: 'Featured Image', name: 'thumb', widget: 'image' }
       - {
           label: 'Topics',
@@ -29,7 +35,7 @@ collections:
           multiple: true,
           options: ['Blog', 'News'],
         }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
       - { label: 'Author', name: 'author', widget: 'string', required: false }
       - {
           label: 'Featured',
@@ -55,8 +61,14 @@ collections:
           multiple: true,
           options: ['jobs'],
         }
-      - { label: 'Date', name: 'date', widget: 'datetime' }
-      - { label: 'Excerpt', name: 'excerpt', widget: 'string' }
+      - {
+          label: 'Date',
+          name: 'date',
+          widget: 'datetime',
+          format: 'D MMMM YYYY',
+          date_format: true,
+        }
+      - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
       - { label: 'Apply link', name: 'applyLink', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Other content'
@@ -145,6 +157,25 @@ collections:
               - label: 'Title'
                 name: 'title'
                 widget: 'string'
+              - label: 'Excerpt'
+                name: 'excerpt'
+                widget: 'text'
+                required: false
+              - label: 'Background color'
+                name: 'background'
+                widget: 'select'
+                required: false
+                options:
+                  - label: 'Blue'
+                    value: '#1f93ff'
+                  - label: 'Purple'
+                    value: '#8e73f1'
+                  - label: 'Yellow'
+                    value: '#f1cb73'
+                  - label: 'Green'
+                    value: '#5fc8a1'
+                  - label: 'Orange'
+                    value: '#e56b57'
               - label: 'Type'
                 name: 'type'
                 widget: 'select'
@@ -152,6 +183,8 @@ collections:
               - label: 'Date'
                 name: 'date'
                 widget: 'datetime'
+                format: 'D MMMM YYYY'
+                date_format: true
               - label: 'Source'
                 name: 'source'
                 widget: 'string'

@@ -4,7 +4,15 @@
       const res = await fetch('/data/team.json');
       const data = await res.json();
       const { team } = data;
-      return { props: { team } };
+
+      const pressRes = await fetch('/data/press.json');
+      const pressData = await pressRes.json();
+      const { pressClippings } = pressData;
+
+      const partnersRes = await fetch(`/data/partners.json`)
+      const { partnerList } = await partnersRes.json();
+
+      return { props: { team, pressClippings, partnerList } };
   };
 </script>
 
@@ -22,8 +30,13 @@
   import Icon from '$lib/Components/Icon.svelte';
   import IconList from '$lib/Components/IconList.svelte';
   import IconListItem from '$lib/Components/IconListItem.svelte';
+  import Heading from '$lib/Components/Heading.svelte';
+  import Press from '$lib/Blocks/Press.svelte';
+  import Partners from '$lib/Blocks/Partners.svelte';
 
   export let team;
+  export let pressClippings;
+  export let partnerList;
 
   $theme = {
     footer: 'light',
@@ -31,7 +44,7 @@
   };
 
   onMount(() => {
-    window.scrollTo(0,0)
+    //window.scrollTo(0,0)
   })
 </script>
 
@@ -106,4 +119,22 @@
 
 <section id="team">
   <Team members={team} />
+</section>
+
+<Spacer size="lg" />
+
+<section>
+  <Partners {partnerList} />
+</section>
+
+
+<Spacer size="lg" />
+
+<section id="media">
+  <Wrapper>
+    <Heading>
+      <h3 class="u-type-body-xxl">In the Media</h3>
+    </Heading>
+    <Press limit={3} link="/media" {pressClippings} />
+  </Wrapper>
 </section>
