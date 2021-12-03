@@ -23,7 +23,6 @@
   import LatestPosts from '$lib/Blocks/LatestPosts.svelte';
   import OpenData from '$lib/Blocks/OpenData.svelte';
   import Partners from '$lib/Blocks/Partners.svelte';
-  import Press from '$lib/Blocks/Press.svelte';
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';

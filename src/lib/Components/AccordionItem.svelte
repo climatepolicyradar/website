@@ -1,10 +1,12 @@
 <script>
   import { slide } from "svelte/transition";
+  import Icon from '$lib/Components/Icon.svelte';
   export let number = undefined;
   export let color = 'grey'; // grey | indigo
   export let type = 'simple'; // simple | statement
   export let expanded = false;
   export let title = undefined;
+  export let icon = undefined;
 
   const handleClick = () => {
     if ($$slots.expanded) {
@@ -20,9 +22,14 @@
   aria-expanded={$$slots.expanded && expanded}
   on:click={handleClick}
 >
-  {#if number}
+  <!-- {#if number}
     <div class="c-accordion-item__number u-type-body-xxl">
       {number}
+    </div>
+  {/if} -->
+  {#if icon}
+    <div class="c-accordion-item__icon">
+      <Icon name={icon} />
     </div>
   {/if}
 
@@ -119,13 +126,13 @@
     background-color: var(--color-indigo);
   }
 
-  .c-accordion-item__number {
+  .c-accordion-item__number, .c-accordion-item__icon {
     grid-area: num;
     z-index: 1;
   }
 
   @media only screen and (max-width: 720px) {
-    .c-accordion-item__number {
+    .c-accordion-item__number, .c-accordion-item__icon {
       margin-bottom: 16px;
     }
   }

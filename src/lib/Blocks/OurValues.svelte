@@ -25,6 +25,7 @@
       color="indigo"
       type="statement"
       title="Moonshot intention with grounded urgent action"
+      icon="moonshot"
     >
       <p class="u-type-body-md">
         We seek to bring about meaningful change towards a better future, using data effectively
@@ -39,7 +40,7 @@
         </p>
       </svelte:fragment>
     </AccordionItem>
-    <AccordionItem number="2" color="indigo" type="statement" title="Excellence">
+    <AccordionItem number="2" color="indigo" type="statement" title="Excellence" icon="excellence">
       <p class="u-type-body-md">
         We strive to be excellent at what we do and how we do it.
       </p>
@@ -49,7 +50,7 @@
         </p>
       </svelte:fragment>
     </AccordionItem>
-    <AccordionItem number="3" color="indigo" type="statement" title="Truth seeking">
+    <AccordionItem number="3" color="indigo" type="statement" title="Truth seeking" icon="truth">
       <p class="u-type-body-md">
         We will be honest and act with integrity in the data we produce and the way that we
         communicate what it means.
@@ -60,7 +61,7 @@
         </p>
       </svelte:fragment>
     </AccordionItem>
-    <AccordionItem number="4" color="indigo" type="statement" title="Transparency">
+    <AccordionItem number="4" color="indigo" type="statement" title="Transparency" icon="transparency">
       <p class="u-type-body-md">
         We will make our data, analyses and platform available for others to use and build on.
       </p>
@@ -70,7 +71,7 @@
         </p>
       </svelte:fragment>
     </AccordionItem>
-    <AccordionItem number="5" color="indigo" type="statement" title="Learning and experimenting">
+    <AccordionItem number="5" color="indigo" type="statement" title="Learning and experimenting" icon="learning">
       <p class="u-type-body-md">
         We seek to continuously learn and improve ourselves and our organisation and to advance a
         culture of evidence-based decision making
@@ -81,7 +82,7 @@
         </p>
       </svelte:fragment>
     </AccordionItem>
-    <AccordionItem number="6" color="indigo" type="statement" title="Emotional intelligence">
+    <AccordionItem number="6" color="indigo" type="statement" title="Emotional intelligence" icon="emotionalIntelligence">
       <p class="u-type-body-md">
         We are committed to intelligent and empathic communication with our team, stakeholders,
         and audiences.
@@ -97,11 +98,13 @@
       color="indigo"
       type="statement"
       title="Bridge building and collaboration"
+      icon="collaboration"
     >
       <p class="u-type-body-md">
         We take a radical collaboration approach to our work - both internally and externally. We
         do not view other people and organisations as competitors, but rather as allies.
       </p>
+
       <svelte:fragment slot="expanded">
         <p class="u-type-body-md">
           We do not view other people and organisations as competitors, but rather as allies. Everyone in the team will contribute their unique skills, insights and work with others to maximise synergies. We will build links with the broad climate change community, and collaborate and integrate with other climate change data providers and organisations.
@@ -112,65 +115,20 @@
 </Wrapper>
 
 <style>
-  /* :global(.b-values .b-values__header) {
-    padding-bottom: 32px;
-  }
-
-  @media only screen and (min-width: 1024px) {
-    :global(.b-values .b-values__header) {
-      position: sticky;
-      top: 160px;
-      padding-right: 64px;
-      padding-bottom: 160px;
-    }
-  } */
-
-  :global(.c-accordion) {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--gap);
-    width: 100%;
-  }
-
   
-
   @media (min-width: 768px) {
-    :global(.c-accordion .c-accordion-item) {
-      width: 50%;
-      flex-grow: 0;
-      flex-shrink: 0;
-    }
-  }
-  @media (min-width: 1024px) {
-    :global(.c-accordion .c-accordion-item) {
-      width: 33%;
-      flex-grow: 0;
-      flex-shrink: 0;
-    }
-  }
-  /* :global(.c-accordion .c-accordion-item) {
-      flex-basis: calc((100% / var(--tiny-cols)) - ((var(--tiny-cols) - 1) * var(--gap)) / var(--tiny-cols));
-      flex-grow: 0;
-      flex-shrink: 0;
+    :global(.c-accordion) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 40px;
     }
 
-  @media (min-width: 321px) {
-    :global(.c-accordion .c-accordion-item) {
-      flex-basis: calc((100% / var(--mobile-cols)) - ((var(--mobile-cols) - 1) * var(--gap)) / var(--mobile-cols));
-      flex-grow: 0;
-      flex-shrink: 0;
-    }
   }
-
-  @media (min-width: 580px) {
-    :global(.c-accordion .c-accordion-item) {
-      flex-basis: calc((100% / var(--tablet-cols)) - ((var(--tablet-cols) - 1) * var(--gap)) / var(--tablet-cols));
-    }
-  }
-
-  @media (min-width: 900px) {
-    :global(.c-accordion .c-accordion-item) {
-      flex-basis: calc((100% / var(--desktop-cols)) - ((var(--desktop-cols) - 1) * var(--gap)) / var(--desktop-cols));
+  /* @media (min-width: 1280px) {
+    :global(.c-accordion) {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 40px;
     }
   } */
 
