@@ -57,7 +57,7 @@
 </Banner>
 
 <SingleColumn>
-  <p class="u-type-body-xxl u-text-center u-gradient-text--dark-to-blue">
+  <p class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
     We are on a mission to map and analyse the climate policy landscape globally and drive the
     transition to a low carbon, resilient world.
   </p>

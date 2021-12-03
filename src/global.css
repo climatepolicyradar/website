@@ -509,6 +509,32 @@ strong {
   }
 }
 
+.u-type-body-xxxl {
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: normal;
+}
+
+@media only screen and (min-width: 321px) {
+  .u-type-body-xxxl {
+    font-size: 32px;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .u-type-body-xxxl {
+    font-size: 36px;
+    line-height: 48px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .u-type-body-xxxl {
+    font-size: 42px;
+    line-height: 52px;
+  }
+}
+
 .u-text-center {
   text-align: center;
 }
