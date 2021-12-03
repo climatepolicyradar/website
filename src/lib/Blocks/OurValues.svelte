@@ -124,13 +124,6 @@
     }
 
   }
-  /* @media (min-width: 1280px) {
-    :global(.c-accordion) {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      grid-gap: 40px;
-    }
-  } */
 
   :global(.b-values .b-values__header .c-heading) {
     margin-bottom: 0;
