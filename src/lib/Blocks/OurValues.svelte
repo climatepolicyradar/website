@@ -1,10 +1,12 @@
 <script>
+  import { values, activeTabIndex } from '$lib/stores/values';
   import Accordion from '$lib/Components/Accordion.svelte';
   import AccordionItem from '$lib/Components/AccordionItem.svelte';
   import Heading from '$lib/Components/Heading.svelte';
   import TwoColumn from '$lib/Components/TwoColumn.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
+import TabBar from '$lib/Components/TabBar.svelte';
 
   export let id = undefined;
 </script>
@@ -19,7 +21,9 @@
 
   <Spacer size="md" />
 
-  <Accordion>
+  
+
+  <!-- <Accordion>
     <AccordionItem
       number="1"
       color="indigo"
@@ -111,8 +115,9 @@
         </p>
       </svelte:fragment>
     </AccordionItem>
-  </Accordion>
+  </Accordion> -->
 </Wrapper>
+<TabBar items={$values} />
 
 <style>
 

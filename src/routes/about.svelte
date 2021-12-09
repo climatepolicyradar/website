@@ -21,10 +21,8 @@
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
-  import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Pill from '$lib/Components/Pill.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
-  import StickyNav from '$lib/Components/StickyNav.svelte';
   import Team from '$lib/Blocks/Team.svelte';
   import OurValues from '$lib/Blocks/OurValues.svelte';
   import Icon from '$lib/Components/Icon.svelte';
@@ -33,6 +31,7 @@
   import Heading from '$lib/Components/Heading.svelte';
   import Press from '$lib/Blocks/Press.svelte';
   import Partners from '$lib/Blocks/Partners.svelte';
+  import TabBar from '$lib/Components/TabBar.svelte';
 
   export let team;
   export let pressClippings;
@@ -61,12 +60,6 @@
 
   <h1 slot="heading">We are an open data <br> climate startup</h1>
 </Banner>
-
-<!-- <StickyNav>
-  <a href="#mission">Our Mission</a>
-  <a href="#values">Values</a>
-  <a href="#team">Team</a>
-</StickyNav> -->
 
 <Spacer size="2xl" />
 
@@ -112,6 +105,7 @@
 <Spacer size="2xl" />
 
 <section class="b-values" id="values">
+  <!-- <TabBar /> -->
   <OurValues />
 </section>
 

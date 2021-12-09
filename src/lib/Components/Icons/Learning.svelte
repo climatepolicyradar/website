@@ -1,5 +1,5 @@
 <script>
-  export const fill = "var(--color-blue)";
+  export let fill = "var(--color-blue)";
 </script>
 
 <svg fill={fill} version="1.1" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
