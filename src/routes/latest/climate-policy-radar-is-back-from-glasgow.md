@@ -9,7 +9,7 @@ excerpt: "We went to COP26 in Glasgow ready to share our work on our prototype,
   join conversations and learn from the wealth of knowledge and perspectives on
   offer there. Now back in the office and fired up from the experience, here’s
   what I gained from the summit.  "
-author: Marcus Davies, Policy
+author: Marcus Davies
 featured: false
 ---
 *We went to COP26 in Glasgow ready to share our work on our prototype, join conversations and learn from the wealth of knowledge and perspectives on offer there. Now back in the office and fired up from the experience, here’s what I gained from the summit.*  
@@ -32,7 +32,7 @@ Talking to people about our prototype did two important things for us. Firstly, 
 
 Secondly, however, these conversations gave way to insightful comments and probing questions that tested some of our assumptions, reconfirmed the complexities that are intrinsic to the task of mapping and analysing climate policy, and gave us fresh ideas. ‘How do you define a climate policy?’ one researcher asked me. ‘Why don’t you measure impact by linking policy data to deforestation data?’ an analyst suggested.
 
-Comments like these are exactly what we need. Beyond our prototype, we’re preparing for a limited release of the next version in spring 2022, followed by another update next summer – but we’re also always thinking about the bigger picture. Capturing the ideas and needs of our prospective users and thinking about how and when to fit them into our timeline is at the core of our focus right now.
+Comments like these are exactly what we need. Beyond our prototype, we’re preparing for a limited release of the next version in spring 2022, followed by a public release next summer – but we’re also always thinking about the bigger picture. Capturing the ideas and needs of our prospective users and thinking about how and when to fit them into our timeline is at the core of our focus right now.
 
 ## Learning from other speakers
 
