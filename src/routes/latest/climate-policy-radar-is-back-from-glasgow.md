@@ -28,9 +28,9 @@ We were fortunate to be able to share our work at incredible venues like the [UN
 
 This meant we were able to get feedback on our work from many different perspectives – from civil servants, researchers and people from NGOs to representatives from food delivery companies interested in policies on reusable packaging – and the more people we spoke to, the more we realised that the scope of potential uses for our work could be wider than we’d initially thought. Climate policy data, after all, is a public good – and we are discovering new people with a stake in that good every day.
 
-![Michal presenting our prototype at the COP26 Climate Law and Governance Day](/images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg "Michal presenting our prototype at the COP26 Climate Law and Governance Day")
+![Michal presenting our prototype at the Climate Law and Governance Day](/images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg "Michal presenting our prototype at the Climate Law and Governance Day")
 
-*Michal presenting our prototype at the COP26 Climate Law and Governance Day*
+*Michal presenting our prototype at the Climate Law and Governance Day*
 
 ## Affirmation for our mission – and challenges to our assumptions
 
