@@ -18,19 +18,19 @@ Going to COP26 – my first ever COP – was the culmination of seven weeks’ w
 
 ![Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)](/images/climate-policy-radar-is-back-from-glasgow/c8314c4e-b505-4a47-b8f1-4b45998ec7eb.jpg "Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)")
 
-#### *Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)*
+*Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)*
 
 We were fortunate to be able to share our work at incredible venues like the [UNFCCC Global Innovation Hub](https://www.youtube.com/watch?v=GuHWLdYiKV4) and Resilience Lab, and in the beautiful surroundings of the University of Glasgow campus. And thanks to the mobile view built by our front-end developer Paula, opportunities to share it weren’t limited to formal events, but extended to coffee breaks, lunchtime chats and chance encounters in corridors.
 
 ![Our setup at the UNFCCC Global Innovation Hub](/images/climate-policy-radar-is-back-from-glasgow/20211104_093354.jpg "Our setup at the UNFCCC Global Innovation Hub")
 
-#### *Our setup at the UNFCCC Global Innovation Hub*
+*Our setup at the UNFCCC Global Innovation Hub*
 
 This meant we were able to get feedback on our work from many different perspectives – from civil servants, researchers and people from NGOs to representatives from food delivery companies interested in policies on reusable packaging – and the more people we spoke to, the more we realised that the scope of potential uses for our work could be wider than we’d initially thought. Climate policy data, after all, is a public good – and we are discovering new people with a stake in that good every day.
 
 ![Michal presenting our prototype at the COP26 Climate Law and Governance Day](/images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg "Michal presenting our prototype at the COP26 Climate Law and Governance Day")
 
-#### *Michal presenting our prototype at the COP26 Climate Law and Governance Day*
+*Michal presenting our prototype at the COP26 Climate Law and Governance Day*
 
 ## Affirmation for our mission – and challenges to our assumptions
 
@@ -54,7 +54,7 @@ This was an important session because its key message was a reminder that proper
 
 ![Liv Torc recites 'When You Know the Water's Coming'](/images/climate-policy-radar-is-back-from-glasgow/img_7578.jpg "Liv Torc recites 'When You Know the Water's Coming'")
 
-#### *Liv Torc recites 'When You Know the Water's Coming'*
+*Liv Torc recites 'When You Know the Water's Coming'*
 
 All these ideas are central to our purpose – creating an open, accessible, reliable, community-driven knowledge source – but they also give cause for us to pause and reflect. We’re serious about our principles but in the knowledge that we’re a team of people from the Global North: we don’t pretend that showing up at COP26 with a laptop will allay all the concerns of people who already live with the impacts of climate change every day. So, we are actively seeking opportunities to listen and to do what we can by building the knowledge and the voices of local communities into our data and tools. Our intention is that the researchers, analysts and decision-makers who we hope will use them – wherever they may be – see information that reflects and serves to help alleviate the injustices inherent in the climate crisis.
 
@@ -68,7 +68,7 @@ Michal stayed in Glasgow for a few more days, and took part in a [debate at the 
 
 ![Michal takes the stage at the New York Times Climate Hub](/images/climate-policy-radar-is-back-from-glasgow/screenshot_20211119-213514_gallery.jpg "Michal takes the stage at the New York Times Climate Hub")
 
-#### *Michal takes the stage at the New York Times Climate Hub*
+*Michal takes the stage at the New York Times Climate Hub*
 
 The debate threw up some interesting ideas, but either way what’s clear to us is that policy will be the factor that makes or breaks our response to the climate crisis. And we need to act now. So across all governments, from liberal democracies to autocratic regimes, our task is to support more efficient and more informed decision-making. Watch this space for news about how we’re doing that.
 
