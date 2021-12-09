@@ -1,7 +1,7 @@
 ---
 layout: latest
 title: Climate Policy Radar is back from Glasgow.
-date: 2021-12-09T11:56:26.702Z
+date: 2021-12-09T15:02:39.722Z
 thumb: /images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg
 topics:
   - Blog
