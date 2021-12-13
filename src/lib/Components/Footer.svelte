@@ -6,10 +6,10 @@
   import { menu } from '$lib/stores/navigation';
 
   const aboutMenu = $menu[0];
-  const whatMenu = $menu[1];
-  const news = $menu[2];
-  const jobsMenu = $menu[3];
-  const contact = $menu[4]
+  // const whatMenu = $menu[1];
+  const news = $menu[1];
+  const jobsMenu = $menu[2];
+  const contact = $menu[3]
 
   export let active;
 </script>
@@ -40,7 +40,7 @@
 
         </div>
 
-        <div class="c-site-footer__nav-col">
+        <!-- <div class="c-site-footer__nav-col">
           <h4 class="c-site-footer__nav-header">
             <a 
               sveltekit:prefetch 
@@ -58,7 +58,7 @@
               >{item.label}</a
             >
           {/each}
-        </div>
+        </div> -->
         <div class="c-site-footer__nav-col">
           <h4 class="c-site-footer__nav-header">
             <a 
@@ -143,7 +143,15 @@
     margin: auto;
     margin-bottom: 0;
     padding-top: 64px;
+    margin-top: 64px;
     padding-bottom: 96px;
+  }
+  .c-site-footer--light {
+    border-top: 1px solid var(--color-indigo-300);
+  }
+
+  .c-site-footer--dark {
+    border-top: 1px solid var(--color-indigo-500);
   }
 
   .c-site-footer__lower {
@@ -151,7 +159,7 @@
     flex-direction: column;
     justify-content: space-between;
     width: 100%;
-    margin-top: 32px;
+    margin-top: 64px;
   }
   .c-site-footer__lower.theme-light {
     border-top: 1px solid var(--color-indigo-300);
@@ -163,13 +171,15 @@
   @media only screen and (min-width: 768px) {
     .c-site-footer__lower {
       flex-direction: row;
-      padding-top: 32px;
+      padding-top: 80px;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .c-site-footer {
-      padding-top: 120px;
+      /* padding-top: 120px; */
+      padding-top: 80px;
+      margin-top: 80px;
       flex-direction: row;
     }
   }
@@ -178,8 +188,8 @@
     font-size: 15px;
     line-height: 24px;
     color: var(--color-indigo-400);
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 64px;
+    margin-bottom: 64px;
   }
 
   @media only screen and (min-width: 768px) {
