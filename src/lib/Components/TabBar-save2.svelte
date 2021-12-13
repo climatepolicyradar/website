@@ -69,7 +69,7 @@
 
     }
     :global(.c-tab) {
-      width: 100%;
+      /* width: 100%; */
     }
   }
   @media (min-width: 1024px) {

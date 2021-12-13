@@ -6,7 +6,8 @@
   import TwoColumn from '$lib/Components/TwoColumn.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
-import TabBar from '$lib/Components/TabBar.svelte';
+  import TabBar from '$lib/Components/TabBar.svelte';
+  import ValuePanel from '$lib/Components/ValuePanel2.svelte';
 
   export let id = undefined;
 </script>
@@ -116,10 +117,44 @@ import TabBar from '$lib/Components/TabBar.svelte';
       </svelte:fragment>
     </AccordionItem>
   </Accordion> -->
+  <div class="b-values__content">
+    {#each $values as value, index}
+      <ValuePanel
+        title={value.title}
+        icon={value.icon}
+        description1={value.description1}
+        description2={value.description2}
+      />
+    {/each}
+  </div>
+  
 </Wrapper>
-<TabBar items={$values} />
+<!-- <TabBar items={$values} /> -->
+
 
 <style>
+  
+  @media (min-width: 768px) {
+    .b-values__content {
+
+      /* columns: 2;
+      column-gap: 3rem; */
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 3rem;
+      row-gap: 3rem;
+      align-content: stretch;
+    }
+    :global(.c-panel) {
+      /* -webkit-column-break-inside: avoid; 
+          page-break-inside: avoid; 
+               break-inside: avoid-column;  */
+               align-self: stretch;
+               
+    }
+    
+  }
 
   :global(.b-values .b-values__header .c-heading) {
     margin-bottom: 0;

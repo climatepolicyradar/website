@@ -91,4 +91,17 @@
       margin-right: auto;
     }
   }
+  :global(.c-tab) {
+    width: 75%;
+  }
+  @media (min-width: 768px) {
+    :global(.c-tab) {
+      width: 32%;
+    }
+  }
+  @media (min-width: 1024px) {
+    :global(.c-tab) {
+      width: 25%;
+    }
+  }
 </style>

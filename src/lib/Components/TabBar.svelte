@@ -47,7 +47,7 @@
     padding: 2rem;
   }
   :global(.c-tab) {
-    width: 75%;
+    /* width: 75%; */
   }
 
   @media (min-width: 768px) {
@@ -71,7 +71,7 @@
 
     }
     :global(.c-tab) {
-      width: 100%;
+      /* width: 100%; */
     }
   }
   @media (min-width: 1024px) {

@@ -27,18 +27,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    /* width: 75%; */
     flex-shrink: 0;
-  }
-  @media (min-width: 768px) {
-    /* .c-tab {
-      width: 32%;
-    } */
-  }
-  @media (min-width: 1024px) {
-    /* .c-tab {
-      width: 25%;
-    } */
   }
 
   .c-tab.active {

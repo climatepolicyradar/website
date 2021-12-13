@@ -101,6 +101,16 @@
     border-radius: 50%;
     z-index: 1;
   }
+  .c-icon--moonshot,
+  .c-icon--excellence,
+  .c-icon--truth,
+  .c-icon--transparency,
+  .c-icon--learning,
+  .c-icon--emotionalIntelligence,
+  .c-icon--collaboration {
+    width: 64px;
+    height: 50px;
+  }
 
   :global(.c-card .c-icon--arrowRound:after) {
     background-color: var(--color-grey);

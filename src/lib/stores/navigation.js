@@ -17,12 +17,12 @@ const menu = readable([
       link: 'about#mission'
     },
     {
-      label: 'Team',
-      link: 'about#team'
-    },
-    {
       label: 'Values',
       link: 'about#values'
+    },
+    {
+      label: 'Team',
+      link: 'about#team'
     },
     {
       label: 'Funders',
@@ -38,26 +38,26 @@ const menu = readable([
     }
   ]
   },
+  // {
+  //   label: 'What we do',
+  //   link: 'what-we-do',
+  //   submenu: [
+  //     {
+  //       label: 'Product',
+  //       link: 'what-we-do#product'
+  //     },
+  //     {
+  //       label: 'Technology',
+  //       link: 'what-we-do#tech'
+  //     },
+  //     {
+  //       label: 'Our Data',
+  //       link: 'what-we-do#data'
+  //     },
+  //   ]
+  // },
   {
-    label: 'What we do',
-    link: 'what-we-do',
-    submenu: [
-      {
-        label: 'Product',
-        link: 'what-we-do#product'
-      },
-      {
-        label: 'Technology',
-        link: 'what-we-do#tech'
-      },
-      {
-        label: 'Our Data',
-        link: 'what-we-do#data'
-      },
-    ]
-  },
-  {
-    label: 'Newsroom',
+    label: 'News and Commentaries',
     link: 'latest',
     submenu: []
   },
