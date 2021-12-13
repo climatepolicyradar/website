@@ -17,7 +17,6 @@
 </script>
 
 <script>
-  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
@@ -37,14 +36,30 @@
   export let pressClippings;
   export let partnerList;
 
+  let sortedTeam;
+
   $theme = {
     footer: 'light',
     header: 'dark',
   };
 
-  onMount(() => {
-    //window.scrollTo(0,0)
-  })
+  const sortAdvisory = () => {
+    const advisory = team.filter( member => member.group === 'Advisory');
+    const restOfTeam = team.filter( member => member.group !== 'Advisory');
+    const sortedAdvisory = advisory.sort(function (a, b) {
+      const na = a.name.split(" ");
+      const nameA = na[na.length - 1];
+      const nb = b.name.split(" ");
+      const nameB = nb[nb.length - 1];
+      if(nameA.toLowerCase() < nameB.toLowerCase()) { return -1; }
+      if(nameA.toLowerCase() > nameB.toLowerCase()) { return 1; }
+      return 0;
+    });
+    return [...restOfTeam, ...sortedAdvisory];
+  }
+
+  $: sortedTeam = team ? sortAdvisory() : [];
+
 </script>
 
 <svelte:head>
@@ -112,7 +127,7 @@
 <Spacer size="lg" />
 
 <section id="team">
-  <Team members={team} />
+  <Team members={sortedTeam} />
 </section>
 
 <Spacer size="lg" />

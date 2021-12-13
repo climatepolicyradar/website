@@ -27,7 +27,7 @@
           {#each partnerList as partner}
             {#if partner.group === group}
               <a class="b-partners__group__item" href={partner.url} target="_blank" rel="nofollow noopener noreferrer">
-                <img src={partner.logo} alt={`${partner.name} logo`} width="235" height="240" loading="lazy" />
+                <img src={partner.logo} alt={`${partner.name} logo`} loading="lazy" />
               </a>
             {/if}
           {/each}
@@ -62,11 +62,21 @@
     justify-content: center;
     gap: 16px;
     width: 100%;
+    background: var(--color-grey);
+    border-radius: 30px;
+    padding: 8px;
   }
 
-  @media only screen and (min-width: 720px) {
+  @media only screen and (min-width: 768px) {
     .b-partners__group__items {
       gap: 16px;
+      padding: 16px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .b-partners__group__items {
+      padding: 24px;
     }
   }
 
