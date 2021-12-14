@@ -6,6 +6,13 @@
   import Wrapper from './Wrapper.svelte';
   import Button from './Button.svelte';
 
+  const navigate = (e) => {
+    const el = e.currentTarget;
+    if(el.getAttribute('href').indexOf('#') === -1) {
+      window.scrollTo(0,0);
+    }
+  }
+
   let sticky;
   let y = 0;
   $: sticky = y > 40;
@@ -24,7 +31,10 @@
   <Wrapper type="full">
     <Wrapper type="x-wide">
       <div class="c-site-header__inner">
-        <a class="c-site-header__logo" href="/" on:click={() => ($activeSubMenu = null)}>
+        <a class="c-site-header__logo" href="/" on:click={(e) => {
+          navigate(e);
+          $activeSubMenu = null;
+          }}>
           <Logo theme={sticky ? 'light' : $theme.header} />
         </a>
         <Button class="c-site-header__menu-button" {color} size="cta" action={() => ($mobileMenuOpen = !$mobileMenuOpen)}>
@@ -35,7 +45,7 @@
           {/if}
         </Button>
 
-        <Nav theme={sticky ? 'light' : $theme.header} {active} {jobs} open={$mobileMenuOpen} />
+        <Nav theme={sticky ? 'light' : $theme.header} {active} {jobs} open={$mobileMenuOpen} {navigate} />
       </div>
     </Wrapper>
   </Wrapper>

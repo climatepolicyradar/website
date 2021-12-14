@@ -19,9 +19,9 @@
     header: 'dark',
   };
   const jobs = getContext('jobs');
-  onMount(() => {
-    window.scrollTo(0,0)
-  })
+  // onMount(() => {
+  //   window.scrollTo(0,0)
+  // })
 </script>
 
 <svelte:head>
