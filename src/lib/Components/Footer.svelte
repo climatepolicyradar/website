@@ -85,18 +85,24 @@
               class="c-site-footer__nav-item u-type-body-md"
               >{news.label}</a
             >
-            <a
-              sveltekit:prefetch
-              href="/{contact.link}"
-              class="c-site-footer__nav-item u-type-body-md"
-              >{contact.label}</a
-            >
-            <a
-              sveltekit:prefetch
-              href="/privacy-policy"
-              class="c-site-footer__nav-item u-type-body-md"
-              >Privacy Policy</a
-            >
+          <a
+            sveltekit:prefetch
+            href="/media"
+            class="c-site-footer__nav-item u-type-body-md"
+            >Media</a
+          >
+          <a
+            sveltekit:prefetch
+            href="/{contact.link}"
+            class="c-site-footer__nav-item u-type-body-md"
+            >{contact.label}</a
+          >
+          <a
+            sveltekit:prefetch
+            href="/privacy-policy"
+            class="c-site-footer__nav-item u-type-body-md"
+            >Privacy Policy</a
+          >
             
         </div>
       </nav>

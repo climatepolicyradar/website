@@ -26,9 +26,9 @@
 
   export let posts;
 
-  onMount(() => {
-    window.scrollTo(0,0)
-  })
+  // onMount(() => {
+  //   // window.scrollTo(0,0)
+  // })
 </script>
 
 <svelte:head>

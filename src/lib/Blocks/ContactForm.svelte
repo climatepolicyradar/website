@@ -65,10 +65,11 @@
         <span class="u-sr-only">Topic</span>
         <select name="topic[]">
           <option selected>select topic</option>
-          <option value="research">Research</option>
-          <option value="marketing">Marketing</option>
-          <option value="careers">Careers</option>
-          <option value="other">Other</option>
+          <option value="research">Collaborating on research</option>
+          <option value="open_source">Contributing to open source code</option>
+          <option value="careers">Working at Climate Policy Radar</option>
+          <option value="offer">Offering you a service/product</option>
+          <option value="other">Something else</option>
         </select>
       </label>
     </div>
@@ -86,7 +87,7 @@
       <textarea name="message" placeholder="Your message" rows="6" />
     </label>
 
-    <p>Speak soon</p>
+    <p>Speak soon!</p>
     <Button type="submit" size="lg" arrow>Send message</Button>
 
     <!-- Honeypot -->

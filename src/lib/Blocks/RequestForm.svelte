@@ -102,14 +102,14 @@
 <style>
   .c-request-form {
     max-width: 980px;
-    font-size: 21px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.7;
   }
 
   @media (min-width: 768px) {
     .c-request-form {
-      font-size: 24px;
+      font-size: 18px;
       line-height: 36px;
     }
   }
@@ -162,7 +162,7 @@
 
   textarea {
     width: 100%;
-    padding: 24px;
+    padding: 18px;
     margin-top: 1rem;
     line-height: 1.2;
     background-color: #f9f9f9;
