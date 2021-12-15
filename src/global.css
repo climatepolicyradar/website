@@ -93,7 +93,7 @@ html {
   color: var(--color-indigo);
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
 }
 
 body {

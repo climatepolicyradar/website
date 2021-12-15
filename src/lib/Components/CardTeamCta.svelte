@@ -2,7 +2,7 @@
   import Icon from './Icon.svelte';
 </script>
 
-<a class="c-card c-card--team-cta" href="/jobs">
+<a class="c-card c-card--team-cta" href="/jobs#open-positions">
   <div class="c-card__header">
     <h3 class="c-card__name u-type-h3">Interested in joining our team?</h3>
   </div>
