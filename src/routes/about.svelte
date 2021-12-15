@@ -30,7 +30,6 @@
   import Heading from '$lib/Components/Heading.svelte';
   import Press from '$lib/Blocks/Press.svelte';
   import Partners from '$lib/Blocks/Partners.svelte';
-  import TabBar from '$lib/Components/TabBar.svelte';
 
   export let team;
   export let pressClippings;
