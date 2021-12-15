@@ -120,7 +120,6 @@
 <Spacer size="2xl" />
 
 <section class="b-values" id="values">
-  <!-- <TabBar /> -->
   <OurValues />
 </section>
 
