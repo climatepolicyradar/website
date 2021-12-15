@@ -13,12 +13,10 @@
 </script>
 
 <script>
-  import { onMount } from 'svelte';
   import { modalStore, theme } from '$lib/stores/theme';
   import About from '$lib/Blocks/About.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import Button from '$lib/Components/Button.svelte';
-  import Heading from '$lib/Components/Heading.svelte';
   import How from '$lib/Blocks/How.svelte';
   import LatestPosts from '$lib/Blocks/LatestPosts.svelte';
   import OpenData from '$lib/Blocks/OpenData.svelte';
@@ -26,7 +24,6 @@
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';
-  import Wrapper from '$lib/Components/Wrapper.svelte';
 
   $theme = {
     footer: 'light',
@@ -35,9 +32,7 @@
 
   export let featuredPosts;
   export let partnerList;
-  onMount(() => {
-    // window.scrollTo(0,0)
-  })
+
 </script>
 
 <svelte:head>

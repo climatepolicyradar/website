@@ -12,6 +12,7 @@
   const contact = $menu[3]
 
   export let active;
+
 </script>
 
 <Wrapper type="wide">
