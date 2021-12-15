@@ -11,7 +11,7 @@
 </script>
 
 <script>
-  import {setContext} from 'svelte';
+  import {onMount, setContext} from 'svelte';
   import { page, navigating } from '$app/stores';
   import Header from '$lib/Components/Header.svelte';
   import Footer from '$lib/Components/Footer.svelte';
@@ -32,13 +32,17 @@
       $mobileMenuOpen = false;
     }
   };
+
   export let jobs;
   export let team;
   setContext('jobs', jobs);
   setContext('team', team);
+
 </script>
 
 <svelte:body on:keydown={handleEscapeKey} />
+
+
 <MediaQuery />
 
 <a class="u-sr-only u-sr-only-focusable" href="#main"> Skip to content </a>

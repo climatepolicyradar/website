@@ -8,9 +8,10 @@
 
   const navigate = (e) => {
     const el = e.currentTarget;
-    if(el.getAttribute('href').indexOf('#') === -1) {
-      window.scrollTo(0,0);
-    }
+    window.scrollTo(0,0);
+    // if(el.getAttribute('href').indexOf('#') === -1) {
+    //   // window.scrollTo(0,0);
+    // }
   }
 
   let sticky;
