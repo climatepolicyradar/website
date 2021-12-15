@@ -30,7 +30,6 @@
   export let theme;
   export let active;
   export let jobs;
-  export let navigate;
 
   onMount(() => {
     fixedBody = () => {
@@ -55,7 +54,6 @@
       <a  class="c-primary-nav-item-link" on:click={(e) => {
         
         if(!item.submenu.length) {
-          navigate(e);
           return closeSubMenu(e);
         };
         return toggleSubMenu(e, item.link);
@@ -72,7 +70,6 @@
         <SubMenu {theme} name={item.link} align={item.submenuAlign} count={item.submenu.length} {toggleSubMenu}>
           {#each item.submenu as subItem}
             <a class="c-secondary-nav-link" on:click={(e) => {
-              navigate(e);
               closeSubMenu(e);
             }} href={`/${subItem.link}`}>{subItem.label}</a>
           {/each}

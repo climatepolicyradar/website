@@ -9,7 +9,6 @@
   import IconListItem from '$lib/Components/IconListItem.svelte';
   import Pill from '$lib/Components/Pill.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
-  import StickyNav from '$lib/Components/StickyNav.svelte';
   import TwoColumn from '$lib/Components/TwoColumn.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import { theme } from '$lib/stores/theme';
@@ -19,9 +18,7 @@
     header: 'dark',
   };
   const jobs = getContext('jobs');
-  // onMount(() => {
-  //   window.scrollTo(0,0)
-  // })
+
 </script>
 
 <svelte:head>
@@ -38,10 +35,6 @@
   <h1 slot="heading">Join us to build tools that help inform better decisions</h1>
 </Banner>
 
-<!-- <StickyNav>
-  <a href="#working-here">Working here</a>
-  <a href="#open-positions">Open Positions</a>
-</StickyNav> -->
 
 <Spacer size="2xl" />
 

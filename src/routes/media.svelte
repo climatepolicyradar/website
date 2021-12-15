@@ -24,9 +24,6 @@
     header: 'light',
   };
 
-  onMount(() => {
-    window.scrollTo(0,0)
-  })
 </script>
 
 <svelte:head>

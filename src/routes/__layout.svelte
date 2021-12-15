@@ -11,7 +11,8 @@
 </script>
 
 <script>
-  import {setContext} from 'svelte';
+  import {onMount, setContext, afterUpdate} from 'svelte';
+  import { browser } from '$app/env'
   import { page, navigating } from '$app/stores';
   import Header from '$lib/Components/Header.svelte';
   import Footer from '$lib/Components/Footer.svelte';
@@ -32,13 +33,25 @@
       $mobileMenuOpen = false;
     }
   };
+
   export let jobs;
   export let team;
   setContext('jobs', jobs);
   setContext('team', team);
+
+  onMount(() => {
+    history.pushState = new Proxy(history.pushState, {
+      apply (target, thisArg, argumentsList) {
+        Reflect.apply(target, thisArg, argumentsList);
+        window.scrollTo(0,0);
+      }
+    });
+  })
+
 </script>
 
 <svelte:body on:keydown={handleEscapeKey} />
+
 <MediaQuery />
 
 <a class="u-sr-only u-sr-only-focusable" href="#main"> Skip to content </a>

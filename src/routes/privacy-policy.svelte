@@ -1,18 +1,12 @@
 <script>
-  import { onMount } from 'svelte';
   import { theme } from '$lib/stores/theme';
-  import Wrapper from '$lib/Components/Wrapper.svelte';
-  import Spacer from '$lib/Components/Spacer.svelte';
-  import Pill from '$lib/Components/Pill.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
 
   $theme = {
     footer: 'light',
     header: 'light',
   };
-  onMount(() => {
-    window.scrollTo(0,0)
-  })
+
 </script>
 
 <svelte:head>
