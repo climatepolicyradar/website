@@ -10,13 +10,10 @@
         "height": 812
       },
       "group": "Team",
-      "bio": "Michal is an international climate policy and governance expert with background in law, finance, and multinational project management. She spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
+      "bio": "Michal is an international climate policy and governance expert with background in law, finance, and multinational project management. Before founding Climate Policy Radar, she spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
       "highlights": [
-        "Advisor to Climate Action 100+, an investor coalition with over $54 trillion AUM",
-        "Fellow of the UNFCCC Resilience Frontiers",
-        "Speaker on climate policy and action with diverse audiences, with regular appearances on national and international media",
-        "Member of the Camda Community for credible climate action",
-        "Member of the Coalition for Digital Environmental Sustainability"
+        "She is a fellow of the UNFCCC Resilience Frontiers and a founding member of the Climate Tech Council Founders forum. Michal is also a member of the Coalition for Digital Environmental Sustainability and of the Camda Community for credible climate action. She was previously the team lead at the Transition Pathway Initiative, and an advisor to Climate Action 100+, an investor coalition with over $55 trillion AUM. Michal is a speaker on climate policy and action with diverse audiences, with regular appearances on national and international media.",
+        "Michal holds a PhD from the London School of Economics. Her research explored the global diffusion of climate change policies, and the contribution of global networks to advancement of policies. She also has an MA (cum laude) in Energy Policy and Management from the University of Haifa, and an LLB in Law as well as an MBA, specialising in finance, from the Hebrew University of Jerusalem."
       ],
       "social": [
         {
@@ -41,8 +38,7 @@
       },
       "bio": "Chris is a data scientist, applied machine learning practitioner and technology leader, with particular skills in Natural Language Processing.",
       "highlights": [
-        "He has over 20 years of experience building innovative data, analytics and machine learning solutions in the edtech and consumer market research sectors.",
-        "His leadership experience spans software development, product management, consultancy, innovation and R&D. ",
+        "He has over 20 years of experience building innovative data, analytics and machine learning solutions in the edtech and consumer market research sectors. His leadership experience spans software development, product management, consultancy, innovation and R&D. ",
         "Prior to CPR, he was Lead Research Scientist for NielsenIQ, where he led the Applied Machine Learning Research team, building Deep Learning and NLP solutions to structure ecommerce, retail and consumer data, deployed as part of major global strategic initiatives."
       ],
       "social": [
@@ -68,8 +64,7 @@
       },
       "bio": "Marcus is a policy analyst with experience working on a range of international climate change policy issues.",
       "highlights": [
-        "He previously worked in the UK Civil Service on issues including climate diplomacy, trade and climate change and EU policy. ",
-        "His policy skills include research, analysis, briefing and project management.",
+        "He previously worked in the UK Civil Service on issues including climate diplomacy, trade and climate change and EU policy.  His policy skills include research, analysis, briefing and project management.",
         "He holds a BA in Classics and French from Oxford University and a Masters in Linguistics from SOAS, where he researched postcolonial sociolinguistics."
       ],
       "social": [
@@ -136,6 +131,19 @@
           "url": "https://twitter.com/KDutia"
         }
       ]
+    },
+    {
+      "name": "Danny Waite",
+      "role": "Policy",
+      "group": "Team",
+      "bio": "Danny is an international climate policy specialist, with particular expertise on the dynamics of the UNFCCC negotiations.",
+      "highlights": [
+        "He was previously a Blue Book stagiaire in DG CLIMA in the European Commission, and was part of the Greenhouse Gas Removal Hub at the Smith School of Enterprise & Environment at the University of Oxford.",
+        "He holds an MA in Geography from the University of Oxford, an MA in International Law & International Relations from Oxford Brookes University, an MSc in Public Policy from UCL, and a PhD in Human Geography from the University of Reading, where he was a Leverhulme Trust Doctoral Scholar in Climate Justice."
+      ],
+      "image": {
+        "src": "images/team/dannywaite-removebg-preview.png"
+      }
     },
     {
       "name": "Professor Sam Fankhauser",
