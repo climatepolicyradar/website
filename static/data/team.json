@@ -133,6 +133,19 @@
       ]
     },
     {
+      "name": "Danny Waite",
+      "role": "Policy",
+      "group": "Team",
+      "bio": "Danny is an international climate policy specialist, with particular expertise on the dynamics of the UNFCCC negotiations.",
+      "highlights": [
+        "He was previously a Blue Book stagiaire in DG CLIMA in the European Commission, and was part of the Greenhouse Gas Removal Hub at the Smith School of Enterprise & Environment at the University of Oxford.",
+        "He holds an MA in Geography from the University of Oxford, an MA in International Law & International Relations from Oxford Brookes University, an MSc in Public Policy from UCL, and a PhD in Human Geography from the University of Reading, where he was a Leverhulme Trust Doctoral Scholar in Climate Justice."
+      ],
+      "image": {
+        "src": "images/team/dannywaite-removebg-preview.png"
+      }
+    },
+    {
       "name": "Professor Sam Fankhauser",
       "role": "Non-executive Director",
       "group": "Board",
