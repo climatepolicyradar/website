@@ -1029,10 +1029,22 @@ strong {
 .o-p-col {
   width: 85%;
 }
+.o-p-col.small {
+  width: 50%;
+}
 
 .c-p-image {
   max-width: 100%;
-  max-height: 60px;
+  height: 40px;
+}
+.c-p-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 36px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  width: 324px;
 }
 .o-p-col.c-p-label {
   font-weight: bold;

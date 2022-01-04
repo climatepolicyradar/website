@@ -1,6 +1,6 @@
 <script>
   import { theme, mobileMenuOpen } from '$lib/stores/theme';
-
+  import { activeSubMenu } from '$lib/stores/navigation';
   import Logo from '$lib/Components/Logo.svelte';
   import Nav from '$lib/Components/Nav.svelte';
   import Wrapper from './Wrapper.svelte';
@@ -10,36 +10,59 @@
   let y = 0;
   $: sticky = y > 40;
 
+  let color;
+  $: color =
+    sticky || $mobileMenuOpen || $theme.header === 'light'
+      ? 'dark-glow'
+      : 'white';
+
   export let active;
   export let jobs;
 </script>
 
 <svelte:window bind:scrollY={y} />
 
-<header class="c-site-header">
-  <Wrapper type="x-wide">
-    <div class="c-site-header__inner" class:sticky>
-      <a class="c-site-header__logo" href="/">
-        <Logo theme={sticky ? 'light' : $theme.header} />
-      </a>
+<header class="c-site-header" class:sticky>
+  <Wrapper type="full">
+    <Wrapper type="x-wide">
+      <div class="c-site-header__inner">
+        <a
+          class="c-site-header__logo"
+          href="/"
+          on:click={(e) => {
+            $activeSubMenu = null;
+          }}
+        >
+          <Logo theme={sticky ? 'light' : $theme.header} />
+        </a>
+        <Button
+          class="c-site-header__menu-button"
+          {color}
+          size="cta"
+          action={() => ($mobileMenuOpen = !$mobileMenuOpen)}
+        >
+          {#if $mobileMenuOpen}
+            Close
+          {:else}
+            Menu
+          {/if}
+        </Button>
 
-      <Button class="c-site-header__menu-button" color="dark-glow" size="cta" action={() => ($mobileMenuOpen = !$mobileMenuOpen)}>
-        {#if $mobileMenuOpen}
-          Close
-        {:else}
-          Menu
-        {/if}
-      </Button>
-
-      <Nav theme={sticky ? 'light' : $theme.header} {active} {jobs} open={$mobileMenuOpen} />
-    </div>
+        <Nav
+          theme={sticky ? 'light' : $theme.header}
+          {active}
+          {jobs}
+          open={$mobileMenuOpen}
+        />
+      </div>
+    </Wrapper>
   </Wrapper>
 </header>
 
 <style>
   .c-site-header {
     position: fixed;
-    top: 16px;
+    top: 0;
     width: 100%;
     z-index: 100;
     transition: all 0.2s ease;
@@ -48,12 +71,6 @@
   @media (max-width: 320px) {
     .c-site-header {
       padding: 8px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .c-site-header {
-      top: 32px;
     }
   }
 
@@ -95,7 +112,7 @@
   }
 
   @media (min-width: 768px) {
-   :global(.c-site-header__menu-button) {
+    :global(.c-site-header__menu-button) {
       display: none !important;
     }
   }

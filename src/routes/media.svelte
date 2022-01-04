@@ -1,10 +1,9 @@
 <script lang="ts" context="module">
-
   export const load = async ({ fetch }) => {
-      const res = await fetch('/data/press.json');
-      const data = await res.json();
-      const { pressClippings } = data;
-      return { props: { pressClippings } };
+    const res = await fetch('/data/press.json');
+    const data = await res.json();
+    const { pressClippings } = data;
+    return { props: { pressClippings } };
   };
 </script>
 
@@ -25,28 +24,24 @@
 </script>
 
 <svelte:head>
-  <title>Press | Climate Policy Radar</title>
+  <title>Media | Climate Policy Radar</title>
   <meta name="description" content="Climate Policy Radar in the Press" />
 </svelte:head>
-
 
 <Body class="has-gradient--blue-to-white" />
 
 <Banner theme="none" size="xs">
   <svelte:fragment slot="pill">
-    <Pill color="blue" upper>Press &amp; Media</Pill>
+    <Pill color="blue" upper>Media</Pill>
     <Spacer size="sm" />
   </svelte:fragment>
 
-  <h1 slot="heading" class="u-gradient-text--dark-to-blue">
-    In the Press
-  </h1>
+  <h1 slot="heading" class="u-gradient-text--dark-to-blue">In the Media</h1>
 </Banner>
 
 <Wrapper>
-  <Press limit={9} showMore {pressClippings} />
+  <Press limit={99} {pressClippings} />
 </Wrapper>
 
 <style>
-
 </style>

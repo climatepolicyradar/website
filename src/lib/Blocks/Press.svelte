@@ -11,17 +11,30 @@
 
   $: items = pressClippings ? pressClippings.slice(0, limit) : [];
 
+  $: sortedItems = items ? sortItems(items) : [];
+
+  const sortItems = (items) => {
+    return items?.sort(function (a, b) {
+      const da = new Date(a.date);
+      const db = new Date(b.date)
+      const timeA = da.getTime();
+      const timeB = db.getTime();
+      return timeB - timeA;
+    });
+  }
   const showAll = () => limit = 99;
 </script>
 
 <CardsGrid columnsDesktop="3" columnsMobile="1">
-  {#each items as item, i}
+  {#each sortedItems as item, i}
     <CardSquare
       visible={i + 1 <= limit}
       pill={item.type}
       date={item.date}
       title={item.title}
-      excerpt={item.source}
+      source={item.source}
+      excerpt={item.excerpt}
+      background={item.background}
       link={item.url}
       target="_blank"
       rel="noopener noreferrer external"

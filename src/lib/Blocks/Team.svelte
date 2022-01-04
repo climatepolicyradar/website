@@ -10,6 +10,7 @@
   import Heading from '$lib/Components/Heading.svelte';
   import CardTeamCta from '$lib/Components/CardTeamCta.svelte';
   import TeamProfile from '$lib/Components/TeamProfile.svelte';
+  import Spacer from '$lib/Components/Spacer.svelte';
 
   let activePerson;
   let activeFilter;
@@ -54,35 +55,27 @@
 </script>
 
 <div class="b-team">
+  {#each groups as group}
   <Wrapper>
+    
     <Heading>
-      <h3 class="u-type-body-xxl">Our Team</h3>
-
-      <div class="b-team__filter">
-        {#each groups as group}
-          <Button
-            size="xs"
-            color={activeFilter === group ? 'white' : 'sky-fade'}
-            action={() => handleFilter(group)}
-          >
-            {group}
-          </Button>
-        {/each}
-      </div>
+      <h3 class="u-type-body-xxl">{group}</h3>
     </Heading>
     
-    <CardsGrid columnsTiny="1" columnsMobile="2" columnsTablet="3" columnsDesktop="4">
-      {#each visibleMembers as person}
-        <CardTeam
-          name={person.name}
-          role={person.role}
-          image={person.image}
-          bio={person.bio}
-          action={() => handleModal(person)}
-        />
+    <CardsGrid columnsTiny="1" columnsMobile="1" columnsTablet="3" columnsDesktop="4">
+      {#each members as person}
+        {#if person.group === group}
+          <CardTeam
+            name={person.name}
+            role={person.role}
+            image={person.image}
+            bio={person.bio}
+            action={() => handleModal(person)}
+          />
+        {/if}
       {/each}
 
-      {#if activeFilter === 'Team'}
+      {#if group === 'Team'}
         <CardTeamCta />
       {/if}
 
@@ -94,6 +87,8 @@
       {/if}
     </Modal>
   </Wrapper>
+  <Spacer size="lg" />
+  {/each}
 </div>
 
 <style>

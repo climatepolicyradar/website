@@ -18,7 +18,10 @@
 
 <svelte:head>
   <title>Contact | Climate Policy Radar</title>
-  <meta name="description" content="Get in touch with not-for profit data-led climate startup, Climate Policy Radar" />
+  <meta
+    name="description"
+    content="Get in touch with not-for profit data-led climate startup, Climate Policy Radar"
+  />
 </svelte:head>
 
 <Body class="has-gradient--dark-blue" />

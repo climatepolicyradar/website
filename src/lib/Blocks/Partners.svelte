@@ -18,7 +18,7 @@
 
 <Wrapper>
   {#each groups as group}
-    <div class="b-partners">
+    <div class="b-partners" id={group.toLowerCase()}>
       <div class="b-partners__group">
         <div class="b-partners__group__header">
           <h3 class="u-type-body-xxl">Our {group}</h3>
@@ -27,7 +27,7 @@
           {#each partnerList as partner}
             {#if partner.group === group}
               <a class="b-partners__group__item" href={partner.url} target="_blank" rel="nofollow noopener noreferrer">
-                <img src={partner.logo} alt={`${partner.name} logo`} width="235" height="240" loading="lazy" />
+                <img src={partner.logo} alt={`${partner.name} logo`} loading="lazy" />
               </a>
             {/if}
           {/each}
@@ -39,13 +39,13 @@
 
 <style>
   .b-partners {
-    padding: 64px 0;
+    padding: 32px 0;
   }
 
   .b-partners__group {
     display: flex;
     flex-direction: column;
-    padding: 64px 0;
+    padding: 32px 0;
   }
 
   .b-partners__group:first-child {
@@ -62,11 +62,21 @@
     justify-content: center;
     gap: 16px;
     width: 100%;
+    background: var(--color-grey);
+    border-radius: 30px;
+    padding: 8px;
   }
 
-  @media only screen and (min-width: 720px) {
+  @media only screen and (min-width: 768px) {
     .b-partners__group__items {
-      gap: 32px;
+      gap: 16px;
+      padding: 16px;
+    }
+  }
+
+  @media only screen and (min-width: 1024px) {
+    .b-partners__group__items {
+      padding: 24px;
     }
   }
 
@@ -75,16 +85,15 @@
     align-items: center;
     justify-content: center;
     border-radius: 30px;
-    background-color: var(--color-grey);
-    height: 96px;
-    padding: 16px;
+    height: 80px;
+    padding: 0 8px;
     width: 50%;
   }
 
   @media only screen and (min-width: 720px) {
     .b-partners__group__item {
-      height: 180px;
-      padding: 24px 48px;
+      height: 120px;
+      padding: 0 16px;
     }
   }
 
@@ -97,7 +106,7 @@
   @media only screen and (min-width: 720px) {
     .b-partners__group__item img {
       max-height: 96px;
-      max-width: 240px;
+      max-width: 100%;
     }
   }
 
@@ -111,7 +120,7 @@
 
   @media only screen and (min-width: 720px) {
     .b-partners__group__items--partners .b-partners__group__item {
-      width: calc(33% - 18px);
+      width: calc(25% - 18px);
     }
   }
 </style>

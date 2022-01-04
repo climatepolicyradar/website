@@ -17,18 +17,18 @@
     font-weight: 500;
     font-size: 36px;
     line-height: 46px;
-    padding: 120px 32px;
+    padding: 80px 32px;
   }
 
   @media only screen and (min-width: 321px) {
     .b-single-column__content {
-      padding: 120px 72px;
+      padding: 80px 72px;
     }
   }
 
   @media only screen and (min-width: 720px) {
     .b-single-column__content {
-      padding: 240px 0;
+      padding: 136px 0;
     }
   }
 </style>

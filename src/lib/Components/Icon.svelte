@@ -14,6 +14,13 @@
   import Trends from "./Icons/Trends.svelte";
   import Twitter from "./Icons/Twitter.svelte";
   import Wellbeing from "./Icons/Wellbeing.svelte";
+  import Moonshot from "./Icons/Moonshot.svelte";
+  import Excellence from "./Icons/Excellence.svelte";
+  import Truth from "./Icons/Truth.svelte";
+  import Transparency from "./Icons/Transparency.svelte";
+  import Learning from "./Icons/Learning.svelte";
+  import EmotionalIntelligence from "./Icons/EmotionalIntelligence.svelte";
+  import Collaboration from "./Icons/Collaboration.svelte";
 
   const icons = {
     arrow: Arrow,
@@ -30,6 +37,13 @@
     trends: Trends,
     twitter: Twitter,
     wellbeing: Wellbeing,
+    moonshot: Moonshot,
+    excellence: Excellence,
+    truth: Truth,
+    transparency: Transparency,
+    learning: Learning,
+    emotionalIntelligence: EmotionalIntelligence,
+    collaboration: Collaboration
   }
 
   export let name;
@@ -86,6 +100,16 @@
     background-color: #fff;
     border-radius: 50%;
     z-index: 1;
+  }
+  .c-icon--moonshot,
+  .c-icon--excellence,
+  .c-icon--truth,
+  .c-icon--transparency,
+  .c-icon--learning,
+  .c-icon--emotionalIntelligence,
+  .c-icon--collaboration {
+    width: 64px;
+    height: 50px;
   }
 
   :global(.c-card .c-icon--arrowRound:after) {

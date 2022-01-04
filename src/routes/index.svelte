@@ -17,16 +17,13 @@
   import About from '$lib/Blocks/About.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import Button from '$lib/Components/Button.svelte';
-  import Heading from '$lib/Components/Heading.svelte';
   import How from '$lib/Blocks/How.svelte';
   import LatestPosts from '$lib/Blocks/LatestPosts.svelte';
   import OpenData from '$lib/Blocks/OpenData.svelte';
   import Partners from '$lib/Blocks/Partners.svelte';
-  import Press from '$lib/Blocks/Press.svelte';
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';
-  import Wrapper from '$lib/Components/Wrapper.svelte';
 
   $theme = {
     footer: 'light',
@@ -55,7 +52,7 @@
 </Banner>
 
 <SingleColumn>
-  <p class="u-type-body-xxl u-text-center u-gradient-text--dark-to-blue">
+  <p class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
     We are on a mission to map and analyse the climate policy landscape globally and drive the
     transition to a low carbon, resilient world.
   </p>
@@ -73,19 +70,12 @@
 
 <Partners {partnerList} />
 
+<Spacer size="md" />
+
 <OpenData />
 
 <Spacer size="lg" />
 
 <LatestPosts posts={featuredPosts} limit="1" cardTheme="dark" />
-
-<Spacer size="sm" />
-
-<Wrapper>
-  <Heading>
-    <h3>In the press</h3>
-  </Heading>
-  <Press limit="3" link="/press" />
-</Wrapper>
 
 <Spacer size="lg" />
