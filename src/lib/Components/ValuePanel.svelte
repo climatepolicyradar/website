@@ -25,42 +25,20 @@
 
 <style>
   
-  
+  .c-panel {
+    display: flex;
+    flex-direction: column;
+  }
   .c-panel:not(:first-child) {
     margin-top: 32px;
   }
   @media (min-width: 768px) {
-    .c-panel {
-      display: flex;
-    }
-    
-  }
-  @media (min-width: 1024px) {
-    .c-panel {
-      max-width: 700px;
-      
-    }
-    .c-panel:nth-child(odd) {
-      margin-right: auto;
-    }
-    .c-panel:nth-child(even) {
-      margin-left: auto;
+    .c-panel:not(:first-child) {
+      margin-top: 0;
     }
   }
-  .c-panel__title {
-    font-size: 16px;
-    padding-left: 8px;
-  }
-  @media (min-width: 768px) {
-    .c-panel__title {
-      padding-left: 0;
-      text-align: center;
-      margin-top: 16px;
-    }
-  }
-  .c-panel__col {
-
-  }
+  
+  
   .c-panel__col-title {
     
     background: var(--color-indigo);
@@ -75,27 +53,18 @@
   }
   @media (min-width: 768px) {
     .c-panel__col-title {
-      justify-content: center;
-      flex-direction: column;
-      width: 25%;
-      text-align: center;
-      border-top-right-radius: 0;
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
+      padding: 24px;
+    }
+  }
 
+  .c-panel__title {
+    font-size: 16px;
+    padding-left: 8px;
+  }
+  @media (min-width: 768px) {
+    .c-panel__title {
+      font-size: 24px;
     }
-    /* .c-panel__col-title.left {
-      border-top-right-radius: 0;
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
-      order: 1;
-    }
-    .c-panel__col-title.right {
-      border-top-left-radius: 0;
-      border-top-right-radius: 30px;
-      border-bottom-right-radius: 30px;
-      order: 2;
-    } */
   }
   
   .c-panel__col-text {
@@ -108,23 +77,9 @@
   }
   @media (min-width: 768px) {
     .c-panel__col-text {
-      width: 75%;
+      padding: 24px;
       font-size: 16px;
-      border-bottom-left-radius: 0;
-      border-top-right-radius: 30px;
-      border-bottom-right-radius: 30px;
+      flex-grow: 1;
     }
-    /* .c-panel__col-text.left {
-      border-bottom-right-radius: 0;
-      border-top-left-radius: 30px;
-      border-bottom-left-radius: 30px;
-      order: 1;
-    }
-    .c-panel__col-text.right {
-      border-bottom-left-radius: 0;
-      border-top-right-radius: 30px;
-      border-bottom-right-radius: 30px;
-      order: 2;
-    } */
   }
 </style>
