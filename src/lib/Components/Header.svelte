@@ -62,7 +62,7 @@
 <style>
   .c-site-header {
     position: fixed;
-    top: 16px;
+    top: 0;
     width: 100%;
     z-index: 100;
     transition: all 0.2s ease;
@@ -71,12 +71,6 @@
   @media (max-width: 320px) {
     .c-site-header {
       padding: 8px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .c-site-header {
-      top: 32px;
     }
   }
 
