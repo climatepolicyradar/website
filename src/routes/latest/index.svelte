@@ -24,7 +24,6 @@
   };
 
   export let posts;
-
 </script>
 
 <svelte:head>
@@ -38,7 +37,8 @@
   </svelte:fragment>
 
   <h1 slot="heading" class="u-gradient-text--dark-to-blue">
-    All the latest from our journey to map and analyse the climate policy landscape
+    All the latest from our journey to map and analyse the climate policy
+    landscape
   </h1>
 </Banner>
 
@@ -50,7 +50,8 @@
         date={post.date}
         image={post.thumb}
         excerpt={post.excerpt}
-        slug={post.slug} />
+        slug={post.slug}
+      />
     {/each}
   </CardsList>
 </Wrapper>

@@ -1,5 +1,5 @@
 <script>
-  import {getContext, onMount} from 'svelte';
+  import { getContext } from 'svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import Button from '$lib/Components/Button.svelte';
   import CardCompact from '$lib/Components/CardCompact.svelte';
@@ -18,12 +18,14 @@
     header: 'dark',
   };
   const jobs = getContext('jobs');
-
 </script>
 
 <svelte:head>
   <title>Jobs | Climate Policy Radar</title>
-  <meta name="description" content="Join us to build tools that help inform better decisions" />
+  <meta
+    name="description"
+    content="Join us to build tools that help inform better decisions"
+  />
 </svelte:head>
 
 <Banner theme="dark" size="sm">
@@ -32,9 +34,10 @@
     <Spacer size="sm" />
   </svelte:fragment>
 
-  <h1 slot="heading">Join us to build tools that help inform better decisions</h1>
+  <h1 slot="heading">
+    Join us to build tools that help inform better decisions
+  </h1>
 </Banner>
-
 
 <Spacer size="2xl" />
 
@@ -48,26 +51,30 @@
         <Icon name="impact" />
         <h3 class="u-type-body-xl">High impact</h3>
         <p class="u-type-body-md">
-          A high impact and exciting mission at the intersection of technology, AI and policy. A
-          chance to co-create and help us shape our journey ‒ we are building our team and vision, so your input and impact will be significant.
+          A high impact and exciting mission at the intersection of technology,
+          AI and policy. A chance to co-create and help us shape our journey ‒
+          we are building our team and vision, so your input and impact will be
+          significant.
         </p>
       </IconListItem>
       <IconListItem orientation="vertical">
         <Icon name="mission" />
         <h3 class="u-type-body-xl">Larger community</h3>
         <p class="u-type-body-md">
-          Access to a larger community of climate and data enthusiasts ‒ we are a member of Subak, an
-          accelerator and cooperative for climate non-profit startups, and enjoy a joint programme of
-          learning, collaborating and socialising.
+          Access to a larger community of climate and data enthusiasts ‒ we are
+          a member of Subak, an accelerator and cooperative for climate
+          non-profit startups, and enjoy a joint programme of learning,
+          collaborating and socialising.
         </p>
       </IconListItem>
       <IconListItem orientation="vertical">
         <Icon name="wellbeing" />
         <h3 class="u-type-body-xl">Commitment to your wellbeing</h3>
         <p class="u-type-body-md">
-          A deep commitment to our employees’ mental and physical wellbeing. Among others we offer
-          unlimited leave, flexible work hours, a generous wellbeing allowance, short Fridays, and
-          great coffee. Hybrid work arrangement: stunning work space overlooking Westminster Bridge,
+          A deep commitment to our employees’ mental and physical wellbeing.
+          Among others we offer unlimited leave, flexible work hours, a generous
+          wellbeing allowance, short Fridays, and great coffee. Hybrid work
+          arrangement: stunning work space overlooking Westminster Bridge,
           combined with remote working.
         </p>
       </IconListItem>
@@ -75,10 +82,9 @@
 
     <div class="b-working-here__cta">
       <Button href="/about/#values" color="grey" size="lg">
-        We deeply care about our values. <span>See them here.</span>  
+        We deeply care about our values. <span>See them here.</span>
       </Button>
     </div>
-
   </Wrapper>
 </section>
 
@@ -90,14 +96,19 @@
       <h2 class="u-type-body-xxl">Open Positions</h2>
     </div>
     <svelte:fragment slot="col-2">
-      <CardsList >
+      <CardsList>
         {#each jobs as job}
-          <CardCompact title={job.title} excerpt={job.excerpt} link={`/jobs/${job.slug}`} />
+          <CardCompact
+            title={job.title}
+            excerpt={job.excerpt}
+            link={`/jobs/${job.slug}`}
+          />
         {/each}
       </CardsList>
       <p class="b-open-postion__cta u-type-body-lg">
-        If you want to work with us, but there isn't a role that isn't quite right, <a href="/contact">drop us a line</a>.
-        We also welcome collaboration on our open source projects.
+        If you want to work with us, but there isn't a role that isn't quite
+        right, <a href="/contact">drop us a line</a>. We also welcome
+        collaboration on our open source projects.
       </p>
     </svelte:fragment>
   </TwoColumn>
@@ -133,7 +144,6 @@
     justify-content: space-between;
     margin-bottom: 32px;
   }
-  
 
   .b-open-postion__cta {
     padding-top: 90px;
@@ -157,6 +167,5 @@
   .b-open-postion__cta a {
     color: var(--color-indigo);
     text-decoration: underline;
-  } 
-
+  }
 </style>
