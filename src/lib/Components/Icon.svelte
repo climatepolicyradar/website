@@ -1,26 +1,26 @@
 <script>
-  import Arrow from "./Icons/Arrow.svelte";
-  import ArrowRound from "./Icons/ArrowRound.svelte";
-  import Default from "./Icons/Default.svelte";
-  import Github from "./Icons/Github.svelte";
-  import Graph from "./Icons/Graph.svelte";
-  import Impact from "./Icons/Impact.svelte";
-  import Learn from "./Icons/Learn.svelte";
-  import LinkedIn from "./Icons/LinkedIn.svelte";
-  import Machine from "./Icons/Machine.svelte";
-  import Mission from "./Icons/Mission.svelte";
-  import Radar from "./Icons/Radar.svelte";
-  import Research from "./Icons/Research.svelte";
-  import Trends from "./Icons/Trends.svelte";
-  import Twitter from "./Icons/Twitter.svelte";
-  import Wellbeing from "./Icons/Wellbeing.svelte";
-  import Moonshot from "./Icons/Moonshot.svelte";
-  import Excellence from "./Icons/Excellence.svelte";
-  import Truth from "./Icons/Truth.svelte";
-  import Transparency from "./Icons/Transparency.svelte";
-  import Learning from "./Icons/Learning.svelte";
-  import EmotionalIntelligence from "./Icons/EmotionalIntelligence.svelte";
-  import Collaboration from "./Icons/Collaboration.svelte";
+  import Arrow from './Icons/Arrow.svelte';
+  import ArrowRound from './Icons/ArrowRound.svelte';
+  import Default from './Icons/Default.svelte';
+  import Github from './Icons/Github.svelte';
+  import Graph from './Icons/Graph.svelte';
+  import Impact from './Icons/Impact.svelte';
+  import Learn from './Icons/Learn.svelte';
+  import LinkedIn from './Icons/LinkedIn.svelte';
+  import Machine from './Icons/Machine.svelte';
+  import Mission from './Icons/Mission.svelte';
+  import Radar from './Icons/Radar.svelte';
+  import Research from './Icons/Research.svelte';
+  import Trends from './Icons/Trends.svelte';
+  import Twitter from './Icons/Twitter.svelte';
+  import Wellbeing from './Icons/Wellbeing.svelte';
+  import Moonshot from './Icons/Moonshot.svelte';
+  import Excellence from './Icons/Excellence.svelte';
+  import Truth from './Icons/Truth.svelte';
+  import Transparency from './Icons/Transparency.svelte';
+  import Learning from './Icons/Learning.svelte';
+  import EmotionalIntelligence from './Icons/EmotionalIntelligence.svelte';
+  import Collaboration from './Icons/Collaboration.svelte';
 
   const icons = {
     arrow: Arrow,
@@ -43,20 +43,23 @@
     transparency: Transparency,
     learning: Learning,
     emotionalIntelligence: EmotionalIntelligence,
-    collaboration: Collaboration
-  }
+    collaboration: Collaboration,
+  };
 
   export let name;
   export let size = '64px';
   export let fill = 'var(--color-blue)';
   export let theme = 'light';
 
-  const iconComponent = icons.hasOwnProperty(name) ? icons[name] : Default
+  const iconComponent = icons.hasOwnProperty(name) ? icons[name] : Default;
 </script>
 
 {#if iconComponent}
-  <span class="c-icon c-icon--{name} c-icon--{theme}" style="--icon-size: {size};">
-    <svelte:component this={iconComponent} fill={fill}/>
+  <span
+    class="c-icon c-icon--{name} c-icon--{theme}"
+    style="--icon-size: {size};"
+  >
+    <svelte:component this={iconComponent} {fill} />
   </span>
 {/if}
 
@@ -79,19 +82,24 @@
   }
 
   .c-icon--arrowRound::before {
-    content: "";
+    content: '';
     position: absolute;
     top: -2px;
     left: -2px;
     width: 48px;
     height: 48px;
-    background: linear-gradient(134.5deg, rgba(50,35,50,1) 0%, rgba(31,147,255,1) 0%, rgba(255,255,255,1) 53%);
+    background: linear-gradient(
+      134.5deg,
+      rgba(50, 35, 50, 1) 0%,
+      rgba(31, 147, 255, 1) 0%,
+      rgba(255, 255, 255, 1) 53%
+    );
     border-radius: 50%;
     z-index: 0;
   }
 
   .c-icon--arrowRound:after {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
@@ -139,5 +147,4 @@
   :global(.c-card .c-icon--dark.c-icon--arrowRound svg path) {
     fill: var(--color-white);
   }
-
 </style>
