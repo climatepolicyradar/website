@@ -1,12 +1,6 @@
 {
   "partnerList": [
     {
-      "name": "DLA Piper UK LLP",
-      "group": "Partners",
-      "logo": "images/partners/dla-piper-logo.png",
-      "url": "http://www.dlapiper.com"
-    },
-    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
@@ -53,6 +47,12 @@
       "logo": "images/partners/cdkn-logo.png",
       "group": "Partners",
       "url": "https://cdkn.org/"
+    },
+    {
+      "name": "DLA Piper UK LLP",
+      "group": "Partners",
+      "logo": "images/partners/dla-piper-logo.png",
+      "url": "http://www.dlapiper.com"
     },
     {
       "name": "Adobe",
