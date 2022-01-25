@@ -57,7 +57,7 @@
         {#if item.submenu.length}
           <Chevron />
         {/if}
-        {#if item.link === 'jobs'}
+        {#if item.link === 'jobs' && jobs.length > 0}
           <Badge color="blue">{jobs.length}</Badge>
         {/if}
       </a>

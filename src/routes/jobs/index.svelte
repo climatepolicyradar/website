@@ -18,6 +18,7 @@
     header: 'dark',
   };
   const jobs = getContext('jobs');
+  const ctaEmptyClass = jobs.length === 0 ? 'empty-list' : '';
 </script>
 
 <svelte:head>
@@ -96,16 +97,23 @@
       <h2 class="u-type-body-xxl">Open Positions</h2>
     </div>
     <svelte:fragment slot="col-2">
-      <CardsList>
-        {#each jobs as job}
-          <CardCompact
-            title={job.title}
-            excerpt={job.excerpt}
-            link={`/jobs/${job.slug}`}
-          />
-        {/each}
-      </CardsList>
-      <p class="b-open-postion__cta u-type-body-lg">
+      {#if jobs.length > 0}
+        <CardsList>
+          {#each jobs as job}
+            <CardCompact
+              title={job.title}
+              excerpt={job.excerpt}
+              link={`/jobs/${job.slug}`}
+            />
+          {/each}
+        </CardsList>
+      {:else}
+        <CardsList>
+          <CardCompact title="There are no open roles at the moment." />
+        </CardsList>
+      {/if}
+
+      <p class="u-type-body-lg b-open-postion__cta {ctaEmptyClass}">
         If you want to work with us, but there isn't a role that isn't quite
         right, <a href="/contact">drop us a line</a>. We also welcome
         collaboration on our open source projects.
@@ -156,6 +164,16 @@
       left: 0;
       max-width: 28ch;
       padding-top: 0;
+    }
+    .b-open-postion__cta.empty-list {
+      bottom: auto;
+      top: 220px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .b-open-postion__cta.empty-list {
+      top: 180px;
     }
   }
 
