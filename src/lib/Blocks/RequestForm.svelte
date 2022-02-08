@@ -1,5 +1,11 @@
 <script>
   import { modalStore } from '$lib/stores/theme';
+  import {
+    data_types,
+    geo_scope,
+    data_focus,
+    policy_databases,
+  } from '$lib/stores/formOptions';
 
   import Button from '$lib/Components/Button.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
@@ -11,6 +17,9 @@
   const handleSubmit = (e) => {
     e.preventDefault();
     let formData = new FormData(formElement);
+    const dataTypes = new URLSearchParams(formData).getAll('data_types');
+    console.log(d);
+    return;
 
     fetch('/', {
       method: 'POST',
@@ -39,7 +48,13 @@
   >
     <label class="c-request-form__label">
       <span class="c-request-form__label-text">Name</span>
-      <input type="text" name="name" placeholder="Name" autocomplete="name" required />
+      <input
+        type="text"
+        name="name"
+        placeholder="Name"
+        autocomplete="name"
+        required
+      />
     </label>
 
     <label class="c-request-form__label">
@@ -54,8 +69,100 @@
 
     <label class="c-request-form__label">
       <span class="c-request-form__label-text">Email</span>
-      <input type="email" name="email" placeholder="Email address" autocomplete="email" required />
+      <input
+        type="email"
+        name="email"
+        placeholder="Email address"
+        autocomplete="email"
+        required
+      />
     </label>
+
+    <div class="c-request-form__row">
+      <div class="c-request-form__row-group">
+        <span class="c-request-form__label-text"
+          >What type(s) of climate policy data are you interested in? (select
+          all that apply)</span
+        >
+        {#each $data_types as option, index}
+          <div class="c-request-form__row-checkbox">
+            <label for={option.id}>
+              <input
+                type="checkbox"
+                name="data_types"
+                value={option.value}
+                id={option.id}
+              />
+              <span>{option.label}</span>
+            </label>
+          </div>
+        {/each}
+
+        <input type="text" name="other_data_types" />
+      </div>
+
+      <div class="c-request-form__row-group">
+        <span class="c-request-form__label-text"
+          >What's the geographical scope of the data you're interested in?
+          (select all that apply)</span
+        >
+
+        {#each $geo_scope as option, index}
+          <div class="c-request-form__row-checkbox">
+            <label for={option.id}>
+              <input
+                type="checkbox"
+                name="data_types"
+                value={option.value}
+                id={option.id}
+              />
+              <span>{option.label}</span>
+            </label>
+          </div>
+        {/each}
+      </div>
+
+      <div class="c-request-form__row-group">
+        <span class="c-request-form__label-text"
+          >What is the focus of the data you're interested in? (select all that
+          apply)</span
+        >
+        {#each $data_focus as option, index}
+          <div class="c-request-form__row-checkbox">
+            <label for={option.id}>
+              <input
+                type="checkbox"
+                name="data_types"
+                value={option.value}
+                id={option.id}
+              />
+              <span>{option.label}</span>
+            </label>
+          </div>
+        {/each}
+        <input type="text" name="other_data_focus" />
+      </div>
+
+      <div class="c-request-form__row-group">
+        <span class="c-request-form__label-text"
+          >Have you used any of these climate policy databases in the past?</span
+        >
+        {#each $policy_databases as option, index}
+          <div class="c-request-form__row-checkbox">
+            <label for={option.id}>
+              <input
+                type="checkbox"
+                name="data_types"
+                value={option.value}
+                id={option.id}
+              />
+              <span>{option.label}</span>
+            </label>
+          </div>
+        {/each}
+        <input type="text" name="other_policy_databases" />
+      </div>
+    </div>
 
     <label class="c-request-form__label">
       <span class="c-request-form__label-text">Message</span>
@@ -127,6 +234,26 @@
     }
   }
 
+  .c-request-form__row {
+    margin-bottom: 16px;
+  }
+
+  .c-request-form__row-group {
+    margin: 12px 0;
+    border-top: 1px solid var(--color-indigo-200);
+    padding: 12px 0;
+  }
+
+  .c-request-form__row-checkbox {
+    margin: 4px 0;
+  }
+  .c-request-form__row-checkbox label {
+    color: var(--color-indigo-500);
+  }
+  input[type='checkbox'] {
+    margin-right: 8px;
+  }
+
   input[type='text'],
   input[type='email'],
   select {
@@ -135,9 +262,10 @@
     padding: 16px;
     line-height: 36px;
     line-height: 1;
-    border: none;
-    background-color: #f9f9f9;
+    /* border: none; */
+    background-color: var(--color-indigo-100);
     border-radius: 6px;
+    border: 1px solid var(--color-indigo-400);
   }
 
   @media (min-width: 768px) {
