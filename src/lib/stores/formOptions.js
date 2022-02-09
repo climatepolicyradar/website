@@ -90,7 +90,7 @@ const data_focus = readable([
   {
     id: 'other_data_focus',
     value: 'Other',
-    label: 'Other',
+    label: 'Other...',
   },
 ]);
 
@@ -123,8 +123,45 @@ const policy_databases = readable([
   {
     id: 'other_policy_databases',
     value: 'Other',
-    label: 'Other',
+    label: 'Other...',
   },
 ]);
 
-export { data_types, geo_scope, data_focus, policy_databases };
+const affiliation_types = readable([
+  {
+    value: 'Academia',
+    label: 'Academia',
+  },
+  {
+    value: 'Public Sector',
+    label: 'Public Sector',
+  },
+  {
+    value: 'Private Sector',
+    label: 'Private Sector',
+  },
+  {
+    value: 'IGO',
+    label: 'IGO',
+  },
+  {
+    value: 'NGO',
+    label: 'NGO/not-for-profit organisation',
+  },
+  {
+    value: 'Individual',
+    label: 'Individual',
+  },
+  {
+    value: 'Other',
+    label: 'Other...',
+  },
+]);
+
+export {
+  data_types,
+  geo_scope,
+  data_focus,
+  policy_databases,
+  affiliation_types,
+};
