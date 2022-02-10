@@ -38,7 +38,7 @@
     const nodeName = e.currentTarget.nodeName;
     let value = element.value;
     const targetElement = document.getElementById(
-      `other_input_${element.name}`
+      `other_input_${element.name.slice(0, -2)}`
     );
     if (nodeName === 'INPUT' && value !== 'Other') return;
     if (nodeName === 'INPUT' && !element.checked) {
@@ -149,7 +149,7 @@
     <label class="c-request-form__label">
       <span class="c-request-form__label-text required">Affiliation type:</span>
       <select
-        name="affiliation_type"
+        name="affiliation_type[]"
         id="affiliation_type"
         on:change={handleChange}
         bind:value={affTypes}
@@ -207,7 +207,7 @@
             <label for={option.id}>
               <input
                 type="checkbox"
-                name="data_types"
+                name="data_types[]"
                 value={option.value}
                 id={option.id}
                 on:change={handleChange}
@@ -249,7 +249,7 @@
             <label for={option.id}>
               <input
                 type="checkbox"
-                name="geo_scope"
+                name="geo_scope[]"
                 value={option.value}
                 id={option.id}
                 bind:group={geoScope}
@@ -275,7 +275,7 @@
             <label for={option.id}>
               <input
                 type="checkbox"
-                name="data_focus"
+                name="data_focus[]"
                 value={option.value}
                 id={option.id}
                 on:change={handleChange}
@@ -313,7 +313,7 @@
             <label for={option.id}>
               <input
                 type="checkbox"
-                name="policy_databases"
+                name="policy_databases[]"
                 value={option.value}
                 id={option.id}
                 on:change={handleChange}
