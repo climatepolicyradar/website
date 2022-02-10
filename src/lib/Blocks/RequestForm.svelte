@@ -205,7 +205,7 @@
           <legend>Policy Data Types</legend>
           {#each $data_types as option, index}
             <div class="c-request-form__row-checkbox">
-              <label for={option.id}>
+              <label>
                 <input
                   type="checkbox"
                   name="data_types[]"
