@@ -91,8 +91,8 @@
       return;
     }
 
-    console.log(new URLSearchParams(formData).entries());
-    return;
+    // console.log(new URLSearchParams(formData).entries());
+    // return;
 
     fetch('/', {
       method: 'POST',
