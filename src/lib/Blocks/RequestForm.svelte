@@ -208,7 +208,7 @@
               <label>
                 <input
                   type="checkbox"
-                  name="data_types[]"
+                  name="policy_data_types[]"
                   value={option.value}
                   id={option.id}
                   on:change={handleChange}
@@ -226,12 +226,12 @@
           </div>
         {/if}
 
-        <label id="other_input_data_types" class="c-request-form__other">
+        <label id="other_input_policy_data_types" class="c-request-form__other">
           <input
             class="required"
             type="text"
             bind:value={otherDataTypes}
-            name="other_data_types"
+            name="other_policy_data_types"
           />
         </label>
       </div>
@@ -246,20 +246,23 @@
             {optionsError}
           </div>
         {/if}
-        {#each $geo_scope as option, index}
-          <div class="c-request-form__row-checkbox">
-            <label for={option.id}>
-              <input
-                type="checkbox"
-                name="geo_scope[]"
-                value={option.value}
-                id={option.id}
-                bind:group={geoScope}
-              />
-              <span>{option.label}</span>
-            </label>
-          </div>
-        {/each}
+        <fieldset>
+          <legend>Geographical Scope</legend>
+          {#each $geo_scope as option, index}
+            <div class="c-request-form__row-checkbox">
+              <label>
+                <input
+                  type="checkbox"
+                  name="geographical_scope[]"
+                  value={option.value}
+                  id={option.id}
+                  bind:group={geoScope}
+                />
+                <span>{option.label}</span>
+              </label>
+            </div>
+          {/each}
+        </fieldset>
       </div>
 
       <div class="c-request-form__row-group">
@@ -272,21 +275,24 @@
             {optionsError}
           </div>
         {/if}
-        {#each $data_focus as option, index}
-          <div class="c-request-form__row-checkbox">
-            <label for={option.id}>
-              <input
-                type="checkbox"
-                name="data_focus[]"
-                value={option.value}
-                id={option.id}
-                on:change={handleChange}
-                bind:group={dataFocus}
-              />
-              <span>{option.label}</span>
-            </label>
-          </div>
-        {/each}
+        <fieldset>
+          <legend>Data Focus</legend>
+          {#each $data_focus as option, index}
+            <div class="c-request-form__row-checkbox">
+              <label>
+                <input
+                  type="checkbox"
+                  name="data_focus[]"
+                  value={option.value}
+                  id={option.id}
+                  on:change={handleChange}
+                  bind:group={dataFocus}
+                />
+                <span>{option.label}</span>
+              </label>
+            </div>
+          {/each}
+        </fieldset>
         {#if dataFocus.indexOf('Other') > -1 && otherDataFocus.trim().length === 0 && submitted}
           <div class="error-message">
             {otherInputError}
@@ -310,21 +316,24 @@
             {optionsError}
           </div>
         {/if}
-        {#each $policy_databases as option, index}
-          <div class="c-request-form__row-checkbox">
-            <label for={option.id}>
-              <input
-                type="checkbox"
-                name="policy_databases[]"
-                value={option.value}
-                id={option.id}
-                on:change={handleChange}
-                bind:group={policyDbs}
-              />
-              <span>{option.label}</span>
-            </label>
-          </div>
-        {/each}
+        <fieldset>
+          <legend>Policy Databases</legend>
+          {#each $policy_databases as option, index}
+            <div class="c-request-form__row-checkbox">
+              <label>
+                <input
+                  type="checkbox"
+                  name="policy_databases[]"
+                  value={option.value}
+                  id={option.id}
+                  on:change={handleChange}
+                  bind:group={policyDbs}
+                />
+                <span>{option.label}</span>
+              </label>
+            </div>
+          {/each}
+        </fieldset>
         {#if policyDbs.indexOf('Other') > -1 && otherPolicyDbs.trim().length === 0 && submitted}
           <div class="error-message">
             {otherInputError}
@@ -362,30 +371,33 @@
         >I am willing to have a 20-25 min conversation with the Climate Policy
         Radar team to share more about my data needs and challenges.</span
       >
-      <div class="c-request-form__row-checkbox">
-        <label for="interview-yes">
-          <input
-            type="radio"
-            name="interview"
-            value="Yes"
-            id="interview-yes"
-            required
-          />
-          <span
-            >Yes
-            <span class="note"
-              >(Thank you! We will be in touch via the email you provided to
-              coordinate a time)</span
-            ></span
-          >
-        </label>
-      </div>
-      <div class="c-request-form__row-checkbox">
-        <label for="interview-no">
-          <input type="radio" name="interview" value="No" id="interview-no" />
-          <span>No<span class="note">(Thank you anyway!)</span></span>
-        </label>
-      </div>
+      <fieldset>
+        <legend>Interview</legend>
+        <div class="c-request-form__row-checkbox">
+          <label>
+            <input
+              type="radio"
+              name="interview"
+              value="Yes"
+              id="interview-yes"
+              required
+            />
+            <span
+              >Yes
+              <span class="note"
+                >(Thank you! We will be in touch via the email you provided to
+                coordinate a time)</span
+              ></span
+            >
+          </label>
+        </div>
+        <div class="c-request-form__row-checkbox">
+          <label>
+            <input type="radio" name="interview" value="No" id="interview-no" />
+            <span>No<span class="note">(Thank you anyway!)</span></span>
+          </label>
+        </div>
+      </fieldset>
     </div>
 
     <label class="c-request-form__label--vertical no-border">
