@@ -91,6 +91,9 @@
       return;
     }
 
+    console.log(new URLSearchParams(formData).entries());
+    return;
+
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -201,7 +204,25 @@
             {optionsError}
           </div>
         {/if}
-
+        <!-- svelte-ignore a11y-label-has-associated-control -->
+        <label>
+          <span>Data types</span>
+          {#each $data_types as option, index}
+            <div class="c-request-form__row-checkbox">
+              <label for={option.id}>
+                <input
+                  type="checkbox"
+                  name="data_types[]"
+                  value={option.value}
+                  id={option.id}
+                  on:change={handleChange}
+                  bind:group={dataTypes}
+                />
+                <span>{option.label}</span>
+              </label>
+            </div>
+          {/each}
+        </label>
         {#each $data_types as option, index}
           <div class="c-request-form__row-checkbox">
             <label for={option.id}>
