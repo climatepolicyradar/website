@@ -400,7 +400,7 @@
     </div>
 
     <label class="c-request-form__label--vertical no-border">
-      <span class="c-request-form__label-text">Message (if any)</span>
+      <span class="c-request-form__label-text">Message</span>
       <textarea name="message" placeholder="Your message" rows="6" />
     </label>
 
