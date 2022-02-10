@@ -53,7 +53,7 @@
     Giving policymakers, researchers and civil society tools for better policy
     design and accountability.
   </p>
-  <Button color="white" size="lg" href="request-access" arrow>
+  <Button color="white" size="lg" href="/request-access" arrow>
     Request early access
   </Button>
 </Banner>

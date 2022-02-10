@@ -83,7 +83,7 @@
     </div>
   {/each}
 
-  <Button color="dark-glow" size="cta" href="request-access">
+  <Button color="dark-glow" size="cta" href="/request-access">
     Request early access
   </Button>
 </nav>
