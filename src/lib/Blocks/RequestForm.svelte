@@ -91,9 +91,6 @@
       return;
     }
 
-    // console.log(new URLSearchParams(formData).entries());
-    // return;
-
     fetch('/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -204,9 +201,8 @@
             {optionsError}
           </div>
         {/if}
-        <!-- svelte-ignore a11y-label-has-associated-control -->
-        <label>
-          <span>Data types</span>
+        <fieldset>
+          <legend>Policy Data Types</legend>
           {#each $data_types as option, index}
             <div class="c-request-form__row-checkbox">
               <label for={option.id}>
@@ -222,22 +218,7 @@
               </label>
             </div>
           {/each}
-        </label>
-        {#each $data_types as option, index}
-          <div class="c-request-form__row-checkbox">
-            <label for={option.id}>
-              <input
-                type="checkbox"
-                name="data_types[]"
-                value={option.value}
-                id={option.id}
-                on:change={handleChange}
-                bind:group={dataTypes}
-              />
-              <span>{option.label}</span>
-            </label>
-          </div>
-        {/each}
+        </fieldset>
 
         {#if dataTypes.indexOf('Other') > -1 && otherDataTypes.trim().length === 0 && submitted}
           <div class="error-message">
@@ -513,7 +494,14 @@
   .c-request-form__row-checkbox span {
     line-height: 1.5;
   }
-
+  fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  legend {
+    display: none;
+  }
   input[type='checkbox'],
   input[type='radio'] {
     margin-right: 8px;
