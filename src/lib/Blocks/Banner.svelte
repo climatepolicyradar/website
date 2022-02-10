@@ -3,12 +3,13 @@
 
   export let theme = 'light';
   export let size = 'md';
+  export let contentType = 'normal';
 </script>
 
 <div class="b-banner b-banner--{theme} b-banner--{size}">
   <Wrapper>
     <div class="b-banner__inner">
-      <div class="b-banner__content">
+      <div class="b-banner__content--{contentType}">
         {#if $$slots.pill}
           <slot name="pill"><!-- optional fallback --></slot>
         {/if}
@@ -133,8 +134,11 @@
     padding: 120px 0 40px;
   }
 
-  .b-banner__content {
+  .b-banner__content--normal {
     max-width: 860px;
+  }
+  .b-banner__content--form {
+    max-width: 980px;
   }
 
   .b-banner__subheading {

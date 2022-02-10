@@ -68,7 +68,6 @@
   };
 
   const validateOtherInputs = () => {
-    console.log(otherDataTypes);
     if (
       (dataTypes.indexOf('Other') > -1 && otherDataTypes.trim().length === 0) ||
       (dataFocus.indexOf('Other') > -1 && otherDataFocus.trim().length === 0) ||
@@ -84,8 +83,6 @@
     let formData = new FormData(formElement);
     submitted = true;
     inputError = '';
-    console.log(geoScope);
-    console.log(dataFocus);
     validateCheckBoxInputs();
     validateOtherInputs();
 
@@ -93,7 +90,6 @@
       window.scrollTo(0, 0);
       return;
     }
-    return;
 
     fetch('/', {
       method: 'POST',
@@ -103,6 +99,7 @@
       .then(() => {
         status = 'success';
         console.log('Form successfully submitted');
+        window.scrollTo(0, 0);
       })
       .catch((error) => {
         console.error(error);
@@ -341,13 +338,14 @@
       </div>
     </div>
 
-    <label class="c-request-form__row--vertical">
+    <label class="c-request-form__label--vertical">
       <span class="c-request-form__label-text"
         >Please list any other climate policy databases that you use/have used
         (including regional, national, local or sector-specific)</span
       >
       <textarea name="other_policy_databases2" rows="6" />
     </label>
+    <br />
 
     <label class="c-request-form__label--vertical">
       <span class="c-request-form__label-text required"
@@ -363,12 +361,12 @@
         Radar team to share more about my data needs and challenges.</span
       >
       <div class="c-request-form__row-checkbox">
-        <label for="interview">
+        <label for="interview-yes">
           <input
             type="radio"
             name="interview"
             value="Yes"
-            id="interview"
+            id="interview-yes"
             required
           />
           <span
@@ -381,19 +379,19 @@
         </label>
       </div>
       <div class="c-request-form__row-checkbox">
-        <label for="interview">
-          <input type="radio" name="interview" value="No" id="interview" />
+        <label for="interview-no">
+          <input type="radio" name="interview" value="No" id="interview-no" />
           <span>No<span class="note">(Thank you anyway!)</span></span>
         </label>
       </div>
     </div>
 
-    <label class="c-request-form__label--vertical">
+    <label class="c-request-form__label--vertical no-border">
       <span class="c-request-form__label-text">Message (if any)</span>
       <textarea name="message" placeholder="Your message" rows="6" />
     </label>
 
-    <div class="c-request-form__label">
+    <div class="c-request-form__label--vertical">
       <span />
       <Button type="submit" color="dark-glow" arrow>Send message</Button>
     </div>
@@ -409,8 +407,6 @@
 {#if status === 'success'}
   <Spacer size="md" />
   <h1>Thank you, we'll be in touch shortly</h1>
-  <Spacer size="sm" />
-  <Button action={() => modalStore.closeAll()} arrow>Close form</Button>
 {/if}
 
 {#if status === 'error'}
@@ -441,7 +437,6 @@
   @media (min-width: 768px) {
     .c-request-form {
       font-size: 18px;
-      line-height: 36px;
     }
   }
 
@@ -457,7 +452,7 @@
   @media (min-width: 768px) {
     .c-request-form__label {
       display: grid;
-      grid-template-columns: 190px 1fr;
+      grid-template-columns: 200px 1fr;
       margin-bottom: 16px;
       align-items: baseline;
     }
@@ -472,31 +467,36 @@
   }
   @media (min-width: 768px) {
     .c-request-form__other.margin {
-      margin-left: 190px;
+      margin-left: 200px;
     }
-  }
-
-  .c-request-form__row {
-    margin-bottom: 16px;
   }
 
   .c-request-form__row-group {
     margin: 12px 0;
     border-top: 1px solid var(--color-indigo-200);
-    padding: 12px 0;
+    padding: 24px 0 12px 0;
   }
+
   .no-border {
     border: none;
   }
 
   .c-request-form__row-checkbox {
-    margin: 4px 0;
+    margin: 8px 0;
   }
   .c-request-form__row-checkbox label {
     color: var(--color-indigo-500);
+    display: flex;
+    align-items: flex-start;
   }
-  input[type='checkbox'] {
+  .c-request-form__row-checkbox span {
+    line-height: 1.5;
+  }
+
+  input[type='checkbox'],
+  input[type='radio'] {
     margin-right: 8px;
+    margin-top: 6px;
   }
 
   input[type='text'],
@@ -544,8 +544,7 @@
 
   .note {
     display: block;
-    font-style: italic;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 0.75;
     margin-bottom: 16px;
   }
@@ -570,8 +569,13 @@
     text-decoration: underline;
   }
 
-  :global(.c-request-form__label .c-button) {
+  :global(.c-request-form__label--vertical .c-button) {
     margin-top: 24px;
     box-shadow: 0 0 32px rgba(31, 147, 255, 0.12);
+  }
+  @media (min-width: 768px) {
+    :global(.c-request-form__label--vertical .c-button) {
+      width: 200px;
+    }
   }
 </style>
