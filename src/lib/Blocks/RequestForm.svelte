@@ -1,5 +1,4 @@
 <script>
-  import { modalStore } from '$lib/stores/theme';
   import {
     data_types,
     geo_scope,
