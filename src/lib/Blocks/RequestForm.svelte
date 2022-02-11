@@ -191,6 +191,10 @@
 
     <div class="c-request-form__row">
       <div class="c-request-form__row-group">
+        <p class="u-type-body-lg">
+          Please help us better understand your data needs by answering a few
+          questions:
+        </p>
         <span class="c-request-form__label-text required"
           >What type(s) of climate policy data are you interested in? (select
           all that apply)</span
@@ -359,16 +363,16 @@
 
     <label class="c-request-form__label--vertical">
       <span class="c-request-form__label-text required"
-        >What are your main pain points or challenges when using policy
-        databases for research?</span
+        >What are the main challenges you face when using policy databases?</span
       >
-      <textarea name="pain_points" rows="6" required />
+      <textarea name="challenges" rows="6" required />
     </label>
 
     <div class="c-request-form__row-group no-border">
       <span class="c-request-form__label-text required"
-        >I am willing to have a 20-25 min conversation with the Climate Policy
-        Radar team to share more about my data needs and challenges.</span
+        >Are you willing to have a 30 min conversation with the Climate Policy
+        Radar team to share more about your data needs and challenges, to help
+        develop our offering?</span
       >
       <fieldset>
         <legend>Interview</legend>
@@ -451,6 +455,9 @@
     .c-request-form {
       font-size: 18px;
     }
+  }
+  .u-type-body-lg {
+    margin-top: 0;
   }
 
   .c-request-form__label {

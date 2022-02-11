@@ -139,6 +139,11 @@
       width: 100%;
     }
   }
+  @media (min-width: 600px) {
+    :global(.c-primary-nav .c-primary-nav-item + .c-button) {
+      max-width: 200px;
+    }
+  }
   @media (min-width: 1024px) {
     nav {
       display: flex;
