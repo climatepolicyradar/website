@@ -355,7 +355,7 @@
     <label class="c-request-form__label--vertical">
       <span class="c-request-form__label-text"
         >Please list any other climate policy databases that you use/have used
-        (including regional, national, local or sector-specific)</span
+        (including regional, national, local or sector-specific):</span
       >
       <textarea name="other_policy_databases2" rows="6" />
     </label>
@@ -404,7 +404,7 @@
     </div>
 
     <label class="c-request-form__label--vertical no-border">
-      <span class="c-request-form__label-text">Message</span>
+      <span class="c-request-form__label-text">Message:</span>
       <textarea name="message" placeholder="Your message" rows="6" />
     </label>
 
