@@ -83,7 +83,7 @@
     </div>
   {/each}
 
-  <Button color="dark-glow" size="cta" action={() => ($modalStore.cta = true)}>
+  <Button color="dark-glow" size="cta" href="/request-access">
     Request early access
   </Button>
 </nav>
@@ -137,6 +137,11 @@
     :global(nav .c-button--cta) {
       margin-top: 2rem;
       width: 100%;
+    }
+  }
+  @media (min-width: 600px) {
+    :global(.c-primary-nav .c-primary-nav-item + .c-button) {
+      max-width: 200px;
     }
   }
   @media (min-width: 1024px) {

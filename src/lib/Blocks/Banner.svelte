@@ -3,13 +3,13 @@
 
   export let theme = 'light';
   export let size = 'md';
+  export let contentType = 'normal';
 </script>
-
 
 <div class="b-banner b-banner--{theme} b-banner--{size}">
   <Wrapper>
     <div class="b-banner__inner">
-      <div class="b-banner__content">
+      <div class="b-banner__content--{contentType}">
         {#if $$slots.pill}
           <slot name="pill"><!-- optional fallback --></slot>
         {/if}
@@ -27,7 +27,6 @@
         {/if}
 
         <slot><!-- optional fallback --></slot>
-
       </div>
     </div>
   </Wrapper>
@@ -51,13 +50,13 @@
   }
 
   @media only screen and (min-width: 768px) {
-    .b-banner--lg .b-banner__inner { 
+    .b-banner--lg .b-banner__inner {
       padding-top: calc(240px + 92px);
     }
   }
 
   .b-banner--lg::before {
-    content: "";
+    content: '';
     width: 2000px;
     height: 2000px;
     position: absolute;
@@ -76,11 +75,17 @@
   .b-banner--dark {
     color: #fff;
     background-color: var(--color-indigo-600);
-    background: linear-gradient(134.5deg, rgba(50,35,50,1) 0%, rgba(7,29,73,1) 0%, rgba(7,29,73,1) 45%, rgba(22,134,238,1) 100%);
+    background: linear-gradient(
+      134.5deg,
+      rgba(50, 35, 50, 1) 0%,
+      rgba(7, 29, 73, 1) 0%,
+      rgba(7, 29, 73, 1) 45%,
+      rgba(22, 134, 238, 1) 100%
+    );
   }
 
   .b-banner--light::before {
-    content: "";
+    content: '';
     width: 2000px;
     height: 2000px;
     position: absolute;
@@ -96,7 +101,7 @@
   }
 
   .b-banner--md::before {
-    content: "";
+    content: '';
     width: 2000px;
     height: 2000px;
     position: absolute;
@@ -125,8 +130,15 @@
     padding: 240px 0 96px;
   }
 
-  .b-banner__content {
+  .b-banner--xxs .b-banner__inner {
+    padding: 120px 0 40px;
+  }
+
+  .b-banner__content--normal {
     max-width: 860px;
+  }
+  .b-banner__content--form {
+    max-width: 980px;
   }
 
   .b-banner__subheading {

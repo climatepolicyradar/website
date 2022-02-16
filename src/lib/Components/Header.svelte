@@ -111,7 +111,7 @@
     height: 40px;
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     :global(.c-site-header__menu-button) {
       display: none !important;
     }

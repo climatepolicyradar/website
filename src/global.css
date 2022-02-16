@@ -205,6 +205,9 @@ textarea {
   line-height: 1.15;
 }
 
+input[type='checkbox'] {
+  accent-color: var(--color-blue);
+}
 button,
 select {
   text-transform: none;
