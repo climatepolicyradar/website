@@ -3,7 +3,7 @@ layout: latest
 title: Epic Sprints and…Comedy Gigs? The Experience of a Non-Tech Person in a
   Tech Start-Up
 date: 17 February 2022
-thumb: /images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/sprints.jpg
+thumb: /images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/blogimage.jpg
 topics:
   - Blog
 excerpt: When I joined Climate Policy Radar back at the start of December last
