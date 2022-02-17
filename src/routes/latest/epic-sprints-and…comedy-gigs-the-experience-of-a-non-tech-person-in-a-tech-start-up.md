@@ -3,7 +3,7 @@ layout: latest
 title: Epic Sprints and…Comedy Gigs? The Experience of a Non-Tech Person in a
   Tech Start-Up
 date: 17 February 2022
-thumb: /images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/picture-1-latest.png
+thumb: /images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/sprints.jpg
 topics:
   - Blog
 excerpt: When I joined Climate Policy Radar back at the start of December last
@@ -29,7 +29,7 @@ And why are we discussing all of this in what it’s implied will be a comedy gi
 
 I was a little daunted coming into CPR because of exactly this kind of confusion – the worry I would be out of my depth and not have any idea of what was going on.  I thought (and think!) the idea behind our mission is a fantastic one, and that what we go on to produce – a tool enabling easy access and interrogation of climate law and policy data – will be priceless. I was just concerned that, with no prior tech experience, I wouldn’t be able to make much of a contribution towards it.
 
-![Sprints screenshot](/images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/picture-1-latest.png "Sprints screenshot")
+![Sprints screenshot](/images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/sprints.jpg "Sprints screenshot")
 
 *Yeah…your guess is as good as mine was, to be honest…*
 
@@ -41,6 +41,6 @@ I remain a relative novice in tech, and I still don’t think it’s something t
 
 After all, we’re working towards actually building a \*thing\*, that we’ll put out into the world and people will use, hopefully to do more great things. That is easily exciting enough a reason to get up in the morning, learn new concepts, ideas, and skills, and get stuck in – to move my own story from the icebox to the “in progress” stack, if you like!
 
-![Zenhub board](/images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/picture-2-latest.png)
+![Zenhub board](/images/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/zenhub.jpg)
 
 *It all makes sense now!*
