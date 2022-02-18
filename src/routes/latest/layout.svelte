@@ -46,9 +46,10 @@
 <svelte:head>
   <title>{title} | Climate Policy Radar</title>
   <meta name="description" content={excerpt} />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={excerpt} />
+  <meta name="title" property="og:title" content={title} />
+  <meta name="description" property="og:description" content={excerpt} />
   <meta
+    name="image"
     property="og:image"
     content={`https://climatepolicyradar.org${thumb}`}
   />
