@@ -29,6 +29,7 @@
   import Heading from '$lib/Components/Heading.svelte';
   import Press from '$lib/Blocks/Press.svelte';
   import Partners from '$lib/Blocks/Partners.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   export let team;
   export let pressClippings;
@@ -64,8 +65,11 @@
 </script>
 
 <svelte:head>
-  <title>About | Climate Policy Radar</title>
-  <meta name="description" content="We are an open data climate startup" />
+  <MetaTags
+    title={`About | Climate Policy Radar"`}
+    excerpt="We are an open data climate startup"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Banner theme="dark" size="sm">

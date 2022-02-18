@@ -24,6 +24,7 @@
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'light',
@@ -35,13 +36,11 @@
 </script>
 
 <svelte:head>
-  <title
-    >Climate Policy Radar | Building the evidence base for evidence-based
-    policymaking</title
-  >
-  <meta
-    name="description"
-    content="Building the evidence base for evidence-based policymaking"
+  <MetaTags
+    title="Climate Policy Radar | Building the evidence base for evidence-based
+    policymaking"
+    excerpt="Building the evidence base for evidence-based policymaking"
+    image="https://climatepolicyradar.org/images/logo.svg"
   />
 </svelte:head>
 

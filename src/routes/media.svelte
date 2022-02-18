@@ -15,6 +15,7 @@
   import Press from '$lib/Blocks/Press.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   export let pressClippings;
   $theme = {
@@ -24,8 +25,11 @@
 </script>
 
 <svelte:head>
-  <title>Media | Climate Policy Radar</title>
-  <meta name="description" content="Climate Policy Radar in the Press" />
+  <MetaTags
+    title="Media | Climate Policy Radar"
+    excerpt="Climate Policy Radar in the Media"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Body class="has-gradient--blue-to-white" />

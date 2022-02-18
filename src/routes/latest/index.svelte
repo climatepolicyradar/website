@@ -13,6 +13,7 @@
   import Banner from '$lib/Blocks/Banner.svelte';
   import CardsList from '$lib/Components/CardsList.svelte';
   import CardSplit from '$lib/Components/CardSplit.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
   import Pill from '$lib/Components/Pill.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
@@ -28,6 +29,11 @@
 
 <svelte:head>
   <title>Latest | Climate Policy Radar</title>
+  <MetaTags
+    title="Latest | Climate Policy Radar"
+    excerpt="All the latest from our journey to map and analyse the climate policy landscape"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Banner theme="light" size="xs">

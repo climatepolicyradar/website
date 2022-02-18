@@ -9,6 +9,7 @@
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import ContactForm from '$lib/Blocks/ContactForm.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'dark',
@@ -17,10 +18,10 @@
 </script>
 
 <svelte:head>
-  <title>Contact | Climate Policy Radar</title>
-  <meta
-    name="description"
-    content="Get in touch with not-for profit data-led climate startup, Climate Policy Radar"
+  <MetaTags
+    title={`Contact | Climate Policy Radar"`}
+    excerpt="Get in touch with not-for profit data-led climate startup, Climate Policy Radar"
+    image="https://climatepolicyradar.org/images/logo.svg"
   />
 </svelte:head>
 

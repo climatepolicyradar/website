@@ -12,6 +12,7 @@
   import TwoColumn from '$lib/Components/TwoColumn.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import { theme } from '$lib/stores/theme';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'light',
@@ -22,10 +23,10 @@
 </script>
 
 <svelte:head>
-  <title>Jobs | Climate Policy Radar</title>
-  <meta
-    name="description"
-    content="Join us to build tools that help inform better decisions"
+  <MetaTags
+    title="Jobs | Climate Policy Radar"
+    excerpt="Join us to build tools that help inform better decisions"
+    image="https://climatepolicyradar.org/images/logo.svg"
   />
 </svelte:head>
 

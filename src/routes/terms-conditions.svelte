@@ -1,6 +1,7 @@
 <script>
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'dark',
@@ -9,7 +10,11 @@
 </script>
 
 <svelte:head>
-  <title>Terms &amp; Conditions | Climate Policy Radar</title>
+  <MetaTags
+    title="Terms &amp; Conditions | Climate Policy Radar"
+    excerpt="Terms and conditions"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Wrapper type="content">

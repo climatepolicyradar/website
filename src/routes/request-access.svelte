@@ -9,6 +9,7 @@
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import Pill from '$lib/Components/Pill.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'light',
@@ -17,7 +18,11 @@
 </script>
 
 <svelte:head>
-  <title>Request Early Access | Climate Policy Radar</title>
+  <MetaTags
+    title="Request Early Access | Climate Policy Radar"
+    excerpt="Request early access"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Banner theme="light" size="xxs" contentType="form">

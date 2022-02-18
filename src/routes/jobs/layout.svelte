@@ -1,11 +1,12 @@
 <script>
-import PostContent from '$lib/Blocks/PostContent.svelte';
-import Button from '$lib/Components/Button.svelte';
-import CardCompact from '$lib/Components/CardCompact.svelte';
-import Pill from '$lib/Components/Pill.svelte';
-import Spacer from '$lib/Components/Spacer.svelte';
-import Wrapper from '$lib/Components/Wrapper.svelte';
-import { theme } from '$lib/stores/theme';
+  import PostContent from '$lib/Blocks/PostContent.svelte';
+  import Button from '$lib/Components/Button.svelte';
+  import CardCompact from '$lib/Components/CardCompact.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
+  import Pill from '$lib/Components/Pill.svelte';
+  import Spacer from '$lib/Components/Spacer.svelte';
+  import Wrapper from '$lib/Components/Wrapper.svelte';
+  import { theme } from '$lib/stores/theme';
 
   $theme = {
     footer: 'light',
@@ -18,8 +19,11 @@ import { theme } from '$lib/stores/theme';
 </script>
 
 <svelte:head>
-  <title>{title} | Jobs | Climate Policy Radar</title>
-  <meta name="description" content="Join us to build tools that help inform better decisions" />
+  <MetaTags
+    title={`${title} | Jobs | Climate Policy Radar"`}
+    excerpt="Join us to build tools that help inform better decisions"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Spacer size="2xl" />
@@ -35,7 +39,7 @@ import { theme } from '$lib/stores/theme';
       <PostContent>
         <slot />
       </PostContent>
-      <CardCompact 
+      <CardCompact
         title="Would you like to know what it is like to work at Climate Policy Radar?"
         link="https://youtu.be/5xGmg_UEc-g"
         linkCopy="View our video here."
@@ -43,10 +47,17 @@ import { theme } from '$lib/stores/theme';
     </div>
     <div class="b-content__cta">
       <div class="c-jobs__cta">
-        <p class="c-jobs__cta-copy">To apply for this role, please send us your CV and tell us why you would like to work with us.</p>
+        <p class="c-jobs__cta-copy">
+          To apply for this role, please send us your CV and tell us why you
+          would like to work with us.
+        </p>
         <Button type="cta" color="white" href={applyLink}>Apply now</Button>
       </div>
-      <a href="/jobs#open-positions" class="b-content__cta-link" sveltekit:noscroll>View all other jobs</a>
+      <a
+        href="/jobs#open-positions"
+        class="b-content__cta-link"
+        sveltekit:noscroll>View all other jobs</a
+      >
     </div>
   </div>
 </Wrapper>

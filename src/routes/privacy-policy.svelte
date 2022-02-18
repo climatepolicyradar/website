@@ -1,6 +1,7 @@
 <script>
   import { theme } from '$lib/stores/theme';
   import Banner from '$lib/Blocks/Banner.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'light',
@@ -9,7 +10,11 @@
 </script>
 
 <svelte:head>
-  <title>Privacy Policy | Climate Policy Radar</title>
+  <MetaTags
+    title="Privacy Policy | Climate Policy Radar"
+    excerpt="Climate Policy Radar privacy policy"
+    image="https://climatepolicyradar.org/images/logo.svg"
+  />
 </svelte:head>
 
 <Banner theme="light" size="sm">
