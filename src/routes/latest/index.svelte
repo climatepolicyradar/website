@@ -32,7 +32,7 @@
   <MetaTags
     title="Latest | Climate Policy Radar"
     excerpt="All the latest from our journey to map and analyse the climate policy landscape"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

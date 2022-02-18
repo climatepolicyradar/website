@@ -40,7 +40,7 @@
     title="Climate Policy Radar | Building the evidence base for evidence-based
     policymaking"
     excerpt="Building the evidence base for evidence-based policymaking"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

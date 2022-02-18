@@ -21,7 +21,7 @@
   <MetaTags
     title="Request Early Access | Climate Policy Radar"
     excerpt="Request early access"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

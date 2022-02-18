@@ -68,7 +68,7 @@
   <MetaTags
     title={`About | Climate Policy Radar"`}
     excerpt="We are an open data climate startup"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

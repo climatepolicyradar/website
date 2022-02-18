@@ -13,7 +13,7 @@
   <MetaTags
     title="Terms &amp; Conditions | Climate Policy Radar"
     excerpt="Terms and conditions"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

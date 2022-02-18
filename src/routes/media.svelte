@@ -28,7 +28,7 @@
   <MetaTags
     title="Media | Climate Policy Radar"
     excerpt="Climate Policy Radar in the Media"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

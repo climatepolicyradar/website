@@ -21,7 +21,7 @@
   <MetaTags
     title={`Contact | Climate Policy Radar"`}
     excerpt="Get in touch with not-for profit data-led climate startup, Climate Policy Radar"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

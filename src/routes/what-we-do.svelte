@@ -16,7 +16,7 @@
   <MetaTags
     title="What We Do | Climate Policy Radar"
     excerpt="What We Do"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 

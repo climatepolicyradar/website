@@ -13,7 +13,7 @@
   <MetaTags
     title="Privacy Policy | Climate Policy Radar"
     excerpt="Climate Policy Radar privacy policy"
-    image="https://climatepolicyradar.org/images/logo.svg"
+    image="https://climatepolicyradar.org/images/logo.png"
   />
 </svelte:head>
 
