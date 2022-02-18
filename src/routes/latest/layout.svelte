@@ -48,7 +48,10 @@
   <meta name="description" content={excerpt} />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={excerpt} />
-  <meta property="og:image" content={thumb} />
+  <meta
+    property="og:image"
+    content={`https://climatepolicyradar.org${thumb}`}
+  />
 </svelte:head>
 
 <section class="b-content">
