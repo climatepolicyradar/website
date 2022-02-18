@@ -18,7 +18,7 @@
   export let author;
   export let excerpt;
   export let topics = [];
-  
+  export let thumb;
 
   $theme = {
     footer: 'light',
@@ -41,12 +41,14 @@
   });
 
   const team = getContext('team');
-
 </script>
 
 <svelte:head>
   <title>{title} | Climate Policy Radar</title>
   <meta name="description" content={excerpt} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={excerpt} />
+  <meta property="og:image" content={thumb} />
 </svelte:head>
 
 <section class="b-content">
@@ -59,7 +61,7 @@
     <Spacer size="xs" />
     <h1>{title}</h1>
     <PostMeta {author} {date} {team} />
-    
+
     <Spacer size="md" />
 
     <div class="b-content__inner">
