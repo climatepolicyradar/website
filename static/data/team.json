@@ -146,6 +146,20 @@
       }
     },
     {
+      "name": "Callie Coop",
+      "role": "Operations",
+      "group": "Team",
+      "image": {
+        "src": "images/team/callie.jpg",
+        "alt": "Callie Coop"
+      },
+      "bio": "Callie is an Operations Manager with experience working with Telecoms and Fintech start-ups.",
+      "highlights": [
+        "Before joining Climate Policy Radar, she worked for 5 years at Clear Books, an online account, payroll and HR software. With over 8 years of working in fast-paced tech industries, she specialises in finance and people management.",
+        "She’s a passionate climate change advocate as we as a Mental Health First Aider and certified AAT Bookkeeper. She’s currently working on her CIPD Level 5 qualification."
+      ]
+    },
+    {
       "name": "Professor Sam Fankhauser",
       "role": "Non-executive Director",
       "group": "Board",
