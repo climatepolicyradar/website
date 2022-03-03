@@ -1,6 +1,15 @@
 {
   "team": [
     {
+      "name": "Test",
+      "role": "Operations",
+      "group": "Team",
+      "image": {
+        "src": "images/team/callie.jpg"
+      },
+      "bio": "Test"
+    },
+    {
       "name": "Michal Nachmany",
       "role": "CEO ",
       "image": {
