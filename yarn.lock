@@ -692,7 +692,7 @@
   dependencies:
     "@types/unist" "^2.0.3"
     "prism-svelte" "^0.4.7"
-    "prismjs" "^1.17.1"
+    "prismjs" ">=1.27.0"
     "vfile-message" "^2.0.4"
 
 "minimatch@^3.0.4":
