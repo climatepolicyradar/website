@@ -19,7 +19,7 @@ If achieved, such a treaty would represent major progress in mitigating the toll
 
 Climate Policy Radar want to support the search for solutions to the crisis of plastic pollution, using our tool for searching across the full text of thousands of policy documents.
 
-![](/images/cropped-plastic-pollution-gif.gif)
+![](/images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/cropped-plastic-pollution-gif.gif)
 
 This makes it possible to quickly identify what actions countries have already taken, from Fiji to Dominica, Canada to Ireland, to combat plastic pollution, creating a crucial evidence base for future policymaking and negotiations.
 
