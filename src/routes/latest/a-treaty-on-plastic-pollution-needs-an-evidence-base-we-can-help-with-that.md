@@ -21,13 +21,13 @@ Climate Policy Radar want to support the search for solutions to the crisis of p
 
 ![](/images/cropped-plastic-pollution-gif.gif)
 
+>
+
 This makes it possible to quickly identify what actions countries have already taken, from Fiji to Dominica, Canada to Ireland, to combat plastic pollution, creating a crucial evidence base for future policymaking and negotiations.
 
 ![](/images/new-blog-pic-1.png)
 
- 
-
-
+>  
 
 ![](/images/new-blog-pic-2.png)
 
@@ -35,9 +35,7 @@ A wealth of policies are available to governments, from regulation to plastic ba
 
 ![](/images/blog-pic-3.png)
 
- 
-
-
+>
 
 ![](/images/blog-pic-4.png)
 
