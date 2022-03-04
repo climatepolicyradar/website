@@ -1,6 +1,7 @@
 ---
 layout: latest
-title: A treaty on plastic pollution needs an evidence base. We can help with that.
+title: "A treaty on plastic pollution - what can we find in national policy
+  documents? "
 date: 4 March 2022
 thumb: /images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/plastic-picture.jpg
 topics:
