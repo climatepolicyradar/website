@@ -21,21 +21,17 @@ Climate Policy Radar want to support the search for solutions to the crisis of p
 
 ![](/images/cropped-plastic-pollution-gif.gif)
 
->
-
 This makes it possible to quickly identify what actions countries have already taken, from Fiji to Dominica, Canada to Ireland, to combat plastic pollution, creating a crucial evidence base for future policymaking and negotiations.
 
 ![](/images/new-blog-pic-1.png)
-
->  
 
 ![](/images/new-blog-pic-2.png)
 
 A wealth of policies are available to governments, from regulation to plastic bag levies. Our job is to make them searchable and accessible so that decision-makers can draw on evidence to identify policy pathways that make sense. To learn more about how we’re doing that, you can watch [this short video](https://climatepolicyradar.org/media/CPR%20alpha%20demo.mp4).
 
-![](/images/blog-pic-3.png)
 
->
+
+![](/images/blog-pic-3.png)
 
 ![](/images/blog-pic-4.png)
 
