@@ -29,12 +29,10 @@ This makes it possible to quickly identify what actions countries have already t
 
 A wealth of policies are available to governments, from regulation to plastic bag levies. Our job is to make them searchable and accessible so that decision-makers can draw on evidence to identify policy pathways that make sense. To learn more about how we’re doing that, you can watch [this short video](https://climatepolicyradar.org/media/CPR%20alpha%20demo.mp4).
 
-
-
 ![](/images/blog-pic-3.png)
 
 ![](/images/blog-pic-4.png)
 
-This week’s announcement was a historic moment and a step towards defining the problem of plastic pollution. Just as the Paris Agreement is premised on the need for individual national commitments to take action, if a global plastic pollution treaty is to succeed then we will need to see a raft of ambitious national policies proposed in the coming years. We look forward to being able to include them in our search results.
+This week’s announcement was a historic moment and a step towards defining the problem of plastic pollution. Just as the Paris Agreement is premised on the need for individual national commitments to take action, if a global plastic pollution treaty is to succeed then we will need to see a raft of ambitious national policies proposed in the coming years. 
 
 <!--EndFragment-->
