@@ -12,14 +12,13 @@ excerpt: Climate Policy Radar want to support the search for solutions to the
 author: Marcus Davies, Policy
 featured: false
 ---
-
 <!--StartFragment-->
 
 In Kenya this week, representatives from 173 countries committed to drawing up the world’s first international, legally binding treaty on plastic pollution.
 
 If achieved, such a treaty would represent major progress in mitigating the toll the has long been waged by plastics on the climate, on marine biodiversity and on human health. Every year we produce around [300 million tonnes of plastic waste globally](https://www.unep.org/interactives/beat-plastic-pollution/). [Around 25% of that is incinerated](https://ourworldindata.org/plastic-pollution), releasing carbon dioxide and a host of other toxic pollutants. Much of the rest is discarded, adding to the possibly hundreds of millions of tonnes currently found in our oceans, or breaking down into microplastics which are then [found in the placentas of newborn babies](https://www.unep.org/interactives/beat-plastic-pollution/).
 
-Climate Policy Radar want to support the search for solutions to the crisis of plastic pollution, using our tool for searching across the full text of thousands of policy documents.
+Climate Policy Radar want to support the search for solutions to the crisis of plastic pollution, using our tool for searching across the full text of thousands of policy documents (though note that we've initially looked through climate change laws and policies, there will be many other plastic pollution policies in other documents).
 
 ![](/images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/cropped-plastic-pollution-gif.gif)
 
