@@ -12,7 +12,7 @@ applyLink: https://docs.google.com/forms/d/e/1FAIpQLSfRmfjrKKH0ZkW0SjQBclZ3yRsCt
 ---
 <!--StartFragment-->
 
-Climate Policy Radar CIC (CPR) is a not-for-profit climate startup (with secured core funding) on a mission to map the global policy landscape using machine learning and AI.  Our work helps governments, the private sector, researchers and civil society to advance effective climate policies rapidly, replicate successful approaches and avoid failed ones, enhance accountability and promote data democratisation. In short, We are building the evidence base for evidence based decision-making. 
+Climate Policy Radar CIC (CPR) is a not-for-profit climate startup (with secured core funding) on a mission to map the global policy landscape using machine learning and AI.  Our work helps governments, the private sector, researchers and civil society to advance effective climate policies rapidly, replicate successful approaches and avoid failed ones, enhance accountability and promote data democratisation. In short, we are building the evidence base for evidence based decision-making. 
 
 With a team of nine and expanding, and about to launch our first product, CPR is in an extremely exciting stage. We are now looking for a brilliant and committed expert communicator to be the voice of CPR for internal and external communications, and to engage with multiple stakeholders in building collaborations and partnerships. 
 
