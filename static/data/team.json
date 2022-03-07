@@ -27,32 +27,6 @@
       ]
     },
     {
-      "name": "Chris Ballard",
-      "role": "CTO",
-      "group": "Team",
-      "image": {
-        "src": "images/team/chris.jpg",
-        "alt": "sdf",
-        "width": 600,
-        "height": 812
-      },
-      "bio": "Chris is a data scientist, applied machine learning practitioner and technology leader, with particular skills in Natural Language Processing.",
-      "highlights": [
-        "He has over 20 years of experience building innovative data, analytics and machine learning solutions in the edtech and consumer market research sectors. His leadership experience spans software development, product management, consultancy, innovation and R&D. ",
-        "Prior to CPR, he was Lead Research Scientist for NielsenIQ, where he led the Applied Machine Learning Research team, building Deep Learning and NLP solutions to structure ecommerce, retail and consumer data, deployed as part of major global strategic initiatives."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/ACoAAAQd7I0BJBmw2_y32wJ8E0s_u6QfSer1aes?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BdxO8BVwNT9mmWxoP3PncrQ%3D%3D"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/chrisaballard"
-        }
-      ]
-    },
-    {
       "name": "Marcus Davies",
       "role": "Policy",
       "group": "Team",
