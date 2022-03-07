@@ -1,7 +1,7 @@
 ---
 layout: latest
-title: "A treaty on plastic pollution - what can we find in national policy
-  documents? "
+title: 'A treaty on plastic pollution - what can we find in national policy
+  documents? '
 date: 4 March 2022
 thumb: /images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/plastic-picture.jpg
 topics:
@@ -12,6 +12,7 @@ excerpt: Climate Policy Radar want to support the search for solutions to the
 author: Marcus Davies, Policy
 featured: false
 ---
+
 <!--StartFragment-->
 
 In Kenya this week, representatives from 173 countries committed to drawing up the world’s first international, legally binding treaty on plastic pollution.
@@ -28,7 +29,7 @@ This makes it possible to quickly identify what actions countries have already t
 
 ![](/images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/new-blog-pic-2.png)
 
-A wealth of policies are available to governments, from regulation to plastic bag levies. Our job is to make them searchable and accessible so that decision-makers can draw on evidence to identify policy pathways that make sense. To learn more about how we’re doing that, you can watch [this short video](https://climatepolicyradar.org/media/CPR%20alpha%20demo.mp4).
+A wealth of policies are available to governments, from regulation to plastic bag levies. Our job is to make them searchable and accessible so that decision-makers can draw on evidence to identify policy pathways that make sense. To learn more about how we’re doing that, you can watch [this short video](https://climatepolicyradar.org/media/CPR%20alpha%20demo.mp4){:target="\_blank"}.
 
 ![](/images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/blog-pic-3.png)
 
