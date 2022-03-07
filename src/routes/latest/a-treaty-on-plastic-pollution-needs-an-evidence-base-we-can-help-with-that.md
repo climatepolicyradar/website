@@ -29,7 +29,7 @@ This makes it possible to quickly identify what actions countries have already t
 
 ![](/images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/new-blog-pic-2.png)
 
-A wealth of policies are available to governments, from regulation to plastic bag levies. Our job is to make them searchable and accessible so that decision-makers can draw on evidence to identify policy pathways that make sense. To learn more about how we’re doing that, you can watch [this short video](https://climatepolicyradar.org/media/CPR%20alpha%20demo.mp4){:target="\_blank"}.
+A wealth of policies are available to governments, from regulation to plastic bag levies. Our job is to make them searchable and accessible so that decision-makers can draw on evidence to identify policy pathways that make sense. To learn more about how we’re doing that, you can watch <a href="https://climatepolicyradar.org/media/CPR%20alpha%20demo.mp4" target="_blank">this short video</a>.
 
 ![](/images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/blog-pic-3.png)
 
