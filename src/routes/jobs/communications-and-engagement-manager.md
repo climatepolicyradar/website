@@ -8,7 +8,7 @@ excerpt: "Climate Policy Radar is looking for a brilliant and committed expert
   communicator to be the voice of CPR for internal and external communications,
   and to engage with multiple stakeholders in building collaborations and
   partnerships. "
-applyLink: https://docs.google.com/forms/d/e/1FAIpQLSfRmfjrKKH0ZkW0SjQBclZ3yRsCtK1OxW3cg34qaSXtl1WNKw/viewform?usp=sf_link
+applyLink: mailto:jobs@climatepolicyradar.org
 ---
 <!--StartFragment-->
 
