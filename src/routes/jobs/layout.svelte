@@ -20,7 +20,7 @@
 
 <svelte:head>
   <MetaTags
-    title={`${title} | Jobs | Climate Policy Radar"`}
+    title={`${title} | Jobs | Climate Policy Radar`}
     excerpt="Join us to build tools that help inform better decisions"
     image="https://climatepolicyradar.org/images/logo.png"
   />
