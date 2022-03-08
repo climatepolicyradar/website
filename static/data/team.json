@@ -27,6 +27,18 @@
       ]
     },
     {
+      "name": "Ingemar Svennson",
+      "role": "Senior Technical Advisor",
+      "group": "Team",
+      "image": {
+        "src": "images/team/ingemar.jpg"
+      },
+      "bio": "Ingemar is an experienced technological leader, with extensive experience from early start-ups to large financial corporations.",
+      "highlights": [
+        "He has over twenty years experience spanning both corporate technology and innovative start-ups. He is a former CTO at SunGard, one of the world’s largest software providers as well as having held senior technology roles in finance, insurance and healthcare. Over the past seven years he has co-founded a number of start-ups in the area of artificial intelligence, big data and analytics."
+      ]
+    },
+    {
       "name": "Marcus Davies",
       "role": "Policy",
       "group": "Team",
@@ -167,13 +179,19 @@
       "role": "Non-Executive Director",
       "group": "Board",
       "image": {
-        "src": "images/team/lisalong.jpg"
+        "src": "images/team/lisalong-1-.jpg"
       },
       "bio": "Lisa is a serial entrepreneur, non-executive director, and private equity advisor.",
       "highlights": [
         "In her own company Before You Code, she provides executive coaching and product management advisory for start-up and growth companies.",
         "She currently serves on the board of Vilmer in Norway, the product advisory council for Ushahidi, and is an advisor to private equity firm Spring Capital.  Through both her start-up experience and her work at Skype/Microsoft and Telenor, she is recognized as a product management and scaling expert and has spoken at conferences from Lviv to San Francisco. She is a guest lecturer on entrepreneurship at INSEAD.",
         "She has an MBA from INSEAD and a BS in chemical engineering from Cornell University."
+      ],
+      "social": [
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/in/llongllong/"
+        }
       ]
     },
     {
