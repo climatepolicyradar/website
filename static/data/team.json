@@ -1,19 +1,6 @@
 {
   "team": [
     {
-      "name": "Joel Wright",
-      "role": "Senior Software Engineer",
-      "group": "Team",
-      "image": {
-        "src": "images/team/joel-1-.jpg"
-      },
-      "bio": "Joel is a technical architect and software developer with over 15 years of experience solving challenges in a variety of commercial and research settings.",
-      "highlights": [
-        "Before joining Climate Policy Radar, he was a senior software engineer & architect at Genomics plc where he designed and implemented tools, APIs, and pipelines used for processing genomic information to deliver genome-derived health insights.",
-        "He holds a Ph.D. in Computer Science from the University of Nottingham and has previous experience in machine learning, large-scale data transfer, long-term archiving & workflow systems."
-      ]
-    },
-    {
       "name": "Michal Nachmany",
       "role": "CEO ",
       "image": {
@@ -78,6 +65,32 @@
       ]
     },
     {
+      "name": "Danny Waite",
+      "role": "Policy",
+      "group": "Team",
+      "bio": "Danny is an international climate policy specialist, with particular expertise on the dynamics of the UNFCCC negotiations.",
+      "highlights": [
+        "He was previously a Blue Book stagiaire in DG CLIMA in the European Commission, and was part of the Greenhouse Gas Removal Hub at the Smith School of Enterprise & Environment at the University of Oxford.",
+        "He holds an MA in Geography from the University of Oxford, an MA in International Law & International Relations from Oxford Brookes University, an MSc in Public Policy from UCL, and a PhD in Human Geography from the University of Reading, where he was a Leverhulme Trust Doctoral Scholar in Climate Justice."
+      ],
+      "image": {
+        "src": "images/team/danny.jpg"
+      }
+    },
+    {
+      "name": "Joel Wright",
+      "role": "Senior Software Engineer",
+      "group": "Team",
+      "image": {
+        "src": "images/team/joel-1-.jpg"
+      },
+      "bio": "Joel is a technical architect and software developer with over 15 years of experience solving challenges in a variety of commercial and research settings.",
+      "highlights": [
+        "Before joining Climate Policy Radar, he was a senior software engineer & architect at Genomics plc where he designed and implemented tools, APIs, and pipelines used for processing genomic information to deliver genome-derived health insights.",
+        "He holds a Ph.D. in Computer Science from the University of Nottingham and has previous experience in machine learning, large-scale data transfer, long-term archiving & workflow systems."
+      ]
+    },
+    {
       "name": "Paula Hightower",
       "role": "Front End",
       "group": "Team",
@@ -132,17 +145,17 @@
       ]
     },
     {
-      "name": "Danny Waite",
-      "role": "Policy",
+      "name": "Stefan Lavelle",
+      "role": "Data Scientist",
       "group": "Team",
-      "bio": "Danny is an international climate policy specialist, with particular expertise on the dynamics of the UNFCCC negotiations.",
-      "highlights": [
-        "He was previously a Blue Book stagiaire in DG CLIMA in the European Commission, and was part of the Greenhouse Gas Removal Hub at the Smith School of Enterprise & Environment at the University of Oxford.",
-        "He holds an MA in Geography from the University of Oxford, an MA in International Law & International Relations from Oxford Brookes University, an MSc in Public Policy from UCL, and a PhD in Human Geography from the University of Reading, where he was a Leverhulme Trust Doctoral Scholar in Climate Justice."
-      ],
       "image": {
-        "src": "images/team/danny.jpg"
-      }
+        "src": "images/team/stefan.jpg"
+      },
+      "bio": "Stefan is a data scientist and econometrician with extensive experience in policy and climate related work.",
+      "highlights": [
+        "Prior to joining Climate Policy Radar, he worked as a computer vision engineer using satellite data to track emissions at industrial plants. This followed a brief stint in finance as a data scientist at a private equity firm. Previously, Stefan was an economist for the UK civil service and focused on designing and simulating large procurement auctions.",
+        "Stefan holds a degree in economics from the University of Cambridge."
+      ]
     },
     {
       "name": "Callie Coop",
