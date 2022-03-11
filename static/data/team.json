@@ -1,7 +1,7 @@
 {
   "team": [
     {
-      "name": "Michal Nachmany",
+      "name": "Michal Nachmany, PhD",
       "role": "CEO ",
       "image": {
         "src": "images/team/michal.jpg",
@@ -146,7 +146,7 @@
       ]
     },
     {
-      "name": "Danny Waite",
+      "name": "Danny Waite, PhD",
       "role": "Policy",
       "group": "Team",
       "bio": "Danny is an international climate policy specialist, with particular expertise on the dynamics of the UNFCCC negotiations.",
@@ -159,7 +159,7 @@
       }
     },
     {
-      "name": "Joel Wright",
+      "name": "Joel Wright, PhD",
       "role": "Software Engineering",
       "group": "Team",
       "image": {
