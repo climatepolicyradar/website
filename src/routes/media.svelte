@@ -22,15 +22,13 @@
     footer: 'light',
     header: 'light',
   };
+  const title = 'Media | Climate Policy Radar';
+  const excerpt = 'Climate Policy Radar in the Media';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/media';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="Media | Climate Policy Radar"
-    excerpt="Climate Policy Radar in the Media"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Body class="has-gradient--blue-to-white" />
 
