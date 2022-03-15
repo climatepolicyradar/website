@@ -62,15 +62,13 @@
   };
 
   $: sortedTeam = team ? sortAdvisory() : [];
+  const title = 'About | Climate Policy Radar';
+  const excerpt = 'We are an open data climate startup';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/about';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title={`About | Climate Policy Radar"`}
-    excerpt="We are an open data climate startup"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="dark" size="sm">
   <svelte:fragment slot="pill">

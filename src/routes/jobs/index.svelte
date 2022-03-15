@@ -20,15 +20,13 @@
   };
   const jobs = getContext('jobs');
   const ctaEmptyClass = jobs.length === 0 ? 'empty-list' : '';
+  const title = 'Jobs | Climate Policy Radar';
+  const excerpt = 'Join us to build tools that help inform better decisions';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/jobs';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="Jobs | Climate Policy Radar"
-    excerpt="Join us to build tools that help inform better decisions"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="dark" size="sm">
   <svelte:fragment slot="pill">

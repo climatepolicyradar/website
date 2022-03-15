@@ -42,15 +42,12 @@
   });
 
   const team = getContext('team');
+  const metaTitle = `${title} | Jobs | Climate Policy Radar`;
+  const image = `https://climatepolicyradar.org${thumb}`;
+  const path = `/${title}`;
 </script>
 
-<svelte:head>
-  <MetaTags
-    title={`${title} | Climate Policy Radar`}
-    {excerpt}
-    image={`https://climatepolicyradar.org${thumb}`}
-  />
-</svelte:head>
+<MetaTags {metaTitle} {excerpt} {image} {path} />
 
 <section class="b-content">
   <Spacer size="2xl" />

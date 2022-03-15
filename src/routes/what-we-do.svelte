@@ -10,15 +10,13 @@
     footer: 'light',
     header: 'dark',
   };
+  const title = 'What We Do | Climate Policy Radar';
+  const excerpt = 'What We Do';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = 'what-we-do';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="What We Do | Climate Policy Radar"
-    excerpt="What We Do"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="dark" size="sm">
   <svelte:fragment slot="pill">

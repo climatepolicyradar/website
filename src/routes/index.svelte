@@ -33,15 +33,14 @@
 
   export let featuredPosts;
   export let partnerList;
+  const title =
+    'Climate Policy Radar | Building the evidence base for evidence-based policymaking';
+  const excerpt = 'Building the evidence base for evidence-based policymaking';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="Climate Policy Radar | Building the evidence base for evidence-based policymaking"
-    excerpt="Building the evidence base for evidence-based policymaking"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner size="lg" theme="dark">
   <h1 slot="heading">

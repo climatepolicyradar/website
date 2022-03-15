@@ -25,16 +25,14 @@
   };
 
   export let posts;
+  const title = 'Latest | Climate Policy Radar';
+  const excerpt =
+    'All the latest from our journey to map and analyse the climate policy landscape';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/latest';
 </script>
 
-<svelte:head>
-  <title>Latest | Climate Policy Radar</title>
-  <MetaTags
-    title="Latest | Climate Policy Radar"
-    excerpt="All the latest from our journey to map and analyse the climate policy landscape"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="light" size="xs">
   <svelte:fragment slot="pill">

@@ -7,15 +7,13 @@
     footer: 'dark',
     header: 'dark',
   };
+  const title = 'Terms &amp; Conditions | Climate Policy Radar';
+  const excerpt = 'Terms and conditions';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/terms-conditions';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="Terms &amp; Conditions | Climate Policy Radar"
-    excerpt="Terms and conditions"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Wrapper type="content">
   <h1>Terms &amp; Conditions</h1>

@@ -15,15 +15,13 @@
     footer: 'light',
     header: 'light',
   };
+  const title = 'Request Early Access | Climate Policy Radar';
+  const excerpt = 'Request early access';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/request-access';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="Request Early Access | Climate Policy Radar"
-    excerpt="Request early access"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="light" size="xxs" contentType="form">
   <svelte:fragment slot="pill">

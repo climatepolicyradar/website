@@ -15,15 +15,14 @@
     footer: 'dark',
     header: 'dark',
   };
+  const title = 'Contact | Climate Policy Radar';
+  const excerpt =
+    'Get in touch with not-for profit data-led climate startup, Climate Policy Radar';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/contact';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title={`Contact | Climate Policy Radar"`}
-    excerpt="Get in touch with not-for profit data-led climate startup, Climate Policy Radar"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Body class="has-gradient--dark-blue" />
 

@@ -16,15 +16,13 @@
   export let title;
   export let applyLink;
   export let topics = [];
+  const metaTitle = `${title} | Jobs | Climate Policy Radar`;
+  const excerpt = 'Join us to build tools that help inform better decisions';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = `/${title}`;
 </script>
 
-<svelte:head>
-  <MetaTags
-    title={`${title} | Jobs | Climate Policy Radar`}
-    excerpt="Join us to build tools that help inform better decisions"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {metaTitle} {excerpt} {image} {path} />
 
 <Spacer size="2xl" />
 

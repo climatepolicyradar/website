@@ -7,15 +7,13 @@
     footer: 'light',
     header: 'light',
   };
+  const title = 'Privacy Policy | Climate Policy Radar';
+  const excerpt = 'Climate Policy Radar privacy policy';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/privacy-policy';
 </script>
 
-<svelte:head>
-  <MetaTags
-    title="Privacy Policy | Climate Policy Radar"
-    excerpt="Climate Policy Radar privacy policy"
-    image="https://climatepolicyradar.org/images/logo.png"
-  />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="light" size="sm">
   <h1 slot="heading" class="u-gradient-text--dark-to-blue">Privacy Policy</h1>
