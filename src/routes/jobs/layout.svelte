@@ -22,7 +22,7 @@
   const path = `/${title}`;
 </script>
 
-<MetaTags {metaTitle} {excerpt} {image} {path} />
+<MetaTags title={metaTitle} {excerpt} {image} {path} />
 
 <Spacer size="2xl" />
 

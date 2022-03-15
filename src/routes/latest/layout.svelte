@@ -42,12 +42,12 @@
   });
 
   const team = getContext('team');
-  const metaTitle = `${title} | Jobs | Climate Policy Radar`;
+  const metaTitle = `${title} | Latest | Climate Policy Radar`;
   const image = `https://climatepolicyradar.org${thumb}`;
   const path = `/${title}`;
 </script>
 
-<MetaTags {metaTitle} {excerpt} {image} {path} />
+<MetaTags title={metaTitle} {excerpt} {image} {path} />
 
 <section class="b-content">
   <Spacer size="2xl" />
