@@ -24,11 +24,11 @@
   canonical={`https://www.climatepolicyradar.org${path}`}
   openGraph={{
     url: `https://www.climatepolicyradar.org${path}`,
-    title: { title },
-    description: { excerpt },
+    title: title,
+    description: excerpt,
     images: [
       {
-        url: { image },
+        url: image,
       },
     ],
     site_name: 'Climate Policy Radar',
@@ -37,9 +37,9 @@
     handle: '@climatepolradar',
     site: '@climatepolradar',
     cardType: 'summary_large_image',
-    title: { title },
-    description: { excerpt },
-    image: { image },
+    title: title,
+    description: excerpt,
+    image: image,
     imageAlt: 'Climate Policy Radar',
   }}
 />
