@@ -140,12 +140,11 @@
     color: #fff;
   }
 
-  .c-button--dark-glow,
-  .c-button--dark-glow-blue-hover {
+  .c-button--dark-glow {
     background-color: var(--color-indigo);
     color: #fff;
   }
-  .c-button--dark-glow-blue-hover:hover {
+  .c-button--dark-glow:hover {
     background-color: var(--color-blue);
     color: #fff;
   }
