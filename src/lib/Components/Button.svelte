@@ -6,13 +6,14 @@
   export let href = undefined;
   export let rel = '';
   export let size = 'md';
-  export let target = '_self'
+  export let target = '_self';
   export let type = 'has-cta';
 </script>
 
 {#if href}
   <a
-    class="c-button c-button--{size} c-button--{color} c-button--{type} {$$props.class || ''}"
+    class="c-button c-button--{size} c-button--{color} c-button--{type} {$$props.class ||
+      ''}"
     class:c-button--has-icon={arrow}
     {href}
     {target}
@@ -68,7 +69,6 @@
       color: var(--color-indigo);
     }
   }
-  
 
   .c-button--cta {
     flex-shrink: 0;
@@ -90,7 +90,7 @@
     font-size: 14px;
     line-height: 1;
   }
-  
+
   @media only screen and (min-width: 321px) {
     .c-button--xs {
       padding: 16px 24px;
@@ -140,8 +140,13 @@
     color: #fff;
   }
 
-  .c-button--dark-glow {
+  .c-button--dark-glow,
+  .c-button--dark-glow-blue-hover {
     background-color: var(--color-indigo);
+    color: #fff;
+  }
+  .c-button--dark-glow-blue-hover:hover {
+    background-color: var(--color-blue);
     color: #fff;
   }
 

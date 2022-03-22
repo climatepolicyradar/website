@@ -410,7 +410,9 @@
 
     <div class="c-request-form__label--vertical">
       <span />
-      <Button type="submit" color="dark-glow" arrow>Send message</Button>
+      <Button type="submit" color="dark-glow-blue-hover" arrow
+        >Send message</Button
+      >
     </div>
 
     <!-- Honeypot -->
