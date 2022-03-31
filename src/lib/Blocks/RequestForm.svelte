@@ -5,6 +5,7 @@
     data_focus,
     policy_databases,
     affiliation_types,
+    referral,
   } from '$lib/stores/formOptions';
 
   import Button from '$lib/Components/Button.svelte';
@@ -21,12 +22,14 @@
   let geoScope = [];
   let dataFocus = [];
   let policyDbs = [];
-  let affTypes = [];
+  let affTypes = '';
+  let referrals = '';
 
   // 'other' text input values
   let otherDataTypes = '';
   let otherDataFocus = '';
   let otherPolicyDbs = '';
+  let otherReferrals = '';
   let otherAffTypes = '';
 
   const optionsError = 'Please select at least one of the below options.';
@@ -366,6 +369,30 @@
         >What are the main challenges you face when using policy databases?</span
       >
       <textarea name="challenges" rows="6" required />
+    </label>
+    <br />
+
+    <label class="c-request-form__label--vertical">
+      <span class="c-request-form__label-text required"
+        >Where did you hear about us?</span
+      >
+      <select
+        name="referral"
+        id="referral"
+        on:change={handleChange}
+        bind:value={referrals}
+        required
+      >
+        <option value="">Select one</option>
+        {#each $referral as option, index}
+          <option value={option.value}>{option.label}</option>
+        {/each}
+      </select>
+    </label>
+    <br />
+    <label class="c-request-form__label--vertical">
+      <span class="c-request-form__label-text">Any further information</span>
+      <input type="text" name="other_referral" bind:value={otherReferrals} />
     </label>
 
     <div class="c-request-form__row-group no-border">

@@ -158,10 +158,50 @@ const affiliation_types = readable([
   },
 ]);
 
+const referral = readable([
+  {
+    value: 'Word of mouth',
+    label: 'Word of mouth/recommendation',
+  },
+  {
+    value: 'Event',
+    label: 'Saw/heard us at an event',
+  },
+  {
+    value: 'Search engine result',
+    label: 'Search engine result',
+  },
+  {
+    value: 'Blog or publication',
+    label: 'Blog or publication',
+  },
+  {
+    value: 'Job listing',
+    label: 'Job listing',
+  },
+  {
+    value: 'LinkedIn',
+    label: 'LinkedIn',
+  },
+  {
+    value: 'Twitter',
+    label: 'Twitter',
+  },
+  {
+    value: 'Other social media',
+    label: 'Other social media',
+  },
+  {
+    value: 'Other',
+    label: 'Other...',
+  },
+]);
+
 export {
   data_types,
   geo_scope,
   data_focus,
   policy_databases,
   affiliation_types,
+  referral,
 };
