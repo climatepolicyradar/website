@@ -11,11 +11,13 @@
   $: sticky = y > 40;
 
   let color;
-  $: color = sticky || $mobileMenuOpen || $theme.header === 'light' ? 'dark-glow' : 'white';
+  $: color =
+    sticky || $mobileMenuOpen || $theme.header === 'light'
+      ? 'dark-glow'
+      : 'white';
 
   export let active;
   export let jobs;
-
 </script>
 
 <svelte:window bind:scrollY={y} />
@@ -24,12 +26,21 @@
   <Wrapper type="full">
     <Wrapper type="x-wide">
       <div class="c-site-header__inner">
-        <a class="c-site-header__logo" href="/" on:click={(e) => {
-          $activeSubMenu = null;
-          }}>
+        <a
+          class="c-site-header__logo"
+          href="/"
+          on:click={(e) => {
+            $activeSubMenu = null;
+          }}
+        >
           <Logo theme={sticky ? 'light' : $theme.header} />
         </a>
-        <Button class="c-site-header__menu-button" {color} size="cta" action={() => ($mobileMenuOpen = !$mobileMenuOpen)}>
+        <Button
+          class="c-site-header__menu-button"
+          {color}
+          size="cta"
+          action={() => ($mobileMenuOpen = !$mobileMenuOpen)}
+        >
           {#if $mobileMenuOpen}
             Close
           {:else}
@@ -37,7 +48,12 @@
           {/if}
         </Button>
 
-        <Nav theme={sticky ? 'light' : $theme.header} {active} {jobs} open={$mobileMenuOpen} />
+        <Nav
+          theme={sticky ? 'light' : $theme.header}
+          {active}
+          {jobs}
+          open={$mobileMenuOpen}
+        />
       </div>
     </Wrapper>
   </Wrapper>
@@ -52,12 +68,19 @@
     transition: all 0.2s ease;
   }
 
+  @media (max-width: 320px) {
+    .c-site-header {
+      padding: 8px;
+    }
+  }
+
   .c-site-header__inner {
     display: flex;
     width: 100%;
     padding: 8px 16px;
     align-items: center;
     justify-content: space-between;
+    border-radius: 60px;
     transition: all 0.3s ease;
     isolation: isolate;
   }
@@ -88,18 +111,8 @@
     height: 40px;
   }
 
-  :global(.c-site-header__menu-button) {
-    position: relative;
-    z-index: 101;
-  }
-
-  :global(.c-site-header__menu-button.open) {
-    position: relative;
-    z-index: 101;
-  }
-
   @media (min-width: 1024px) {
-   :global(.c-site-header__menu-button) {
+    :global(.c-site-header__menu-button) {
       display: none !important;
     }
   }

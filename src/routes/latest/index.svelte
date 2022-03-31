@@ -13,6 +13,7 @@
   import Banner from '$lib/Blocks/Banner.svelte';
   import CardsList from '$lib/Components/CardsList.svelte';
   import CardSplit from '$lib/Components/CardSplit.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
   import Pill from '$lib/Components/Pill.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
@@ -24,12 +25,14 @@
   };
 
   export let posts;
-
+  const title = 'Latest | Climate Policy Radar';
+  const excerpt =
+    'All the latest from our journey to map and analyse the climate policy landscape';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/latest';
 </script>
 
-<svelte:head>
-  <title>Latest | Climate Policy Radar</title>
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="light" size="xs">
   <svelte:fragment slot="pill">
@@ -38,7 +41,8 @@
   </svelte:fragment>
 
   <h1 slot="heading" class="u-gradient-text--dark-to-blue">
-    All the latest from our journey to map and analyse the climate policy landscape
+    All the latest from our journey to map and analyse the climate policy
+    landscape
   </h1>
 </Banner>
 
@@ -50,7 +54,8 @@
         date={post.date}
         image={post.thumb}
         excerpt={post.excerpt}
-        slug={post.slug} />
+        slug={post.slug}
+      />
     {/each}
   </CardsList>
 </Wrapper>

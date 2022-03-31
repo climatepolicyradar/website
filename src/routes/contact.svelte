@@ -9,18 +9,20 @@
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import ContactForm from '$lib/Blocks/ContactForm.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'dark',
     header: 'dark',
   };
-
+  const title = 'Contact | Climate Policy Radar';
+  const excerpt =
+    'Get in touch with not-for profit data-led climate startup, Climate Policy Radar';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/contact';
 </script>
 
-<svelte:head>
-  <title>Contact | Climate Policy Radar</title>
-  <meta name="description" content="Get in touch with not-for profit data-led climate startup, Climate Policy Radar" />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Body class="has-gradient--dark-blue" />
 

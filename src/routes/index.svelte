@@ -2,8 +2,8 @@
   export async function load({ fetch }) {
     const res = await fetch(`/latest/posts.json`);
     const { posts } = await res.json();
-    const featuredPosts = posts.filter(post => post.featured);
-    const partnersRes = await fetch(`/data/partners.json`)
+    const featuredPosts = posts.filter((post) => post.featured);
+    const partnersRes = await fetch(`/data/partners.json`);
     const { partnerList } = await partnersRes.json();
 
     return {
@@ -24,6 +24,7 @@
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'light',
@@ -32,29 +33,32 @@
 
   export let featuredPosts;
   export let partnerList;
-
+  const title =
+    'Climate Policy Radar | Building the evidence base for evidence-based policymaking';
+  const excerpt = 'Building the evidence base for evidence-based policymaking';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/';
 </script>
 
-<svelte:head>
-  <title>Climate Policy Radar | Building the evidence base for evidence-based policymaking</title>
-  <meta name="description" content="Building the evidence base for evidence-based policymaking" />
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Banner size="lg" theme="dark">
-  <h1 slot="heading">Building the evidence base for evidence-based policymaking</h1>
+  <h1 slot="heading">
+    Building the evidence base for evidence-based policymaking
+  </h1>
   <p slot="subheading">
-    Giving policymakers, researchers and civil society tools for better policy design and
-    accountability.
+    Giving policymakers, researchers and civil society tools for better policy
+    design and accountability.
   </p>
-  <Button color="white" size="lg" action={() => ($modalStore.cta = true)} arrow>
+  <Button color="white" size="lg" href="/request-access" arrow>
     Request early access
   </Button>
 </Banner>
 
 <SingleColumn>
   <p class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
-    We are on a mission to map and analyse the climate policy landscape globally and drive the
-    transition to a low carbon, resilient world.
+    We are on a mission to map and analyse the climate policy landscape globally
+    and drive the transition to a low carbon, resilient world.
   </p>
 </SingleColumn>
 

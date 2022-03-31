@@ -1,16 +1,19 @@
 <script>
   import { theme } from '$lib/stores/theme';
   import Wrapper from '$lib/Components/Wrapper.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
     footer: 'dark',
     header: 'dark',
   };
+  const title = 'Terms &amp; Conditions | Climate Policy Radar';
+  const excerpt = 'Terms and conditions';
+  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const path = '/terms-conditions';
 </script>
 
-<svelte:head>
-  <title>Terms &amp; Conditions | Climate Policy Radar</title>
-</svelte:head>
+<MetaTags {title} {excerpt} {image} {path} />
 
 <Wrapper type="content">
   <h1>Terms &amp; Conditions</h1>

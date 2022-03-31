@@ -12,13 +12,14 @@
   import PostMeta from '$lib/Components/PostMeta.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
+  import MetaTags from '$lib/Components/MetaTags.svelte';
 
   export let title;
   export let date;
   export let author;
   export let excerpt;
   export let topics = [];
-  
+  export let thumb;
 
   $theme = {
     footer: 'light',
@@ -41,13 +42,12 @@
   });
 
   const team = getContext('team');
-
+  const metaTitle = `${title} | Latest | Climate Policy Radar`;
+  const image = `https://climatepolicyradar.org${thumb}`;
+  const path = `/${title}`;
 </script>
 
-<svelte:head>
-  <title>{title} | Climate Policy Radar</title>
-  <meta name="description" content={excerpt} />
-</svelte:head>
+<MetaTags title={metaTitle} {excerpt} {image} {path} />
 
 <section class="b-content">
   <Spacer size="2xl" />
@@ -59,7 +59,7 @@
     <Spacer size="xs" />
     <h1>{title}</h1>
     <PostMeta {author} {date} {team} />
-    
+
     <Spacer size="md" />
 
     <div class="b-content__inner">

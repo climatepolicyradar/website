@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google Tag Manager -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-ZD1WWE49TL"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-ZD1WWE49TL');
+    </script>
+    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.png" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-    <link rel="alternate icon" href="/favicon.png">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="preload" href="/fonts/5549031/5e356b56-25c1-43ac-9524-44e597eb7172.woff2" as="font" type="font/woff2" crossorigin>
-    <link rel="preload" href="/fonts/5548986/4746c4e5-3355-4f8f-8395-3f7abfcbf4b8.woff2" as="font" type="font/woff2" crossorigin>
+    <link
+      rel="preload"
+      href="/fonts/5549031/5e356b56-25c1-43ac-9524-44e597eb7172.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/5548986/4746c4e5-3355-4f8f-8395-3f7abfcbf4b8.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     %svelte.head%
   </head>
@@ -15,10 +43,10 @@
     <div id="svelte">%svelte.body%</div>
     <script>
       if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
+        window.netlifyIdentity.on('init', (user) => {
           if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
+            window.netlifyIdentity.on('login', () => {
+              document.location.href = '/admin/';
             });
           }
         });

@@ -1,8 +1,8 @@
 {
   "team": [
     {
-      "name": "Michal Nachmany",
-      "role": "CEO ",
+      "name": "Michal Nachmany, PhD",
+      "role": "Founder and CEO ",
       "image": {
         "src": "images/team/michal.jpg",
         "alt": "Michal",
@@ -10,13 +10,10 @@
         "height": 812
       },
       "group": "Team",
-      "bio": "Michal is an international climate policy and governance expert with background in law, finance, and multinational project management. She spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
+      "bio": "Michal is an international climate policy and governance expert with background in law, finance, and multinational project management. Before founding Climate Policy Radar, she spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
       "highlights": [
-        "Advisor to Climate Action 100+, an investor coalition with over $54 trillion AUM",
-        "Fellow of the UNFCCC Resilience Frontiers",
-        "Speaker on climate policy and action with diverse audiences, with regular appearances on national and international media",
-        "Member of the Camda Community for credible climate action",
-        "Member of the Coalition for Digital Environmental Sustainability"
+        "She is a fellow of the UNFCCC Resilience Frontiers and a founding member of the Climate Tech Council Founders forum. Michal is also a member of the Coalition for Digital Environmental Sustainability and of the Camda Community for credible climate action. She was previously the team lead at the Transition Pathway Initiative, and an advisor to Climate Action 100+, an investor coalition with over $55 trillion AUM. Michal is a speaker on climate policy and action with diverse audiences, with regular appearances on national and international media.",
+        "Michal holds a PhD from the London School of Economics. Her research explored the global diffusion of climate change policies, and the contribution of global networks to advancement of policies. She also has an MA (cum laude) in Energy Policy and Management from the University of Haifa, and an LLB in Law as well as an MBA, specialising in finance, from the Hebrew University of Jerusalem."
       ],
       "social": [
         {
@@ -30,30 +27,29 @@
       ]
     },
     {
-      "name": "Chris Ballard",
-      "role": "CTO",
+      "name": "Ingemar Svensson",
+      "role": "Senior Technical Advisor",
       "group": "Team",
       "image": {
-        "src": "images/team/chris.jpg",
-        "alt": "sdf",
-        "width": 600,
-        "height": 812
+        "src": "images/team/ingemar-1-.jpg"
       },
-      "bio": "Chris is a data scientist, applied machine learning practitioner and technology leader, with particular skills in Natural Language Processing.",
+      "bio": "Ingemar is an experienced technological leader, with extensive experience from early start-ups to large financial corporations.",
       "highlights": [
-        "He has over 20 years of experience building innovative data, analytics and machine learning solutions in the edtech and consumer market research sectors.",
-        "His leadership experience spans software development, product management, consultancy, innovation and R&D. ",
-        "Prior to CPR, he was Lead Research Scientist for NielsenIQ, where he led the Applied Machine Learning Research team, building Deep Learning and NLP solutions to structure ecommerce, retail and consumer data, deployed as part of major global strategic initiatives."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/ACoAAAQd7I0BJBmw2_y32wJ8E0s_u6QfSer1aes?lipi=urn%3Ali%3Apage%3Ad_flagship3_detail_base%3BdxO8BVwNT9mmWxoP3PncrQ%3D%3D"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/chrisaballard"
-        }
+        "He has over twenty years experience spanning both corporate technology and innovative start-ups. He is a former CTO at SunGard, one of the world’s largest software providers as well as having held senior technology roles in finance, insurance and healthcare. Over the past seven years he has co-founded a number of start-ups in the area of artificial intelligence, big data and analytics."
+      ]
+    },
+    {
+      "name": "Callie Coop",
+      "role": "Operations",
+      "group": "Team",
+      "image": {
+        "src": "images/team/callie.jpg",
+        "alt": "Callie Coop"
+      },
+      "bio": "Callie is an Operations Manager with experience working with Telecoms and Fintech start-ups.",
+      "highlights": [
+        "Before joining Climate Policy Radar, she worked for 5 years at Clear Books, an online account, payroll and HR software. With over 8 years of working in fast-paced tech industries, she specialises in finance and people management.",
+        "She’s a passionate climate change advocate as we as a Mental Health First Aider and certified AAT Bookkeeper. She’s currently working on her CIPD Level 5 qualification."
       ]
     },
     {
@@ -68,8 +64,7 @@
       },
       "bio": "Marcus is a policy analyst with experience working on a range of international climate change policy issues.",
       "highlights": [
-        "He previously worked in the UK Civil Service on issues including climate diplomacy, trade and climate change and EU policy. ",
-        "His policy skills include research, analysis, briefing and project management.",
+        "He previously worked in the UK Civil Service on issues including climate diplomacy, trade and climate change and EU policy.  His policy skills include research, analysis, briefing and project management.",
         "He holds a BA in Classics and French from Oxford University and a Masters in Linguistics from SOAS, where he researched postcolonial sociolinguistics."
       ],
       "social": [
@@ -80,33 +75,6 @@
         {
           "network": "twitter",
           "url": "https://twitter.com/marcusodavies"
-        }
-      ]
-    },
-    {
-      "name": "Paula Hightower",
-      "role": "Front End",
-      "group": "Team",
-      "image": {
-        "src": "images/team/paula.jpg",
-        "width": 600,
-        "height": 812,
-        "alt": "Paula Hightower"
-      },
-      "bio": "Paula is a front end developer with over 20 years experience in web development and design.",
-      "highlights": [
-        "She has designed and developed a multitude of web-based projects, including multimedia and interactive data reporting applications, and e-commerce and brochure websites.",
-        "For a period of 8 years, she also ran her own business providing pre-built website templates to hundreds of clients around the world.",
-        "Paula has worked in Los Angeles, Seattle, Berlin and London."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/paulachightower/"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/squeakie"
         }
       ]
     },
@@ -138,6 +106,72 @@
       ]
     },
     {
+      "name": "Paula Hightower",
+      "role": "Front End",
+      "group": "Team",
+      "image": {
+        "src": "images/team/paula.jpg",
+        "width": 600,
+        "height": 812,
+        "alt": "Paula Hightower"
+      },
+      "bio": "Paula is a front end developer with over 20 years experience in web development and design.",
+      "highlights": [
+        "She has designed and developed a multitude of web-based projects, including multimedia and interactive data reporting applications, and e-commerce and brochure websites.",
+        "For a period of 8 years, she also ran her own business providing pre-built website templates to hundreds of clients around the world.",
+        "Paula has worked in Los Angeles, Seattle, Berlin and London."
+      ],
+      "social": [
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/in/paulachightower/"
+        },
+        {
+          "network": "twitter",
+          "url": "https://twitter.com/squeakie"
+        }
+      ]
+    },
+    {
+      "name": "Stefan Lavelle",
+      "role": "Data Science",
+      "group": "Team",
+      "image": {
+        "src": "images/team/stefan.jpg"
+      },
+      "bio": "Stefan is a data scientist and econometrician with extensive experience in policy and climate related work.",
+      "highlights": [
+        "Prior to joining Climate Policy Radar, he worked as a computer vision engineer using satellite data to track emissions at industrial plants. This followed a brief stint in finance as a data scientist at a private equity firm. Previously, Stefan was an economist for the UK civil service and focused on designing and simulating large procurement auctions.",
+        "Stefan holds a degree in economics from the University of Cambridge."
+      ]
+    },
+    {
+      "name": "Danny Waite, PhD",
+      "role": "Policy",
+      "group": "Team",
+      "bio": "Danny is an international climate policy specialist, with particular expertise on the dynamics of the UNFCCC negotiations.",
+      "highlights": [
+        "He was previously a Blue Book stagiaire in DG CLIMA in the European Commission, and was part of the Greenhouse Gas Removal Hub at the Smith School of Enterprise & Environment at the University of Oxford.",
+        "He holds an MA in Geography from the University of Oxford, an MA in International Law & International Relations from Oxford Brookes University, an MSc in Public Policy from UCL, and a PhD in Human Geography from the University of Reading, where he was a Leverhulme Trust Doctoral Scholar in Climate Justice."
+      ],
+      "image": {
+        "src": "images/team/danny.jpg"
+      }
+    },
+    {
+      "name": "Joel Wright, PhD",
+      "role": "Software Engineering",
+      "group": "Team",
+      "image": {
+        "src": "images/team/joel-2-.jpg"
+      },
+      "bio": "Joel is a technical architect and software developer with over 15 years of experience solving challenges in a variety of commercial and research settings.",
+      "highlights": [
+        "Before joining Climate Policy Radar, he was a senior software engineer & architect at Genomics plc where he designed and implemented tools, APIs, and pipelines used for processing genomic information to deliver genome-derived health insights.",
+        "He holds a Ph.D. in Computer Science from the University of Nottingham and has previous experience in machine learning, large-scale data transfer, long-term archiving & workflow systems."
+      ]
+    },
+    {
       "name": "Professor Sam Fankhauser",
       "role": "Non-executive Director",
       "group": "Board",
@@ -163,6 +197,26 @@
         {
           "network": "twitter",
           "url": "https://twitter.com/SamFankhauser"
+        }
+      ]
+    },
+    {
+      "name": "Lisa Long",
+      "role": "Non-Executive Director",
+      "group": "Board",
+      "image": {
+        "src": "images/team/lisalong-1-.jpg"
+      },
+      "bio": "Lisa is a serial entrepreneur, non-executive director, and private equity advisor.",
+      "highlights": [
+        "In her own company Before You Code, she provides executive coaching and product management advisory for start-up and growth companies.",
+        "She currently serves on the board of Vilmer in Norway, the product advisory council for Ushahidi, and is an advisor to private equity firm Spring Capital.  Through both her start-up experience and her work at Skype/Microsoft and Telenor, she is recognized as a product management and scaling expert and has spoken at conferences from Lviv to San Francisco. She is a guest lecturer on entrepreneurship at INSEAD.",
+        "She has an MBA from INSEAD and a BS in chemical engineering from Cornell University."
+      ],
+      "social": [
+        {
+          "network": "linkedin",
+          "url": "https://www.linkedin.com/in/llongllong/"
         }
       ]
     },
