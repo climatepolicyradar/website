@@ -391,9 +391,7 @@
     </label>
     <br />
     <label class="c-request-form__label--vertical">
-      <span class="c-request-form__label-text"
-        >Who referred you to us? (if applicable)</span
-      >
+      <span class="c-request-form__label-text">Any further information</span>
       <input type="text" name="other_referral" bind:value={otherReferrals} />
     </label>
 
