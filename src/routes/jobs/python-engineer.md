@@ -4,16 +4,16 @@ title: Python Engineer
 topics:
   - jobs
 date: 18 May 2022
-excerpt: >
-  With a team of ten and expanding, and about to launch our first product, CPR
-  is at an extremely exciting stage. We are now looking for a brilliant and
-  committed Mid-Senior Python Engineer to join our team.
-
-
-  As a company, we are deeply committed to our employees’ overall wellbeing, reflected in our progressive policies, including offering unlimited leave, flexible working and a wellbeing allowance. 
+excerpt: "\n"
 applyLink: jobs@climatepolicyradar.org
 ---
 <!--StartFragment-->
+
+With a team of ten and expanding, and about to launch our first product, CPR is at an extremely exciting stage. We are now looking for a brilliant and committed Mid-Senior Python Engineer to join our team.
+
+As a company, we are deeply committed to our employees’ overall wellbeing, reflected in our progressive policies, including offering unlimited leave, flexible working and a wellbeing allowance. 
+
+
 
 ## Role Overview
 
@@ -80,7 +80,5 @@ Unfortunately, we are currently unable to sponsor work visas. Only applicants le
 Climate Policy Radar is proud to be an equal opportunity workplace and is an affirmative action employer. Essentially, we want to work with the best people, no matter their background.  We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of race, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, citizenship, relationship choices and status, or disability. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
 
 We'd especially love to hear from you if you're from an under-represented demographic. If you have a disability or special need that requires accommodation, please let us know. 
-
-
 
 <!--EndFragment-->
