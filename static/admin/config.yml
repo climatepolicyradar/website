@@ -69,7 +69,12 @@ collections:
           date_format: true,
         }
       - { label: 'Excerpt', name: 'excerpt', widget: 'text' }
-      - { label: 'Apply link', name: 'applyLink', widget: 'string' }
+      - {
+          label: 'Apply link',
+          name: 'applyLink',
+          widget: 'string',
+          required: false,
+        }
       - { label: 'Body', name: 'body', widget: 'markdown' }
   - label: 'Other content'
     name: 'other'
