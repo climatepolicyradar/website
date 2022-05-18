@@ -13,8 +13,6 @@ With a team of ten and expanding, and about to launch our first product, Climate
 
 As a company, we are deeply committed to our employees’ overall wellbeing, reflected in our progressive policies, including offering unlimited leave, flexible working and a wellbeing allowance. 
 
-
-
 ## Role Overview
 
 * You’ll report to our CTO and work closely alongside our experienced Senior Software Engineer (see [our team page](https://climatepolicyradar.org/team) to get to know everyone)
