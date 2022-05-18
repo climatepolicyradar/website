@@ -49,7 +49,12 @@
           To apply for this role, please send us your CV and tell us why you
           would like to work with us.
         </p>
-        <Button type="cta" color="white" href={applyLink}>Apply now</Button>
+        <Button
+          type="cta"
+          color="white"
+          href="mailto:jobs@climatepolicyradar.org?subject={title}"
+          >Apply now</Button
+        >
       </div>
       <a
         href="/jobs#open-positions"
