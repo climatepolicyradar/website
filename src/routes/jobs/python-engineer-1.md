@@ -8,7 +8,7 @@ excerpt: With a team of ten and expanding, and about to launch our first
   product, Climate Policy Radar is at an extremely exciting stage. We are now
   looking for a brilliant and committed Mid-Senior Python Engineer to join our
   team.
-applyLink: jobs@climatepolicyradar.org
+applyLink: python-engineer
 ---
 With a team of ten and expanding, and about to launch our first product, Climate Policy Radar is at an extremely exciting stage. We are now looking for a brilliant and committed Mid-Senior Python Engineer to join our team.
 
