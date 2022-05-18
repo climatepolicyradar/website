@@ -14,8 +14,6 @@ With a team of ten and expanding, and about to launch our first product, Climate
 
 As a company, we are deeply committed to our employees’ overall wellbeing, reflected in our progressive policies, including offering unlimited leave, flexible working and a wellbeing allowance. 
 
-
-
 ## Role Overview
 
 * You’ll report to our CTO and work closely alongside our experienced Senior Software Engineer (see [our team page](https://climatepolicyradar.org/team) to get to know everyone)
@@ -56,18 +54,21 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 
 ## Interview process
 
-1. Interview with CTO – 45 min. 
+Stage 1: Interview with CTO – 45 min. 
 
-   Get to know each other, high-level technical chat and chance for you to ask questions
-2. Technical Task – 3-hour task to complete at home.
+\    Get to know each other, high-level technical chat and chance for you to ask questions
 
-   You’ll be given some climate policy data and asked to build a REST API. 
-3. Final Interview – 1.5 hours
+Stage 2: Technical Task – 3-hour task to complete at home.
 
-   Technical Interview with CTO and Senior Engineer - 45 min. Run through of tech task and discussion. 
+\    You’ll be given some climate policy data and asked to build a REST API. 
 
-   Conversation with CEO – 45 min. Alignment with our mission, culture, values, and any questions you have. 
-4. Offer
+Stage 3: Final Interview – 1.5 hours
+
+\    Technical Interview with CTO and Senior Engineer - 45 min. Run through of tech task and discussion. 
+
+\    Conversation with CEO – 45 min. Alignment with our mission, culture, values, and any questions you have. 
+
+Stage 4: Offer
 
 ## Right to Work in the UK
 
@@ -78,7 +79,5 @@ Unfortunately, we are currently unable to sponsor work visas. Only applicants le
 Climate Policy Radar is proud to be an equal opportunity workplace and is an affirmative action employer. Essentially, we want to work with the best people, no matter their background.  We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of race, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, citizenship, relationship choices and status, or disability. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
 
 We'd especially love to hear from you if you're from an under-represented demographic. If you have a disability or special need that requires accommodation, please let us know. 
-
-
 
 <!--EndFragment-->
