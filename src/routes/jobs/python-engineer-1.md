@@ -28,7 +28,7 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 * Experienced in AWS and functions like EC2, S3, auto-scaling and security. Able to select and set up the right configuration for what we need alongside DevOps tooling (Docker, ECS)
 * Strong database knowledge, SQL and PostgreSQL
 * Solid understanding of software engineering fundamentals, version control (Git), shell scripting, OOP, unit and integration testing.
-* Appreciation for what it means to work in an early-stage startup, balancing trade-offers, rolling your sleeves up and limited resources. 
+* Appreciation for what it means to work in an early-stage startup, balancing trade-offs, rolling your sleeves up and limited resources. 
 
 ## Bonus if you have…
 
