@@ -4,10 +4,8 @@ title: Python Engineer
 topics:
   - jobs
 date: 18 May 2022
-excerpt: With a team of ten and expanding, and about to launch our first
-  product, Climate Policy Radar is at an extremely exciting stage. We are now
-  looking for a brilliant and committed Mid-Senior Python Engineer to join our
-  team.
+excerpt: Join us as a Python Engineer - this is a great opportunity to grow your
+  experience in a fast-moving not-for-profit climate start-up
 applyLink: ""
 ---
 <!--StartFragment-->
