@@ -10,9 +10,13 @@ excerpt: With a team of ten and expanding, and about to launch our first
   team.
 applyLink: ""
 ---
-With a team of ten and expanding, and about to launch our first product, Climate Policy Radar is at an extremely exciting stage. We are now looking for a brilliant and committed Mid-Senior Python Engineer to join our team.
+<!--StartFragment-->
 
-As a company, we are deeply committed to our employees’ overall wellbeing, reflected in our progressive policies, including offering unlimited leave, flexible working and a wellbeing allowance. 
+Climate Policy Radar CIC (CPR) is a climate AI startup on a mission to map and analyse the global policy landscape using Natural Language Processing and Machine Learning. Our work helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation. 
+
+We’re a not-for-profit startup, having secured our series-A, about to fundraise for the next round. With a team of ten and expanding, and about to launch our first product, CPR is at an extremely exciting stage. We are now looking for a brilliant and committed Mid-Senior Python Engineer to join our team.
+
+As a company, we are deeply committed to our employees’ overall wellbeing, reflected in our progressive policies, including offering unlimited leave, flexible working and a wellbeing allowance.
 
 ## Role Overview
 
