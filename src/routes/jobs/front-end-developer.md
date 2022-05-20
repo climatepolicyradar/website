@@ -4,11 +4,8 @@ title: Front End developer
 topics:
   - jobs
 date: 20 May 2022
-excerpt: We’re a not-for-profit startup, having secured our series-A, about to
-  fundraise for the next round. With a team of ten and expanding, and about to
-  launch our first product, CPR is at an extremely exciting stage. We are now
-  looking for a brilliant and committed Mid-Senior React Developer to join our
-  team.
+excerpt: Join us as a Front End Developer - this is a great opportunity to grow
+  your experience in a fast-moving not-for-profit climate start-up
 ---
 <!--StartFragment-->
 
