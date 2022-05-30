@@ -88,6 +88,12 @@
 
 <style>
   :global(.home-cta .c-button) {
-    margin-right: 1rem;
+    margin-top: 1rem;
+  }
+  @media (min-width: 768px) {
+    :global(.home-cta .c-button) {
+      margin-top: 0;
+      margin-right: 1rem;
+    }
   }
 </style>
