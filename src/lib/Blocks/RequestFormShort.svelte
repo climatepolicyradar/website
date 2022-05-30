@@ -175,7 +175,7 @@
     <span class="u-no-bees">
       <label>bees: <input name="bee-field" /></label>
     </span>
-    <input type="hidden" name="form-name" value="request" />
+    <input type="hidden" name="form-name" value="short-request" />
   </form>
 {/if}
 
