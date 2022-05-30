@@ -29,8 +29,9 @@
     <Spacer size="sm" />
   </svelte:fragment>
   <p class="u-type-body-lg">
-    To request access to our law and policy search application, please leave
-    your details below, and we will be in touch.
+    We have launched our law and policy search tool to a limited group of users.
+    Please fill in your details to get access, and we will send over an
+    activation link shortly.
   </p>
 </Banner>
 

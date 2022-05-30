@@ -51,9 +51,15 @@
     design and accountability.
   </p>
   <div class="home-cta">
-    <Button color="white" size="lg" href="/request-access" arrow>Sign up</Button
+    <Button
+      color="blue"
+      size="lg"
+      href="https://app.climatepolicyradar.org"
+      arrow>Log in</Button
     >
-    <Button color="blue" size="lg" href="/request-access" arrow>Sign in</Button>
+    <Button color="white" size="lg" href="/request-access" arrow
+      >Sign up for early access</Button
+    >
   </div>
 </Banner>
 

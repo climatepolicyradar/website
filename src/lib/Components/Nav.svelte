@@ -83,11 +83,10 @@
     </div>
   {/each}
 
-  <Button color="white" size="cta" href="/request-access">Sign up</Button>
-
   <Button color="blue" size="cta" href="https://app.climatepolicyradar.org"
-    >Sign in</Button
+    >Log in</Button
   >
+  <Button color="white" size="cta" href="/request-access">Sign up</Button>
 </nav>
 
 <style>
