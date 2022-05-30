@@ -50,9 +50,11 @@
     Giving policymakers, researchers and civil society tools for better policy
     design and accountability.
   </p>
-  <Button color="white" size="lg" href="/request-access" arrow>
-    Request early access
-  </Button>
+  <div class="home-cta">
+    <Button color="white" size="lg" href="/request-access" arrow>Sign up</Button
+    >
+    <Button color="blue" size="lg" href="/request-access" arrow>Sign in</Button>
+  </div>
 </Banner>
 
 <SingleColumn>
@@ -83,3 +85,9 @@
 <LatestPosts posts={featuredPosts} limit="1" cardTheme="dark" />
 
 <Spacer size="lg" />
+
+<style>
+  :global(.home-cta .c-button) {
+    margin-right: 1rem;
+  }
+</style>

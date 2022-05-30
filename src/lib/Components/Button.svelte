@@ -134,6 +134,18 @@
     color: var(--color-indigo);
     background-color: #fff;
   }
+  .c-button--white:hover {
+    color: var(--color-indigo);
+    background-color: var(--color-sky);
+  }
+  .c-button--blue {
+    color: #fff;
+    background-color: var(--color-blue);
+  }
+  .c-button--blue:hover {
+    color: #fff;
+    background-color: var(--color-indigo);
+  }
 
   .c-button--dark {
     background-color: var(--color-indigo);
@@ -149,7 +161,9 @@
     color: #fff;
   }
 
-  .c-button--dark-glow::before {
+  .c-button--dark-glow::before,
+  .c-button--blue:hover::before,
+  .c-button--white::before {
     position: absolute;
     content: '';
     inset: 0;

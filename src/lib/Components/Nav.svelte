@@ -83,9 +83,11 @@
     </div>
   {/each}
 
-  <Button color="dark-glow" size="cta" href="/request-access">
-    Request early access
-  </Button>
+  <Button color="white" size="cta" href="/request-access">Sign up</Button>
+
+  <Button color="blue" size="cta" href="https://app.climatepolicyradar.org"
+    >Sign in</Button
+  >
 </nav>
 
 <style>
@@ -149,9 +151,11 @@
       display: flex;
       align-items: center;
     }
-    .c-primary-nav-item + .c-primary-nav-item,
-    :global(.c-primary-nav .c-primary-nav-item + .c-button) {
+    .c-primary-nav-item + .c-primary-nav-item {
       margin-left: 2.5rem;
+    }
+    :global(.c-primary-nav .c-button) {
+      margin-left: 1rem;
     }
     .c-primary-nav-item {
       display: inline-block;
