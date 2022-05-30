@@ -18,7 +18,7 @@
   const title = 'Request Early Access | Climate Policy Radar';
   const excerpt = 'Request early access';
   const image = 'https://climatepolicyradar.org/images/logo.png';
-  const path = '/request-access';
+  const path = '/requests';
 </script>
 
 <MetaTags {title} {excerpt} {image} {path} />
