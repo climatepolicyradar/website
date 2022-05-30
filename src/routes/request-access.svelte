@@ -29,9 +29,9 @@
     <Spacer size="sm" />
   </svelte:fragment>
   <p class="u-type-body-lg">
-    We are working towards our first limited product release to a small group of
-    users in May 2022. If you would like to have early access, please leave your
-    details below, and we will be in touch.
+    We have launched our law and policy search tool to a limited group of users.
+    Please fill in your details to get access, and we will send over an
+    activation link shortly.
   </p>
 </Banner>
 
