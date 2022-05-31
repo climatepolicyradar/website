@@ -28,11 +28,6 @@
     <Pill color="blue" upper>Request Early Access</Pill>
     <Spacer size="sm" />
   </svelte:fragment>
-  <p class="u-type-body-lg">
-    We have launched our law and policy search tool to a limited group of users.
-    Please fill in your details to get access, and we will send over an
-    activation link shortly.
-  </p>
 </Banner>
 
 <Wrapper>

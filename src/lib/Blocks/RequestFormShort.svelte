@@ -85,6 +85,11 @@
 </script>
 
 {#if status === 'new'}
+  <p class="u-type-body-lg">
+    We have launched our law and policy search tool to a limited group of users.
+    Please fill in your details to get access, and we will send over an
+    activation link shortly.
+  </p>
   {#if inputError}
     <p class="error-message above-form">
       {inputError}
@@ -216,6 +221,7 @@
   }
   .u-type-body-lg {
     margin-top: 0;
+    margin-bottom: 3em;
   }
 
   .c-request-form__label {
