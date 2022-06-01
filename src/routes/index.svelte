@@ -50,9 +50,17 @@
     Giving policymakers, researchers and civil society tools for better policy
     design and accountability.
   </p>
-  <Button color="white" size="lg" href="/request-access" arrow>
-    Request early access
-  </Button>
+  <div class="home-cta">
+    <Button
+      color="blue"
+      size="lg"
+      href="https://app.climatepolicyradar.org"
+      arrow>Log in</Button
+    >
+    <Button color="white" size="lg" href="/request-access" arrow
+      >Sign up for early access</Button
+    >
+  </div>
 </Banner>
 
 <SingleColumn>
@@ -83,3 +91,15 @@
 <LatestPosts posts={featuredPosts} limit="1" cardTheme="dark" />
 
 <Spacer size="lg" />
+
+<style>
+  :global(.home-cta .c-button) {
+    margin-top: 1rem;
+  }
+  @media (min-width: 768px) {
+    :global(.home-cta .c-button) {
+      margin-top: 0;
+      margin-right: 1rem;
+    }
+  }
+</style>

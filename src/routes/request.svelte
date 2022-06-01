@@ -4,12 +4,12 @@
 
 <script>
   import { theme } from '$lib/stores/theme';
-  import RequestForm from '$lib/Blocks/RequestForm.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
   import Banner from '$lib/Blocks/Banner.svelte';
   import Pill from '$lib/Components/Pill.svelte';
   import MetaTags from '$lib/Components/MetaTags.svelte';
+  import RequestFormShort from '$lib/Blocks/RequestFormShort.svelte';
 
   $theme = {
     footer: 'light',
@@ -18,7 +18,7 @@
   const title = 'Request Early Access | Climate Policy Radar';
   const excerpt = 'Request early access';
   const image = 'https://climatepolicyradar.org/images/logo.png';
-  const path = '/request-access';
+  const path = '/requests';
 </script>
 
 <MetaTags {title} {excerpt} {image} {path} />
@@ -31,5 +31,5 @@
 </Banner>
 
 <Wrapper>
-  <RequestForm />
+  <RequestFormShort />
 </Wrapper>
