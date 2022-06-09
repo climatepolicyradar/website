@@ -18,7 +18,7 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 
 ## Role Overview
 
-* You’ll report to our CTO and work closely alongside our experienced Senior Software Engineer (see [our team page](https://climatepolicyradar.org/team) to get to know everyone)
+* You’ll report to our CEO and work closely alongside our experienced Senior Software Engineer (see [our team page](https://climatepolicyradar.org/team) to get to know everyone)
 * You’ll collaborate on the design and build of our evolving backend of the web app, including ETL, API, security, database 
 * You’ll help to define the system architecture
 * This will be a varied role where you’ll get to work on cloud infrastructure, web crawling, data processing, storage, and REST APIs. 
@@ -56,17 +56,17 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 
 ## Interview process
 
-**Stage 1:** Interview with CTO – 45 min. 
+**Stage 1:** Interview with CEO – 45 min. 
 
 Get to know each other, high-level technical chat and chance for you to ask questions
 
 **Stage 2:** Technical Task – 3-hour task to complete at home.
 
-You’ll be given some climate policy data and asked to build a REST API. 
+You’ll be given some climate policy data and asked to complete a programming task.
 
 **Stage 3:** Final Interview – 1.5 hours
 
-Technical Interview with CTO and Senior Engineer - 45 min. Run through of tech task and discussion. 
+Technical Interview with CEO and Senior Engineer - 45 min. Run through of tech task and discussion. 
 
 Conversation with CEO – 45 min. Alignment with our mission, culture, values, and any questions you have. 
 
