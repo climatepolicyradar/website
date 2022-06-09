@@ -17,7 +17,7 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 
 ## Role Overview
 
-* You’ll report to our CTO and work closely alongside experienced server developers and data scientists, our UX/UI designer, and climate policy experts (see our team page to get to know everyone).
+* You’ll report to our CEO and work closely alongside experienced server developers and data scientists, our UX/UI designer, and climate policy experts (see our team page to get to know everyone).
 * Develop the web front end for our policy search and insights platform.
 * Build interactive data visualisations.
 * Build high-quality mockups and prototypes to test out ideas and concepts, and enable us to iterate quickly to the optimal solution.
@@ -62,7 +62,7 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 
 ## Interview process
 
-**Stage 1:** Interview with CTO – 30-45 min. 
+**Stage 1:** Interview with CEO – 30-45 min. 
 
 Get to know each other, high-level technical chat and chance for you to ask questions
 
@@ -72,7 +72,7 @@ You’ll be given some climate policy data and asked to build a simple React app
 
 **Stage 3:** Final Interview – 1.5 hours
 
-Technical Interview with CTO - 45 min. Run through tech task and discussion.
+Technical Interview with CEO and senior software engineer - 45 min. Run through tech task and discussion.
 
 Conversation with CEO – 45 min. Alignment with our mission, culture, values, and any questions you have.
 
