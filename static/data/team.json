@@ -27,10 +27,11 @@
       ]
     },
     {
-      "name": "Justine Alford",
+      "name": "Justine Alford, PhD",
       "role": "Communication and Partnerships",
       "image": {
-        "src": "images/team/justine-2-.jpg"
+        "src": "images/team/justine-2-.jpg",
+        "alt": "Woman looking at camera"
       },
       "bio": "Justine is a communications and partnerships manager with almost a decade of experience in science communications and engagement.",
       "group": "Team",
