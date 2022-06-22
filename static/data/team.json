@@ -1,12 +1,6 @@
 {
   "team": [
     {
-      "name": "Gareth Visagie",
-      "group": "Advisory",
-      "role": "Chief Architect at Snyk",
-      "social": []
-    },
-    {
       "name": "Michal Nachmany, PhD",
       "role": "Founder and CEO ",
       "image": {
@@ -245,6 +239,12 @@
       "role": "Environmental campaigner and life peer in the UK House of Lords. ",
       "group": "Advisory",
       "image": false
+    },
+    {
+      "name": "Gareth Visagie",
+      "group": "Advisory",
+      "role": "Chief Architect at Snyk",
+      "social": []
     },
     {
       "name": "Dr Angel Hsu",
