@@ -28,7 +28,7 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 * Experienced using Python with one of the modern frameworks (Django, Flask, FastAPI, Tornado etc) to build REST APIs
 * Experienced in system architecture. Comfortable building a greenfield product and making critical technical decisions. 
 * Experienced in AWS and functions like EC2, S3, auto-scaling and security. Able to select and set up the right configuration for what we need alongside DevOps tooling (Docker, ECS)
-* Strong database knowledge, SQL and PostgreSQL
+* Strong database knowledge, SQL and PostgreSQL.
 * Solid understanding of software engineering fundamentals, version control (Git), shell scripting, OOP, unit and integration testing.
 * Appreciation for what it means to work in an early-stage startup, balancing trade-offs, rolling your sleeves up and limited resources. 
 
