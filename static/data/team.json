@@ -108,33 +108,6 @@
       ]
     },
     {
-      "name": "Paula Hightower",
-      "role": "Front End",
-      "group": "Team",
-      "image": {
-        "src": "images/team/paula.jpg",
-        "width": 600,
-        "height": 812,
-        "alt": "Paula Hightower"
-      },
-      "bio": "Paula is a front end developer with over 20 years experience in web development and design.",
-      "highlights": [
-        "She has designed and developed a multitude of web-based projects, including multimedia and interactive data reporting applications, and e-commerce and brochure websites.",
-        "For a period of 8 years, she also ran her own business providing pre-built website templates to hundreds of clients around the world.",
-        "Paula has worked in Los Angeles, Seattle, Berlin and London."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/paulachightower/"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/squeakie"
-        }
-      ]
-    },
-    {
       "name": "Stefan Lavelle",
       "role": "Data Science",
       "group": "Team",
@@ -239,6 +212,12 @@
       "role": "Environmental campaigner and life peer in the UK House of Lords. ",
       "group": "Advisory",
       "image": false
+    },
+    {
+      "name": "Gareth Visagie",
+      "group": "Advisory",
+      "role": "Chief Architect at Snyk",
+      "social": []
     },
     {
       "name": "Dr Angel Hsu",
