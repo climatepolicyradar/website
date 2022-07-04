@@ -40,7 +40,7 @@ As a company, we are deeply committed to our employees’ overall wellbeing, ref
 
 ## We offer…
 
-* Salary £60k-£75k depending on experience
+* Salary £60k-£75k depending on experience.
 * Deep commitment to employee wellbeing. Our policies include: 
 
   * Unlimited leave
