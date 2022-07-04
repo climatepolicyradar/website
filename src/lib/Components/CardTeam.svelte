@@ -17,15 +17,17 @@
 
 <div class="c-card c-card--team" class:has-bio={bio} on:click={handleClick}>
   <div class="c-card__media">
-    {#if image.src}
-      <img
-        class="c-card__image"
-        src={`/${image.src}`}
-        alt={image.alt}
-        width={image.width}
-        height={image.height}
-        loading="lazy"
-      />
+    {#if image}
+      {#if image.src}
+        <img
+          class="c-card__image"
+          src={`/${image.src}`}
+          alt={image.alt}
+          width={image.width}
+          height={image.height}
+          loading="lazy"
+        />
+      {/if}
     {/if}
 
     {#if bio}
