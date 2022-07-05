@@ -36,7 +36,7 @@ It’s an exciting time to join as the Beta product is becoming much more comple
 
 ## Requirements
 
-* Experienced using Python   
+* Experience using Python   
 * Experience of building scalable data pipelines for ingestion and processing of large unstructured data sources, incorporating machine learning models  
 * Broad knowledge and experience of selecting tools that can be used to build a toolchain. Being pragmatic in deciding between off-the-shelf versus building bespoke solutions
 * Experience using cloud infrastructure (AWS)  
