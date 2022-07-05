@@ -56,7 +56,7 @@ It’s an exciting time to join as the Beta product is becoming much more comple
 
 ## Interview process
 
-**Stage 1:**First conversation with our founder or senior engineer (30-45)  
+**Stage 1:** First conversation with our founder or senior engineer (30-45)  
 
 Get to know each other, and chance for you to ask questions  
 
