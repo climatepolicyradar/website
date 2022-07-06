@@ -12,13 +12,13 @@ excerpt: Join us as a Data Engineer - This is a great opportunity to enhance
 
 ## Who we are
 
-Climate Policy Radar CIC (CPR) is a climate AI start-up on a mission to map and analyse the global policy landscape using Natural Language Processing and Machine Learning to pool the world's fragmented climate policy data, making it easier to search and examine the measures that have been implemented to tackle climate change, so that we can identify what works and what doesn’t. Our work helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation. 
+Climate Policy Radar CIC (CPR) is a climate AI start-up on a mission to map and analyse the global policy landscape. We're using Natural Language Processing and Machine Learning to pool the world's fragmented climate policy data, making it easier to search and examine the measures that have been implemented to tackle climate change, so that we can identify what works and what doesn’t. Our work helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation. 
 
 We're a not-for-profit startup (registered Community Interest Company), having secured substantial grant funding in our first round, and about to fundraise for the next round. With a team of 9 and about to be 13, we have just launched our first (Alpha) product, working towards general access by November. CPR is at an extremely exciting stage. We are now looking for a brilliant and committed Data Engineer to join our team.
 
 ## Role Overview
 
-Currently the data science team are working on data engineering tasks;processing unstructured data, and building data pipelines and data models - all this while doing ML reesarch. We we are now looking to hire a Senior Data Engineer to take ownership of these tasks, working closely with our data science, engineering and policy teams, build the data pipelines that will enable ML research, and help shape our longer-term data engineering roadmap. 
+Currently the data science team are working on data engineering tasks; processing unstructured data, and building data pipelines and data models - all this while doing ML research. We are now looking to hire a Senior Data Engineer to take ownership of these tasks, working closely with our data science, engineering and policy teams, build the data pipelines that will enable ML research, and help shape our longer-term data engineering roadmap. 
 
 It’s an exciting time to join as the Beta product is becoming much more complex in terms of data. Currently we focus on processing one unstructured data type (PDF documents) into structured data using machine learning. Over the next months we will be adding additional complexity: 
 
@@ -78,7 +78,7 @@ Unfortunately, we are currently unable to sponsor work visas. Only applicants le
 
 ## Equal opportunities
 
-Climate Policy Radar is proud to be an equal opportunity workplace and is an affirmative action employer. Essentially, we want to work with the best people, no matter their background.  We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of race, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, citizenship, relationship choices and status, or disability. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
+Climate Policy Radar is proud to be an equal-opportunity workplace and is an affirmative action employer. Essentially, we want to work with the best people, no matter their background.  We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of race, ancestry, religion, sex, national origin, sexual orientation, gender identity, age, citizenship, relationship choices and status, or disability. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
 
 We'd especially love to hear from you if you're from an under-represented demographic. If you have a disability or special need that requires accommodation, please let us know. 
 
