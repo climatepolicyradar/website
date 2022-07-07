@@ -42,7 +42,7 @@
     },
     {
       "name": "Callie Coop",
-      "role": "Operations",
+      "role": "People and Operations",
       "group": "Team",
       "image": {
         "src": "images/team/callie.jpg",
@@ -105,6 +105,21 @@
           "network": "twitter",
           "url": "https://twitter.com/KDutia"
         }
+      ]
+    },
+    {
+      "name": "Patrick Fawbert Mills",
+      "role": "Software Engineering",
+      "group": "Team",
+      "image": {
+        "src": "images/team/patrick_white.jpeg",
+        "width": -2
+      },
+      "bio": "Patrick is a front-end developer with over 10 years of experience in creating engaging user experiences.",
+      "highlights": [
+        "Prior to joining Climate Policy Radar he worked across many sectors building highly-interactive websites and applications.",
+        "He is passionate about building quality products whilst making them accessible to all.",
+        "Patrick holds a degree in Multimedia Computing from the University of West of England"
       ]
     },
     {
