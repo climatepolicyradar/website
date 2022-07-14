@@ -5,7 +5,7 @@ topics:
   - jobs
 date: 14 July 2022
 excerpt: After launching our Alpha product and ahead of our General Access
-  product this autumn, we are looking for a brilliant and committed Product
+  release this autumn, we are looking for a brilliant and committed Product
   Manager to join our growing team.
 ---
 <!--StartFragment-->
