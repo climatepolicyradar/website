@@ -28,8 +28,6 @@ The role of the product manager is to understand our users, identify and priorit
 * Work alongside our comms manager to effectively communicate product features and benefits
 * Create a shared brain across teams to empower independent decision-making
 
-
-
 ## **Requirements**
 
 The ideal candidate can combine two disparate fields: (policy) research and software product management.  Candidates should have a strong background in at least one of these fields and be able to demonstrate how they can span the other area.  
@@ -58,16 +56,16 @@ Product management background:
 
 ## Interview process
 
-1. Interview with our tech lead and our people manager– 45-60 min. 
-2. Interview with CEO and 2 other (technical and non-technical) team members - 1.5-2 hrs:
+Interview with our tech lead and our people manager– 45-60 min. 
 
-   * Ahead of the interview, we will ask you to prepare a presentation (on which you should plan to spend approximately 2-3 hours). During the interview, you will present, and we will jointly discuss this at the interview
-   * Scenario-based questions
-   * Team/culture alignment questions
-   * Any questions you have for us. 
-3. Offer subject to references
+Interview with CEO and 2 other (technical and non-technical) team members - 1.5-2 hrs:
 
+* Ahead of the interview, we will ask you to prepare a presentation (on which you should plan to spend approximately 2-3 hours). During the interview, you will present, and we will jointly discuss this at the interview
+* Scenario-based questions
+* Team/culture alignment questions
+* Any questions you have for us. 
 
+Offer subject to references
 
 ## Right to Work in the UK
 
