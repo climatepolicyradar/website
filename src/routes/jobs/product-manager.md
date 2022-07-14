@@ -30,13 +30,12 @@ The role of the product manager is to understand our users, identify and priorit
 
 ## **Requirements**
 
-The ideal candidate can combine two disparate fields: (policy) research and software product management.  Candidates should have a strong background in at least one of these fields and be able to demonstrate how they can span the other area.  
+The ideal candidate can combine two disparate fields: (policy) research and software product management.  You should have a strong background in at least one of these fields and be able to demonstrate how you can span the other area comfortably.  
 
-Product management background:
-
-* You have at least 3 years of experience managing software products, ideally targeted at professional audiences e.g. researchers, civil service etc. 
+* You have at least 3 years of experience managing software products, ideally targeted at professional audiences e.g. researchers, civil service, etc. 
 * You demonstrated success defining and launching excellent products and an understanding of the development build lifecycle
-* You’ll need to understand and have a passion for research, and data driven decision making  - ideally in the legal, policy, or academic worlds (and you’ll be supported by domain experts).You have a good understanding of product success metrics and when to use then
+* You’ll need to understand and have a passion for research, and data driven decision making  - ideally in the legal, policy, or academic worlds (and you’ll be supported by domain experts).
+* You have a good understanding of product success metrics and when to use them.
 * You are a proactive and clear communicator with people from diverse backgrounds - technical and non-technical
 * You’ll understand best practices when it comes to product management and you’ll be able to advocate for the right approach to each project, ensuring the team understands how we get to each checkpoint
 * You have good listening and negotiation skills with the ability to bring a team together to a shared vision
