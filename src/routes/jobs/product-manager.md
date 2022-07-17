@@ -20,13 +20,13 @@ We're a not-for-profit startup (registered Community Interest Company), having s
 
 The role of the product manager is to understand our users, identify and prioritise product requirements, and ensure that these are clearly communicated to the rest of the team. As part of this, you will:
 
-* Work with the users of our products in order to understand their needs, whilst consulting with our internal policy experts and with external partners (including academic and professional organisations). 
-* Translate that research into user requirements to underpin product development. 
-* Work with all teams to organise requirements into a product strategy and roadmap, which you will own and manage - balancing long-term product planning with managing detailed short-term requirements.
-* Collect, analyse and respond to user feedback, including work iteratively with users to test new features’ effectiveness at addressing their challenges through rapid engagements
-* Work alongside our engineering and data science teams to maintain and prioritise the product backlog.
-* Work alongside our comms manager to effectively communicate product features and benefits
-* Create a shared brain across teams to empower independent decision-making
+* Work with the users of our products in order to understand their needs, whilst consulting with our internal policy experts and with external partners (including academic and professional organisations)
+* Translate that research into user requirements to underpin product development
+* Work with all teams to organise requirements into a product strategy and roadmap, which you will own and manage - balancing long-term product planning with managing detailed short-term requirements
+* Collect, analyse and respond to user feedback, including working iteratively with users to test new features’ effectiveness at addressing their challenges through rapid engagements
+* Work alongside our engineering and data science teams to maintain and prioritise the product backlog
+* Work with our comms manager to effectively communicate product features and benefits
+* Create a shared brain across teams to empower independent decision-making.
 
 ## **Requirements**
 
@@ -34,12 +34,12 @@ The ideal candidate can combine two disparate fields: (policy) research and soft
 
 * You have at least 3 years of experience managing software products, ideally targeted at professional audiences e.g. researchers, civil service, etc. 
 * You demonstrated success defining and launching excellent products and an understanding of the development build lifecycle
-* You understand and have a passion for research and data driven decision making, ideally in the legal, policy, or academic worlds (you will be supported by domain experts).
-* You have a good understanding of product success metrics and when to use them.
+* You understand and have a passion for research and data driven decision making, ideally in the legal, policy, or academic worlds (you will be supported by domain experts)
+* You have a good understanding of product success metrics and when to use them
 * You are a proactive and clear communicator with people from diverse backgrounds - technical and non-technical
-* You’ll understand best practices when it comes to product management and you’ll be able to advocate for the right approach to each project, ensuring the team understands how we get to each checkpoint
-* You have good listening and negotiation skills with the ability to bring a team together to a shared vision
-* You appreciate what it means to work in an early-stage startup - balancing trade-offs, rolling your sleeves up, pitching into shared efforts, and sometimes stepping out of your comfort zone.
+* You understand best practices when it comes to product management and are able to advocate for the right approach to each project, ensuring the team understands how we get to each checkpoint
+* You have good listening and negotiation skills, with the ability to bring a team together to a shared vision
+* You appreciate what it means to work in an early-stage startup - balancing trade-offs, rolling your sleeves up, pitching into shared efforts, and sometimes stepping out of your comfort zone
 * Your values align with [our values](https://climatepolicyradar.org/about#values) - we deeply care about them. 
 
 ### Would be great if you have…
