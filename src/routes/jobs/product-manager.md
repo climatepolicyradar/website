@@ -21,7 +21,7 @@ We're a not-for-profit startup (registered Community Interest Company), having s
 The role of the product manager is to understand our users, identify and prioritise product requirements, and ensure that these are clearly communicated to the rest of the team. As part of this, you will:
 
 * Work with the users of our products in order to understand their needs, whilst consulting with our internal policy experts and with external partners (including academic and professional organisations). 
-* Translate that research into user requirements to underpin product development. Requirements will be presented as user stories and epics.  
+* Translate that research into user requirements to underpin product development. 
 * Work with all teams to organise requirements into a product strategy and roadmap, which you will own and manage - balancing long-term product planning with managing detailed short-term requirements.
 * Collect, analyse and respond to user feedback, including work iteratively with users to test new features’ effectiveness at addressing their challenges through rapid engagements
 * Work alongside our engineering and data science teams to maintain and prioritise the product backlog.
