@@ -58,7 +58,7 @@
       arrow>Log in</Button
     >
     <Button color="white" size="lg" href="https://app.climatepolicyradar.org/auth/sign-up" arrow
-      >Sign up for access</Button
+      >Sign up</Button
     >
   </div>
 </Banner>
