@@ -57,8 +57,8 @@
       href="https://app.climatepolicyradar.org"
       arrow>Log in</Button
     >
-    <Button color="white" size="lg" href="/request-access" arrow
-      >Sign up for early access</Button
+    <Button color="white" size="lg" href="https://app.climatepolicyradar.org/auth/sign-up" arrow
+      >Sign up</Button
     >
   </div>
 </Banner>
