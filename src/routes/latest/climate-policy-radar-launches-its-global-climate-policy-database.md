@@ -34,6 +34,10 @@ This means that rather than having to manually scour through endless documents, 
 
 Check out how it works in the images below, which show how you can search and explore policy documents.
 
+**Enter your search term to get started**
+
+![A screenshot of the Climate Policy Radar search platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-1-.png "Enter your search term to explore the full text of 3000+ climate laws and policies")
+
 **View your search results**
 
 ![A screenshot showing a search result](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-2-.png "After typing in your search query, here 'just transition fund', results appear, matching on your term and semantically related terms")
