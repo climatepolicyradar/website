@@ -52,7 +52,7 @@ Check out how it works in the images below, which show how you can search and ex
 
 ## Building on Climate Change Laws of the World
 
-Our current offering brings together some 2,500 national-level law and policy documents derived from the Grantham Research Institute’s [Climate Change Laws of the World](https://climate-laws.org/) (CCLW) database, which Climate Policy Radar CEO Dr Michal Nachmany was instrumental in setting up.
+Our current offering brings together over 3,000 national-level law and policy documents derived from the Grantham Research Institute’s [Climate Change Laws of the World](https://climate-laws.org/) (CCLW) database, which Climate Policy Radar CEO Dr Michal Nachmany was instrumental in setting up.
 
 The resource covers documents from all parties to the United Nations Framework Convention on Climate Change (UNFCCC) and beyond - such as Taiwan, Western Sahara, and Palestine - and information concerning climate change mitigation, adaptation, loss and damage, and disaster risk management.
 
