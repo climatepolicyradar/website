@@ -2,7 +2,7 @@
   export async function load({ fetch }) {
     const res = await fetch(`/latest/posts.json`);
     const { posts } = await res.json();
-    const featuredPosts = posts.filter((post) => post.featured);
+    const featuredPosts = posts.filter((post) => post.featured).sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
     const partnersRes = await fetch(`/data/partners.json`);
     const { partnerList } = await partnersRes.json();
 
