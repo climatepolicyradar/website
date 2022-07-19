@@ -18,9 +18,9 @@ By opening up the global climate policy landscape, our search platform will make
 
 Our goal is simple: we want to help governments take more effective, timely, and evidence-based climate action, thus driving forward the transition to a low-carbon, resilient world.
 
-Over 200 civil servants, academics, and members of international organisations and civil society globally have joined our first group of users. Launching our Alpha product is a golden opportunity for us to learn and improve, as we prepare for our full launch later this year.
+Over 250 civil servants, academics, and members of international organisations and civil society globally have joined our first group of users. Launching our Alpha product is a golden opportunity for us to learn and improve, as we prepare for our full launch later this year.
 
-If you want the world’s climate policy data at your fingertips, you can still [sign up to access our Alpha product](https://app.climatepolicyradar.org/auth/sign-up) for free on our website. By joining our growing global community, you can help us towards our mission of improving the evidence base for evidence-based policymaking.
+If you want the world’s climate policy data at your fingertips, you can [sign up to access our Alpha product](https://app.climatepolicyradar.org/auth/sign-up) for free on our website. By joining our growing global community, you can help us towards our mission of improving the evidence base for evidence-based policymaking.
 
 ## Mapping the global climate policy landscape
 
@@ -48,16 +48,14 @@ Check out how it works in the images below, which show how you can search and ex
 
 **View a summary, additional data, and links to associated documents**
 
-![A screenshot demonstrating a search result from the Climate Policy Radar search tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-5-.png "For every document, you can also view a summary, additional data, and links to associated documents (e.g. amendments, translations)")
+![A screenshot demonstrating a search result from the Climate Policy Radar search tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/4.png "For every document, you can also view a summary, additional data, and links to associated documents (e.g. amendments, translations)")
 
 ## Building on Climate Change Laws of the World
 
-Our current offering brings together over 3,000 national-level law and policy documents derived from the Grantham Research Institute’s [Climate Change Laws of the World](https://climate-laws.org/) (CCLW) database, which Climate Policy Radar CEO Dr Michal Nachmany was instrumental in setting up.
+Our current offering brings together over 3,000 national-level law and policy documents derived from the Grantham Research Institute’s [Climate Change Laws of the World](https://climate-laws.org/) (CCLW) database (which Michal led for years and where the idea of CPR was born!).
 
-The resource covers documents from all parties to the United Nations Framework Convention on Climate Change (UNFCCC) and beyond - such as Taiwan, Western Sahara, and Palestine - and information concerning climate change mitigation, adaptation, loss and damage, and disaster risk management.
+The resource covers laws, policies, strategies and action plans documents from every single national government globally - and information concerning climate change mitigation, adaptation, loss and damage, and disaster risk management. In the future, we will also cover sub-national legislation, and even city policies. We will bring in more data sources, including UNFCCC documents like NDCs and National Adaptation Plans, and even laws and policies that don't spell put climate change but are critical to tackling it, like planning, health or trade. 
 
-Over the coming months, we'll be working towards our next release which will open up our improved platform to anyone without the need to set up an account. 
+We will continue improve the search function and develop more sophisticated ways to analyse the data, including adding classifications, enabling people to identify categories like green technologies, policy instruments, and climate targets. We will also develop data visualisations that will help people using the platform to see the big picture and drill down into the data in a more useful way, such as looking at clean energy trends over time.
 
-To do this, we’re growing the system by bringing in many more data sources, including climate litigation (legal cases and claims). Our data science team will also improve the search function and develop more sophisticated ways to analyse the data, including adding classifications, enabling people to identify categories like green technologies, policy instruments, and climate targets. We will also develop data visualisations that will help people using the platform to see the big picture and drill down into the data in a more useful way, such as looking at clean energy trends over time.
-
-We’ll be sharing updates on our progress towards these goals in due course, so be sure to follow us to hear the latest developments from Climate Policy Radar. Core to our purpose is ensuring that our knowledge source is not only reliable but open, accessible, and community-driven. And so if you’d like to help shape this exciting journey, [sign up to access Alpha on our website](https://app.climatepolicyradar.org/auth/sign-up).
+We’ll be sharing updates on our progress towards these goals in due course, so be sure to follow us to hear the latest developments from Climate Policy Radar. Core to our purpose is ensuring that our knowledge source is not only reliable but open, accessible, and community-driven. And so if you’d like to help shape this exciting journey, [sign up to access Alpha](https://app.climatepolicyradar.org/auth/sign-up) and follow us on social media.
