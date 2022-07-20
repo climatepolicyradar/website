@@ -123,6 +123,15 @@
       ]
     },
     {
+      "name": "Peter Hooper",
+      "role": "Software Engineering",
+      "group": "Team",
+      "bio": "test",
+      "image": {
+        "src": "images/team/peter_white.jpg"
+      }
+    },
+    {
       "name": "Stefan Lavelle",
       "role": "Data Science",
       "group": "Team",
