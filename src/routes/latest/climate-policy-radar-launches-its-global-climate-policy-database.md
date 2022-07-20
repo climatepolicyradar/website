@@ -46,6 +46,10 @@ Check out how it works in the images below, which show how you can search and ex
 
 ![A screenshot of the Climate Policy Radar (Alpha) platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-3-.png "Clicking on each result will point you to the paragraphs/sentences in the full text that respond to the search query.")
 
+**Clicking on one of those paragraphs will take you to the actual page in the document**
+
+![A screenshot of the Climate Policy Radar Alpha tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/image.png "Clicking on one of those paragraphs will take you to the actual page in the document")
+
 **View a summary, additional data, and links to associated documents**
 
 ![A screenshot demonstrating a search result from the Climate Policy Radar search tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/4.png "For every document, you can also view a summary, additional data, and links to associated documents (e.g. amendments, translations)")
