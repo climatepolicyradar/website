@@ -126,10 +126,14 @@
       "name": "Peter Hooper",
       "role": "Software Engineering",
       "group": "Team",
-      "bio": "test",
+      "bio": "Peter has over 25 years experience in a variety of industry sectors as a software developer and a senior technical lead.",
       "image": {
         "src": "images/team/peter_white-2.jpg"
-      }
+      },
+      "highlights": [
+        "Prior to joining Climate Policy Radar he was a Fullstack Lead Engineer for Chronomics leading a team of engineers to deliver new features and third-party integrations in the telehealth sector.",
+        "He holds a Ph.D. in physics from Nottingham Trent University and joins us with open source experience having worked for eLife sciences and with the Coko Foundation."
+      ]
     },
     {
       "name": "Stefan Lavelle",
