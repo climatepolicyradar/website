@@ -24,7 +24,7 @@
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';
-  import Wrapper from '$lib/Components/Wrapper.svelte';
+  import Video from '$lib/Blocks/Video.svelte';
   import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
@@ -71,12 +71,7 @@
   </p>
 </SingleColumn>
 
-<Wrapper>
-  <video controls loop style="width: 100%;">
-    <source src="/media/CPR_video.mp4" type="video/mp4" />
-    <track kind="captions" />
-  </video>
-</Wrapper>
+<Video />
 
 <Spacer size="lg" />
 
