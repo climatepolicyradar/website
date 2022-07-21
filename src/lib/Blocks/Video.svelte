@@ -4,7 +4,7 @@
 
 <Wrapper>
   <div class="video-container">
-    <iframe src="https://www.youtube-nocookie.com/embed/zrpA5n9Z93Y?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube-nocookie.com/embed/zrpA5n9Z93Y?rel=0&playlist=zrpA5n9Z93Y&loop=1&modestbranding=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </Wrapper>
 
