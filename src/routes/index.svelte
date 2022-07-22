@@ -95,8 +95,6 @@
 
 <LatestPosts posts={featuredPosts} limit="1" cardTheme="dark" />
 
-<!-- <Spacer size="lg" /> -->
-
 <style>
   :global(.home-cta .c-button) {
     margin-top: 1rem;
