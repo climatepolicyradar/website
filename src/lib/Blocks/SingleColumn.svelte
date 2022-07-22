@@ -25,10 +25,4 @@
       padding: 80px 72px;
     }
   }
-
-  @media only screen and (min-width: 720px) {
-    .b-single-column__content {
-      padding: 136px 0;
-    }
-  }
 </style>

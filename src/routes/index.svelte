@@ -24,6 +24,7 @@
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import Why from '$lib/Blocks/Why.svelte';
+  import Video from '$lib/Blocks/Video.svelte';
   import MetaTags from '$lib/Components/MetaTags.svelte';
 
   $theme = {
@@ -70,13 +71,17 @@
   </p>
 </SingleColumn>
 
+<Video />
+
+<Spacer size="lg" />
+
 <Why />
 
-<Spacer size="2xl" />
+<Spacer size="lg" />
 
 <How theme="light" />
 
-<Spacer size="2xl" />
+<Spacer size="lg" />
 
 <About />
 
@@ -86,11 +91,9 @@
 
 <OpenData />
 
-<Spacer size="lg" />
+<Spacer size="md" />
 
 <LatestPosts posts={featuredPosts} limit="1" cardTheme="dark" />
-
-<Spacer size="lg" />
 
 <style>
   :global(.home-cta .c-button) {
