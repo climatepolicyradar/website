@@ -71,9 +71,9 @@
   </p>
 </SingleColumn>
 
-<Video />
+<!-- <Video />
 
-<Spacer size="lg" />
+<Spacer size="lg" /> -->
 
 <Why />
 
