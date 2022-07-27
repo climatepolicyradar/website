@@ -1,6 +1,11 @@
 {
   "team": [
     {
+      "name": "Gareth Visagie",
+      "role": "Chief Architect, Snyk",
+      "group": "Advisory"
+    },
+    {
       "name": "Michal Nachmany, PhD",
       "role": "Founder and CEO ",
       "image": {
