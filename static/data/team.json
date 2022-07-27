@@ -1,11 +1,6 @@
 {
   "team": [
     {
-      "name": "Gareth Visagie",
-      "role": "Chief Architect, Snyk",
-      "group": "Advisory"
-    },
-    {
       "name": "Michal Nachmany, PhD",
       "role": "Founder and CEO ",
       "image": {
@@ -269,6 +264,11 @@
           "url": "https://www.linkedin.com/in/annett-m%C3%B6hner-b96498b/"
         }
       ]
+    },
+    {
+      "name": "Gareth Visagie",
+      "role": "Chief Architect, Snyk",
+      "group": "Advisory"
     },
     {
       "name": "Dr Shehnaaz Moosa",
