@@ -287,8 +287,10 @@
       "role": "Chief Architect, Snyk",
       "group": "Advisory",
       "image": {
-        "src": "images/team/my-project-1-2-.png",
-        "alt": "Man looking at camera"
+        "src": "images/team/cpr-report-team-no-bg.png",
+        "alt": "Man looking at camera",
+        "width": 600,
+        "height": 812
       }
     },
     {
