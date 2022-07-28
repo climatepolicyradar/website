@@ -288,7 +288,9 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/cpr-report-team-no-bg.png",
-        "alt": "Man looking at camera"
+        "alt": "Man looking at camera",
+        "width": 600,
+        "height": 812
       }
     },
     {
