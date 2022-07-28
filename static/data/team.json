@@ -5,7 +5,7 @@
       "role": "Founder and CEO ",
       "image": {
         "src": "images/team/michal.jpg",
-        "alt": "Michal",
+        "alt": "Woman looking at camera",
         "width": 600,
         "height": 812
       },
@@ -46,7 +46,7 @@
       "group": "Team",
       "image": {
         "src": "images/team/callie.jpg",
-        "alt": "Callie Coop"
+        "alt": "Woman looking at camera"
       },
       "bio": "Callie is an Operations Manager with experience working with Telecoms and Fintech start-ups.",
       "highlights": [
@@ -62,7 +62,7 @@
         "src": "images/team/marcus.jpg",
         "width": 600,
         "height": 812,
-        "alt": "Marcus Davies"
+        "alt": "Man looking at camera"
       },
       "bio": "Marcus is a policy analyst with experience working on a range of international climate change policy issues.",
       "highlights": [
@@ -88,7 +88,7 @@
         "src": "images/team/kalyan.jpg",
         "width": 600,
         "height": 812,
-        "alt": "Kalyan Dutia"
+        "alt": "Man, Kalyan Dutia, looking at camera"
       },
       "bio": "Kalyan is a data scientist specialising in Natural Language Processing and Open Data.",
       "highlights": [
@@ -113,7 +113,8 @@
       "group": "Team",
       "image": {
         "src": "images/team/patrick_white.jpeg",
-        "width": -2
+        "width": -2,
+        "alt": "Man looking at camera"
       },
       "bio": "Patrick is a front-end developer with over 10 years of experience in creating engaging user experiences.",
       "highlights": [
@@ -128,7 +129,8 @@
       "group": "Team",
       "bio": "Peter has over 25 years experience in a variety of industry sectors as a software developer and a senior technical lead.",
       "image": {
-        "src": "images/team/peter_white-2.jpg"
+        "src": "images/team/peter_white-2.jpg",
+        "alt": "Man looking at camera"
       },
       "highlights": [
         "Prior to joining Climate Policy Radar he was a Fullstack Lead Engineer for Chronomics leading a team of engineers to deliver new features and third-party integrations in the telehealth sector.",
@@ -140,7 +142,8 @@
       "role": "Data Science",
       "group": "Team",
       "image": {
-        "src": "images/team/stefan.jpg"
+        "src": "images/team/stefan.jpg",
+        "alt": "Man looking at camera"
       },
       "bio": "Stefan is a data scientist and econometrician with extensive experience in policy and climate related work.",
       "highlights": [
@@ -166,7 +169,8 @@
       "role": "Software Engineering",
       "group": "Team",
       "image": {
-        "src": "images/team/joel-2-.jpg"
+        "src": "images/team/joel-2-.jpg",
+        "alt": "Man looking at camera"
       },
       "bio": "Joel is a technical architect and software developer with over 15 years of experience solving challenges in a variety of commercial and research settings.",
       "highlights": [
@@ -182,7 +186,7 @@
         "src": "images/team/sam.jpg",
         "width": 600,
         "height": 812,
-        "alt": "Professor Sam Fankhauser"
+        "alt": "Man, Professor Sam Fankhauser, looking at camera"
       },
       "bio": "Sam is Professor of Climate Change Economics and Policy at the University of Oxford Research and Director of Oxford Net Zero.",
       "highlights": [
@@ -208,7 +212,8 @@
       "role": "Non-Executive Director",
       "group": "Board",
       "image": {
-        "src": "images/team/lisalong-1-.jpg"
+        "src": "images/team/lisalong-1-.jpg",
+        "alt": "Woman looking at camera"
       },
       "bio": "Lisa is a serial entrepreneur, non-executive director, and private equity advisor.",
       "highlights": [
@@ -227,7 +232,10 @@
       "name": "David Jensen",
       "role": "Head of Digital Transformation Task Force United Nations Environment Programme",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/5.png",
+        "alt": "Man looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -239,13 +247,19 @@
       "name": "Baroness Bryony Worthington",
       "role": "Environmental campaigner and life peer in the UK House of Lords. ",
       "group": "Advisory",
-      "image": false
+      "image": {
+        "src": "images/team/3.png",
+        "alt": "Woman looking at camera"
+      }
     },
     {
       "name": "Dr Angel Hsu",
       "role": "Founder & Director of the Data-Driven Lab,  Assistant Professor,  UNC, Chapel Hill",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/4.png",
+        "alt": "Woman looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -257,7 +271,10 @@
       "name": "Annett Moehner",
       "role": "Adaptation team lead, UNFCCC",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/7.png",
+        "alt": "Woman looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -268,13 +285,20 @@
     {
       "name": "Gareth Visagie",
       "role": "Chief Architect, Snyk",
-      "group": "Advisory"
+      "group": "Advisory",
+      "image": {
+        "src": "images/team/my-project-1-2-.png",
+        "alt": "Man looking at camera"
+      }
     },
     {
       "name": "Dr Shehnaaz Moosa",
       "role": "Director, South South North; Director of the CDKN programme",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/8.png",
+        "alt": "Woman looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -286,7 +310,10 @@
       "name": "Dr Jody Heyman",
       "role": "Founding Director at WORLD Policy Analysis Center; Distinguished Professor, UCLA Fielding School of Public Health, Luskin School of Public Affairs, Geffen School of Medicine",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/6.png",
+        "alt": "Woman looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -298,7 +325,10 @@
       "name": "Dr Joana Setzer",
       "role": "Assistant Professorial Research Fellow, Grantham Research Institute, LSE.",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/9.png",
+        "alt": "Woman looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -310,7 +340,10 @@
       "name": "Dr Rory Sullivan",
       "role": "CEO, Chronos Sustainability;  Chief Technical Adviser, Transition Pathway Initiative ",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/10.png",
+        "alt": "Man looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
@@ -322,7 +355,10 @@
       "name": "Graham Gannon",
       "role": "Director of Engineering Global Sales/Marketing Platforms, Google",
       "group": "Advisory",
-      "image": false,
+      "image": {
+        "src": "images/team/2.png",
+        "alt": "Man looking at camera"
+      },
       "social": [
         {
           "network": "linkedin",
