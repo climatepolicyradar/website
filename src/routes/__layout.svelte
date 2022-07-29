@@ -16,7 +16,6 @@
   import { page, navigating } from '$app/stores';
   import Header from '$lib/Components/Header.svelte';
   import Footer from '$lib/Components/Footer.svelte';
-  import RequestModal from '$lib/Blocks/RequestModal.svelte';
   import PreloadingIndicator from '$lib/Components/PreloadingIndicator.svelte';
   import { modalStore, mobileMenuOpen } from '$lib/stores/theme';
   import '../global.css';
@@ -67,7 +66,6 @@
   <slot />
 
   <Footer {active} />
-  <RequestModal open={$modalStore.cta} />
 </main>
 
 <style>

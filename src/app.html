@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Google Tag Manager -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-ZD1WWE49TL"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-
-      gtag('config', 'G-ZD1WWE49TL');
-    </script>
-    <!-- End Google Tag Manager -->
     <meta charset="utf-8" />
     <link rel="icon" href="/favicon.png" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -51,6 +35,15 @@
           }
         });
       }
+      
+      // Deny google analytics by default
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+
+      gtag('consent', 'default', {
+        'ad_storage': 'denied',
+        'analytics_storage': 'denied',
+      });
     </script>
   </body>
 </html>

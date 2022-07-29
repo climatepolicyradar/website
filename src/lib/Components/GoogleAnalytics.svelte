@@ -6,10 +6,23 @@
       gtag('config', GTM, {
         page_path: $page.path,
       });
-      gtag('consent', 'default', {
-        'ad_storage': 'denied',
-        'analytics_storage': 'denied'
-      })
     }
   }
 </script>
+
+<svelte:head>
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id={GTM}}">
+  </script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+
+    gtag('js', new Date());
+    gtag('config', GTM);
+  </script>
+</svelte:head>
