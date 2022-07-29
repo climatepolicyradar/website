@@ -1,6 +1,18 @@
 {
   "pressClippings": [
     {
+      "date": "20 April 2022",
+      "title": "Carbon-removal startups could be essential to avoid catastrophic climate change. We profiled 11 that investors say are poised to take off.",
+      "background": "#5fc8a1",
+      "type": "Article",
+      "url": "https://www.businessinsider.com/the-10-carbon-removal-startups-to-watch-according-to-investors-2022-4?r=US&IR=T",
+      "logo": {
+        "src": "images/press/1920px-business_insider_logo.svg.png",
+        "alt": "Business Insider logo"
+      },
+      "source": "Business Insider"
+    },
+    {
       "type": "Article",
       "date": "14 October 2021",
       "title": "Plug the gap: retrain for net zero",
