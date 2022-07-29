@@ -1,6 +1,19 @@
 {
   "pressClippings": [
     {
+      "date": "20 July 2022",
+      "title": "Michal Nachmany to N1: Countries need to start adapting to climate change now",
+      "excerpt": "The situation with climate change in Great Britain shows negative trends and warns of the dangers that the inhabitants of the island will face in the coming period. Experts warn that it is time for an urgent change in behavior, but also for the realization of previously made promises. We talked about this and other topics with dr. Michal Nachmany of Climate Policy Radar.",
+      "background": "#e56b57",
+      "type": "TV Interview",
+      "source": "N1 ",
+      "url": "https://ba.n1info.com/english/news/michal-nachmany-to-n1-countries-need-to-start-adapting-to-climate-change-now/",
+      "logo": {
+        "src": "images/press/n1_logo.svg.png",
+        "alt": "N1 news logo"
+      }
+    },
+    {
       "date": "17 July 2022",
       "title": " An unprecedented heat wave in Europe: huge fires, damage to economies and hundreds dead",
       "excerpt": "\"England has declared a national emergency for the first time,\" says Michal. \"Europe, in terms of infrastructure, is not ready for this. The public transportation systems, schools, homes and workplaces - are not air-conditioned. Our food systems and working conditions are also not adapted to this.\"",
@@ -58,7 +71,7 @@
     {
       "type": "Article",
       "date": "1 October 2021",
-      "title": "Tech Exec",
+      "title": "Tech Exec profile",
       "source": "stroudandclarke.com",
       "url": "https://www.stroudandclarke.com/magazine/tech-exec-issue-05/",
       "logo": {
