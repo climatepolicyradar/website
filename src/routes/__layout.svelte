@@ -20,6 +20,7 @@
   import { modalStore, mobileMenuOpen } from '$lib/stores/theme';
   import '../global.css';
   import MediaQuery from '$lib/Components/MediaQuery.svelte';
+  import CookieConsent from '$lib/Components/CookieConsent.svelte';
   import GoogleAnalytics from '$lib/Components/GoogleAnalytics.svelte';
 
   $: active = $page.path.split('/')[1];
@@ -66,6 +67,7 @@
   <slot />
 
   <Footer {active} />
+  <CookieConsent />
 </main>
 
 <style>
