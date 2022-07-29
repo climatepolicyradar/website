@@ -1,6 +1,19 @@
 {
   "pressClippings": [
     {
+      "date": "17 July 2022",
+      "title": " An unprecedented heat wave in Europe: huge fires, damage to economies and hundreds dead",
+      "excerpt": "\"England has declared a national emergency for the first time,\" says Michal. \"Europe, in terms of infrastructure, is not ready for this. The public transportation systems, schools, homes and workplaces - are not air-conditioned. Our food systems and working conditions are also not adapted to this.\"",
+      "background": "#8e73f1",
+      "type": "Article",
+      "source": "Globe",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001418233",
+      "logo": {
+        "src": "images/press/799px-globes_logo.svg.png",
+        "alt": "Globes logo"
+      }
+    },
+    {
       "date": "20 April 2022",
       "title": "Carbon-removal startups could be essential to avoid catastrophic climate change. We profiled 11 that investors say are poised to take off.",
       "background": "#5fc8a1",
