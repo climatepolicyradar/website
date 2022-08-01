@@ -1,6 +1,32 @@
 {
   "pressClippings": [
     {
+      "date": "1 August 2022",
+      "title": "Heat waves are hitting around the globe. Scientists say climate change is making them more frequent",
+      "excerpt": "\"This is the climate change that we've been promised by scientists,\" Michal Nachmany, founder of Climate Policy Radar, told CBS News foreign correspondent Ramy Inocencio about record-breaking temperatures in the U.K. this week.",
+      "background": "#1f93ff",
+      "logo": {
+        "src": "images/press/800px-cbs_news.svg.png",
+        "alt": "CBS News logo"
+      },
+      "type": "TV Interview",
+      "source": "CBS News",
+      "url": "https://www.cbsnews.com/news/heat-wave-climate-change-getting-more-frequent/"
+    },
+    {
+      "date": "20 July 2022",
+      "title": "Climate Policy Radar pulls back the curtain, launches global climate policy database",
+      "excerpt": "\"Our ultimate goal is to facilitate better policymaking. Holding policymakers to account is one of those avenues,\" Climate Policy Radar Founder and CEO, Dr. Michal Nachmany",
+      "background": "#f1cb73",
+      "type": "Article",
+      "source": "tech.eu",
+      "url": "https://tech.eu/2022/07/20/climate-policy-radar-pulls-back-the-curtain-launches-global-climate-policy-database",
+      "logo": {
+        "src": "images/press/tech.eu-logo-positive-web-1-.png",
+        "alt": "tech.eu logo"
+      }
+    },
+    {
       "date": "20 July 2022",
       "title": "Michal Nachmany to N1: Countries need to start adapting to climate change now",
       "excerpt": "The situation with climate change in Great Britain shows negative trends and warns of the dangers that the inhabitants of the island will face in the coming period. Experts warn that it is time for an urgent change in behavior, but also for the realization of previously made promises. We talked about this and other topics with dr. Michal Nachmany of Climate Policy Radar.",
