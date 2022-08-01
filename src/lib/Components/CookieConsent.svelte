@@ -33,14 +33,15 @@
   <div class="cookie-consent__content">
       <h3 class="u-type-h3">Cookies and your privacy</h3>
       <p class="cc_text">
-        We take your trust and privacy very seriously. Climate Policy Radar uses safe cookies to gather valuable analytics on the site. You can reject them if you wish.
+        We take your trust and privacy seriously. <br/>
+        Climate Policy Radar uses safe tracking cookies to analyse traffic to our website and improve your experience, <a href="https://app.climatepolicyradar.org/cookie-policy" target="_blank">read our cookie policy here</a>. You can reject them if you wish.
       </p>
       <div class="cookie-consent__buttons">
-        <div class="cookie-consent__reject">
-          <Button color="white" size="cta" action={cookiesRejectHandler}>Reject</Button>
-        </div>
         <div class="cookie-consent__accept">
           <Button color="blue" size="cta" action={cookiesAcceptHandler}>Accept</Button>
+        </div>
+        <div class="cookie-consent__reject">
+          <Button color="white" size="cta" action={cookiesRejectHandler}>Reject</Button>
         </div>
       </div>
   </div>
@@ -55,10 +56,17 @@
     width: 90%;
     max-width: 600px;
     background-color: var(--color-sky);
+    /* background-color: var(--color-white); */
     border-radius: 30px;
   }
   .hide--true {
     display: none;
+  }
+  .cc_text {
+    line-height: 1.4;
+  }
+  .cc_text a {
+    text-decoration: underline;
   }
   .cookie-consent__content {
     padding: 16px 24px;
@@ -68,6 +76,6 @@
     place-content: flex-end;
   }
   .cookie-consent__reject {
-    margin-right: 16px;
+    margin-left: 16px;
   }
 </style>
