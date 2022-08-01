@@ -1,33 +1,32 @@
 <script>
   import { onMount } from 'svelte';
   import Button from './Button.svelte';
-  import { getCookie, setCookie, deleteCookies } from '$lib/helpers/cookie';
+  import { deleteCookies } from '$lib/helpers/cookie';
 
   let hide = true;
-  
-  const cookieName = "CPR-cookie-consent";
-
-  onMount(() => {
-    // Check if we already have their preference
-    let CPRCookieConsent = getCookie(cookieName);
-    if(!CPRCookieConsent) hide = false;
-  })
-  
   $: hide;
   
+  const cookieConsent = "CPR-cookie-consent";
+  
+  onMount(() => {
+    const cc =localStorage[cookieConsent];
+    if(!cc) hide = false;
+  });
+  
   const cookiesAcceptHandler = () => {
-    setCookie(cookieName, true, 365);
+    localStorage[cookieConsent] = "true";
     gtag('consent', 'update', {
       'analytics_storage': 'granted'
     });
     hide = true;
-  }
-
+  };
+  
   const cookiesRejectHandler = () => {
+    localStorage[cookieConsent] = "false";
+    // Remove existing cookies if already set
     deleteCookies();
-    setCookie(cookieName, false, 365);
     hide = true;
-  }
+  };
 </script>
 
 <div class="cookie-consent hide--{hide}">
