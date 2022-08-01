@@ -9,7 +9,7 @@
   const cookieConsent = "CPR-cookie-consent";
   
   onMount(() => {
-    const cc =localStorage[cookieConsent];
+    const cc = localStorage[cookieConsent];
     if(!cc) hide = false;
   });
   
