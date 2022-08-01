@@ -16,11 +16,11 @@
   import { page, navigating } from '$app/stores';
   import Header from '$lib/Components/Header.svelte';
   import Footer from '$lib/Components/Footer.svelte';
-  import RequestModal from '$lib/Blocks/RequestModal.svelte';
   import PreloadingIndicator from '$lib/Components/PreloadingIndicator.svelte';
   import { modalStore, mobileMenuOpen } from '$lib/stores/theme';
   import '../global.css';
   import MediaQuery from '$lib/Components/MediaQuery.svelte';
+  import CookieConsent from '$lib/Components/CookieConsent.svelte';
   import GoogleAnalytics from '$lib/Components/GoogleAnalytics.svelte';
 
   $: active = $page.path.split('/')[1];
@@ -67,7 +67,7 @@
   <slot />
 
   <Footer {active} />
-  <RequestModal open={$modalStore.cta} />
+  <CookieConsent />
 </main>
 
 <style>
