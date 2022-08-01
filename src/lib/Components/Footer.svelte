@@ -9,7 +9,9 @@
   // const whatMenu = $menu[1];
   const news = $menu[1];
   const jobsMenu = $menu[2];
-  const contact = $menu[3]
+  const contact = $menu[3];
+
+  const copyrightYear = new Date().getFullYear();
 
   export let active;
 
@@ -135,7 +137,7 @@
           {/if}
         </nav>
         <div class="c-site-footer__copyright">
-          Copyright &copy;2021 Climate Policy Radar CIC - All Rights Reserved.
+          Copyright &copy;{copyrightYear} Climate Policy Radar CIC - All Rights Reserved.
         </div>
       </div>
       
