@@ -120,7 +120,7 @@
 
   @media only screen and (min-width: 720px) {
     .b-partners__group__items--partners .b-partners__group__item {
-      width: calc(25% - 18px);
+      width: calc(33% - 18px);
     }
   }
 </style>
