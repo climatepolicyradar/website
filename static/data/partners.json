@@ -1,6 +1,12 @@
 {
   "partnerList": [
     {
+      "group": "Partners",
+      "url": "https://www.ucl.ac.uk/",
+      "name": "UCL",
+      "logo": "images/partners/ucl_logo.png"
+    },
+    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
