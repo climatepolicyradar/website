@@ -34,7 +34,7 @@
       <h3 class="u-type-h3">Cookies and your privacy</h3>
       <p class="cc_text">
         We take your trust and privacy seriously. <br/>
-        Climate Policy Radar uses safe tracking cookies to analyse traffic to our website and improve your experience, <a href="https://app.climatepolicyradar.org/cookie-policy" target="_blank">read our cookie policy here</a>. You can reject them if you wish.
+        Climate Policy Radar uses safe tracking cookies to analyse traffic to our website and improve your experience, <a href="/privacy-policy">read our cookie policy here</a>. You can reject them if you wish.
       </p>
       <div class="cookie-consent__buttons">
         <div class="cookie-consent__accept">
