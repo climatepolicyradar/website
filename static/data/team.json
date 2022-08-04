@@ -1,7 +1,7 @@
 {
   "team": [
     {
-      "name": "Michal Nachmany, PhD",
+      "name": "Michal Nachmany, PhD, FRSA",
       "role": "Founder and CEO ",
       "image": {
         "src": "images/team/michal.jpg",
@@ -10,9 +10,9 @@
         "height": 812
       },
       "group": "Team",
-      "bio": "Michal is an international climate policy and governance expert with background in law, finance, and multinational project management. Before founding Climate Policy Radar, she spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
+      "bio": "Michal is an international climate policy and governance expert with a background in law, finance, and multinational project management. Before founding Climate Policy Radar, she spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
       "highlights": [
-        "She is a fellow of the UNFCCC Resilience Frontiers and a founding member of the Climate Tech Council Founders forum. Michal is also a member of the Coalition for Digital Environmental Sustainability and of the Camda Community for credible climate action. She was previously the team lead at the Transition Pathway Initiative, and an advisor to Climate Action 100+, an investor coalition with over $55 trillion AUM. Michal is a speaker on climate policy and action with diverse audiences, with regular appearances on national and international media.",
+        "She is a Fellow of the Royal Society of Arts and the UNFCCC Resilience Frontiers and a founding member of the Climate Tech Council Founders forum. Michal is also a member of the Coalition for Digital Environmental Sustainability and of the Camda Community for credible climate action. She was previously the team lead at the Transition Pathway Initiative, and an advisor to Climate Action 100+, an investor coalition with over $55 trillion AUM. Michal is a speaker on climate policy and action with diverse audiences, with regular appearances on national and international media.",
         "Michal holds a PhD from the London School of Economics. Her research explored the global diffusion of climate change policies, and the contribution of global networks to advancement of policies. She also has an MA (cum laude) in Energy Policy and Management from the University of Haifa, and an LLB in Law as well as an MBA, specialising in finance, from the Hebrew University of Jerusalem."
       ],
       "social": [
