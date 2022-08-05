@@ -1,12 +1,6 @@
 {
   "partnerList": [
     {
-      "group": "Partners",
-      "url": "https://www.ucl.ac.uk/",
-      "name": "UCL",
-      "logo": "images/partners/ucl_logo.png"
-    },
-    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
@@ -29,6 +23,12 @@
       "logo": "images/partners/grantham-logo.png",
       "group": "Partners",
       "url": "https://www.lse.ac.uk/granthaminstitute/"
+    },
+    {
+      "group": "Partners",
+      "url": "https://www.ucl.ac.uk/",
+      "name": "UCL",
+      "logo": "images/partners/ucl_logo.png"
     },
     {
       "name": "WORLD Policy Analysis Center",
