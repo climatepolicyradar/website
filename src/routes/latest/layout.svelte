@@ -32,6 +32,7 @@
   async function getLatestPosts() {
     const res = await fetch(`/latest/posts.json`);
     const { posts } = await res.json();
+    posts.sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
     return posts;
   }
 
