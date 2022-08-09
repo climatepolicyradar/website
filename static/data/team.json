@@ -5,7 +5,7 @@
       "role": "Founder and CEO ",
       "image": {
         "src": "images/team/michal.jpg",
-        "alt": "Woman looking at camera",
+        "alt": "Headshot of Michal Nachmany",
         "width": 600,
         "height": 812
       },
@@ -31,7 +31,7 @@
       "role": "Communication and Partnerships",
       "image": {
         "src": "images/team/justine-2-.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Justine Alford"
       },
       "bio": "Justine is a communications and partnerships manager with almost a decade of experience in science communications and engagement.",
       "group": "Team",
@@ -46,7 +46,7 @@
       "group": "Team",
       "image": {
         "src": "images/team/callie.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Callie Coop"
       },
       "bio": "Callie is an Operations Manager with experience working with Telecoms and Fintech start-ups.",
       "highlights": [
@@ -62,7 +62,7 @@
         "src": "images/team/marcus.jpg",
         "width": 600,
         "height": 812,
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Marcus Davies"
       },
       "bio": "Marcus is a policy analyst with experience working on a range of international climate change policy issues.",
       "highlights": [
@@ -88,7 +88,7 @@
         "src": "images/team/kalyan.jpg",
         "width": 600,
         "height": 812,
-        "alt": "Man, Kalyan Dutia, looking at camera"
+        "alt": "Headshot of Kalyan Dutia"
       },
       "bio": "Kalyan is a data scientist specialising in Natural Language Processing and Open Data.",
       "highlights": [
@@ -114,7 +114,7 @@
       "image": {
         "src": "images/team/patrick_white.jpeg",
         "width": -2,
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Patrick Fawbert Mills"
       },
       "bio": "Patrick is a front-end developer with over 10 years of experience in creating engaging user experiences.",
       "highlights": [
@@ -130,7 +130,7 @@
       "bio": "Peter has over 25 years experience in a variety of industry sectors as a software developer and a senior technical lead.",
       "image": {
         "src": "images/team/peter_white-2.jpg",
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Peter Hooper"
       },
       "highlights": [
         "Prior to joining Climate Policy Radar he was a Fullstack Lead Engineer for Chronomics leading a team of engineers to deliver new features and third-party integrations in the telehealth sector.",
@@ -143,7 +143,7 @@
       "group": "Team",
       "image": {
         "src": "images/team/stefan.jpg",
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Stefan Lavelle"
       },
       "bio": "Stefan is a data scientist and econometrician with extensive experience in policy and climate related work.",
       "highlights": [
@@ -157,7 +157,7 @@
       "group": "Team",
       "image": {
         "src": "images/team/joel-2-.jpg",
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Joel Wright"
       },
       "bio": "Joel is a technical architect and software developer with over 15 years of experience solving challenges in a variety of commercial and research settings.",
       "highlights": [
@@ -173,7 +173,7 @@
         "src": "images/team/sam.jpg",
         "width": 600,
         "height": 812,
-        "alt": "Man, Professor Sam Fankhauser, looking at camera"
+        "alt": "Headshot of Professor Sam Fankhauser"
       },
       "bio": "Sam is Professor of Climate Change Economics and Policy at the University of Oxford Research and Director of Oxford Net Zero.",
       "highlights": [
@@ -200,7 +200,7 @@
       "group": "Board",
       "image": {
         "src": "images/team/lisalong-climate-policy-radar-1-.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Lisa Long"
       },
       "bio": "Lisa is a serial entrepreneur, non-executive director, and private equity advisor.",
       "highlights": [
@@ -221,7 +221,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/david-jensen-climate-policy-radar.jpg",
-        "alt": "Man looking at camera"
+        "alt": "Headshot of David Jensen"
       },
       "social": [
         {
@@ -236,7 +236,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/baroness-bryony-climate-policy-radar.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Baroness Bryony Worthington"
       }
     },
     {
@@ -245,7 +245,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/angel-hsu-climate-policy-radar.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Angel Hsu"
       },
       "social": [
         {
@@ -260,7 +260,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/annett-moehner-climate-policy-radar.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Annett Moehner"
       },
       "social": [
         {
@@ -275,7 +275,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/gareth-visagie-climate-policy-radar.jpg",
-        "alt": "Man looking at camera",
+        "alt": "Headshot of Gareth Visagie",
         "width": 600,
         "height": 812
       }
@@ -286,7 +286,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/shehnaaz-moosa-climate-policy-radar.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Dr Moosa"
       },
       "social": [
         {
@@ -301,7 +301,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/jody-heyman-climate-policy-radar.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Dr Jody heyman"
       },
       "social": [
         {
@@ -316,7 +316,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/joana-setzer-climate-policy-radar.jpg",
-        "alt": "Woman looking at camera"
+        "alt": "Headshot of Dr Setzer"
       },
       "social": [
         {
@@ -331,7 +331,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/rory-sullivan-climate-policy-radar.jpg",
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Dr Rory Sullivan"
       },
       "social": [
         {
@@ -346,7 +346,7 @@
       "group": "Advisory",
       "image": {
         "src": "images/team/graham-gannon-climate-policy-radar.jpg",
-        "alt": "Man looking at camera"
+        "alt": "Headshot of Graham Gannon"
       },
       "social": [
         {
