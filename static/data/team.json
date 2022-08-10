@@ -65,6 +65,14 @@
       ]
     },
     {
+      "name": "Mark Cottam",
+      "role": "Data Science",
+      "image": {
+        "src": "images/team/mark_photo.jpeg"
+      },
+      "group": "Team"
+    },
+    {
       "name": "Marcus Davies",
       "role": "Policy",
       "group": "Team",
