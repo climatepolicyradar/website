@@ -36,23 +36,23 @@ Check out how it works in the images below, which show how you can search and ex
 
 **Enter your search term to get started**
 
-![A screenshot of the Climate Policy Radar search platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-1-.png "Enter your search term to explore the full text of 3000+ climate laws and policies")
+![A screenshot of the Climate Policy Radar search platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-1.jpg "Enter your search term to explore the full text of 3000+ climate laws and policies")
 
 **View your search results**
 
-![A screenshot showing a search result](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-2-.png "After typing in your search query, here 'just transition fund', results appear, matching on your term and semantically related terms")
+![A screenshot showing a policy search result](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-2.jpg "After typing in your search query, here 'just transition fund', results appear, matching on your term and semantically related terms")
 
 **Quickly find the parts of the full text that match your query**
 
-![A screenshot of the Climate Policy Radar (Alpha) platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/image-3-.png "Clicking on each result will point you to the paragraphs/sentences in the full text that respond to the search query.")
+![A screenshot of the Climate Policy Radar (Alpha) platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-3.jpg "Clicking on each result will point you to the paragraphs/sentences in the full text that respond to the search query.")
 
 **Clicking on one of those paragraphs will take you to the actual page in the document**
 
-![A screenshot of the Climate Policy Radar Alpha tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/image.png "Clicking on one of those paragraphs will take you to the actual page in the document")
+![A screenshot of the Climate Policy Radar climate policy search engine](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-4.jpg "Clicking on one of those paragraphs will take you to the actual page in the document")
 
 **View a summary, additional data, and links to associated documents**
 
-![A screenshot demonstrating a search result from the Climate Policy Radar search tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/4.png "For every document, you can also view a summary, additional data, and links to associated documents (e.g. amendments, translations)")
+![A screenshot demonstrating a search result from the Climate Policy Radar search tool](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-5.jpg "For every document, you can also view a summary, additional data, and links to associated documents (e.g. amendments, translations)")
 
 ## Building on Climate Change Laws of the World
 
