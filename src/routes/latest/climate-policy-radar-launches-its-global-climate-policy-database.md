@@ -2,7 +2,7 @@
 layout: latest
 title: Climate Policy Radar launches its global climate policy database
 date: 19 July 2022
-thumb: /images/climate-policy-radar-launches-its-global-climate-policy-database/image-1-.png
+thumb: /images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-1.jpg
 topics:
   - News
 excerpt: We’re delighted to announce that we've released the first version of
