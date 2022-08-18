@@ -1,39 +1,38 @@
 ---
 layout: latest
-title: Climate Policy Radar is back from Glasgow.
+title: Climate Policy Radar is back from Glasgow's COP26
 date: 9 December 2021
 thumb: /images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg
 topics:
   - Blog
-excerpt: 'We went to COP26 in Glasgow ready to share our work on our prototype,
+excerpt: "We went to COP26 in Glasgow ready to share our work on our prototype,
   join conversations and learn from the wealth of knowledge and perspectives on
   offer there. Now back in the office and fired up from the experience, here’s
-  what I gained from the summit.  '
+  what I gained from the summit.  "
 author: Marcus Davies
 featured: false
 ---
-
-_We went to COP26 in Glasgow ready to share our work on our prototype, join conversations and learn from the wealth of knowledge and perspectives on offer there. Now back in the office and fired up from the experience, here’s what I gained from the summit._
+*CPR went to COP26 in Glasgow ready to share our work on our prototype, join conversations and learn from the wealth of knowledge and perspectives on offer there. Now back in the office and fired up from the experience, here’s what I gained from the summit.*
 
 Going to COP26 – my first ever COP – was the culmination of seven weeks’ work on our very first prototype to map climate laws and policies using natural language processing, and an opportunity to shape the next phase of our work. We were there to share and there to learn. For me, it was also an immense privilege to act as the ambassador for the effort my colleagues had poured into building our prototype, which represents the beginning of our journey (blog about our prototype journey coming soon).
 
-![Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)](/images/climate-policy-radar-is-back-from-glasgow/c8314c4e-b505-4a47-b8f1-4b45998ec7eb.jpg 'Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)')
+![Man wearing a mask and standing in front of a globe at COP26](/images/climate-policy-radar-is-back-from-glasgow/c8314c4e-b505-4a47-b8f1-4b45998ec7eb.jpg)
 
-_Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)_
+*Obligatory globe pic (the cool COP26 mask conceals my goofy excitement)*
 
 We were fortunate to be able to share our work at incredible venues like the [UNFCCC Global Innovation Hub](https://www.youtube.com/watch?v=GuHWLdYiKV4) and Resilience Lab, and in the beautiful surroundings of the University of Glasgow campus. And thanks to the mobile view built by our front-end developer Paula, opportunities to share it weren’t limited to formal events, but extended to coffee breaks, lunchtime chats and chance encounters in corridors.
 
-![Our setup at the UNFCCC Global Innovation Hub](/images/climate-policy-radar-is-back-from-glasgow/20211104_093354.jpg 'Our setup at the UNFCCC Global Innovation Hub')
+![CPR's setup at the UNFCCC Global Innovation Hub](/images/climate-policy-radar-is-back-from-glasgow/20211104_093354.jpg)
 
-_Our setup at the UNFCCC Global Innovation Hub_
+*Our setup at the UNFCCC Global Innovation Hub*
 
 This meant we were able to get feedback on our work from many different perspectives – from civil servants, researchers and people from NGOs to representatives from food delivery companies interested in policies on reusable packaging – and the more people we spoke to, the more we realised that the scope of potential uses for our work could be wider than we’d initially thought. Climate policy data, after all, is a public good – and we are discovering new people with a stake in that good every day.
 
-![Michal presenting our prototype at the Climate Law and Governance Day](/images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg 'Michal presenting our prototype at the Climate Law and Governance Day')
+![Michal presenting the Climate Policy Radar prototype at the Climate Law and Governance Day](/images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg)
 
-_Michal presenting our prototype at the Climate Law and Governance Day_
+*Michal presenting our prototype at the Climate Law and Governance Day*
 
-## Affirmation for our mission – and challenges to our assumptions
+## Affirmation for CPR's mission – and challenges to our assumptions
 
 Talking to people about our prototype did two important things for us. Firstly, it gave us insight into how our stakeholders currently use policy data – analysts told us how they prepare policy briefs by reading through huge swathes of documents, and researchers described the constant manual scanning for newly published and updated climate laws and policies they have to do to stay in the loop. These processes, they told us, are inefficient and frustrating, and it was encouraging to receive overwhelmingly positive responses to our proposal to help fix the problem using machine learning and natural language processing as we map more climate policy in more detail.
 
@@ -53,9 +52,9 @@ Meanwhile, a host of interesting people showed up to our event on flows of data 
 
 This was an important session because its key message was a reminder that proper and effective use of climate data is fundamentally a moral issue. Data must be inclusive, participants told us, harnessing local and indigenous knowledge; it must be open and accessible, and available for all to use, including in different languages. And it must be reliable and of a high standard, helping to facilitate trust in factual evidence. ‘Without a moral framework’, explained Nathalie Seddon from the [Oxford Nature-Based Solutions Initiative](https://www.naturebasedsolutionsinitiative.org/), ‘data won’t get us anywhere’.
 
-![Liv Torc recites 'When You Know the Water's Coming'](/images/climate-policy-radar-is-back-from-glasgow/img_7578.jpg "Liv Torc recites 'When You Know the Water's Coming'")
+![Woman speaking into a microphone at COP26](/images/climate-policy-radar-is-back-from-glasgow/img_7578.jpg "Liv Torc recites 'When You Know the Water's Coming'")
 
-_Liv Torc recites 'When You Know the Water's Coming'_
+*Liv Torc recites 'When You Know the Water's Coming'*
 
 All these ideas are central to our purpose – creating an open, accessible, reliable, community-driven knowledge source – but they also give cause for us to pause and reflect. We’re serious about our principles but in the knowledge that we’re a team of people from the Global North: we don’t pretend that showing up at COP26 with a laptop will allay all the concerns of people who already live with the impacts of climate change every day. So, we are actively seeking opportunities to listen and to do what we can by building the knowledge and the voices of local communities into our data and tools. Our intention is that the researchers, analysts and decision-makers who we hope will use them – wherever they may be – see information that reflects and serves to help alleviate the injustices inherent in the climate crisis.
 
@@ -67,10 +66,10 @@ I sat on the train home and tried to doze off as I watched the sun go down over 
 
 Michal stayed in Glasgow for a few more days, and took part in a [debate at the New York Times Climate Hub](https://climatehub.nytimes.com/session/678919/the-new-york-times-debate-democratic-leaders-are-better-prepared-to-address-climate-change-than-authoritarian-ones.) on whether democratic or authoritarian leaders are better prepared to address climate change.
 
-![Michal takes the stage at the New York Times Climate Hub](/images/climate-policy-radar-is-back-from-glasgow/screenshot_20211119-213514_gallery.jpg 'Michal takes the stage at the New York Times Climate Hub')
+![Michal on stage at the New York Times Climate Hub](/images/climate-policy-radar-is-back-from-glasgow/screenshot_20211119-213514_gallery.jpg)
 
-_Michal takes the stage at the New York Times Climate Hub_
+*Michal takes the stage at the New York Times Climate Hub*
 
-The debate threw up some interesting ideas, but either way what’s clear to us is that policy will be the factor that makes or breaks our response to the climate crisis. And we need to act now. So across all governments, from liberal democracies to autocratic regimes, our task is to support more efficient and more informed decision-making. Watch this space for news about how we’re doing that.
+The debate threw up some interesting ideas, but either way what’s clear to us at CPR is that policy will be the factor that makes or breaks our response to the climate crisis. And we need to act now. So across all governments, from liberal democracies to autocratic regimes, our task is to support more efficient and more informed decision-making. Watch this space for news about how we’re doing that.
 
 <!--EndFragment-->
