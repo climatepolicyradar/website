@@ -1,6 +1,6 @@
 ---
 layout: latest
-title: Announcing partnership with WORLD Policy Analysis Center
+title: Announcing CPR's partnership with WORLD Policy Analysis Center
 date: 2 November 2021
 thumb: /images/announcing-partnership-with-world-policy-analysis-center/thumb.jpg
 topics:
@@ -11,7 +11,7 @@ author: Michal Nachmany
 slug: announcing-partnership-with-world-policy-analysis-center
 featured: false
 ---
-We are excited to announce today that Climate Policy Radar is partnering with [WORLD Policy Analysis Center](https://www.worldpolicycenter.org/about/about-world) to advance joint work to map and analyse the global climate policy landscape and situate in a broader context of social economic and environmental legislation and policy. We will be collaborating with WORLD to develop tools to bring together all the world’s laws and policies that matter to climate change mitigation and adaptation across an array of domains, in a readily accessible way.
+We are excited to announce today that Climate Policy Radar (CPR) is partnering with [WORLD Policy Analysis Center](https://www.worldpolicycenter.org/about/about-world) to advance joint work to map and analyse the global climate policy landscape and situate in a broader context of social economic and environmental legislation and policy. We will be collaborating with WORLD to develop tools to bring together all the world’s laws and policies that matter to climate change mitigation and adaptation across an array of domains, in a readily accessible way.
 
 WORLD brings incredibly rich experience creating databases and thorough analysis of laws and policies, with over 2 million law and policy indicators across 193 UN Member States, and deep expertise in rigorously examining the impact of law and policy change on individual- and population-level outcomes.
 
