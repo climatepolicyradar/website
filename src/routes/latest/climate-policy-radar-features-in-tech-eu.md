@@ -12,7 +12,7 @@ featured: false
 ---
 Climate Policy Radar has nabbed the spotlight in tech.eu, an online publication dedicated to European technology ecosystems.
 
-Authored by [Managing Editor Dan Taylor](https://tech.eu/authors/dantaylor/), the article showcases [the launch](https://climatepolicyradar.org/latest/climate-policy-radar-launches-its-global-climate-policy-database) of our first (Alpha) product: “As of today, the startup has pulled back the curtains on what they’ve been working on; an open data and open source search platform that uses machine learning and natural language processing (NLP) to collect and analyse massive amounts of policy data at scale. 
+Authored by [Managing Editor Dan Taylor](https://tech.eu/authors/dantaylor/), the article showcases [the launch](https://climatepolicyradar.org/latest/climate-policy-radar-launches-its-global-climate-policy-database) of CPR's first (Alpha) product: “As of today, the startup has pulled back the curtains on what they’ve been working on; an open data and open source search platform that uses machine learning and natural language processing (NLP) to collect and analyse massive amounts of policy data at scale. 
 
 “Ultimately, this equips decision-makers with rich, high-quality data that should help policymakers replicate successful policies and avoid failed ones. And the kicker? Hold them accountable.
 
