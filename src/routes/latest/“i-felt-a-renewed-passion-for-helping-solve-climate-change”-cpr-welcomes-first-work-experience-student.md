@@ -11,7 +11,7 @@ excerpt: Bella Grimsey joined CPR for a day of work experience, packed with
 author: Justine
 featured: false
 ---
-From 17-year-old climate activist Alexandria Villaseñor xxx Greta Thunberg to climate biologist and activist Ayana Elizabeth Johnson, climate role models across the world are forging climate solutions and galvanising individuals and communities to take and demand climate action. At a time when doom and gloom dominate the discourse, they lead, inspire, and teach. So when 17-year-old student Bella got in touch with CPR seeking inspiration and wanting to shadow us for a day, we knew we wanted to swing our doors wide open:
+From 17-year-old climate activist [Alexandria Villaseñor](https://twitter.com/AlexandriaV2005) to climate biologist and activist [Ayana Elizabeth Johnson](https://www.ayanaelizabeth.com/), climate role models across the world are forging climate solutions and galvanising individuals and communities to take and demand climate action. At a time when doom and gloom dominate the discourse, they lead, inspire, and teach. So when 17-year-old student Bella got in touch with CPR seeking inspiration and wanting to shadow us for a day, we knew we wanted to swing our doors wide open:
 
 “As the only girl in my computer science class, it is sometimes difficult for me to see role models in the field,” Bella said in her note to us, “but seeing the diversity of gender on your board is inspiring.”
 
@@ -23,7 +23,7 @@ We wanted to make sure this was a shared learning opportunity: for Bella to gain
 
 ## From PDF parsing to policy: a day in the life at CPR
 
-On her day in the office, our CPR team gave whistle-stop tours of climate change policy, data science and AI, software engineering and front-end development. She even took a crack at code writing and did the test we used to screen applicants for technical roles at CPR. Bella also dipped her toes into agile ways of working, observing our mammoth sprint planning and review meetings, where we evaluate our team’s developments over the past two weeks (our ‘sprints’), and set out our priorities for the next two. We survived, Bella's photo below proves.
+On her day in the office, [our CPR team](https://climatepolicyradar.org/about#team) gave whistle-stop tours of climate change policy, data science and AI, software engineering and front-end development. She even took a crack at code writing and did the test we used to screen applicants for technical roles at CPR. Bella also dipped her toes into agile ways of working, observing our mammoth sprint planning and review meetings, where we evaluate our team’s developments over the past two weeks (our ‘sprints’), and set out our priorities for the next two. We survived, Bella's photo below proves.
 
 ![A photo of the CPR team](/images/“i-felt-a-renewed-passion-for-helping-solve-climate-change”-cpr-welcomes-first-work-experience-student/cpr-team-photo.jpg "The CPR team during sprint planning")
 
@@ -45,7 +45,7 @@ Bella admits she was quite nervous coming in, so we were glad that we “made me
 
 “I feel really inspired by all of you and I hope that one day I can be on a project which is doing work like this, and in such a welcoming environment!” she added. “I am really excited for where Climate Policy Radar is going to go.”
 
-We’re excited too. We launched the first version of our climate policy platform earlier this year, which allows you to search thousands of climate change law and policy documents from across the world. You can still sign up to use it on our website, but later this year we’ll be releasing our next, fully open version with a bunch of new features. We’ll be sharing our latest developments with you soon. 
+We’re excited too. [We launched](https://climatepolicyradar.org/latest/climate-policy-radar-launches-its-global-climate-policy-database) the first version of our climate policy platform earlier this year, which allows you to search thousands of climate change law and policy documents from across the world. You can still [sign up to use it on our website](https://app.climatepolicyradar.org/auth/sign-up), but later this year we’ll be releasing our next, fully open version with a bunch of new features. We’ll be sharing our latest developments with you soon. 
 
 Beyond that, we’ll be borrowing Bella’s top tips for social media and engaging with young people, as we explore ways to grow our open climate data community. 
 
