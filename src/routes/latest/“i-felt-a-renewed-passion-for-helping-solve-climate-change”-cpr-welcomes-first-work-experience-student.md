@@ -19,7 +19,7 @@ At a time when doom and gloom dominate the discourse, they lead, inspire, and te
 
 We asked Bella what drove her to reach out: “I was looking for a place where I could do work experience over the summer holidays as I wanted to gauge what sort of jobs are out there in the climate sector. 
 
-“I Googled ‘climate AI companies’ and CPR came close to the top. I liked the idea that you were a small company and had great values.”
+“I Googled ‘climate AI companies’ and CPR came close to the top. I liked the idea that you were a small company and [had great values](https://climatepolicyradar.org/about#values).”
 
 We wanted to make sure this was a shared learning opportunity: for Bella to gain a useful insight into the climate startup world, and for us to think about how we can better engage young people whose booming voices are shaking up activism across the globe. We already knew we enjoyed working with young people, as last summer we had five 16-year-old students engage in paid summer work with us to support our early data labelling activities, while receiving training on climate policy and machine learning.
 
