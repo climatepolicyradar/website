@@ -3,7 +3,7 @@ layout: latest
 title: “I felt a renewed passion for helping solve climate change” - CPR
   welcomes first work experience student
 date: 31 August 2022
-thumb: /images/bella-cpr-work-experience.png
+thumb: /images/“i-felt-a-renewed-passion-for-helping-solve-climate-change”-cpr-welcomes-first-work-experience-student/bella-cpr-work-experience.jpg
 topics:
   - Blog
 excerpt: Bella Grimsey joined CPR for a day of work experience, packed with
