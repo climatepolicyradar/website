@@ -56,8 +56,8 @@
     width: 90%;
     max-width: 600px;
     background-color: var(--color-sky);
-    /* background-color: var(--color-white); */
     border-radius: 30px;
+    z-index: 99;
   }
   .hide--true {
     display: none;
