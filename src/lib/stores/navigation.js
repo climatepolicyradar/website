@@ -31,10 +31,6 @@ const menu = readable([
     {
       label: 'Partners',
       link: 'about#partners'
-    },
-    {
-      label: 'Media',
-      link: 'about#media'
     }
   ]
   },
