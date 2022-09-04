@@ -36,7 +36,6 @@
 <nav
   class="c-primary-nav c-primary-nav--{theme}"
   class:is-open={$mobileMenuOpen}
-  role="navigation"
   aria-label="Main"
 >
   {#each $menu as item}
