@@ -99,7 +99,7 @@
   .c-card__date {
     display: inline-block;
     margin-bottom: 8px;
-    color: var(--color-indigo-400);
+    color: var(--color-indigo-500);
   }
 
   .c-card__excerpt {
