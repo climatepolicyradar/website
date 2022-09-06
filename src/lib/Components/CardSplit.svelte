@@ -102,6 +102,10 @@
     color: var(--color-indigo-500);
   }
 
+  .c-card--split.c-card--split-dark .c-card__date {
+    color: var(--color-indigo-200);
+  }
+
   .c-card__excerpt {
     line-height: 24px;
   }
