@@ -10,7 +10,7 @@
   export let cardTheme = 'light';
 </script>
 
-<div class="b-latest-posts">
+<article class="b-latest-posts">
   <Wrapper>
     <Heading>
       <h3 class="u-type-body-xxl">Latest</h3>
@@ -31,7 +31,7 @@
       {/each}
     </CardsList>
   </Wrapper>
-</div>
+</article>
 
 <style>
   :global(.b-latest-posts) {
