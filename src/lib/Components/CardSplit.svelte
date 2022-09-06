@@ -23,7 +23,7 @@
     {/if}
 
     {#if title}
-      <h2 class="c-card__title u-type-h2">{title}</h2>
+      <div class="c-card__title u-type-h2" role="heading">{title}</div>
     {/if}
 
     {#if excerpt}
@@ -99,7 +99,11 @@
   .c-card__date {
     display: inline-block;
     margin-bottom: 8px;
-    color: var(--color-indigo-400);
+    color: var(--color-indigo-500);
+  }
+
+  .c-card--split.c-card--split-dark .c-card__date {
+    color: var(--color-indigo-200);
   }
 
   .c-card__excerpt {

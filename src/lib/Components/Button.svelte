@@ -12,8 +12,7 @@
 
 {#if href}
   <a
-    class="c-button c-button--{size} c-button--{color} c-button--{type} {$$props.class ||
-      ''}"
+    class="c-button c-button--{size} c-button--{color} c-button--{type} {$$props.class ||''}"
     class:c-button--has-icon={arrow}
     {href}
     {target}
@@ -77,6 +76,7 @@
     font-weight: 500;
     line-height: 1;
     justify-content: center;
+    color: var(--color-indigo);
   }
 
   @media only screen and (min-width: 321px) {
@@ -128,6 +128,7 @@
     padding: 16px 32px;
     font-size: 18px;
     min-width: 280px;
+    font-weight: 500;
   }
 
   .c-button--white {
@@ -140,7 +141,7 @@
   }
   .c-button--blue {
     color: #fff;
-    background-color: var(--color-blue);
+    background-color: var(--color-blue-600);
   }
   .c-button--blue:hover {
     color: #fff;

@@ -36,7 +36,6 @@
 <nav
   class="c-primary-nav c-primary-nav--{theme}"
   class:is-open={$mobileMenuOpen}
-  role="navigation"
   aria-label="Main"
 >
   {#each $menu as item}
@@ -83,9 +82,7 @@
     </div>
   {/each}
 
-  <Button color="blue" size="cta" href="https://app.climatepolicyradar.org"
-    >Log in</Button
-  >
+  <Button color="blue" size="cta" href="https://app.climatepolicyradar.org">Log in</Button>
   <Button color="white" size="cta" href="https://app.climatepolicyradar.org/auth/sign-up">Sign up</Button>
 </nav>
 

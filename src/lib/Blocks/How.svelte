@@ -24,16 +24,16 @@ import Spacer from '$lib/Components/Spacer.svelte';
         <IconListItem orientation="vertical">
           <Icon name="machine" />
           Using machine learning and natural language processing to radically scale and accelerate data
-          collection and analysis
+          collection and analysis.
         </IconListItem>
         <IconListItem orientation="vertical">
           <Icon name="trends" />
-          Surfacing trends, creating context, and identifying opportunities
+          Surfacing trends, creating context, and identifying opportunities.
         </IconListItem>
         <IconListItem orientation="vertical">
           <Icon name="research" />
           Working with our research and knowledge brokering partners, ensuring data and insights get
-          to those who need them
+          to those who need them.
         </IconListItem>
       </IconList>
     </div>

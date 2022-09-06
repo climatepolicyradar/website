@@ -22,15 +22,7 @@
  
       <nav class="c-site-footer__nav">
         <div class="c-site-footer__nav-col">
-          <h4 class="c-site-footer__nav-header">
-            <a 
-              sveltekit:prefetch 
-              href="/{aboutMenu.link}"
-              class="c-site-footer__nav-item u-type-body-md"
-          >
-            {aboutMenu?.label}
-          </a>
-        </h4>
+          <h4 class="u-type-body-md c-site-footer__nav-header">{aboutMenu?.label}</h4>
         {#each aboutMenu.submenu as item}
           <a
             sveltekit:prefetch
@@ -63,15 +55,7 @@
           {/each}
         </div> -->
         <div class="c-site-footer__nav-col">
-          <h4 class="c-site-footer__nav-header">
-            <a 
-              sveltekit:prefetch 
-              href="/{jobsMenu?.link}"
-              class="c-site-footer__nav-item u-type-body-md"
-          >
-            {jobsMenu?.label}
-            </a>
-          </h4>
+          <h4 class="c-site-footer__nav-header">{jobsMenu?.label}</h4>
           {#each jobsMenu.submenu as item}
             <a
               sveltekit:prefetch
@@ -106,7 +90,6 @@
             class="c-site-footer__nav-item u-type-body-md"
             >Privacy Policy</a
           >
-            
         </div>
       </nav>
 
@@ -196,9 +179,13 @@
   .c-site-footer__address {
     font-size: 15px;
     line-height: 24px;
-    color: var(--color-indigo-400);
+    color: var(--color-indigo-500);
     margin-top: 64px;
     margin-bottom: 64px;
+  }
+  
+  .c-site-footer__lower.theme-dark .c-site-footer__address {
+    color: var(--color-indigo-200);
   }
 
   @media only screen and (min-width: 768px) {
@@ -209,6 +196,11 @@
 
   .c-site-footer__nav-col:not(:first-child) {
     margin-top: 32px;
+  }
+  .c-site-footer__nav-header {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 12px;
   }
   .c-site-footer__nav-header a {
     font-weight: 500;
@@ -272,8 +264,12 @@
   }
 
   .c-site-footer__copyright {
-    color: var(--color-indigo-300);
+    color: var(--color-indigo-500);
     font-size: 12px;
+  }
+
+  .c-site-footer__lower.theme-dark .c-site-footer__copyright {
+    color: var(--color-indigo-200);
   }
 
   .c-site-footer--dark .c-site-footer__nav-item {

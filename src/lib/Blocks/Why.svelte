@@ -18,10 +18,10 @@
     <IconList>
       <IconListItem
         ><Icon name="radar" size="75px" />Existing policy information is
-        fragmented and siloed</IconListItem
+        fragmented and siloed.</IconListItem
       >
       <IconListItem
-        ><Icon name="graph" size="75px" />Data on available and effective solutions is sparse</IconListItem
+        ><Icon name="graph" size="75px" />Data on available and effective solutions is sparse.</IconListItem
       >
       <IconListItem
         ><Icon name="learn" size="75px" />The ability to learn from each other's experience is
