@@ -12,8 +12,7 @@
 
 {#if href}
   <a
-    class="c-button c-button--{size} c-button--{color} c-button--{type} {$$props.class ||
-      ''}"
+    class="c-button c-button--{size} c-button--{color} c-button--{type} {$$props.class ||''}"
     class:c-button--has-icon={arrow}
     {href}
     {target}
@@ -72,8 +71,8 @@
 
   .c-button--cta {
     flex-shrink: 0;
-    padding: 16px 24px;
-    font-size: 14px;
+    padding: 8px 24px;
+    font-size: 18px;
     font-weight: 500;
     line-height: 1;
     justify-content: center;
@@ -81,7 +80,7 @@
 
   @media only screen and (min-width: 321px) {
     .c-button--cta {
-      padding: 16px 32px;
+      padding: 8px 32px;
     }
   }
 
@@ -128,6 +127,7 @@
     padding: 16px 32px;
     font-size: 18px;
     min-width: 280px;
+    font-weight: 500;
   }
 
   .c-button--white {
