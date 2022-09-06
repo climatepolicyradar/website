@@ -73,7 +73,7 @@
     flex-shrink: 0;
     padding: 8px 24px;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: bold;
     line-height: 1;
     justify-content: center;
   }
@@ -127,7 +127,7 @@
     padding: 16px 32px;
     font-size: 18px;
     min-width: 280px;
-    font-weight: 500;
+    font-weight: bold;
   }
 
   .c-button--white {
