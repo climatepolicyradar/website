@@ -179,9 +179,13 @@
   .c-site-footer__address {
     font-size: 15px;
     line-height: 24px;
-    color: var(--color-indigo-400);
+    color: var(--color-indigo-500);
     margin-top: 64px;
     margin-bottom: 64px;
+  }
+  
+  .c-site-footer__lower.theme-dark .c-site-footer__address {
+    color: var(--color-indigo-200);
   }
 
   @media only screen and (min-width: 768px) {
@@ -260,8 +264,12 @@
   }
 
   .c-site-footer__copyright {
-    color: var(--color-indigo-300);
+    color: var(--color-indigo-500);
     font-size: 12px;
+  }
+
+  .c-site-footer__lower.theme-dark .c-site-footer__copyright {
+    color: var(--color-indigo-200);
   }
 
   .c-site-footer--dark .c-site-footer__nav-item {
