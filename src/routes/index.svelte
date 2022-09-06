@@ -34,9 +34,8 @@
 
   export let featuredPosts;
   export let partnerList;
-  const title =
-    'Climate Policy Radar | Building the evidence base for evidence-based policymaking';
-  const excerpt = 'Building the evidence base for evidence-based policymaking';
+  const title = 'Climate Policy Radar | AI for climate law and policy research';
+  const excerpt = 'Use Climate Policy Radar’s data science and AI-powered platform to search and explore thousands of climate change laws, policies and legal cases worldwide.';
   const image = 'https://climatepolicyradar.org/images/logo.png';
   const path = '/';
 </script>
