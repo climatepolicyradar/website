@@ -71,16 +71,17 @@
 
   .c-button--cta {
     flex-shrink: 0;
-    padding: 8px 24px;
-    font-size: 18px;
-    font-weight: bold;
+    padding: 16px 24px;
+    font-size: 14px;
+    font-weight: 500;
     line-height: 1;
     justify-content: center;
+    color: var(--color-indigo);
   }
 
   @media only screen and (min-width: 321px) {
     .c-button--cta {
-      padding: 8px 32px;
+      padding: 16px 32px;
     }
   }
 
@@ -127,7 +128,7 @@
     padding: 16px 32px;
     font-size: 18px;
     min-width: 280px;
-    font-weight: bold;
+    font-weight: 500;
   }
 
   .c-button--white {
@@ -140,7 +141,7 @@
   }
   .c-button--blue {
     color: #fff;
-    background-color: var(--color-blue);
+    background-color: var(--color-blue-600);
   }
   .c-button--blue:hover {
     color: #fff;
