@@ -111,6 +111,10 @@
     height: 40px;
   }
 
+  :global(.c-site-header__menu-button) {
+    z-index: 2;
+  }
+
   @media (min-width: 1024px) {
     :global(.c-site-header__menu-button) {
       display: none !important;
