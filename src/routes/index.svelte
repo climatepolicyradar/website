@@ -55,8 +55,7 @@
       color="blue"
       size="lg"
       href="https://app.climatepolicyradar.org"
-      arrow>Log in</Button>
-    <Button color="white" size="lg" href="https://app.climatepolicyradar.org/auth/sign-up" arrow>Sign up</Button>
+      arrow>Start your search</Button>
   </div>
 </Banner>
 
