@@ -49,6 +49,9 @@
   <p slot="subheading">
     Giving policymakers, researchers and civil society tools for better policy
     design and accountability.
+    <br/>
+    <br/>
+    Search the full text of thousands of climate laws and policies globally.
   </p>
   <div class="home-cta">
     <Button
