@@ -50,13 +50,13 @@
     Giving policymakers, researchers and civil society tools for better policy
     design and accountability.
   </p>
+  <p slot="subheading-2">Launch our app now to search the full text of thousands of climate laws and policies.</p>
   <div class="home-cta">
     <Button
-      color="blue"
+    color="blue"
       size="lg"
       href="https://app.climatepolicyradar.org"
-      arrow>Log in</Button>
-    <Button color="white" size="lg" href="https://app.climatepolicyradar.org/auth/sign-up" arrow>Sign up</Button>
+      arrow>Start your search</Button>
   </div>
 </Banner>
 

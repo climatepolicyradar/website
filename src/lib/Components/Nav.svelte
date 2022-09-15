@@ -82,8 +82,7 @@
     </div>
   {/each}
 
-  <Button color="blue" size="cta" href="https://app.climatepolicyradar.org">Log in</Button>
-  <Button color="white" size="cta" href="https://app.climatepolicyradar.org/auth/sign-up">Sign up</Button>
+  <Button color="blue" size="cta" href="https://app.climatepolicyradar.org">Start your search</Button>
 </nav>
 
 <style>
