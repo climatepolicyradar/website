@@ -50,7 +50,7 @@
     Giving policymakers, researchers and civil society tools for better policy
     design and accountability.
   </p>
-  <p slot="heading2">Launch our app now to search the full text of thousands of climate laws and policies.</p>
+  <p slot="subheading-2">Launch our app now to search the full text of thousands of climate laws and policies.</p>
   <div class="home-cta">
     <Button
     color="blue"
