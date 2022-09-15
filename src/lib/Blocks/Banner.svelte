@@ -26,7 +26,13 @@
           </div>
         {/if}
 
+        {#if $$slots.heading2}
+        <div class="b-banner__heading u-type-body-xl">
+          <slot name="heading2"><!-- optional fallback --></slot>
+        </div>
+        {/if}
         <slot><!-- optional fallback --></slot>
+
       </div>
     </div>
   </Wrapper>
