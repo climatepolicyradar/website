@@ -20,7 +20,7 @@ Our goal is simple: we want to help governments take more effective, timely, and
 
 Over 250 civil servants, academics, and members of international organisations and civil society globally have joined our first group of users. Launching our Alpha product is a golden opportunity for us to learn and improve, as we prepare for our full launch later this year.
 
-If you want the world’s climate policy data at your fingertips, you can [sign up to access our Alpha product](https://app.climatepolicyradar.org/auth/sign-up) for free on our website. By joining our growing global community, you can help us towards our mission of improving the evidence base for evidence-based policymaking.
+If you want the world’s climate policy data at your fingertips, you can [access our Alpha product](https://app.climatepolicyradar.org/) for free on our website. By joining our growing global community, you can help us towards our mission of improving the evidence base for evidence-based policymaking.
 
 ## Mapping the global climate policy landscape
 
@@ -62,4 +62,4 @@ The resource covers laws, policies, strategies and action plans documents from e
 
 We will continue improve the search function and develop more sophisticated ways to analyse the data, including adding classifications, enabling people to identify categories like green technologies, policy instruments, and climate targets. We will also develop data visualisations that will help people using the platform to see the big picture and drill down into the data in a more useful way, such as looking at clean energy trends over time.
 
-We’ll be sharing updates on our progress towards these goals in due course, so be sure to follow us to hear the latest developments from Climate Policy Radar. Core to our purpose is ensuring that our knowledge source is not only reliable but open, accessible, and community-driven. And so if you’d like to help shape this exciting journey, [sign up to access Alpha](https://app.climatepolicyradar.org/auth/sign-up) and [follow us on social media](https://twitter.com/climatepolradar).
+We’ll be sharing updates on our progress towards these goals in due course, so be sure to follow us to hear the latest developments from Climate Policy Radar. Core to our purpose is ensuring that our knowledge source is not only reliable but open, accessible, and community-driven. And so if you’d like to help shape this exciting journey, [access Alpha](https://app.climatepolicyradar.org/) and [follow us on social media](https://twitter.com/climatepolradar).
