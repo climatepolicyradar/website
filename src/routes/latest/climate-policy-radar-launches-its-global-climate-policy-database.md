@@ -9,7 +9,7 @@ excerpt: We’re delighted to announce that we've released the first version of
   our first product, Climate Policy Radar (Alpha), allowing you to search
   through the full text of thousands of climate laws, policies and strategies
   worldwide.
-author: Justine Alford
+author: Justine Alford, PhD
 featured: true
 ---
 We’re delighted to announce that we have released the first version of our first product, Climate Policy Radar (Alpha), which allows searching through the full text of thousands of climate laws, policies and strategies worldwide. 
