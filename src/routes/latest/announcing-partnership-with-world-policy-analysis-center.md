@@ -7,7 +7,7 @@ topics:
   - News
 excerpt: We are excited to announce today that Climate Policy Radar is
   partnering with WORLD Policy Analysis Center.
-author: Michal Nachmany
+author: Michal Nachmany, PhD, FRSA
 slug: announcing-partnership-with-world-policy-analysis-center
 featured: false
 ---
