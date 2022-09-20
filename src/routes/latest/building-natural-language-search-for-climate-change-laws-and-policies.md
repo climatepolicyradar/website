@@ -12,7 +12,9 @@ excerpt: Our goal is to make it easier and faster to interrogate climate change
 author: Kalyan
 featured: true
 ---
-There is no guide book to tackling climate change. So often, the best way to figure out what works and what doesn’t is to learn from evidence, so that decision-makers can replicate successful decisions and avoid failed ones. As laws and policies are critical in achieving temperature and resilience goals, we knew that opening up existing but hard-to-access sources of information on these documents would be a vital first step towards building such an evidence base for climate policy. 
+There is no guide book to tackling climate change. So often, the best way to figure out what works and what doesn’t is to learn from evidence, so that decision-makers can replicate successful decisions and avoid failed ones. 
+
+As laws and policies are critical in achieving temperature and resilience goals, we knew that opening up existing but hard-to-access sources of information on these documents would be a vital first step towards building such an evidence base for climate policy. 
 
 We wanted to make it easier and faster to interrogate climate change laws and policies. So we built an app that allows people to search the full text of the thousands of laws and policies [in our database](https://climatepolicyradar.org/latest/climate-policy-radar-launches-its-global-climate-policy-database), which we’ve sourced (to start with) from our partners at the [Grantham Research Institute at LSE](https://www.lse.ac.uk/granthaminstitute/). This blog post details how and why we designed the search function of our app the way we did, using natural language search.
 
