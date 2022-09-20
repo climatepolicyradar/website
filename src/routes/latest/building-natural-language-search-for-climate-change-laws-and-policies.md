@@ -9,7 +9,7 @@ excerpt: Our goal is to make it easier and faster to interrogate climate change
   laws and policies. This blog post details how and why we designed the search
   function of Climate Policy Radar's app the way we did, using natural language
   search.
-author: Kalyan
+author: Kalyan Dutia
 featured: true
 ---
 There is no guide book to tackling climate change. So often, the best way to figure out what works and what doesn’t is to learn from evidence, so that decision-makers can replicate successful decisions and avoid failed ones. 
