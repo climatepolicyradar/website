@@ -20,6 +20,6 @@ Authored by [Managing Editor Dan Taylor](https://tech.eu/authors/dantaylor/), th
 
 [Read the full story on the tech.eu website](https://tech.eu/2022/07/20/climate-policy-radar-pulls-back-the-curtain-launches-global-climate-policy-database#).
 
-[Sign up](https://app.climatepolicyradar.org/auth/sign-up) to access our climate policy search tool.
+[](https://app.climatepolicyradar.org/auth/sign-up)[Access our climate policy search tool](https://app.climatepolicyradar.org/).
 
 ![](/images/climate-policy-radar-features-in-tech-eu/climate-152.gif)
