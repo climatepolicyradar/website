@@ -7,7 +7,7 @@ topics:
   - News
 excerpt: Climate Policy Radar has nabbed the spotlight in tech.eu, an online
   publication dedicated to European technology ecosystems.
-author: Justine
+author: Justine Alford
 featured: false
 ---
 Climate Policy Radar has nabbed the spotlight in tech.eu, an online publication dedicated to European technology ecosystems.
