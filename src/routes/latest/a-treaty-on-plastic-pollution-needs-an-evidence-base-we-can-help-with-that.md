@@ -1,7 +1,7 @@
 ---
 layout: latest
-title: 'A treaty on plastic pollution - what can we find in national policy
-  documents? '
+title: "A treaty on plastic pollution - what can we find in national policy
+  documents? "
 date: 4 March 2022
 thumb: /images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/plastic-picture.jpg
 topics:
@@ -9,7 +9,7 @@ topics:
 excerpt: Climate Policy Radar want to support the search for solutions to the
   crisis of plastic pollution, using our tool for searching across the full text
   of thousands of policy documents.
-author: Marcus Davies, Policy
+author: Marcus Davies
 featured: false
 ---
 
