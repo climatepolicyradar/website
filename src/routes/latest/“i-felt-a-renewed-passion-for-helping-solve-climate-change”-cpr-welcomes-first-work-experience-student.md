@@ -47,7 +47,7 @@ Bella admits she was quite nervous coming in, so we were glad that we “made me
 
 “I feel really inspired by all of you and I hope that one day I can be on a project which is doing work like this, and in such a welcoming environment!” she added. “I am really excited for where Climate Policy Radar is going to go.”
 
-We’re excited too. [We launched](https://climatepolicyradar.org/latest/climate-policy-radar-launches-its-global-climate-policy-database) the first version of our climate policy platform earlier this year, which allows you to search thousands of climate change law and policy documents from across the world. You can still [sign up to use it on our website](https://app.climatepolicyradar.org/auth/sign-up), but later this year we’ll be releasing our next, fully open version with a bunch of new features. We’ll be sharing our latest developments with you soon. 
+We’re excited too. [We launched](https://climatepolicyradar.org/latest/climate-policy-radar-launches-its-global-climate-policy-database) the first version of our climate policy platform earlier this year, which allows you to search thousands of climate change law and policy documents from across the world. Start your climate law an policy search [on our app now](https://app.climatepolicyradar.org/), and later this year we’ll be releasing our next version with a bunch of new features. We’ll be sharing our latest developments with you soon.
 
 Beyond that, we’ll be borrowing Bella’s top tips for social media and engaging with young people, as we explore ways to grow our open climate data community. 
 
