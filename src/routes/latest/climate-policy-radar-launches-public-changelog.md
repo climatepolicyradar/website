@@ -9,7 +9,7 @@ excerpt: Openness and transparency are the kingpins of Climate Policy Radar,
   which is why we’ve launched a public changelog so that anyone and everyone can
   follow what we’re doing in the climate tech space and the progress we’re
   making.
-author: Justine
+author: Justine Alford
 featured: false
 ---
 Openness and transparency are the kingpins of Climate Policy Radar, which is why we’ve launched a public changelog so that anyone and everyone can follow what we’re doing in the climate tech space and the progress we’re making. 
