@@ -7,7 +7,7 @@ thumb: /images/announcing-climate-policy-radar/thumb.png
 topics:
   - Blog
 excerpt: The renewed and growing political will to combat climate change is encouraging.
-author: Michal Nachmany
+author: Michal Nachmany, PhD, FRSA
 slug: announcing-climate-policy-radar
 featured: false
 ---
