@@ -8,7 +8,7 @@ topics:
   - Blog
 excerpt: Bella Grimsey joined CPR for a day of work experience, packed with
   policy, PDF parsing and planning.
-author: Justine
+author: Justine Alford
 featured: false
 ---
 From 17-year-old climate activist [Alexandria Villaseñor](https://twitter.com/AlexandriaV2005) to climate biologist and activist [Ayana Elizabeth Johnson](https://www.ayanaelizabeth.com/), climate role models across the world are forging climate solutions and galvanising individuals and communities to take and demand climate action. 
