@@ -6,7 +6,10 @@ date: 10 February 2021
 thumb: /images/announcing-climate-policy-radar/thumb.png
 topics:
   - Blog
-excerpt: The renewed and growing political will to combat climate change is encouraging.
+excerpt: Climate Policy Radar is a climate data start-up on a mission to map and
+  analyse the climate policy landscape globally, to support evidence-based
+  policymaking and investment to drive the transition to a low carbon, resilient
+  world.
 author: Michal Nachmany, PhD, FRSA
 slug: announcing-climate-policy-radar
 featured: false
