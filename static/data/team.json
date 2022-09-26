@@ -1,6 +1,20 @@
 {
   "team": [
     {
+      "name": "Alan Wright",
+      "role": "Product Management",
+      "group": "Team",
+      "image": {
+        "src": "images/team/alan-wright-climate-policy-radar.jpg",
+        "alt": "Headshot of Alan Wright"
+      },
+      "bio": "Alan is a product manager with more than a decade of experience managing digital products.",
+      "highlights": [
+        "Before joining Climate Policy Radar he worked on some great products including GOV.UK, BBC iPlayer and Cazoo.  Most of his recent experience is in the UK public bector, but he has also worked in startups/scaleups, digital agencies, non profits, political campaigns and video games. A long time ago in a place not so far away, he also completed a degree in Economics, Politics and International Studies from the University of Warwick. ",
+        " He is passionate about building products that meet user needs and make a positive difference to the world."
+      ]
+    },
+    {
       "name": "Michal Nachmany, PhD, FRSA",
       "role": "Founder and CEO ",
       "image": {
