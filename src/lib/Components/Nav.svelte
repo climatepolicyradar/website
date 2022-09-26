@@ -83,6 +83,7 @@
   {/each}
 
   <Button color="blue" size="cta" href="https://app.climatepolicyradar.org">Start your search</Button>
+  <Button color="white" size="cta" href="https://docs.google.com/forms/d/e/1FAIpQLSeUutb7wDsgZN2Z4cUYvMSScEhvdhTXUNcWNqiUhIHAkjHzow/viewform?usp=pp_url" target="_blank" rel="noopener noreferrer nofollow">Newsletter</Button>
 </nav>
 
 <style>
@@ -136,8 +137,8 @@
       width: 100%;
     }
   }
-  @media (min-width: 600px) {
-    :global(.c-primary-nav .c-primary-nav-item + .c-button) {
+  @media (min-width: 1024px) {
+    :global(.c-primary-nav .c-button) {
       max-width: 200px;
     }
   }
