@@ -32,7 +32,7 @@ Our product is creating a one-stop-shop climate database to answer these pressin
 
 This means that rather than having to manually scour through endless documents, such as to find out who has implemented carbon tax policies, our platform will do the searching for our users, presenting all of the relevant and related information that’s available. This will save countless hours of labour-intensive searching and take the guesswork out of policymaking, enabling researchers to carry out exploratory research to understand the different options that are being implemented in policy to tackle different issues. 
 
-Check out how it works in the images below, which show how you can search and explore policy documents.
+Check out how it works in the images below, which show how you can search and explore policy documents in our growing climate policy database.
 
 **Enter your search term to get started**
 
@@ -44,7 +44,7 @@ Check out how it works in the images below, which show how you can search and ex
 
 **Quickly find the parts of the full text that match your query**
 
-![A screenshot of the Climate Policy Radar (Alpha) platform](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-3.jpg "Clicking on each result will point you to the paragraphs/sentences in the full text that respond to the search query.")
+![A screenshot of the Climate Policy Radar's climate policy database](/images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-3.jpg "Clicking on each result will point you to the paragraphs/sentences in the full text that respond to the search query.")
 
 **Clicking on one of those paragraphs will take you to the actual page in the document**
 
