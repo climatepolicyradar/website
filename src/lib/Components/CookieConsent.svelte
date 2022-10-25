@@ -1,30 +1,32 @@
 <script>
   import { onMount } from 'svelte';
   import Button from './Button.svelte';
-  import { deleteCookies } from '$lib/helpers/cookie';
+  import { setCookie, getCookie } from '$lib/helpers/cookie';
+  import Hotjar from '$lib/Components/Hotjar.svelte';
 
   let hide = true;
-  $: hide;
+  let loadHotjar = false;
+  $: hide, loadHotjar;
   
-  const cookieConsent = "CPR-cookie-consent";
+  const cookieConsent = "CPR-CC";
   
   onMount(() => {
-    const cc = localStorage[cookieConsent];
+    const cc = getCookie(cookieConsent);
     if(!cc) hide = false;
+    if(cc === "true") loadHotjar = true;
   });
   
   const cookiesAcceptHandler = () => {
-    localStorage[cookieConsent] = "true";
+    setCookie(cookieConsent, true);
     gtag('consent', 'update', {
       'analytics_storage': 'granted'
     });
     hide = true;
+    loadHotjar = true;
   };
   
   const cookiesRejectHandler = () => {
-    localStorage[cookieConsent] = "false";
-    // Remove existing cookies if already set
-    deleteCookies();
+    setCookie(cookieConsent, false);
     hide = true;
   };
 </script>
@@ -46,6 +48,10 @@
       </div>
   </div>
 </div>
+
+{#if loadHotjar}
+  <Hotjar />
+{/if}
 
 <style>
   .cookie-consent {
