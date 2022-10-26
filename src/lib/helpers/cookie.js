@@ -18,7 +18,14 @@ export function setCookie(cname, cvalue, exdays) {
   let y = d.getFullYear() + 1;
   d.setFullYear(y);
   let expires = "expires="+d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  document.cookie = cname + "=" + cvalue + ";" + expires + "; domain=climatepolicyradar.org; path=/;";
+}
+
+export function deleteCookie(cname, domain) {
+  let ca = document.cookie.split(';');
+  if (!!cname && ca.includes(cname)) {
+    document.cookie = `${cname}=; domain=${domain}; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;`;
+  }
 }
 
 export function deleteCookies() {
@@ -27,6 +34,6 @@ export function deleteCookies() {
     const cookie = ca[index];
     const eqPos = cookie.indexOf("=");
     const name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
-    document.cookie = name +'=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+    document.cookie = name +'=; path=/; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
   }
 }
