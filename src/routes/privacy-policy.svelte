@@ -61,7 +61,7 @@
         <b>Google Analytics</b>
         <p>We use Google Analytics to monitor usage of the CPR websites and apps. This information allows us to assess how our websites and apps are used. We collect and aggregate anonymous data about usage (e.g., number of visitors, visitors' country, number of times each page is visited) to produce performance reports.</p>
         <p>You may opt‐out of Google Analytics by installing the Google Analytics opt‐out browser add‐on or by configuring your browser settings to block the use of cookies.</p>
-        <p>For further details, please see the ‘Analytics’ section of Google’s <a href="https://policies.google.com/technologies/cookies?hl=en-US" target="_blank">Privacy Policy</a>.</p>
+        <p>For further details, please see the ‘Analytics’ section of Google’s <a href="https://policies.google.com/technologies/cookies" target="_blank">Privacy Policy</a>.</p>
       </li>
       <li>
         <b>YouTube</b>
