@@ -18,7 +18,7 @@ export function setCookie(cname, cvalue, exdays) {
   let y = d.getFullYear() + 1;
   d.setFullYear(y);
   let expires = "expires="+d.toUTCString();
-  document.cookie = cname + "=" + cvalue + ";" + expires + "; domain=.climatepolicyradar.org; path=/;";
+  document.cookie = cname + "=" + cvalue + ";" + expires + "; domain=climatepolicyradar.org; path=/;";
 }
 
 export function deleteCookie(cname, domain) {
