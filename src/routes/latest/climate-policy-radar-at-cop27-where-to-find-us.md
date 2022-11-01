@@ -10,6 +10,8 @@ excerpt: We’re headed to Egypt for the 27th United Nations Climate Change
 author: Justine Alford, PhD
 featured: true
 ---
+![The COP27 climate change conference logo](/images/climate-policy-radar-at-cop27-where-to-find-us/cop27_egypt.jpg)
+
 We’re headed to Egypt for the 27th United Nations Climate Change Conference, COP27 and related events - find our activities below and keep an eye out for new developments.
 
 Please use this as an open invitation to find us - if you’d like to catch up in person, [please get in touch](mailto:support@climatepolicyradar.org). 
