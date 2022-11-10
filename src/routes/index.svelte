@@ -53,7 +53,7 @@
   <p slot="subheading-2">Launch our app now to search the full text of thousands of climate laws and policies.</p>
   <div class="home-cta">
     <Button
-    color="blue"
+      color="blue"
       size="lg"
       href="https://app.climatepolicyradar.org"
       arrow>Start your search</Button>

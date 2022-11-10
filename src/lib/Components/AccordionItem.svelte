@@ -90,7 +90,6 @@
     .c-accordion-item--simple {
       flex-direction: row;
       align-items: center;
-      justify-content: space-between;
     }
   }
 

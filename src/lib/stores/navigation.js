@@ -34,26 +34,38 @@ const menu = readable([
     }
   ]
   },
-  // {
-  //   label: 'What we do',
-  //   link: 'what-we-do',
-  //   submenu: [
-  //     {
-  //       label: 'Product',
-  //       link: 'what-we-do#product'
-  //     },
-  //     {
-  //       label: 'Technology',
-  //       link: 'what-we-do#tech'
-  //     },
-  //     {
-  //       label: 'Our Data',
-  //       link: 'what-we-do#data'
-  //     },
-  //   ]
-  // },
   {
-    label: 'News and Commentaries',
+    label: 'What we do',
+    link: 'what-we-do',
+    submenu: [
+      {
+        label: 'Overview',
+        link: 'what-we-do'
+      },
+      {
+        label: 'Offering',
+        link: 'what-we-do#offering'
+      },
+      {
+        label: 'Data',
+        link: 'what-we-do#data'
+      },
+      {
+        label: 'Product',
+        link: 'what-we-do#product'
+      },
+      {
+        label: 'Technology',
+        link: 'what-we-do#tech'
+      },
+      {
+        label: 'Our Data',
+        link: 'what-we-do#data'
+      },
+    ]
+  },
+  {
+    label: 'News',
     link: 'latest',
     submenu: []
   },
@@ -73,7 +85,7 @@ const menu = readable([
     ]
   },
   {
-    label: 'Contact',
+    label: 'Connect',
     link: 'contact',
     submenu: []
   }
