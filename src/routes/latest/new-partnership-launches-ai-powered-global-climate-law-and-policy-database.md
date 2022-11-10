@@ -20,11 +20,17 @@ The partners are launching these revamped online resources to strengthen underst
 
 The new [search function](https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies) saves time by automatically highlighting relevant parts of documents, making it easier to find information about laws and policies worldwide. Users will also be able to search documents that are published in any language, opening up documents and resources that were previously inaccessible due to language barriers.
 
+## A﻿bout the databases
+
+The Climate Change Laws of the World Database is the most comprehensive global resource on climate law and policy. The database includes national-level climate change related legislation and policies from nearly every country in the world, including detailed summaries and the full text of the legislation and supporting documents. The database builds on more than a decade of data collection led by the Grantham Research Institute and supported by numerous partners, including the Sabin Center.
+
+The Global Climate Change Litigation database, launched by the Sabin Center in 2009 and maintained by it ever since, contains information about climate lawsuits worldwide, including the full text of pleadings, briefs, decisions, and other documents. Its development is supported by a network of more than 100 rapporteurs reporting on more than 100 countries and jurisdictions, along with several institutional partners, including the Grantham Institute.
+
+Climate Policy Radar is developing artificial intelligence technology that can automatically 'read', extract and share useful information from the documents contained within these databases. They are also building AI-based text classification models to identify climate and policy concepts in the documents. This new functionality, once complete, will enable advanced analysis and modelling at a global scale, making it easier to spot patterns and highlight action gaps across jurisdictions.
+
 The Grantham Institute’s [Climate Change Laws of the World](https://climate-laws.org) database will be available first. The Sabin Center’s [Global Climate Change Litigation database](http://climatecasechart.com/) will be available in the coming months. 
 
 ![AI-powered search on the climate law and policy database](/images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-search-on-climate-change-laws-of-the-world.png)
-
-Climate Policy Radar is also developing AI-based text classification models to identify climate and policy concepts in the documents. This new functionality, once complete, will enable advanced analysis and modelling at a global scale, making it easier to spot patterns and highlight action gaps across jurisdictions. 
 
 By turning documents into searchable, accessible and useful information, the partnership aims to support and advance global research efforts to understand climate laws, policies and litigation. The resources offered are free and open, contributing to greater transparency, accountability and equity. 
 
@@ -36,8 +42,8 @@ Michael Burger, Executive Director of the Sabin Center and Senior Research Schol
 
 Dr Michal Nachmany, CEO of Climate Policy Radar, said: “By unlocking the vast potential of climate law and policy data, we hope this work will act as a catalyst for the generation of novel and important insights on trends and developments in climate change law and policy, building the evidence base needed to shape ambitious and effective climate action.”
 
-The enhanced features will be available very soon on [Climate Change Laws of the World](https://climate-laws.org). In the meantime, [view a preview of the upgraded site](https://cclw-preview.climatepolicyradar.org/).
-
-*B﻿e the first to hear about new updates and developments - [sign up for Climate Policy Radar's newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv).*
+View a [preview of the enhanced features](https://cclw-preview.climatepolicyradar.org/). They will be available across [Climate Change Laws of the World](https://climate-laws.org) very soon.
 
 ![An image of the AI-powered global climate law database](/images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-powered-climate-change-laws-of-the-world.png)
+
+*B﻿e the first to hear about new updates and developments - [sign up for Climate Policy Radar's newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv).*
