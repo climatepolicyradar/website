@@ -42,7 +42,7 @@ Michael Burger, Executive Director of the Sabin Center and Senior Research Schol
 
 Dr Michal Nachmany, CEO of Climate Policy Radar, said: “By unlocking the vast potential of climate law and policy data, we hope this work will act as a catalyst for the generation of novel and important insights on trends and developments in climate change law and policy, building the evidence base needed to shape ambitious and effective climate action.”
 
-
+View a [preview of the enhanced features](https://cclw-preview.climatepolicyradar.org/). They will be available across [Climate Change Laws of the World](https://climate-laws.org) very soon.
 
 ![An image of the AI-powered global climate law database](/images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-powered-climate-change-laws-of-the-world.png)
 
