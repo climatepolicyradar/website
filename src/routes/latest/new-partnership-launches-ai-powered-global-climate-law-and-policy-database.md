@@ -22,6 +22,8 @@ The new [search function](https://climatepolicyradar.org/latest/building-natural
 
 The Grantham Institute’s [Climate Change Laws of the World](https://climate-laws.org) database will be available first. The Sabin Center’s [Global Climate Change Litigation database](http://climatecasechart.com/) will be available in the coming months. 
 
+![](/images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-powered-climate-change-laws-of-the-world.png)
+
 Climate Policy Radar is also developing AI-based text classification models to identify climate and policy concepts in the documents. This new functionality, once complete, will enable advanced analysis and modelling at a global scale, making it easier to spot patterns and highlight action gaps across jurisdictions. 
 
 By turning documents into searchable, accessible and useful information, the partnership aims to support and advance global research efforts to understand climate laws, policies and litigation. The resources offered are free and open, contributing to greater transparency, accountability and equity. 
