@@ -38,4 +38,6 @@ Dr Michal Nachmany, CEO of Climate Policy Radar, said: “By unlocking the vast 
 
 The enhanced features will be available very soon on [Climate Change Laws of the World](https://climate-laws.org). In the meantime, [view a preview of the upgraded site](https://cclw-preview.climatepolicyradar.org/).
 
+*B﻿e the first to hear about new updates and developments - [sign up for Climate Policy Radar's newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv).*
+
 ![An image of the AI-powered global climate law database](/images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-powered-climate-change-laws-of-the-world.png)
