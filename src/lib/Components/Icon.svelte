@@ -21,6 +21,12 @@
   import Learning from './Icons/Learning.svelte';
   import EmotionalIntelligence from './Icons/EmotionalIntelligence.svelte';
   import Collaboration from './Icons/Collaboration.svelte';
+  import Text from './Icons/Text.svelte';
+  import SemanticSearch from './Icons/SemanticSearch.svelte';
+  import TextMagnifier from './Icons/TextMagnifier.svelte';
+  import DocSwitch from './Icons/DocSwitch.svelte';
+  import Knowledge from './Icons/Knowledge.svelte';
+  import Graph2 from './Icons/Graph2.svelte';
 
   const icons = {
     arrow: Arrow,
@@ -44,6 +50,12 @@
     learning: Learning,
     emotionalIntelligence: EmotionalIntelligence,
     collaboration: Collaboration,
+    text: Text,
+    semanticSearch: SemanticSearch,
+    textMagnifier: TextMagnifier,
+    docSwitch: DocSwitch,
+    knowledge: Knowledge,
+    graph2: Graph2
   };
 
   export let name;
@@ -68,6 +80,10 @@
     display: inline-block;
     width: var(--icon-size);
     flex-shrink: 0;
+  }
+
+  :global(.c-icon > img) {
+    max-width: 100%;;
   }
 
   .c-icon--arrowRound {

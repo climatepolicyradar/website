@@ -51,17 +51,9 @@ const menu = readable([
         link: 'what-we-do#data'
       },
       {
-        label: 'Product',
-        link: 'what-we-do#product'
-      },
-      {
-        label: 'Technology',
-        link: 'what-we-do#tech'
-      },
-      {
-        label: 'Our Data',
-        link: 'what-we-do#data'
-      },
+        label: 'AI',
+        link: 'what-we-do#ai'
+      }
     ]
   },
   {

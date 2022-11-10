@@ -4,6 +4,7 @@
   import Banner from '$lib/Blocks/Banner.svelte';
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import ClimateData from '$lib/Blocks/ClimateData.svelte';
+  import DataScience from '$lib/Blocks/DataScience.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
   import MetaTags from '$lib/Components/MetaTags.svelte';
   import Button from '$lib/Components/Button.svelte';
@@ -52,6 +53,14 @@
 <section id="data">
   <ClimateData />
 </section>
+
+<Spacer size="lg" />
+
+<section class="b-values" id="ai">
+  <DataScience />
+</section>
+
+<Spacer size="lg" />
 
 <section id="product">
   <Wrapper>

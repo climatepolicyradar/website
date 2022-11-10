@@ -36,7 +36,7 @@
 <style>
   @media (min-width: 768px) {
     .left-paragraph {
-      margin-right: 24px;
+      margin-right: 2rem;
     }
   }
 </style>
