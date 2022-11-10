@@ -2,7 +2,7 @@
 layout: latest
 title: New partnership launches AI-powered global climate law and policy database
 date: 10 November 2022
-thumb: /images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/climate-policy-radar-s-ai-climate-law-and-policy-tool.png
+thumb: /images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/climate-policy-radar-ai-climate-law-and-policy-tool.png
 topics:
   - News
 excerpt: Climate Policy Radar, the Grantham Research Institute on Climate Change
