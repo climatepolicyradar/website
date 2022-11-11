@@ -13,7 +13,7 @@
     </Heading>
   </div>
 
-  <Spacer size="md" />
+  <Spacer size="sm" />
 
   <div class="b-values__content">
     {#each $dataScience as value, index}

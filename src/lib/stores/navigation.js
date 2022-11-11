@@ -53,6 +53,14 @@ const menu = readable([
       {
         label: 'AI',
         link: 'what-we-do#ai'
+      },
+      {
+        label: 'Resources',
+        link: 'what-we-do#resources'
+      },
+      {
+        label: 'Audience',
+        link: 'what-we-do#audience'
       }
     ]
   },

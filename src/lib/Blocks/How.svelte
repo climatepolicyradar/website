@@ -2,7 +2,6 @@
   import Icon from '$lib/Components/Icon.svelte';
   import IconList from '$lib/Components/IconList.svelte';
   import IconListItem from '$lib/Components/IconListItem.svelte';
-import Spacer from '$lib/Components/Spacer.svelte';
   import Wrapper from '$lib/Components/Wrapper.svelte';
 
   export let theme = 'light';
