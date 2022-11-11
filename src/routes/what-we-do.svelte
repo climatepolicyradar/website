@@ -6,6 +6,7 @@
   import ClimateData from '$lib/Blocks/ClimateData.svelte'
   import DataScience from '$lib/Blocks/DataScience.svelte'
   import Audience from '$lib/Blocks/Audience.svelte'
+  import OpenData from '$lib/Blocks/OpenData.svelte'
   import Spacer from '$lib/Components/Spacer.svelte'
   import MetaTags from '$lib/Components/MetaTags.svelte'
   import Button from '$lib/Components/Button.svelte'
@@ -100,34 +101,8 @@
 
 <Spacer size="lg" />
 
-<section id="product">
-  <Wrapper>
-    <Wrapper type="content" align="left">
-      <h2 class="u-type-body-xxl">Our Product</h2>
-    </Wrapper>
-
-    <Spacer size="md" />
-  </Wrapper>
-</section>
-
-<section id="tech">
-  <Wrapper>
-    <Wrapper type="content" align="left">
-      <h2 class="u-type-body-xxl">Our Technology</h2>
-    </Wrapper>
-
-    <Spacer size="md" />
-  </Wrapper>
-</section>
-
-<section id="data">
-  <Wrapper>
-    <Wrapper type="content" align="left">
-      <h2 class="u-type-body-xxl">Our Data</h2>
-    </Wrapper>
-
-    <Spacer size="md" />
-  </Wrapper>
+<section id="open-data">
+  <OpenData />
 </section>
 
 <style>

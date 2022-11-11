@@ -1,38 +1,52 @@
 <script>
-  import Accordion from '$lib/Components/Accordion.svelte';
-  import AccordionItem from '$lib/Components/AccordionItem.svelte';
-  import Heading from '$lib/Components/Heading.svelte';
-  import TwoColumn from '$lib/Components/TwoColumn.svelte';
+  import Icon from '$lib/Components/Icon.svelte'
+  import IconList from '$lib/Components/IconList.svelte'
+  import IconListItem from '$lib/Components/IconListItem.svelte'
+  import Wrapper from '$lib/Components/Wrapper.svelte'
+
+  export let theme = 'light'
 </script>
 
-<TwoColumn>
-  <svelte:fragment slot="col-1">
-    <Heading>
-      <h3 class="u-type-body-xxl">Open Data</h3>
-    </Heading>
-  </svelte:fragment>
+<div class="b-how b-how--{theme}">
+  <Wrapper>
+    <div class="b-how__content">
+      <h3 class="b-how__heading u-type-body-xxl u-color-blue">We are open data, open source</h3>
 
-  <svelte:fragment slot="col-2">
-    <Accordion type="simple">
-      <AccordionItem number="1" color="grey" type="simple">
-        <p>
-          We believe everyone should have access to data, and work to make ours interoperable with
-          others.
-        </p>
-        <!-- <svelte:fragment slot="expanded">More content</svelte:fragment> -->
-      </AccordionItem>
-      <AccordionItem number="2" color="grey" type="simple">
-        <p>Our data is open and free for non-commercial use, and our code is open source.</p>
-        <!-- <svelte:fragment slot="expanded">More content</svelte:fragment> -->
-      </AccordionItem>
-      <AccordionItem number="3" color="grey" type="simple">
-        <p>
-          We are signatories of the Subak data pledge and active members of the movement to create a
-          sustainable digital ecosystem for the planet. Our allies include the Coalition for Digital
-          Environmental Sustainability (CODES), Camda, Climate Change AI, the Good AI and more.
-        </p>
-        <!-- <svelte:fragment slot="expanded">More content</svelte:fragment> -->
-      </AccordionItem>
-    </Accordion>
-  </svelte:fragment>
-</TwoColumn>
+      <Wrapper type="content" align="left">
+        <p class="b-how__copy u-type-body-xxl u-mt-0">This means our work:</p>
+      </Wrapper>
+
+      <IconList orientation="horizontal">
+        <IconListItem orientation="vertical">
+          <Icon name="scales" />
+          Democratises access to information and promotes climate justice, as often those who need access to data the most
+          are least able to pay for it.
+        </IconListItem>
+        <IconListItem orientation="vertical">
+          <Icon name="spring" />
+          Provides a springboard for innovation, accelerating research efforts and catalysing collaboration.
+        </IconListItem>
+        <IconListItem orientation="vertical">
+          <Icon name="middle" />
+          Corrects biases - by opening up our models to scrutiny and ensuring that we remain neutral and impartial.
+        </IconListItem>
+      </IconList>
+    </div>
+  </Wrapper>
+</div>
+
+<style>
+  :global(.b-how__content .c-icon-list) {
+    margin-top: 64px;
+  }
+
+  @media only screen and (min-width: 720px) {
+    :global(.b-how__content .c-icon-list) {
+      margin-top: 64px;
+    }
+  }
+
+  .b-how__heading {
+    margin-bottom: 16px;
+  }
+</style>

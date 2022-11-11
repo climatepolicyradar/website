@@ -19,7 +19,7 @@
   import Button from '$lib/Components/Button.svelte';
   import How from '$lib/Blocks/How.svelte';
   import LatestPosts from '$lib/Blocks/LatestPosts.svelte';
-  import OpenData from '$lib/Blocks/OpenData.svelte';
+  import Offering from '$lib/Blocks/Offering.svelte';
   import Partners from '$lib/Blocks/Partners.svelte';
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
@@ -85,7 +85,7 @@
 
 <Spacer size="md" />
 
-<OpenData />
+<Offering />
 
 <Spacer size="md" />
 

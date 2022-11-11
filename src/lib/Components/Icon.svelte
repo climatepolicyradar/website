@@ -27,6 +27,9 @@
   import DocSwitch from './Icons/DocSwitch.svelte';
   import Knowledge from './Icons/Knowledge.svelte';
   import Graph2 from './Icons/Graph2.svelte';
+  import Scales from './Icons/Scales.svelte'
+  import Spring from './Icons/Spring.svelte'
+  import Middle from './Icons/Middle.svelte'
 
   const icons = {
     arrow: Arrow,
@@ -55,7 +58,10 @@
     textMagnifier: TextMagnifier,
     docSwitch: DocSwitch,
     knowledge: Knowledge,
-    graph2: Graph2
+    graph2: Graph2,
+    scales: Scales,
+    spring: Spring,
+    middle: Middle
   };
 
   export let name;
