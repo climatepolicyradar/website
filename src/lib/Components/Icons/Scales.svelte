@@ -1,5 +1,1 @@
-<script>
-  import logo from '/images/icons/icon-scales.png';
-</script>
-
-<img alt="Justice Scales Icon" src={logo} />
+<img alt="Justice Scales Icon" src="/images/icons/icon-scales.png" />

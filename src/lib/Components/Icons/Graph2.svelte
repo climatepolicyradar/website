@@ -1,5 +1,1 @@
-<script>
-  import logo from '/images/icons/icon-graph.png';
-</script>
-
-<img alt="Graph Icon" src={logo} />
+<img alt="Graph Icon" src="/images/icons/icon-graph.png" />
