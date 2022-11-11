@@ -129,7 +129,7 @@
 
   @media only screen and (min-width: 321px) {
     .b-banner--sm .b-banner__inner {
-      padding: 240px 0;
+      padding: 140px 0 80px;
     }
   }
 
