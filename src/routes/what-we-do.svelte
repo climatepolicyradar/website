@@ -39,7 +39,7 @@
     <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
       Our offering: open data and tools for climate policy
     </h2>
-    <p class="u-type-body-xxl u-text-center">
+    <p class="u-type-body-xl u-text-center">
       Our open, cost-free and AI-powered tool is the first of its kind. It allows you to quickly and easily search
       through the complete text of thousands of climate change interventions, laws, policies and litigation cases from
       every country. Use our data to identify climate policy gaps, opportunities for action and examples of best

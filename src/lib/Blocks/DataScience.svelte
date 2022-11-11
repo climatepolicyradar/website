@@ -1,9 +1,9 @@
 <script>
-  import { dataScience } from '$lib/stores/dataScience';
-  import Heading from '$lib/Components/Heading.svelte';
-  import Wrapper from '$lib/Components/Wrapper.svelte';
-  import Spacer from '$lib/Components/Spacer.svelte';
-  import ValuePanel from '$lib/Components/ValuePanel.svelte';
+  import { dataScience } from '$lib/stores/dataScience'
+  import Heading from '$lib/Components/Heading.svelte'
+  import Wrapper from '$lib/Components/Wrapper.svelte'
+  import Spacer from '$lib/Components/Spacer.svelte'
+  import ValuePanel from '$lib/Components/ValuePanel.svelte'
 </script>
 
 <Wrapper>
@@ -11,6 +11,10 @@
     <Heading>
       <h3 class="u-type-body-xxl">Data Science and AI</h3>
     </Heading>
+    <p class="u-type-body-xl">
+      We use innovative data science and AI methods to turn masses of unstructured text from climate policy and legal
+      documents into structured, usable and useful information.
+    </p>
   </div>
 
   <Spacer size="sm" />
