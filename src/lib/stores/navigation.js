@@ -61,6 +61,10 @@ const menu = readable([
       {
         label: 'Audience',
         link: 'what-we-do#audience'
+      },
+      {
+        label: 'Open Data',
+        link: 'what-we-do#open-data'
       }
     ]
   },
