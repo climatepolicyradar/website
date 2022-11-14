@@ -74,8 +74,8 @@
 <Banner theme="dark" size="sm">
   <h1 slot="heading">We are a <br /> climate AI startup</h1>
   <p slot="subheading">
-    Harnessing data science and artificial intelligence to support evidence-based decision-making to help drive
-    effective, timely and ambitious climate action
+    Harnessing data science and artificial intelligence to support evidence-based decision-making, so that we can help
+    drive effective, timely and ambitious climate action
     <br />
     <br />
     We are open data, open source
@@ -85,8 +85,7 @@
 <section id="mission">
   <SingleColumn>
     <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
-      We are on a mission to map and analyse the climate policy landscape globally and drive the transition to a low
-      carbon, resilient world.
+      We are on a mission to map and analyse the global climate law and policy landscape
     </h2>
   </SingleColumn>
 
