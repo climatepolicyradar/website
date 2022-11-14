@@ -9,7 +9,7 @@
 <Wrapper>
   <div class="b-values__header">
     <Heading>
-      <h3 class="u-type-body-xxl">Data Science and AI</h3>
+      <h3 class="u-type-body-xxl">Data science and AI</h3>
     </Heading>
     <p class="u-type-body-xl">
       We use innovative data science and AI methods to turn masses of unstructured text from climate policy and legal

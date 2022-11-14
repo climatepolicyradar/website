@@ -16,9 +16,9 @@
         Open data and tools for climate policy and law research
       </h3>
 
-      <Wrapper type="content" align="left">
+      <!-- <Wrapper type="content" align="left">
         <p class="b-how__copy u-type-body-xl u-mt-0">Our free search tool enables you to:</p>
-      </Wrapper>
+      </Wrapper> -->
 
       <IconList orientation="horizontal">
         <IconListItem orientation="vertical">

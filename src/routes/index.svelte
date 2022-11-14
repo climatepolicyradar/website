@@ -52,7 +52,7 @@
     Giving policymakers, researchers and civil society tools for better climate policy design and accountability
   </p>
   <p slot="subheading-2">
-    <a href="https://app.climatepolicyradar.org/" target="_blank" class="anchor--light">Use our AI-powered tool</a> to quickly
+    <a href="https://app.climatepolicyradar.org/" target="_blank" class="anchor--light anchor--banner">Use our AI-powered tool</a> to quickly
     and easily find information about climate laws and policies from every country
   </p>
   <div class="home-cta">
@@ -64,12 +64,16 @@
 
 <Tool />
 
+<Spacer size="md" />
+
 <SingleColumn>
   <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
     We are on a mission to map and analyse the global climate law and policy landscape to help drive the transition to a
     low-carbon, resilient and just world
   </h2>
 </SingleColumn>
+
+<Spacer size="md" />
 
 <Policymaking />
 
@@ -96,5 +100,9 @@
       margin-top: 0;
       margin-right: 1rem;
     }
+  }
+
+  .anchor--banner {
+    color: var(--color-white);
   }
 </style>

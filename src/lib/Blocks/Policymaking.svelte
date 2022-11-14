@@ -9,7 +9,7 @@
 <Wrapper>
   <div class="b-values__header">
     <Heading>
-      <h3 class="u-type-body-xxl">The need for informed climate change policymaking</h3>
+      <h3 class="u-type-body-xxl u-color-blue">The need for informed climate change policymaking</h3>
     </Heading>
     <p class="u-type-body-xl">
       Laws and policies are essential to slashing global emissions, building climate-resilient, adaptive communities and

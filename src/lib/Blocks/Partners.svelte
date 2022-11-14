@@ -39,6 +39,12 @@
             idea and want to work with us, <a href="/contact">get in touch</a>.
           </p>
         {/if}
+        {#if group === 'Partners' && !extended}
+          <p class="u-type-body-xl">
+            We are always seeking new collaborations on data, research and outreach. If you have an idea and want to
+            work with us, <a href="/contact">get in touch</a>.
+          </p>
+        {/if}
         {#if group === 'Funders' && extended}
           <p class="u-type-body-xl">
             We are not-for-profit as we believe people shouldn’t need to pay for the data they need to bring more
