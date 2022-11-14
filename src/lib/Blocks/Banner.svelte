@@ -27,7 +27,7 @@
         {/if}
 
         {#if $$slots.subheading-2}
-        <div class="b-banner__heading u-type-body-xl">
+        <div class="b-banner__subheading u-type-body-xl">
           <slot name="subheading-2"><!-- optional fallback --></slot>
         </div>
         {/if}
