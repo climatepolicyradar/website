@@ -3,6 +3,7 @@
   import IconList from '$lib/Components/IconList.svelte'
   import IconListItem from '$lib/Components/IconListItem.svelte'
   import Panel from '$lib/Components/Panel.svelte'
+  import Button from '$lib/Components/Button.svelte'
 </script>
 
 <Panel>
@@ -16,6 +17,7 @@
       By turning documents into searchable, accessible and useful information, our work aims to advance global research
       efforts to understand the effectiveness of climate laws, policies and litigation.
     </p>
+    <Button href="/what-we-do" color="blue" size="lg" arrow>Learn more</Button>
   </div>
   <div slot="aside">
     <IconList>
