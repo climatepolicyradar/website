@@ -33,7 +33,7 @@
   import MetaTags from '$lib/Components/MetaTags.svelte'
 
   export let team
-  export let pressClippings
+  // export let pressClippings
   export let partnerList
 
   let sortedTeam
