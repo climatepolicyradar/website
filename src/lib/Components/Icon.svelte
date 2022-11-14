@@ -32,6 +32,10 @@
   import Middle from './Icons/Middle.svelte'
   import Global from './Icons/Global.svelte'
   import Thinking from './Icons/Thinking.svelte'
+  import Search from './Icons/Search.svelte'
+  import Globe from './Icons/Globe.svelte'
+  import Sun from './Icons/Sun.svelte'
+  import Central from './Icons/Central.svelte'
 
   const icons = {
     arrow: Arrow,
@@ -65,7 +69,11 @@
     spring: Spring,
     middle: Middle,
     global: Global,
-    thinking: Thinking
+    thinking: Thinking,
+    search: Search,
+    globe: Globe,
+    sun: Sun,
+    central: Central
   };
 
   export let name;

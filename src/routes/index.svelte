@@ -24,8 +24,11 @@
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte'
   import Spacer from '$lib/Components/Spacer.svelte'
   import Why from '$lib/Blocks/Why.svelte'
+  import AI from '$lib/Blocks/AI.svelte'
   import Video from '$lib/Blocks/Video.svelte'
   import MetaTags from '$lib/Components/MetaTags.svelte'
+  import Tool from '$lib/Blocks/Tool.svelte'
+  import Policymaking from '$lib/Blocks/Policymaking.svelte'
 
   $theme = {
     footer: 'light',
@@ -57,6 +60,10 @@
   </div>
 </Banner>
 
+<Spacer size="lg" />
+
+<Tool />
+
 <SingleColumn>
   <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
     We are on a mission to map and analyse the global climate law and policy landscape to help drive the transition to a
@@ -64,15 +71,21 @@
   </h2>
 </SingleColumn>
 
-<Video />
-
-<!-- <Spacer size="lg" />
-
-<Why /> -->
+<!-- <Video />
 
 <Spacer size="lg" />
 
-<How theme="light" />
+<Why />
+
+<Spacer size="lg" /> -->
+
+<!-- <How theme="light" /> -->
+
+<Policymaking />
+
+<Spacer size="lg" />
+
+<AI />
 
 <Spacer size="lg" />
 

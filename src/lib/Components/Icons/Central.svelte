@@ -1,0 +1,1 @@
+<img alt="Central Icon" src="/images/icons/icon-central.png" />
