@@ -1,0 +1,1 @@
+<img alt="Global Icon" src="/images/icons/icon-global.png" />

@@ -1,19 +1,19 @@
 <script>
-  import Wrapper from '$lib/Components/Wrapper.svelte';
+  import Wrapper from '$lib/Components/Wrapper.svelte'
 
   const setGroups = () => {
-    let groups = [];
+    let groups = []
     partnerList.forEach((partner) => {
-      if(groups.indexOf(partner.group) === -1) {
+      if (groups.indexOf(partner.group) === -1) {
         groups.push(partner.group)
       }
     })
-    return groups;
+    return groups
   }
 
-  export let partnerList;
-  const groups = setGroups();
-  
+  export let partnerList
+  export let extended
+  const groups = setGroups()
 </script>
 
 <Wrapper>
@@ -32,6 +32,22 @@
             {/if}
           {/each}
         </div>
+        {#if group === 'Partners' && extended}
+          <p class="u-type-body-xl">
+            We work with a range of partners to collect and expose more data, define research and development
+            priorities, and provide tools to generate policy insights. We’re always open to collaborate - if you have an
+            idea and want to work with us, <a href="/contact">get in touch</a>.
+          </p>
+        {/if}
+        {#if group === 'Funders' && extended}
+          <p class="u-type-body-xl">
+            We are not-for-profit as we believe people shouldn’t need to pay for the data they need to bring more
+            effective and informed climate action. If you’d like to support our mission, <a
+              href="mailto:info@climatepolicyradar.org"
+              target="_blank">get in touch</a
+            >.
+          </p>
+        {/if}
       </div>
     </div>
   {/each}

@@ -30,6 +30,8 @@
   import Scales from './Icons/Scales.svelte'
   import Spring from './Icons/Spring.svelte'
   import Middle from './Icons/Middle.svelte'
+  import Global from './Icons/Global.svelte'
+  import Thinking from './Icons/Thinking.svelte'
 
   const icons = {
     arrow: Arrow,
@@ -61,7 +63,9 @@
     graph2: Graph2,
     scales: Scales,
     spring: Spring,
-    middle: Middle
+    middle: Middle,
+    global: Global,
+    thinking: Thinking
   };
 
   export let name;
