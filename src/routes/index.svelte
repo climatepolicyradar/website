@@ -1,77 +1,74 @@
 <script context="module">
   export async function load({ fetch }) {
-    const res = await fetch(`/latest/posts.json`);
-    const { posts } = await res.json();
-    const featuredPosts = posts.filter((post) => post.featured).sort((a, b) => Date.parse(b.date) - Date.parse(a.date));
-    const partnersRes = await fetch(`/data/partners.json`);
-    const { partnerList } = await partnersRes.json();
+    const res = await fetch(`/latest/posts.json`)
+    const { posts } = await res.json()
+    const featuredPosts = posts.filter((post) => post.featured).sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+    const partnersRes = await fetch(`/data/partners.json`)
+    const { partnerList } = await partnersRes.json()
 
     return {
       props: { featuredPosts, partnerList },
-    };
+    }
   }
 </script>
 
 <script>
-  import { modalStore, theme } from '$lib/stores/theme';
-  import About from '$lib/Blocks/About.svelte';
-  import Banner from '$lib/Blocks/Banner.svelte';
-  import Button from '$lib/Components/Button.svelte';
-  import How from '$lib/Blocks/How.svelte';
-  import LatestPosts from '$lib/Blocks/LatestPosts.svelte';
-  import Offering from '$lib/Blocks/Offering.svelte';
-  import Partners from '$lib/Blocks/Partners.svelte';
-  import SingleColumn from '$lib/Blocks/SingleColumn.svelte';
-  import Spacer from '$lib/Components/Spacer.svelte';
-  import Why from '$lib/Blocks/Why.svelte';
-  import Video from '$lib/Blocks/Video.svelte';
-  import MetaTags from '$lib/Components/MetaTags.svelte';
+  import { modalStore, theme } from '$lib/stores/theme'
+  import About from '$lib/Blocks/About.svelte'
+  import Banner from '$lib/Blocks/Banner.svelte'
+  import Button from '$lib/Components/Button.svelte'
+  import How from '$lib/Blocks/How.svelte'
+  import LatestPosts from '$lib/Blocks/LatestPosts.svelte'
+  import Offering from '$lib/Blocks/Offering.svelte'
+  import Partners from '$lib/Blocks/Partners.svelte'
+  import SingleColumn from '$lib/Blocks/SingleColumn.svelte'
+  import Spacer from '$lib/Components/Spacer.svelte'
+  import Why from '$lib/Blocks/Why.svelte'
+  import Video from '$lib/Blocks/Video.svelte'
+  import MetaTags from '$lib/Components/MetaTags.svelte'
 
   $theme = {
     footer: 'light',
     header: 'dark',
-  };
+  }
 
-  export let featuredPosts;
-  export let partnerList;
-  const title = 'Climate Policy Radar | AI for climate law and policy research';
-  const excerpt = 'Use Climate Policy Radar’s data science and AI-powered platform to search and explore thousands of climate change laws, policies and legal cases worldwide';
-  const image = 'https://climatepolicyradar.org/images/logo.png';
-  const path = '/';
+  export let featuredPosts
+  export let partnerList
+  const title = 'Climate Policy Radar | AI for climate law and policy research'
+  const excerpt =
+    'Use Climate Policy Radar’s data science and AI-powered platform to search and explore thousands of climate change laws, policies and legal cases worldwide'
+  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const path = '/'
 </script>
 
 <MetaTags {title} {excerpt} {image} {path} />
 
 <Banner size="lg" theme="dark">
-  <h1 slot="heading">
-    Building the evidence base for evidence-based policymaking
-  </h1>
+  <h1 slot="heading">Building the evidence base for evidence-based decision-making</h1>
   <p slot="subheading">
-    Giving policymakers, researchers and civil society tools for better policy
-    design and accountability.
+    Giving policymakers, researchers and civil society tools for better climate policy design and accountability
   </p>
-  <p slot="subheading-2">Launch our app now to search the full text of thousands of climate laws and policies.</p>
+  <p slot="subheading-2">
+    <a href="https://app.climatepolicyradar.org/" target="_blank" class="anchor--light">Use our AI-powered tool</a> to quickly
+    and easily find information about climate laws and policies from every country
+  </p>
   <div class="home-cta">
-    <Button
-      color="blue"
-      size="lg"
-      href="https://app.climatepolicyradar.org"
-      arrow>Start your search</Button>
+    <Button color="blue" size="lg" href="https://app.climatepolicyradar.org" arrow>Start your search</Button>
   </div>
 </Banner>
 
 <SingleColumn>
   <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
-    We are on a mission to map and analyse the climate policy landscape globally
-    and drive the transition to a low carbon, resilient world.
+    We are on a mission to map and analyse the global climate law and policy landscape to help drive the transition to a
+    low-carbon, resilient and just world
   </h2>
 </SingleColumn>
 
 <Video />
 
-<Spacer size="lg" />
+<!-- <Spacer size="lg" />
 
-<Why />
+<Why /> -->
 
 <Spacer size="lg" />
 
@@ -83,9 +80,9 @@
 
 <Partners {partnerList} />
 
-<Spacer size="md" />
+<!-- <Spacer size="md" />
 
-<Offering />
+<Offering /> -->
 
 <Spacer size="md" />
 

@@ -48,6 +48,14 @@
             >.
           </p>
         {/if}
+        {#if group === 'Funders' && !extended}
+          <p class="u-type-body-xl">
+            Do you want to support our work and help bring about informed climate action? <a
+              href="mailto:info@climatepolicyradar.org"
+              target="_blank">get in touch</a
+            >.
+          </p>
+        {/if}
       </div>
     </div>
   {/each}

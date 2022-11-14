@@ -274,6 +274,10 @@ a:hover {
   color: var(--color-indigo-600);
 }
 
+a.anchor--light:hover {
+  color: var(--color-blue-200);
+}
+
 strong {
   font-weight: 500;
 }

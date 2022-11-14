@@ -52,13 +52,13 @@
 
   @media only screen and (min-width: 321px) {
     .b-banner__inner {
-      padding: 240px 0;
+      padding: 160px 0;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .b-banner--lg .b-banner__inner {
-      padding-top: calc(240px + 92px);
+      padding-top: calc(160px + 92px);
     }
   }
 
