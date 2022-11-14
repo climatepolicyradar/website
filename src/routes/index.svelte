@@ -71,16 +71,6 @@
   </h2>
 </SingleColumn>
 
-<!-- <Video />
-
-<Spacer size="lg" />
-
-<Why />
-
-<Spacer size="lg" /> -->
-
-<!-- <How theme="light" /> -->
-
 <Policymaking />
 
 <Spacer size="lg" />
@@ -92,10 +82,6 @@
 <About />
 
 <Partners {partnerList} />
-
-<!-- <Spacer size="md" />
-
-<Offering /> -->
 
 <Spacer size="md" />
 
