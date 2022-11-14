@@ -8,7 +8,7 @@
 <TwoColumn>
   <svelte:fragment slot="col-1">
     <Heading>
-      <h3 class="u-type-body-xxl">Our climate policy data</h3>
+      <h3 class="u-type-body-xxl">Our data</h3>
     </Heading>
     <p class="u-type-body-lg left-paragraph">
       Our current climate policy database consists of thousands of laws, policies, strategies and action plans from all

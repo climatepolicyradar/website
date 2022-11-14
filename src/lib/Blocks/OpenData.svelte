@@ -13,7 +13,7 @@
       <h3 class="b-how__heading u-type-body-xxl u-color-blue">We are open data, open source</h3>
 
       <Wrapper type="content" align="left">
-        <p class="b-how__copy u-type-body-xxl u-mt-0">This means our work:</p>
+        <p class="b-how__copy u-type-body-xl u-mt-0">This means our work:</p>
       </Wrapper>
 
       <IconList orientation="horizontal">

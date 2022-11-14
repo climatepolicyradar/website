@@ -7,7 +7,7 @@
 <div class="b-audience b-audience--{theme}">
   <Wrapper>
     <div class="b-audience__content">
-      <h3 class="b-audience__heading u-type-body-xxl u-color-blue">Who our climate law and policy database is for</h3>
+      <h3 class="b-audience__heading u-type-body-xxl u-color-blue">Our users</h3>
 
       <Wrapper type="content" align="left">
         <p class="b-audience__copy u-type-body-xl u-mt-0">

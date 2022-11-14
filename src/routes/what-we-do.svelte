@@ -37,7 +37,7 @@
 <section id="offering">
   <Wrapper>
     <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
-      Our offering: open data and tools for climate policy
+      Open data and tools for climate policy
     </h2>
     <p class="u-type-body-xl u-text-center">
       Our open, cost-free and AI-powered tool is the first of its kind. It allows you to quickly and easily search
