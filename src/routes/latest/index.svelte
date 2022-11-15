@@ -64,7 +64,7 @@
 <section id="media">
   <Wrapper>
     <Heading>
-      <h3 class="u-type-body-xxl">In the Media</h3>
+      <h3 class="u-type-body-xxl">In the media</h3>
     </Heading>
     <Press limit={3} link="/media" {pressClippings} />
   </Wrapper>
