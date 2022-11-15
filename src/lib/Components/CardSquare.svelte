@@ -68,6 +68,10 @@
 </a>
 
 <style>
+  .c-card {
+    text-decoration: none;
+  }
+
   .c-card--square {
     display: flex;
     flex-direction: column;
