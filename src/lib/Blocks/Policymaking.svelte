@@ -30,25 +30,26 @@
 
   <div class="b-values__content">
     {#each $policymaking as value, index}
-      <ValuePanel
-        title={value.title}
-        description1={value.description1}
-        description2={value.description2}
-      />
+      <ValuePanel title={value.title} description1={value.description1} description2={value.description2} />
     {/each}
   </div>
 </Wrapper>
 
 <style>
-  @media (min-width: 768px) {
+  .b-values__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1rem;
+  }
+
+  @media (min-width: 1024px) {
     .b-values__content {
-      display: grid;
       grid-template-columns: repeat(4, 1fr);
-      /* grid-template-columns: 25% 25% 25% 25%; */
       columns: 4;
       column-gap: 2rem;
       row-gap: 2rem;
       align-content: stretch;
+      margin-bottom: 0;
     }
     :global(.c-panel) {
       align-self: stretch;
