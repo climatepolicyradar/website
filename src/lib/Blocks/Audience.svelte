@@ -70,5 +70,8 @@
       gap: 2.5rem;
       flex-direction: row;
     }
+    .b-audience__passage {
+      flex-basis: 25%;
+    }
   }
 </style>

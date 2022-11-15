@@ -33,8 +33,10 @@
 
 <Spacer size="md" />
 
-<Wrapper>
-  <h2 class="u-type-body-xxxl">Get in touch</h2>
-  <Spacer size="sm" />
-  <ContactForm />
-</Wrapper>
+<section id="get-in-touch">
+  <Wrapper>
+    <h2 class="u-type-body-xxxl">Get in touch</h2>
+    <Spacer size="sm" />
+    <ContactForm />
+  </Wrapper>
+</section>
