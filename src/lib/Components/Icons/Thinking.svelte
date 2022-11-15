@@ -1,0 +1,1 @@
+<img alt="Thinking Icon" src="/images/icons/icon-thinking.png" />

@@ -87,8 +87,7 @@
       <textarea name="message" placeholder="Your message" rows="6" />
     </label>
 
-    <p>Speak soon!</p>
-    <Button type="submit" size="lg" arrow>Send message</Button>
+    <Button type="submit" color="blue" size="lg" arrow>Send message</Button>
 
     <!-- Honeypot -->
     <span class="u-no-bees">
@@ -200,10 +199,5 @@
 
   .u-no-bees {
     display: none;
-  }
-
-  .error-message a {
-    color: #fff;
-    text-decoration: underline;
   }
 </style>

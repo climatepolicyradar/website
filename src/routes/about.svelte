@@ -1,140 +1,130 @@
 <script lang="ts" context="module">
   export const load = async ({ fetch }) => {
-    const res = await fetch('/data/team.json');
-    const data = await res.json();
-    const { team } = data;
+    const res = await fetch('/data/team.json')
+    const data = await res.json()
+    const { team } = data
 
-    const pressRes = await fetch('/data/press.json');
-    const pressData = await pressRes.json();
-    const { pressClippings } = pressData;
+    const pressRes = await fetch('/data/press.json')
+    const pressData = await pressRes.json()
+    const { pressClippings } = pressData
 
-    const partnersRes = await fetch(`/data/partners.json`);
-    const { partnerList } = await partnersRes.json();
+    const partnersRes = await fetch(`/data/partners.json`)
+    const { partnerList } = await partnersRes.json()
 
-    return { props: { team, pressClippings, partnerList } };
-  };
+    return { props: { team, pressClippings, partnerList } }
+  }
 </script>
 
 <script>
-  import { theme } from '$lib/stores/theme';
-  import Wrapper from '$lib/Components/Wrapper.svelte';
-  import Banner from '$lib/Blocks/Banner.svelte';
-  import Pill from '$lib/Components/Pill.svelte';
-  import Spacer from '$lib/Components/Spacer.svelte';
-  import Team from '$lib/Blocks/Team.svelte';
-  import OurValues from '$lib/Blocks/OurValues.svelte';
-  import Icon from '$lib/Components/Icon.svelte';
-  import IconList from '$lib/Components/IconList.svelte';
-  import IconListItem from '$lib/Components/IconListItem.svelte';
-  import Heading from '$lib/Components/Heading.svelte';
-  import Press from '$lib/Blocks/Press.svelte';
-  import Partners from '$lib/Blocks/Partners.svelte';
-  import MetaTags from '$lib/Components/MetaTags.svelte';
+  import { theme } from '$lib/stores/theme'
+  import Wrapper from '$lib/Components/Wrapper.svelte'
+  import Banner from '$lib/Blocks/Banner.svelte'
+  import Pill from '$lib/Components/Pill.svelte'
+  import Spacer from '$lib/Components/Spacer.svelte'
+  import SingleColumn from '$lib/Blocks/SingleColumn.svelte'
+  import Team from '$lib/Blocks/Team.svelte'
+  import OurValues from '$lib/Blocks/OurValues.svelte'
+  import Icon from '$lib/Components/Icon.svelte'
+  import IconList from '$lib/Components/IconList.svelte'
+  import IconListItem from '$lib/Components/IconListItem.svelte'
+  import Heading from '$lib/Components/Heading.svelte'
+  import Press from '$lib/Blocks/Press.svelte'
+  import Partners from '$lib/Blocks/Partners.svelte'
+  import MetaTags from '$lib/Components/MetaTags.svelte'
 
-  export let team;
-  export let pressClippings;
-  export let partnerList;
+  export let team
+  // export let pressClippings
+  export let partnerList
 
-  let sortedTeam;
+  let sortedTeam
 
   $theme = {
     footer: 'light',
     header: 'dark',
-  };
+  }
 
   const sortAdvisory = () => {
-    const advisory = team.filter((member) => member.group === 'Advisory');
-    const restOfTeam = team.filter((member) => member.group !== 'Advisory');
+    const advisory = team.filter((member) => member.group === 'Advisory')
+    const restOfTeam = team.filter((member) => member.group !== 'Advisory')
     const sortedAdvisory = advisory.sort(function (a, b) {
-      const na = a.name.split(' ');
-      const nameA = na[na.length - 1];
-      const nb = b.name.split(' ');
-      const nameB = nb[nb.length - 1];
+      const na = a.name.split(' ')
+      const nameA = na[na.length - 1]
+      const nb = b.name.split(' ')
+      const nameB = nb[nb.length - 1]
       if (nameA.toLowerCase() < nameB.toLowerCase()) {
-        return -1;
+        return -1
       }
       if (nameA.toLowerCase() > nameB.toLowerCase()) {
-        return 1;
+        return 1
       }
-      return 0;
-    });
-    return [...restOfTeam, ...sortedAdvisory];
-  };
+      return 0
+    })
+    return [...restOfTeam, ...sortedAdvisory]
+  }
 
-  $: sortedTeam = team ? sortAdvisory() : [];
-  const title = 'About | Climate Policy Radar';
-  const excerpt = 'We are an open data climate startup';
-  const image = 'https://climatepolicyradar.org/images/logo.png';
-  const path = '/about';
+  $: sortedTeam = team ? sortAdvisory() : []
+  const title = 'About | Climate Policy Radar'
+  const excerpt = 'We are an open data climate startup'
+  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const path = '/about'
 </script>
 
 <MetaTags {title} {excerpt} {image} {path} />
 
 <Banner theme="dark" size="sm">
-  <svelte:fragment slot="pill">
-    <Pill color="blue" upper>About</Pill>
-    <Spacer size="sm" />
-  </svelte:fragment>
-
-  <h1 slot="heading">We are an open data <br /> climate startup</h1>
+  <h1 slot="heading">We are a <br /> climate AI startup</h1>
+  <p slot="subheading">
+    Harnessing data science and artificial intelligence to support evidence-based decision-making, so that we can help
+    drive effective, timely and ambitious climate action
+    <br />
+    <br />
+    We are open data, open source
+  </p>
 </Banner>
 
-<Spacer size="2xl" />
-
 <section id="mission">
-  <!-- <SingleColumn>
-    <p class="u-type-body-xxl u-text-center u-gradient-text--dark-to-blue">
-      We are on a mission to map and analyse the climate policy landscape globally and drive the
-      transition to a low carbon, resilient world.
-    </p>
-  </SingleColumn> -->
+  <SingleColumn>
+    <h2 class="u-type-body-xxxl u-text-center u-gradient-text--dark-to-blue">
+      We are on a mission to map and analyse the global climate law and policy landscape
+    </h2>
+  </SingleColumn>
 
   <Wrapper>
-    <Wrapper type="content" align="left">
-      <h2 class="u-type-body-xxl">
-        We are on a mission to map the <br />global climate policy landscape
-      </h2>
-    </Wrapper>
+    <h3 class="u-type-body-xxl u-color-blue">
+      By supporting evidence-based laws and policies, our vision is to accelerate the transition to a low-carbon,
+      resilient and just world.
+    </h3>
 
     <Spacer size="md" />
 
     <IconList orientation="horizontal">
       <IconListItem orientation="vertical">
-        <Icon name="machine" />
-        <p class="u-type-body-md">
-          Using Machine Learning and Natural Language Processing we are working
-          to radically scale collection and analysis of policy data, equipping
-          decision makers with rich, high quality, insight-enabling data.
-        </p>
-      </IconListItem>
-      <IconListItem orientation="vertical">
         <Icon name="mission" />
         <p class="u-type-body-md">
-          We are founded and led by a team of experienced of international
-          climate policy and machine learning and natural language processing
-          experts. Climate Policy Radar spins off ten years of experience
-          leading the Climate Change Laws of the World project at the London
-          School of Economics, and harnesses cutting edge technology to support
-          ambitious climate action.
+          We are led by a team of international climate change law and policy and machine learning experts, bridging the
+          climate and tech worlds.
         </p>
       </IconListItem>
       <IconListItem orientation="vertical">
-        <Icon name="research" />
+        <Icon name="global" />
         <p class="u-type-body-md">
-          Operating at the intersection of technology, AI, policy, social
-          justice and high impact, we are a proud member of the movement to
-          harness digital technologies and AI for the planet. All of our code is
-          open source and open access. We seek collaborations with those who
-          share the vision of meeting the Sustainable Development Goals through
-          open digital public goods, which are necessary conditions for an
-          equitable, sustainable and resilient society.
+          Climate Policy Radar is built on a decade of experience leading research and resource development on global
+          climate laws and policies at the London School of Economics and Political Science, serving policymakers,
+          researchers and civil society worldwide.
+        </p>
+      </IconListItem>
+      <IconListItem orientation="vertical">
+        <Icon name="thinking" />
+        <p class="u-type-body-md">
+          We believe in collaboration, not competition, and we actively seek out partners who share our ambition and
+          values.
         </p>
       </IconListItem>
     </IconList>
   </Wrapper>
 </section>
 
-<Spacer size="2xl" />
+<Spacer size="lg" />
 
 <section class="b-values" id="values">
   <OurValues />
@@ -149,10 +139,10 @@
 <Spacer size="lg" />
 
 <section>
-  <Partners {partnerList} />
+  <Partners {partnerList} extended />
 </section>
 
-<Spacer size="lg" />
+<!-- <Spacer size="lg" />
 
 <section id="media">
   <Wrapper>
@@ -161,4 +151,4 @@
     </Heading>
     <Press limit={3} link="/media" {pressClippings} />
   </Wrapper>
-</section>
+</section> -->

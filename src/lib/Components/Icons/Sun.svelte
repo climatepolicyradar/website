@@ -1,0 +1,1 @@
+<img alt="Sun Icon" src="/images/icons/icon-sun.png" />

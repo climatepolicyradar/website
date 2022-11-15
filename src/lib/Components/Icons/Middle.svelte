@@ -1,0 +1,1 @@
+<img alt="Middle Icon" src="/images/icons/icon-middle.png" />

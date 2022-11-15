@@ -266,7 +266,16 @@ summary {
 }
 
 a {
-  text-decoration: none;
+  color: var(--color-blue-600);
+  transition: all 300ms;
+}
+
+a:hover {
+  color: var(--color-indigo-600);
+}
+
+a.anchor--light:hover {
+  color: var(--color-blue-200);
 }
 
 strong {

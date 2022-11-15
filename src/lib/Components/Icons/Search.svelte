@@ -1,0 +1,1 @@
+<img alt="Search Icon" src="/images/icons/icon-search.png" />

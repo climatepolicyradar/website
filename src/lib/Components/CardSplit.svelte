@@ -45,6 +45,7 @@
     padding: 10px;
     color: var(--color-indigo-600);
     margin-bottom: 24px;
+    text-decoration: none;
   }
 
   .c-card--split.c-card--split-dark {

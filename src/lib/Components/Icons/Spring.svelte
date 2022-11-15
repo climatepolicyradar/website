@@ -1,0 +1,1 @@
+<img alt="Spring Icon" src="/images/icons/icon-spring.png" />

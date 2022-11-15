@@ -1,0 +1,1 @@
+<img alt="Doc Switch Icon" src="/images/icons/icon-doc-switch.png" />

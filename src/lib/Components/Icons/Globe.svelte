@@ -1,0 +1,1 @@
+<img alt="Globe Icon" src="/images/icons/icon-globe.png" />

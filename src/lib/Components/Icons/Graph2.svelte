@@ -1,0 +1,1 @@
+<img alt="Graph Icon" src="/images/icons/icon-graph.png" />

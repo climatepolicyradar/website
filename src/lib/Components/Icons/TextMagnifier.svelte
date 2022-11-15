@@ -1,0 +1,1 @@
+<img alt="Text Magnifier Icon" src="/images/icons/icon-text-magnifier.png" />

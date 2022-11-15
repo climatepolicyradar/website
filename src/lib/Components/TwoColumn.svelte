@@ -14,6 +14,7 @@
         <slot name="col-2"><!-- optional fallback --></slot>
       </div>
     </div>
+    <slot name="extra"><!-- optional fallback --></slot>
   </Wrapper>
 </div>
 

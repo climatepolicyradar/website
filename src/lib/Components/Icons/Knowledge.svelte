@@ -1,0 +1,1 @@
+<img alt="Knowledge Icon" src="/images/icons/icon-knowledge.png" />

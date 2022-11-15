@@ -21,6 +21,21 @@
   import Learning from './Icons/Learning.svelte';
   import EmotionalIntelligence from './Icons/EmotionalIntelligence.svelte';
   import Collaboration from './Icons/Collaboration.svelte';
+  import Text from './Icons/Text.svelte';
+  import SemanticSearch from './Icons/SemanticSearch.svelte';
+  import TextMagnifier from './Icons/TextMagnifier.svelte';
+  import DocSwitch from './Icons/DocSwitch.svelte';
+  import Knowledge from './Icons/Knowledge.svelte';
+  import Graph2 from './Icons/Graph2.svelte';
+  import Scales from './Icons/Scales.svelte'
+  import Spring from './Icons/Spring.svelte'
+  import Middle from './Icons/Middle.svelte'
+  import Global from './Icons/Global.svelte'
+  import Thinking from './Icons/Thinking.svelte'
+  import Search from './Icons/Search.svelte'
+  import Globe from './Icons/Globe.svelte'
+  import Sun from './Icons/Sun.svelte'
+  import Central from './Icons/Central.svelte'
 
   const icons = {
     arrow: Arrow,
@@ -44,6 +59,21 @@
     learning: Learning,
     emotionalIntelligence: EmotionalIntelligence,
     collaboration: Collaboration,
+    text: Text,
+    semanticSearch: SemanticSearch,
+    textMagnifier: TextMagnifier,
+    docSwitch: DocSwitch,
+    knowledge: Knowledge,
+    graph2: Graph2,
+    scales: Scales,
+    spring: Spring,
+    middle: Middle,
+    global: Global,
+    thinking: Thinking,
+    search: Search,
+    globe: Globe,
+    sun: Sun,
+    central: Central
   };
 
   export let name;
@@ -68,6 +98,10 @@
     display: inline-block;
     width: var(--icon-size);
     flex-shrink: 0;
+  }
+
+  :global(.c-icon > img) {
+    max-width: 100%;;
   }
 
   .c-icon--arrowRound {

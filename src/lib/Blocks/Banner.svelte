@@ -20,6 +20,12 @@
           </div>
         {/if}
 
+        {#if $$slots.heading-2}
+          <div class="b-banner__heading">
+            <slot name="heading-2"><!-- optional fallback --></slot>
+          </div>
+        {/if}
+
         {#if $$slots.subheading}
           <div class="b-banner__subheading u-type-body-xl">
             <slot name="subheading"><!-- optional fallback --></slot>
@@ -27,7 +33,7 @@
         {/if}
 
         {#if $$slots.subheading-2}
-        <div class="b-banner__heading u-type-body-xl">
+        <div class="b-banner__subheading u-type-body-xl">
           <slot name="subheading-2"><!-- optional fallback --></slot>
         </div>
         {/if}
@@ -52,13 +58,13 @@
 
   @media only screen and (min-width: 321px) {
     .b-banner__inner {
-      padding: 240px 0;
+      padding: 160px 0;
     }
   }
 
   @media only screen and (min-width: 768px) {
     .b-banner--lg .b-banner__inner {
-      padding-top: calc(240px + 92px);
+      padding-top: calc(160px + 92px);
     }
   }
 
@@ -129,7 +135,7 @@
 
   @media only screen and (min-width: 321px) {
     .b-banner--sm .b-banner__inner {
-      padding: 240px 0;
+      padding: 160px 0 60px;
     }
   }
 

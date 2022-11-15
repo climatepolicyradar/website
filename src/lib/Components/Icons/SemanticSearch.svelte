@@ -1,0 +1,1 @@
+<img alt="Semantic Search Icon" src="/images/icons/icon-semantic-search.png" />

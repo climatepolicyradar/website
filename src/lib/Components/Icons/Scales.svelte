@@ -1,0 +1,1 @@
+<img alt="Justice Scales Icon" src="/images/icons/icon-scales.png" />
