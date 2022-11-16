@@ -27,6 +27,17 @@
       ]
     },
     {
+      "name": "Henry Franks, PhD",
+      "role": "CTO",
+      "group": "Team",
+      "image": {
+        "src": "images/team/henry-franks-climate-policy-radar.jpg",
+        "alt": "Headshot of Henry Franks",
+        "width": 600,
+        "height": 811
+      }
+    },
+    {
       "name": "Justine Alford, PhD",
       "role": "Communication and Partnerships",
       "image": {
