@@ -35,7 +35,13 @@
         "alt": "Headshot of Henry Franks",
         "width": 600,
         "height": 811
-      }
+      },
+      "bio": "Henry is a technology and product leader with over a decade of experience building startups, leveraging expertise in computer science, software engineering, data science and machine learning.",
+      "highlights": [
+        "Before joining Climate Policy Radar, Henry worked in startups spanning music and performance, insurance, and telecoms, focused on building innovative and industry-changing products -- in recent years, targeted at helping solve the climate crisis.",
+        "Henry holds a PhD in Computer Science from the University of Warwick, involving research into the nature of cooperation in society and application of those insights to algorithmic societies."
+      ],
+      "social": []
     },
     {
       "name": "Justine Alford, PhD",
