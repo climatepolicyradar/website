@@ -12,13 +12,17 @@ excerpt: We're developing a computer vision-based model that can automate the
 author: Stefan Lavelle
 featured: false
 ---
-The ability to extract structured text from PDFs has haunted developers for 30 years. PDFs were designed for creating and viewing flexibly formatted documents without the user having to worry about which device, operating system or browser they were using. This versatility revolutionised information sharing.
+The ability to extract structured text from PDFs has haunted developers for 30 years. 
+
+PDFs were designed for creating and viewing flexibly formatted documents without the user having to worry about which device, operating system or browser they were using. This versatility revolutionised information sharing.
 
 Yet the lack of formatting constraints made extracting structured information nearly impossible. As most climate-relevant law and policy documents are PDFs, this presents a challenge to our goal of making them fully searchable.
 
 To a processing script, a PDF is just a stream of instructions for how to draw on a page: there are no paragraphs or words, only characters with variable properties (font, size, colour, etc) rendered at particular locations. Even worse, invisible characters are often mixed into the data for various purposes such as security. The image below shows a snippet of raw PDF data, to give you an idea.
 
 ![An image of raw PDF data](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/pdf-code.png "An image showing raw PDF data (credit: Stefan Lavelle/Climate Policy Radar).")
+
+*An image showing raw PDF data (credit: Stefan Lavelle/Climate Policy Radar).*
 
 Left with an amorphous soup of characters with no obvious or consistent semantic structure, what should we do?
 
@@ -28,11 +32,15 @@ The first hint is that we humans don’t try to read byte code like the characte
 
 ![Code from the film the Matrix](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/image-from-rawpixel-id-5901986-original.jpg " Matrix code (rawpixel)")
 
+*Matrix code ([rawpixel](https://www.rawpixel.com/image/5901986/free-matrix-background-public-domain-cc0-photo))*
+
 If that seems simple, it’s only because billions of years of natural selection underlie mammalian vision (a great example of [Moravec’s paradox](<https://en.wikipedia.org/wiki/Moravec%27s_paradox#:~:text=Moravec's%20paradox%20is%20the%20observation,skills%20require%20enormous%20computational%20resources.)>)). But computer vision is catching up. In the last decade, humans have learned how to train models to “see” all sorts of things thanks to hardware (GPU) and software (CNN) advances.
 
 For example, as shown in the image below, object detection models can recognise objects and their locations from raw pixel inputs.
 
 ![Output from a computer vision model showing objects detected in a room](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/object-recognition.jpg "An object detection model output (MTheiler, CC BY-SA 4.0, via Wikimedia Commons)")
+
+*An object detection model output (MTheiler, CC BY-SA 4.0, via Wikimedia Commons)*
 
 Object detection models like this aren’t just good for typical images though. We can use them to recognise paragraphs, figures and tables too. The crux? We need tens of thousands of labelled examples to train a decent model.
 
@@ -53,6 +61,8 @@ Despite their utility, heuristics like this quickly become unwieldy. This exampl
 But our main reason for using computer vision is to avoid the complicated code we’d need to process raw PDFs! As such, we weren’t overzealous here: we only used heuristics to fix the most egregious issues and are working towards a less complex solution, which we’ll touch on below. For now, our current solution gives an accurate structure for most data: a set of images of blocks and their inferred types in the correct reading order. The image below shows a visual example from one of our PDFs.
 
 ![Example of an output from the PDF parsing model](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/example-of-an-output-from-the-pdf-parsing-model.png "A structured document output from our PDF parser. ")
+
+*A [structured document](https://cdn.climatepolicyradar.org/AFG/2014/AFG-2014-12-25-National+Biodiversity+Strategy+and+Action+Plan_cbd27ba450da99a648a47db4f3c4e370.pdf) output from our PDF parser.* 
 
 But we’re not finished. The last step is converting these images to machine-encoded text instead of raw pixel values. Luckily, Optimal Character Recognition (OCR) on non-handwritten text is a very mature area of computer vision. We used Google Cloud Vision’s OCR API as it has high accuracy across all major languages. This is key for us: our previous approach to PDF parsing relied on third-party software for processing English language documents, meaning we couldn’t serve non-English speakers or documents written in other languages.
 
