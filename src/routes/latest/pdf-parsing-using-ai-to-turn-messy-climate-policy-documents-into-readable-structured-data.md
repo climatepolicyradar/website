@@ -12,7 +12,9 @@ excerpt: We're developing a computer vision-based model that can automate the
 author: Stefan Lavelle
 featured: false
 ---
-The ability to extract structured text from PDFs has haunted developers for 30 years. PDFs were designed for creating and viewing flexibly formatted documents without the user having to worry about which device, operating system or browser they were using. This versatility revolutionised information sharing.
+The ability to extract structured text from PDFs has haunted developers for 30 years. 
+
+PDFs were designed for creating and viewing flexibly formatted documents without the user having to worry about which device, operating system or browser they were using. This versatility revolutionised information sharing.
 
 Yet the lack of formatting constraints made extracting structured information nearly impossible. As most climate-relevant law and policy documents are PDFs, this presents a challenge to our goal of making them fully searchable.
 
