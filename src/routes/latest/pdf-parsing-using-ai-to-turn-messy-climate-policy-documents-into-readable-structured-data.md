@@ -22,8 +22,6 @@ To a processing script, a PDF is just a stream of instructions for how to draw o
 
 ![An image of raw PDF data](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/pdf-code.png "An image showing raw PDF data (credit: Stefan Lavelle/Climate Policy Radar).")
 
-*An image showing raw PDF data (credit: Stefan Lavelle/Climate Policy Radar).*
-
 Left with an amorphous soup of characters with no obvious or consistent semantic structure, what should we do?
 
 ## Training computers to read climate policy documents
@@ -31,8 +29,6 @@ Left with an amorphous soup of characters with no obvious or consistent semantic
 The first hint is that we humans don’t try to read byte code like the characters in the Matrix. Instead, we let third-party programs (such as internet browsers) render the relevant data and our brains figure out where the headings, paragraphs and figures are. What if we could get computers to do the same?
 
 ![Code from the film the Matrix](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/image-from-rawpixel-id-5901986-original.jpg " Matrix code (rawpixel)")
-
-*Matrix code ([rawpixel](https://www.rawpixel.com/image/5901986/free-matrix-background-public-domain-cc0-photo))*
 
 If that seems simple, it’s only because billions of years of natural selection underlie mammalian vision (a great example of [Moravec’s paradox](<https://en.wikipedia.org/wiki/Moravec%27s_paradox#:~:text=Moravec's%20paradox%20is%20the%20observation,skills%20require%20enormous%20computational%20resources.)>)). But computer vision is catching up. In the last decade, humans have learned how to train models to “see” all sorts of things thanks to hardware (GPU) and software (CNN) advances.
 
@@ -58,11 +54,9 @@ PubLayNet gives metadata for each predicted box: coordinates, a type (title, tex
 
 Despite their utility, heuristics like this quickly become unwieldy. This example alone contains many possibilities for both the hierarchical ordering of categories and the confidence value differences needed to override them. Ultimately then, selecting a high-performing set of heuristics requires lots of complicated code and empirical tweaking.
 
-But our main reason for using computer vision is to avoid the complicated code we’d need to process raw PDFs! As such, we weren’t overzealous here: we only used heuristics to fix the most egregious issues and are working towards a less complex solution, which we’ll touch on below. For now, our current solution gives an accurate structure for most data: a set of images of blocks and their inferred types in the correct reading order. The image below shows a visual example from one of our PDFs.
+But our main reason for using computer vision is to avoid the complicated code we’d need to process raw PDFs! As such, we weren’t overzealous here: we only used heuristics to fix the most egregious issues and are working towards a less complex solution, which we’ll touch on below. For now, our current solution gives an accurate structure for most data: a set of images of blocks and their inferred types in the correct reading order. The image below shows a visual example of a [structured document](https://cdn.climatepolicyradar.org/AFG/2014/AFG-2014-12-25-National+Biodiversity+Strategy+and+Action+Plan_cbd27ba450da99a648a47db4f3c4e370.pdf) output from our PDF parser. 
 
 ![Example of an output from the PDF parsing model](/images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/example-of-an-output-from-the-pdf-parsing-model.png "A structured document output from our PDF parser. ")
-
-*A [structured document](https://cdn.climatepolicyradar.org/AFG/2014/AFG-2014-12-25-National+Biodiversity+Strategy+and+Action+Plan_cbd27ba450da99a648a47db4f3c4e370.pdf) output from our PDF parser.* 
 
 But we’re not finished. The last step is converting these images to machine-encoded text instead of raw pixel values. Luckily, Optimal Character Recognition (OCR) on non-handwritten text is a very mature area of computer vision. We used Google Cloud Vision’s OCR API as it has high accuracy across all major languages. This is key for us: our previous approach to PDF parsing relied on third-party software for processing English language documents, meaning we couldn’t serve non-English speakers or documents written in other languages.
 
