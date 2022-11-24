@@ -78,4 +78,4 @@ This is a big deal. There are trillions of PDFs out there, with no file format t
 
 If you’re working on a similar problem, we’re keen to hear from you - tell us your tips, tricks and woes. We can solve problems faster by working together. [Get in touch](https://climatepolicyradar.org/contact) to collaborate or share your wisdom. You can also stay updated with our latest developments by [signing up for our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv) or [following our ChangeLog](https://climatepolicyradar.notion.site/Climate-Policy-Radar-s-Public-Changelog-1f028d2141e946adaebb8a420f50029c).
 
-\**technically, PubLayNet is the dataset used to fine-tune a pre-trained computer vision model, but we refer to the PubLayNet model throughout.*
+\**Technically, [PubLayNet](https://layout-parser.readthedocs.io/en/latest/notes/modelzoo.html) is the dataset used to fine-tune a pre-trained computer vision model, but we refer to the PubLayNet model throughout.*
