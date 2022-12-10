@@ -4,15 +4,15 @@ title: Head of Policy
 topics:
   - jobs
 date: 10 December 2022
-excerpt: "We are looking for a head of policy to join us and "
+excerpt: We are looking for a brilliant and committed person to lead our policy work.
 ---
 <!--StartFragment-->
 
-£55K-£60K | London/Hybrid/Flexible | Unlimited leave | great coffee  
+£55K-£60K DOE | London/Hybrid/Flexible | Unlimited leave | Great coffee 
 
-## About us
+## **About us**
 
-Climate Policy Radar is an AI startup on a mission to map and analyse the world’s climate law and policy data. Harnessing data science and AI and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate rules, enhance accountability, deploy climate finance, and promote data democratisation. 
+Climate Policy Radar is an AI startup on a mission to map and analyse the world’s climate law and policy data. Harnessing data science and AI and pioneering the application of natural language processing in this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate rules, enhance accountability, deploy climate finance, and promote data democratisation. 
 
 We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a [team of 12](https://climatepolicyradar.org/about#team) (data science, software engineering, policy, comms and ops), we recently launched our [open access policy search tool](http://app.climatepolicyradar.org). We are continuing to develop our exciting product offering, and forging partnerships with research, policy and tech stakeholders to inform our ongoing work and bring it to our users. Climate Policy Radar is at an extremely exciting stage of development, and we are now looking for a brilliant and committed Head of Policy to join our team.
 
@@ -38,24 +38,16 @@ We’re a Community Interest Company (not-for-profit), championing an open scien
 * Deep commitment to employee wellbeing: our policies include unlimited leave, flexible work hours, an annual well-being allowance and short Fridays.
 * Hybrid work setup: we meet up as a team once or twice a week. We have a stunning workspace overlooking the river in London’s County Hall.
 
-
-
-Right to Work in the UK
+## **Right to Work in the UK:**
 
 Unfortunately, we are currently unable to sponsor work visas. Only applicants legally authorised to work in the UK will be considered.
 
-## Equal opportunities
+## **Equal opportunities**
 
 Climate Policy Radar is proud to be an equal opportunity workplace and is an affirmative action employer. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
 
-
-
 We'd especially love to hear from you if you are from an under-represented demographic. If you have a disability or special need that requires accommodation, please let us know. 
 
-
-
 To apply, please send a CV and a cover letter telling us why you’d be excellent for this role to [jobs@climatepolicyradar.org](mailto:jobs@climatepolicyradar.org). 
-
-
 
 <!--EndFragment-->
