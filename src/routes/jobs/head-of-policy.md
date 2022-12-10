@@ -24,7 +24,7 @@ We’re a Community Interest Company (not-for-profit), championing an open scien
 
 #### You bring with you
 
-* At least 5 years’ experience working in the climate law and/or policy space
+* At least 6 years’ experience working in the climate law and/or policy space
 * Broad horizons and familiarity with a wide range of climate change related concepts and issues (e.g. mitigation and adaptation policy approaches, basics of climate science, economics, climate-related technologies, and the international negotiations). Note we are not seeking in-depth expertise in all of those, but rather appreciate a rounded, well informed ‘Climatese’ speaker. 
 * Remarkable interpersonal and communication skills, and the ability to translate knowledge for different audiences.
 * A voracious appetite for knowledge, and a knack for finding it and putting it to good use. 
