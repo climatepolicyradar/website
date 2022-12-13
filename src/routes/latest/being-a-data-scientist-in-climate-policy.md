@@ -13,7 +13,7 @@ excerpt: >
 author: Kalyan Dutia
 featured: false
 ---
-## What’s it like to work in climate data science?
+W﻿hat's it like to work in climate data science?
 
 Meet Climate Policy Radar data scientist Kalyan Dutia. He shares his love of linguistics, the opportunities and challenges of responsible artificial intelligence, and exciting developments in the field of machine learning for climate change.
 
