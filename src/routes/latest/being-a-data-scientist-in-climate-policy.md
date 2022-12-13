@@ -17,6 +17,10 @@ featured: false
 
 Meet Climate Policy Radar data scientist Kalyan Dutia. He shares his love of linguistics, the opportunities and challenges of responsible artificial intelligence, and exciting developments in the field of machine learning for climate change.
 
+![Data scientist Kalyan Dutia with Climate Policy Radar collague](/images/being-a-data-scientist-in-climate-policy/kalyan-and-climate-policy-radar-teammate-callie-foraging.jpg "Data scientist Kalyan Dutia and Climate Policy Radar collague Callie out foraging on a work trip")
+
+*D﻿owntime from data science, foraging with colleagues*
+
 ## Give us a whistlestop tour of your career as a data scientist
 
 I discovered machine learning during my engineering Master’s. I was really fascinated with the way computers could learn by example, rather than by a set of rules. For a few years I was a data science consultant in various industries at IBM, doing everything from detecting smart meter faults to building and maintaining machine learning models for a chatbot that serves millions of users. That’s what sparked a real interest in [natural language processing](https://www.ibm.com/cloud/learn/natural-language-processing) and linguistics.
@@ -40,10 +44,6 @@ This could look like automated summaries of legal and policy documents (see the 
 ![A screenshot of an automated summary on a document in climate policy radar](/images/being-a-data-scientist-in-climate-policy/openai-experiment.jpg "What an automated summary could look like on Climate Policy Radar")
 
 I do as much knowledge sharing with the team as I can, so everyone feels like they can chip into the direction and development of machine learning that we’re doing.
-
-![Data scientist Kalyan Dutia with Climate Policy Radar collague](/images/being-a-data-scientist-in-climate-policy/kalyan-and-climate-policy-radar-teammate-callie-foraging.jpg "Data scientist Kalyan Dutia and Climate Policy Radar collague Callie out foraging on a work trip")
-
-*D﻿owntime from data science, foraging with colleagues*
 
 ## Why do you like working with language?
 
