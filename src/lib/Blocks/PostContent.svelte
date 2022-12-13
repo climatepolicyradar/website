@@ -29,6 +29,7 @@
     position: relative;
     color: var(--color-indigo-600);
     font-weight: 500;
+    text-decoration: none;
   }
 
   .b-content__wrapper :global(img) {
