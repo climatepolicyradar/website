@@ -39,8 +39,6 @@ At the moment I’m focussing on improving the experience people have when they 
 
 I’m also doing lots of thinking about how we can use machine learning to start creating a structured evidence base from all the text we have. And recently, I’ve been thinking about how we might use the latest advances in AI, such as large language models like [OpenAI’s GPT-3](https://openai.com/api/), in a responsible and reliable way to add powerful new features to our tool. 
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In the last couple of days I&#39;ve started to think more freely about how large language models such as GPT-3 might help users of our <a href="https://twitter.com/climatepolradar?ref_src=twsrc%5Etfw">@climatepolradar</a> tool better navigate the world of climate policy. <br><br>Early ideas include summarising the list of relevant passages per document... <a href="https://t.co/gX7GrQ2oU8">pic.twitter.com/gX7GrQ2oU8</a></p>&mdash; kalyan (@KDutia) <a href="https://twitter.com/KDutia/status/1580584841501847552?ref_src=twsrc%5Etfw">October 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 This could look like automated summaries of legal and policy documents (see the image below for one I made as an example), or suggesting queries people might like to use to interrogate our database based on what they typed into the search bar. I [tweeted about some early experiments](https://twitter.com/KDutia/status/1580584841501847552) I've been playing with. 
 
 ![A screenshot of an automated summary on a document in climate policy radar](/images/being-a-data-scientist-in-climate-policy/openai-experiment.jpg "What an automated summary could look like on Climate Policy Radar")
