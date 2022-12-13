@@ -37,11 +37,6 @@
       <PostContent>
         <slot />
       </PostContent>
-      <CardCompact
-        title="Would you like to know what it is like to work at Climate Policy Radar?"
-        link="https://youtu.be/5xGmg_UEc-g"
-        linkCopy="View our video here."
-      />
     </div>
     <div class="b-content__cta">
       <div class="c-jobs__cta">
