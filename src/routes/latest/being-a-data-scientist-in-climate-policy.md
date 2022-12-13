@@ -21,19 +21,25 @@ Meet Climate Policy Radar data scientist Kalyan Dutia. He shares his love of lin
 
 I discovered machine learning during my engineering Master’s. I was really fascinated with the way computers could learn by example, rather than by a set of rules. For a few years I was a data science consultant in various industries at IBM, doing everything from detecting smart meter faults to building and maintaining machine learning models for a chatbot that serves millions of users. That’s what sparked a real interest in [natural language processing](https://www.ibm.com/cloud/learn/natural-language-processing) and linguistics.
 
-I then led work at the Science Museum for a research project looking at how you could use machine learning to build knowledge graphs that link the country’s gallery, library, archive and museum collections together (called GLAM). It was a really fun opportunity to get deep into research in an interesting and impactful problem in the open science space.
+I then led work at the Science Museum for a [research project](https://www.sciencemuseumgroup.org.uk/project/heritage-connector/) looking at how you could use machine learning to build knowledge graphs that link the country’s gallery, library, archive and museum collections together. It was a really fun opportunity to get deep into research in an interesting and impactful problem in the open science space.
 
 When that project came to an end, I was figuring out what I wanted to do next and realised I wanted to work on climate. I stumbled on Climate Policy Radar through [Twitter](https://twitter.com/climatepolradar), and before I knew it I was in the door as the company’s first data scientist.
 
 ## Why did you want to do data science for climate change?
 
-I was looking for an impactful problem that I could use my natural language processing skills in. I narrowed that down to climate and healthcare. When I went looking for natural language processing jobs in climate, most roles involved non-language applications of AI, like using computer vision to analyse satellite imagery. [Climate Policy Radar](https://app.climatepolicyradar.org/) was the first company I found that was applying [natural language processing](https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies) to climate change. 
+I was looking for an impactful problem that I could use my natural language processing skills in. I narrowed that down to climate and healthcare. When I went looking for natural language processing jobs in climate, most roles involved non-language applications of AI, like using computer vision to analyse satellite imagery or time-series data to better understand the energy grid. [Climate Policy Radar](https://app.climatepolicyradar.org/) was the first company I found that was applying [natural language processing](https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies) to climate change. 
 
 ## What does your job look like at Climate Policy Radar?
 
-I’m focussing on improving the experience people have when they search for climate change laws and policies on [our open tool](https://app.climatepolicyradar.org/). This means understanding their intent when they search for something in our database, designing powerful but efficient ways to turn that search into a query on millions of text passages within those laws and policies, and aggregating those in a way that’s useful to display back to them. 
+At the moment I’m focussing on improving the experience people have when they search for climate change laws and policies on [our open tool](https://app.climatepolicyradar.org/). This means understanding their intent when they search for something in our database, designing powerful but efficient ways to turn that search into a query on millions of text passages within those laws and policies, and aggregating those in a way that’s useful to display back to them. 
 
 I’m also doing lots of thinking about how we can use machine learning to start creating a structured evidence base from all the text we have. And recently, I’ve been thinking about how we might use the latest advances in AI, such as large language models like [OpenAI’s GPT-3](https://openai.com/api/), in a responsible and reliable way to add powerful new features to our tool. This could look like automated summaries of legal and policy documents, or suggesting queries people might like to use to interrogate our database based on what they typed into the search bar.
+
+<!--StartFragment-->
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">In the last couple of days I&#39;ve started to think more freely about how large language models such as GPT-3 might help users of our <a href="https://twitter.com/climatepolradar?ref_src=twsrc%5Etfw">@climatepolradar</a> tool better navigate the world of climate policy. <br><br>Early ideas include summarising the list of relevant passages per document... <a href="https://t.co/gX7GrQ2oU8">pic.twitter.com/gX7GrQ2oU8</a></p>&mdash; kalyan (@KDutia) <a href="https://twitter.com/KDutia/status/1580584841501847552?ref_src=twsrc%5Etfw">October 13, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!--EndFragment-->
 
 I do as much knowledge sharing with the team as I can, so everyone feels like they can chip into the direction and development of machine learning that we’re doing.
 
@@ -43,11 +49,11 @@ I do as much knowledge sharing with the team as I can, so everyone feels like th
 
 ## Why do you like working with language?
 
-It’s fun to learn linguistics. I’ve been lucky to work with really good linguists (here and elsewhere). I find there’s a lot of power in building things that make predictions using language. Because naturally everyone understands the inputs and outputs. And it’s less maths! I like nerding out about the language aspect of machine learning and the additional complexities it brings, like psychology.
+It’s fun to learn linguistics, and I’ve been lucky to work with really good linguists here and elsewhere. I find there’s a lot of power in building things that make predictions using language, because naturally everyone understands the inputs and outputs without needing to understand any of the maths. I like nerding out about the language aspect of machine learning and the additional complexities it brings, like psychology.
 
 ## What big problems are you tackling at work right now?
 
-My big challenge is how do we do machine learning in a measurably responsible, ethical and effective way. How to build things in a way that both gives us more information, and improves the way we maintain our systems, as we’re only a small team.
+My big challenge is, how do we do machine learning in a measurably responsible, ethical and effective way? And how do we build things in a way that gives us the information to build future things better, without the overhead of having to do more maintenance work, as we’re only a small team.
 
 ## What applications of machine learning for climate change are you excited about?
 
