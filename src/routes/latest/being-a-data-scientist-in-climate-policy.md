@@ -43,6 +43,8 @@ This could look like automated summaries of legal and policy documents (see the 
 
 ![A screenshot of an automated summary on a document in climate policy radar](/images/being-a-data-scientist-in-climate-policy/openai-experiment.jpg "What an automated summary could look like on Climate Policy Radar")
 
+*A screenshot of an experiment using OpenAI’s GPT-3 to produce a summary of a climate policy that has been tailored to a particular search query.*
+
 I do as much knowledge sharing with the team as I can, so everyone feels like they can chip into the direction and development of machine learning that we’re doing.
 
 ## Why do you like working with language?
