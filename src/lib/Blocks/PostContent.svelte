@@ -38,7 +38,7 @@
   }
 
   .b-content__wrapper :global(a::after) {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     width: 100%;
@@ -69,27 +69,27 @@
 
   .b-content__wrapper :global(ol),
   .b-content__wrapper :global(ul) {
-    margin-bottom: 70px;
+    margin-bottom: 32px;
   }
-  
+
   .b-content__wrapper :global(ul) {
     padding-left: 20px;
   }
-  
+
   .b-content__wrapper :global(ul.c-icon-list),
   .b-content__wrapper :global(ol) {
     padding-left: 0;
   }
-  
+
   .b-content__wrapper :global(ol) {
     counter-reset: ordered-counter;
     list-style: none;
   }
-  
+
   .b-content__wrapper :global(ol li) {
     counter-increment: ordered-counter;
   }
-  
+
   .b-content__wrapper :global(ol li::before) {
     content: counter(ordered-counter);
     display: inline-flex;
@@ -112,13 +112,16 @@
   }
 
   .b-content__wrapper :global(h1),
-  .b-content__wrapper :global(h2),
+  .b-content__wrapper :global(h2) {
+    margin-top: 50px;
+  }
+
   .b-content__wrapper :global(h3),
   .b-content__wrapper :global(h4),
   .b-content__wrapper :global(h5) {
-    margin-top: 50px;
+    margin-top: 32px;
   }
-  
+
   .b-content__wrapper :global(h2) {
     font-size: 21px;
     line-height: 27px;
@@ -168,7 +171,7 @@
   /* Block specific styles */
   @media only screen and (max-width: 767px) {
     .b-content__wrapper :global(.c-icon-list-item--horizontal) {
-      flex-direction: column; 
+      flex-direction: column;
     }
   }
 </style>
