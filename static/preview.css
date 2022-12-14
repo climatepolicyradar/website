@@ -779,7 +779,7 @@ strong {
 }
 .b-content__wrapper.svelte-308d19 ol,
 .b-content__wrapper.svelte-308d19 ul {
-  margin-bottom: 70px;
+  margin-bottom: 32px;
 }
 .b-content__wrapper.svelte-308d19 ul {
   padding-left: 20px;
@@ -814,11 +814,14 @@ strong {
   font-size: 22px;
 }
 .b-content__wrapper.svelte-308d19 h1,
-.b-content__wrapper.svelte-308d19 h2,
+.b-content__wrapper.svelte-308d19 h2 {
+  margin-top: 50px;
+}
+
 .b-content__wrapper.svelte-308d19 h3,
 .b-content__wrapper.svelte-308d19 h4,
 .b-content__wrapper.svelte-308d19 h5 {
-  margin-top: 50px;
+  margin-top: 32px;
 }
 .b-content__wrapper.svelte-308d19 h2 {
   font-size: 21px;
