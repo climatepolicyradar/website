@@ -16,7 +16,11 @@ Climate Policy Radar is an AI startup on a mission to map and analyse the world�
 
 We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a [team of 12](https://climatepolicyradar.org/about#team) (data science, software engineering, policy, comms and ops), we recently launched our [open access policy search tool](http://app.climatepolicyradar.org). We are continuing to develop our exciting product offering, and forging partnerships with research, policy and tech stakeholders to inform our ongoing work and bring it to our users. Climate Policy Radar is at an extremely exciting stage of development, and we are now looking for a brilliant and committed Head of Policy to join our team.
 
-### **In this role, you will**
+### **Roles and responsibilities**
+
+As a trusted and senior member of the team, you’ll have the confidence and competency to take the lead and direct this role flexibly to identify new opportunities for policy impact and engagement, and ensure we keep up with the pace of the rapidly evolving climate policy landscape. 
+
+Beyond that, these are your core missions
 
 * Develop policy priorities for our products and programmes.
 * Work within the team to embed your domain knowledge into the development of machine learning models and visualisations for analysis of global climate-related legal and policy texts.
