@@ -18,9 +18,7 @@ We’re a Community Interest Company (not-for-profit), championing an open scien
 
 ### **Roles and responsibilities**
 
-As a trusted and senior member of the team, you’ll have the confidence and competence to take the lead and direct this role flexibly to identify new opportunities for policy impact and engagement, and ensure we keep up with the pace of the rapidly evolving climate policy landscape. 
-
-Beyond that, these are your core missions
+As a trusted and senior member of the team, you’ll have the confidence and competence to take the lead and direct this role flexibly to identify new opportunities for policy impact and engagement, and ensure we keep up with the pace of the rapidly evolving climate policy landscape. Beyond that, these are your core missions
 
 * Develop policy priorities for our products and programmes.
 * Work within the team to embed your domain knowledge into the development of machine learning models and visualisations for analysis of global climate-related legal and policy texts.
