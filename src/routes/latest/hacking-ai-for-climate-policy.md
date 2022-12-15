@@ -23,7 +23,7 @@ Several teams designed AI solutions for climate policy, some using our database,
 
 In a bid to enhance understanding and development of climate policies, Climate Policy Copilot built a variety of features to assist with analysing and writing climate policy and guidelines. They blended several approaches including fine-tuned models to write policy, and OpenAI’s [GPT-3](https://openai.com/api/) capabilities such as automated summarisation of information and Q&A generation. It was designed to serve as a tool for both climate policymakers and the general public. 
 
-Climate Policy Copilot was created by Giulio Brugnaro, Patryk Neubauer, Nicolò Trentacoste, Jacob Nicotra and Tommy.
+Climate Policy Copilot was created by Giulio Brugnaro, Patryk Neubauer, Nicolò Trentacoste, Jacob Nicotra and Tommaso Tassi.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/krEBu0B9N-c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -37,7 +37,7 @@ Applying large language models to tailor language complexity is also a really ne
 
 Climate Shell is designed to help non-technical audiences quickly access open-source satellite and climate data, to support environmental decision-making “and pave the way for greener communities”. Their product takes a user's query (e.g. how much tree cover has been lost in the Congo Republic?) and uses GPT-3 to automatically generate code to interrogate Google Earth Engine data, in addition to suggesting further research topics.
 
-Climate Shell was created by Christina Last, Camilla Cardenas, Jannik Wiedenhaupt and Franklin.
+Climate Shell was created by Christina Last, Camilla Cardenas, Jannik Wiedenhaupt and Franklin Willemen.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cMGYz3v6Dzo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -65,7 +65,9 @@ Q&A and translation features all speak to use cases we're thinking about at Clim
 
 The team behind Climate Policy Tracker (distinct from another [existing company](https://climatepolicytracker.org/) with the same name) believes “that the most impactful changes are those made by entities like governments and organisations”. To improve transparency in the design of regulations, they created [Climate Policy Tracker](<https://wi1lku-climate-policy-tracker-main-sprcyj.streamlit.app/](https://wi1lku-climate-policy-tracker-main-sprcyj.streamlit.app/>) – a pipeline with an app for automatic processing of documents and analysis of policies within and between countries. Using OpenAI’s API, they developed features including automatic summarisation of documents, local explanations of topics, and interactive maps. Their aim is to empower citizen governance and engagement in climate policies.
 
-Find their [dataset on kaggle](<https://www.kaggle.com/datasets/emiliawisnios/national-energy-and-climate-plans-eu](https://www.kaggle.com/datasets/emiliawisnios/national-energy-and-climate-plans-eu>).
+Find out more on the [Climate Policy Tracker website](<Find out more on the Climate Policy Tracker website.>).
+
+Climate Policy Tracker was created by Artur Żółkowski, Emilia Wiśnios, Mateusz Krzyziński, Piotr Wilczyński and Stanisław Giziński.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Sl8Z0iXv9no" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
