@@ -82,3 +82,5 @@ The hackathon has proved a real sandpit for innovation in climate policy AI, and
 If you have an idea for a project you’d like to share with us – whether that’s research, data, outreach or anything else that’s sparked your synapses – [please get in touch](https://climatepolicyradar.org/contact), we’re open to collaboration.
 
 [Sign up for our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv) to hear about what we’re working on and to find out about future opportunities for collaborations.
+
+*B﻿y [Kalyan Dutia](https://climatepolicyradar.org/latest/being-a-data-scientist-in-climate-policy), [Henry Franks](https://climatepolicyradar.org/about#team), and [Justine Alford](https://climatepolicyradar.org/about#team)*
