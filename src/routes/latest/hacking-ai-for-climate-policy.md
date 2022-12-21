@@ -63,9 +63,9 @@ Q&A and translation features all speak to use cases we're thinking about at Clim
 
 ## Climate Policy Tracker
 
-The team behind Climate Policy Tracker (distinct from another [existing company](https://climatepolicytracker.org/) with the same name) believes “that the most impactful changes are those made by entities like governments and organisations”. To improve transparency in the design of regulations, they created [Climate Policy Tracker](<https://wi1lku-climate-policy-tracker-main-sprcyj.streamlit.app/](https://wi1lku-climate-policy-tracker-main-sprcyj.streamlit.app/>) – a pipeline with an app for automatic processing of documents and analysis of policies within and between countries. Using OpenAI’s API, they developed features including automatic summarisation of documents, local explanations of topics, and interactive maps. Their aim is to empower citizen governance and engagement in climate policies.
+The team behind Climate Policy Tracker (distinct from another [existing company](https://climatepolicytracker.org/) with the same name) believes “that the most impactful changes are those made by entities like governments and organisations”. To improve transparency in the design of regulations, they created [Climate Policy Tracker](https://climate.mi2.ai/) – a pipeline with an app for automatic processing of documents and analysis of policies within and between countries. Using OpenAI’s API, they developed features including automatic summarisation of documents, local explanations of topics, and interactive maps. Their aim is to empower citizen governance and engagement in climate policies.
 
-Find out more on the [Climate Policy Tracker website](<Find out more on the Climate Policy Tracker website.>).
+Find out more on the [Climate Policy Tracker website](https://climate.mi2.ai/).
 
 Climate Policy Tracker was created by Artur Żółkowski, Emilia Wiśnios, Mateusz Krzyziński, Piotr Wilczyński and Stanisław Giziński.
 
