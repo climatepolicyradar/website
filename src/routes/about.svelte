@@ -19,7 +19,6 @@
   import { theme } from '$lib/stores/theme'
   import Wrapper from '$lib/Components/Wrapper.svelte'
   import Banner from '$lib/Blocks/Banner.svelte'
-  import Pill from '$lib/Components/Pill.svelte'
   import Spacer from '$lib/Components/Spacer.svelte'
   import SingleColumn from '$lib/Blocks/SingleColumn.svelte'
   import Team from '$lib/Blocks/Team.svelte'
@@ -27,8 +26,6 @@
   import Icon from '$lib/Components/Icon.svelte'
   import IconList from '$lib/Components/IconList.svelte'
   import IconListItem from '$lib/Components/IconListItem.svelte'
-  import Heading from '$lib/Components/Heading.svelte'
-  import Press from '$lib/Blocks/Press.svelte'
   import Partners from '$lib/Blocks/Partners.svelte'
   import MetaTags from '$lib/Components/MetaTags.svelte'
 
@@ -74,11 +71,8 @@
 <Banner theme="dark" size="sm">
   <h1 slot="heading">We are a <br /> climate AI startup</h1>
   <p slot="subheading">
-    Harnessing data science and artificial intelligence to support evidence-based decision-making, so that we can help
-    drive effective, timely and ambitious climate action
-    <br />
-    <br />
-    We are open data, open source
+    Pioneering the application of natural language processing to climate law and policy, and championing open science
+    and radical collaboration, to support informed and evidence-based decision-making.
   </p>
 </Banner>
 
@@ -141,14 +135,3 @@
 <section>
   <Partners {partnerList} extended />
 </section>
-
-<!-- <Spacer size="lg" />
-
-<section id="media">
-  <Wrapper>
-    <Heading>
-      <h3 class="u-type-body-xxl">In the Media</h3>
-    </Heading>
-    <Press limit={3} link="/media" {pressClippings} />
-  </Wrapper>
-</section> -->
