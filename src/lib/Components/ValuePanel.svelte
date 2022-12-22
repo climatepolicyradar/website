@@ -78,4 +78,8 @@
       flex-grow: 1;
     }
   }
+
+  :global(.c-panel__col-text a) {
+    color: var(--color-indigo);
+  }
 </style>

@@ -23,6 +23,6 @@
 
   .c-badge--blue {
     color: #fff;
-    background-color: var(--color-blue);
+    background-color: var(--color-blue-600);
   }
 </style>

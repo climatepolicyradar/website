@@ -1,0 +1,1 @@
+<img alt="Researchers Icon" src="/images/icons/icon-researchers.png" />

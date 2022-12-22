@@ -1,0 +1,1 @@
+<img alt="Policy Icon" src="/images/icons/icon-policy.png" />

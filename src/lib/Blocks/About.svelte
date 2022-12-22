@@ -9,7 +9,7 @@
     Climate Policy Radar is a not-for-profit climate startup. We are led by a team of leading experts in international
     climate law and policy, machine learning and software development.
   </p>
-  <Button href="/about" color="white" size="lg" arrow>Learn more</Button>
+  <Button href="/about" color="white" size="lg" arrow>About us</Button>
 </Banner>
 
 <style>
