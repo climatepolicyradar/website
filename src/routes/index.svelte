@@ -56,7 +56,7 @@
     and easily find information about climate laws and policies from every country
   </p>
   <div class="home-cta">
-    <Button color="blue" size="lg" href="https://app.climatepolicyradar.org" arrow>Start your search</Button>
+    <Button color="blue" size="lg" href="https://app.climatepolicyradar.org" arrow>Start exploring</Button>
   </div>
 </Banner>
 
