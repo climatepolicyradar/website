@@ -1,0 +1,1 @@
+<img alt="User Group Icon" src="/images/icons/icon-user-group.png" />

@@ -1,0 +1,1 @@
+<img alt="Private Sector Icon" src="/images/icons/icon-private-sector.png" />
