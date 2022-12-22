@@ -69,6 +69,7 @@
           <option value="open_source">Contributing to open source code</option>
           <option value="careers">Working at Climate Policy Radar</option>
           <option value="offer">Offering you a service/product</option>
+          <option value="media_enquiries">Media enquiries</option>
           <option value="other">Something else</option>
         </select>
       </label>
