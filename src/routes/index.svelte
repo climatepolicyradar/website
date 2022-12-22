@@ -46,7 +46,7 @@
 
 <MetaTags {title} {excerpt} {image} {path} />
 
-<Banner size="lg" theme="dark">
+<Banner size="lg" theme="dark" contentType="full-width">
   <h1 slot="heading">Building the evidence base for evidence-based decision-making</h1>
   <p slot="subheading">
     Giving policymakers, researchers and civil society tools for better climate policy design and accountability
