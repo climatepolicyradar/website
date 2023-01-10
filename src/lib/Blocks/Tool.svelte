@@ -38,12 +38,6 @@
           Compare different nations’ climate action plans, and explore climate laws and policies by sector.
         </IconListItem>
       </IconList>
-
-      <Spacer size="sm" />
-
-      <div class="video__button">
-        <Button color="blue" size="lg" href="https://app.climatepolicyradar.org" arrow>Start your search</Button>
-      </div>
     </div>
   </Wrapper>
 </div>
