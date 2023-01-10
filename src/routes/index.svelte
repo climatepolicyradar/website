@@ -49,11 +49,11 @@
 <Banner size="lg" theme="dark" contentType="full-width">
   <h1 slot="heading">Building the evidence base for evidence-based decision-making</h1>
   <p slot="subheading">
-    Giving policymakers, researchers and civil society tools for better climate policy design and accountability
-  </p>
-  <p slot="subheading-2">
-    <a href="https://app.climatepolicyradar.org/" target="_blank" class="anchor--light anchor--banner">Use our AI-powered tool</a> to quickly
-    and easily find information about climate laws and policies from every country
+    We build tools that open up the messy black box of climate laws, policies and case law globally, helping
+    decision-makers design more effective climate change strategies.
+    <br />
+    <a class="anchor--banner" href="https://app.climatepolicyradar.org" target="_blank">Use our tools</a> to quickly and
+    easily find information on climate laws and policies.
   </p>
   <div class="home-cta">
     <Button color="blue" size="lg" href="https://app.climatepolicyradar.org" arrow>Start exploring</Button>
