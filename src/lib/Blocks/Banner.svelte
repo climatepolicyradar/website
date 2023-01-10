@@ -155,11 +155,6 @@
   }
 
   .b-banner__subheading {
-    max-width: 580px;
-    margin-bottom: 64px;
-  }
-
-  .b-banner--md .b-banner__subheading {
     max-width: 768px;
   }
 
