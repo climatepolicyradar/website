@@ -57,6 +57,8 @@ It’s also about treating your software as a shared approach to a problem, rath
 
 I'd say it’s the diverse skills that are needed. As it's not simply about implementing a solution, but questioning, challenging assumptions, and then experimenting to find the right result. 
 
+![Peter and Climate Policy Radar colleagues](/images/working-on-climate-change-as-a-software-engineer/peter-and-climate-policy-radar-colleagues.jpg "Peter and Climate Policy Radar colleagues at a strategy day")
+
 ## And what’s challenged you?
 
 Climate Policy Radar is one of the earliest-stage startups I’ve worked in. To see such rapid growth and change has been challenging but really interesting. But I really like the streamlined approach we have to technology. A lot of companies use tech for the sake of it, but at CPR we’re careful about what we choose, making sure it aligns with our vision and direction - that’s a big positive.
