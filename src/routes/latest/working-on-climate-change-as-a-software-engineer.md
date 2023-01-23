@@ -71,7 +71,7 @@ It's been a while since I've practised archery as other hobbies have taken over,
 
 Bubbles! She’s a rescue Border Collie. When we adopted her, we had 40 kilos - double her recommended weight - of a very untrained, undisciplined dog to contend with. I’ve spent the last three years training, slimming and calming her down. She’s very soft now - if she wants a cuddle, she puts her paws on my shoulders. It’s been hard work, but so rewarding. Exactly like working on climate change.
 
-![Dog looking at camera](/images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar.jpg "Bubbles the dog (left) and Peter foraging with colleagues on a work teambuilding day (right)")
+![Dog looking at camera](/images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar-1-.jpg "Bubbles the dog (left) and Peter foraging with colleagues on a work teambuilding day (right)")
 
 B﻿ubbles the dog, and Peter foraging with colleagues on a work teambuilding day.
 
