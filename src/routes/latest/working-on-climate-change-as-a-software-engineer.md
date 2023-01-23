@@ -61,7 +61,7 @@ I'd say it’s the diverse skills that are needed. As it's not simply about impl
 
 ## And what’s challenged you?
 
-Climate Policy Radar is one of the earliest-stage startups I’ve worked in. To see such rapid growth and change has been challenging but really interesting. But I really like the streamlined approach we have to technology. A lot of companies use tech for the sake of it, but at CPR we’re careful about what we choose, making sure it aligns with our vision and direction - that’s a big positive.
+Climate Policy Radar is one of the earliest-stage startups I’ve worked in. To see such rapid growth and change has been challenging but really interesting. But I really like the streamlined approach we have to technology. A lot of companies use tech for the sake of it, but at CPR we’re careful about what we choose, making sure it aligns with our vision and direction - that’s a big positive. 
 
 ## Speaking of streamlined, I hear you're an amateur archer
 
@@ -71,7 +71,7 @@ It's been a while since I've practised archery as other hobbies have taken over,
 
 Bubbles! She’s a rescue Border Collie. When we adopted her, we had 40 kilos - double her recommended weight - of a very untrained, undisciplined dog to contend with. I’ve spent the last three years training, slimming and calming her down. She’s very soft now - if she wants a cuddle, she puts her paws on my shoulders. It’s been hard work, but so rewarding. Exactly like working on climate change.
 
-![Dog looking at camera](/images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar.jpg "Bubbles the dog (left) and Peter foraging with colleagues on a work teambuilding day (right)")
+![Dog looking at camera](/images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar-1-.jpg "Bubbles the dog (left) and Peter foraging with colleagues on a work teambuilding day (right)")
 
 B﻿ubbles the dog, and Peter foraging with colleagues on a work teambuilding day.
 
