@@ -2,7 +2,7 @@
 layout: latest
 title: Working on climate change as a software engineer
 date: 23 January 2023
-thumb: /images/peter-hooper-climate-policy-radar.jpg
+thumb: /images/working-on-climate-change-as-a-software-engineer/peter-hooper-climate-policy-radar.jpg
 topics:
   - Blog
 excerpt: Climate Policy Radar’s Peter Hooper tells us about work and life as a
