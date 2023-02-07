@@ -166,6 +166,22 @@
       ]
     },
     {
+      "name": "Sarah Goodenough",
+      "role": "Head of Policy",
+      "group": "Team",
+      "image": {
+        "src": "images/team/sarah-goodenough-climate-policy-radaer.jpg",
+        "alt": "Headshot of Sarah from Climate Policy Radar",
+        "width": 600,
+        "height": 812
+      },
+      "bio": "Sarah has over 5 years of experience in international non-State climate strategy, policy, strategic communications, and stakeholder engagement to advance an ambitious climate action agenda.",
+      "highlights": [
+        "She previously worked at the Centre for AI & Climate, leading the development of a UK Government-funded Net-Zero Data Space project in collaboration with the Global Partnership on AI. Prior to this, she worked in strategic communications at the UN Climate Change High-Level Champions and also at Global Optimism.",
+        "Sarah holds a BA in History from Oxford University and a Masters in Environmental Technology from Imperial College London, where she specialised in international environmental law and policy."
+      ]
+    },
+    {
       "name": "Peter Hooper, PhD",
       "role": "Software Engineering",
       "group": "Team",
