@@ -1,12 +1,6 @@
 {
   "partnerList": [
     {
-      "name": "Climate Parliament",
-      "group": "Partners",
-      "logo": "images/partners/climate_parl_logo_minus_strap-11-.jpg",
-      "url": "https://www.climateparl.net/"
-    },
-    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
@@ -29,6 +23,12 @@
       "logo": "images/partners/grantham-logo.png",
       "group": "Partners",
       "url": "https://www.lse.ac.uk/granthaminstitute/"
+    },
+    {
+      "name": "Climate Parliament",
+      "group": "Partners",
+      "logo": "images/partners/climate_parl_logo_minus_strap-11-.jpg",
+      "url": "https://www.climateparl.net/"
     },
     {
       "group": "Partners",
