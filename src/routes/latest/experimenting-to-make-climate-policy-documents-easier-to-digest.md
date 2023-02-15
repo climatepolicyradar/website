@@ -14,7 +14,7 @@ featured: false
 ---
 We recently experimented with some common [natural language processing](https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies) techniques to turn climate policies and laws into timelines of the dates mentioned within them. Dates can serve as key data points to track progress and climate commitments - who committed to halving emissions by 2030, phasing out gasoline and diesel cars by 2028, or doubling renewables by next year? 
 
-We think timelines can be an efficient and powerful way to present key information from long law and policy documents (the average length of laws and policies in our database is over 60 pages), making them easier to digest by the people tasked with their analysis. Our idea was inspired by a demo we saw on building a timeline from a Wikipedia page.
+We think timelines can be an efficient and powerful way to present key information from long law and policy documents (the average length of laws and policies in our database is over 60 pages), making them easier to digest by the people tasked with their analysis. Our idea was inspired by a demo we saw on [building a timeline from a Wikipedia page](https://observablehq.com/@winkjs/how-to-visualize-timeline-of-a-wiki-article).
 
 ## Building a prototype to extract dates from climate policies - the data science details
 
