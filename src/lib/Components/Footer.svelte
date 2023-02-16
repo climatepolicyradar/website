@@ -56,7 +56,7 @@
     <div class="c-site-footer__lower {$theme.footer === 'light' ? 'theme-light' : 'theme-dark'}">
       <div class="c-site-footer__address">
         Climate Policy Radar CIC
-        <br />Sustainable Workspaces
+        <br />Sustainable Ventures
         <br />County Hall, 3rd Floor
         <br />Westminster Bridge Road
         <br />London
