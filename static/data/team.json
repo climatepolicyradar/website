@@ -132,10 +132,10 @@
         "height": 812,
         "alt": "Headshot of Kalyan Dutia"
       },
-      "bio": "Kalyan is a data scientist specialising in Natural Language Processing and Open Data.",
+      "bio": "Kalyan is a data scientist specialising in natural language processing, open data and knowledge graphs.",
       "highlights": [
-        "Before joining Climate Policy Radar, he was a researcher at the Science Museum, working on an AHRC-funded project looking at connecting up the UK's museum collections using machine learning.",
-        "Prior to this he worked at IBM, consulting a broad range of clients on AI and NLP solutions.",
+        "Before joining Climate Policy Radar, he led a project which used natural language processing (NLP) to create a knowledge graph connecting together the UK’s museum collections at the Science Museum for a nationally-funded research project.",
+        "Prior to this he was a machine learning and data science consultant for IBM, where he led and contributed to several projects including industry-first conversational AI for the financial sector, search and retrieval for power plants, and computer vision for smart meter roll-outs and developed research assets applying recent advances from machine learning research (active learning, NLP interpretability methods) to product data science work.",
         "He holds an MEng in Engineering Science from Oxford University."
       ],
       "social": [
