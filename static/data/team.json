@@ -36,10 +36,10 @@
         "width": 600,
         "height": 811
       },
-      "bio": "Henry is a technology and product leader with over a decade of experience building startups, leveraging expertise in computer science, software engineering, data science and machine learning.",
+      "bio": "Henry is a technology and product leader with over a decade of experience building startups deploying innovative data- and machine learning-dense products",
       "highlights": [
-        "Before joining Climate Policy Radar, Henry worked in startups spanning music and performance, insurance, and telecoms, focused on building innovative and industry-changing products -- in recent years, targeted at helping solve the climate crisis.",
-        "Henry holds a PhD in Computer Science from the University of Warwick, involving research into the nature of cooperation in society and application of those insights to algorithmic societies."
+        "Leveraging expertise in computer science, software engineering, data science and machine learning, Henry holds an MEng and PhD in Computer Science from the University of Warwick (involving research into the nature of cooperation in society and application of those insights to algorithmic societies).",
+        "Henry has worked on products involving search, topic modelling, time series analytics, risk modelling, and IoT data at high scale, and is a guest lecturer on AI ethics and regulation at the Dickson Poon School of Law KCL and Notre Dame University."
       ],
       "social": []
     },
@@ -132,10 +132,10 @@
         "height": 812,
         "alt": "Headshot of Kalyan Dutia"
       },
-      "bio": "Kalyan is a data scientist specialising in Natural Language Processing and Open Data.",
+      "bio": "Kalyan is a data scientist specialising in natural language processing, open data and knowledge graphs.",
       "highlights": [
-        "Before joining Climate Policy Radar, he was a researcher at the Science Museum, working on an AHRC-funded project looking at connecting up the UK's museum collections using machine learning.",
-        "Prior to this he worked at IBM, consulting a broad range of clients on AI and NLP solutions.",
+        "Before joining Climate Policy Radar, he led a project which used natural language processing (NLP) to create a knowledge graph connecting together the UK’s museum collections at the Science Museum for a nationally-funded research project.",
+        "Prior to this he was a machine learning and data science consultant for IBM, where he led and contributed to several projects including industry-first conversational AI for the financial sector, search and retrieval for power plants, and computer vision for smart meter roll-outs and developed research assets applying recent advances from machine learning research (active learning, NLP interpretability methods) to product data science work.",
         "He holds an MEng in Engineering Science from Oxford University."
       ],
       "social": [
