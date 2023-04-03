@@ -11,7 +11,7 @@ excerpt: "We’re delighted to share the Climate Policy Radar Public Product
 author: Alan Wright
 featured: true
 ---
-We are delighted to share the [Climate Policy Radar Public Product Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad) - sketching the steps we’re taking today to reach our (very) ambitious future goals.  
+We are delighted to share [Climate Policy Radar's Public Product Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad) - sketching the steps we’re taking today to reach our (very) ambitious future goals. 
 
 Transparency is one of our core values, and it threads through everything we do and advocate for. We believe that being open about our own processes and priorities will lead us to make decisions that are rooted in the needs of our users and stakeholders. It will enable us to move, iterate, fail, and retry faster, in the face of the growing climate emergency.
 
