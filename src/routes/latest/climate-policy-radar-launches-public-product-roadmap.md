@@ -37,7 +37,7 @@ Law and policy documents are often long, and dense with data and insight. Becaus
 
 These concepts are the foundation on which we’re building a [knowledge graph](https://blog.google/products/search/introducing-knowledge-graph-things-not/), which will string together the concepts identified, and represent a network of connections and relationships between entities, like extreme weather events and adaptation measures aimed to address those. This opens up the ability to explore policy data in detail, and eventually, extend and connect it to other datasets - like budgets allocated, emissions, deforestations metrics and more - to start answering the big question of - what impact do these policies have?
 
-We are also building research tools to interrogate the data, including exploring how we can leverage large language models such BERT and OpenAI's ChatGPT and [GPT-4](https://twitter.com/NachmanyMichal/status/1635912421024972801) as virtual research assistants. This includes summarising and comparing text, or generating content maps of documents, as well as data visualisations, time series creation and more. 
+We are also building research tools to interrogate the data, including exploring how we can leverage large language models such as BERT and OpenAI's ChatGPT and [GPT-4](https://twitter.com/NachmanyMichal/status/1635912421024972801) as virtual research assistants. This includes summarising and comparing text, or generating content maps of documents, as well as data visualisations, time series creation and more. 
 
 ### 3: Enhancing our user interface ("User Interface")
 
