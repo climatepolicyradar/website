@@ -2,7 +2,7 @@
 layout: latest
 title: Climate Policy Radar launches public product roadmap
 date: 31 March 2023
-thumb: /images/climate-policy-radar-launches-public-product-roadmap/climate-policy-radar-public-product-roadmap.jpg
+thumb: /images/climate-policy-radar-launches-public-product-roadmap/wind-road.jpg
 topics:
   - Blog
 excerpt: "We’re delighted to share the Climate Policy Radar Public Product
