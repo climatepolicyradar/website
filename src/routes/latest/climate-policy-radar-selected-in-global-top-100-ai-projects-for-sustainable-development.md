@@ -3,7 +3,7 @@ layout: latest
 title: Climate Policy Radar selected in global top 100 AI projects for
   sustainable development
 date: 5 May 2023
-thumb: /images/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development/ircai_top100_excellent_banner_b-1-.jpg
+thumb: /images/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development/ircai_top100_excellent_badge.jpg
 topics:
   - Blog
 excerpt: Climate Policy Radar has been named among the world’s most promising
