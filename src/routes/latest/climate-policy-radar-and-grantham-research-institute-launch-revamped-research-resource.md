@@ -30,7 +30,7 @@ We’re continuing to work together to add new tools and data to this upgraded r
 
 ## New data
 
-Soon you’ll be able to access and search through documents submitted by national governments (and non-Party stakeholders) to the UNFCCC, including [nationally determined contributions](https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs) (NDCs) and submissions under the [first Global Stocktake](https://unfccc.int/topics/global-stocktake) - a Paris Agreement process designed to ‘take stock’ of progress towards its goals. 
+Soon you’ll be able to access and search through documents submitted to the UNFCCC, including [nationally determined contributions](https://unfccc.int/process-and-meetings/the-paris-agreement/nationally-determined-contributions-ndcs) (NDCs) and submissions under the [first Global Stocktake](https://unfccc.int/topics/global-stocktake) - a Paris Agreement process designed to ‘take stock’ of progress towards its goals. 
 
 And in the coming months, we’ll be working with partners at the Sabin Center for Climate Change Law at Columbia University to provide searchable [climate litigation cases](http://climatecasechart.com/), drawing on over a decade of data collection led by the Sabin Center.
 
