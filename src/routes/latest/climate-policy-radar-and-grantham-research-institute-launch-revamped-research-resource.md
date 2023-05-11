@@ -12,11 +12,11 @@ excerpt: We've launched our upgraded version of the Climate Change Laws of the
 author: Justine Alford, PhD
 featured: true
 ---
-We’re delighted to launch our upgraded version of the Climate Change Laws of the World database, offering new tools and features to make it easier to understand and analyse the global climate law and policy landscape.
+We’re delighted to launch our upgraded version of the [Climate Change Laws of the World](https://climate-laws.org/) database, offering new tools and features to make it easier to understand and analyse the global climate law and policy landscape.
 
 Climate Policy Radar and the Grantham Research Institute on Climate Change and the Environment at LSE have partnered to deliver the resource, which gives people free access to climate laws and policies from all over the world, and a suite of features to help explore them.
 
-The new features, which harness machine learning and [natural language processing](https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies) techniques, have been developed by Climate Policy Radar. They allow you to now search the full text of documents in the database, consisting of thousands of climate laws and policies from every country. 
+The new features, which harness machine learning and [natural language processing](https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies) techniques, have been developed by [Climate Policy Radar](https://app.climatepolicyradar.org/). They allow you to now search the full text of documents in the database, consisting of thousands of climate laws and policies from every country. 
 
 For example you can search for “adaptation finance” or “subsidies for electric vehicles” and see all the documents that mention these terms and related phrases.
 
