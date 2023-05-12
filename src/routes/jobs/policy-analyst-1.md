@@ -10,6 +10,12 @@ excerpt: "We are looking for a brilliant and committed Policy Analyst to join
 ---
 <!--StartFragment-->
 
+**About us**
+
+Climate Policy Radar is a startup on a mission to organise, analyse and democratise the world’s climate law and policy data. We build databases and research tools so people can discover, understand and generate data-driven law and policy insights. Harnessing data science and AI and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation. 
+
+We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a team of 13 and growing, we are now looking for a brilliant and committed Policy Analyst to join our team and help ensure we are at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape.
+
 **Roles and responsibilities**
 
 Working within the policy team and with the wider team, you’ll achieve impact by:
