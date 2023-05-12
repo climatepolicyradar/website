@@ -41,7 +41,7 @@ Working within the policy team and with the wider team, you’ll achieve impact 
 
 **W﻿e offer**
 
-* Salary £30k pa, depending on experience.
+* Salary c.£30K
 * Deep commitment to employee wellbeing: our policies include unlimited leave, flexible work hours, an annual well-being allowance and short Fridays.
 * Hybrid work setup: we meet as a team once or twice weekly. We have a stunning workspace overlooking the river in London’s old County Hall building.
 
