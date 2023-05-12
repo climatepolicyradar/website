@@ -4,8 +4,8 @@ title: Policy Analyst
 topics:
   - jobs
 date: 12 May 2023
-excerpt: "We are now looking for a brilliant and committed Policy Analyst to
-  join our team and help ensure we are at the forefront of understanding and
+excerpt: "We are looking for a brilliant and committed Policy Analyst to join
+  our team and help ensure we are at the forefront of understanding and
   analysing the rapidly evolving climate law and policy landscape. "
 ---
 <!--StartFragment-->
