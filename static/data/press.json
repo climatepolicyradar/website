@@ -1,6 +1,45 @@
 {
   "pressClippings": [
     {
+      "date": "25 April 2023",
+      "title": "Experts from the World Resources Institute and Climate Policy Radar discuss biodiversity and climate change",
+      "excerpt": "Biodiversity loss and human impacts are becoming a key component in climate change conversations. Experts discuss their views on how biodiversity loss and climate change are also impacting the financial sector. The conversation was part of Insider's event \"For a Better Future: Bridging Culture, Business, and Climate,\" which took place on Tuesday, April 18, 2023.",
+      "type": "Article",
+      "source": "Business Insider",
+      "url": "https://www.businessinsider.com/experts-share-their-take-on-biodiversity-and-climate-change-2023-4?r=US&IR=T",
+      "logo": {
+        "alt": "Business Insider logo",
+        "src": "images/press/1920px-business_insider_logo.svg.png"
+      },
+      "background": "#5fc8a1"
+    },
+    {
+      "date": "4 April 2023",
+      "title": "The UK’s Climate Policy Radar and Chancery Lane Project named to Personio Foundation’s Impact Portfolio",
+      "excerpt": "Munich’s Personio Foundation, the benevolent arm of HRtech giant Personio has announced the addition of seven new organisations to its 2023 Impact Fund, including UK-based Climate Policy Radar and Chancery Lane Project.",
+      "background": "#8e73f1",
+      "logo": {
+        "src": "images/press/tech.eu-logo-positive-web-1-.png",
+        "alt": "Tech.eu logo"
+      },
+      "url": "https://tech.eu/2023/04/04/the-uks-climate-policy-radar-and-chancery-lane-project-named-to-personio-foundations-impact-portfolio/",
+      "source": "Tech.eu",
+      "type": "Article"
+    },
+    {
+      "date": "23 March 2023",
+      "title": "“We need to be daring”: How climate tech can get us to net zero",
+      "excerpt": "Climate tech is topping the agenda for European investors and $15bn of capital was raised last year. What solutions are emerging from this influx of investment? How are policymakers driving change, and supporting innovative companies? To answer these questions, we put together a panel representing different stakeholders in the journey to net zero, including Michal Nachmany, CEO and founder of Climate Policy Radar.",
+      "background": "#e56b57",
+      "type": "Article",
+      "source": "Sifted",
+      "url": "https://sifted.eu/articles/climate-tech-net-zero-talks",
+      "logo": {
+        "src": "images/press/sifted-logo.avif",
+        "alt": "Sifted logo"
+      }
+    },
+    {
       "date": "1 August 2022",
       "title": "Heat waves are hitting around the globe. Scientists say climate change is making them more frequent",
       "excerpt": "\"This is the climate change that we've been promised by scientists,\" Michal Nachmany, founder of Climate Policy Radar, told CBS News foreign correspondent Ramy Inocencio about record-breaking temperatures in the U.K. this week.",
