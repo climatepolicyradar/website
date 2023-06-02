@@ -33,7 +33,7 @@
         href="https://climatepolicyradar.org"
         target="_blank">climatepolicyradar.org</a
       >), app (accessible via
-      <a href="https://app.climatepolicyradar.org" target="_blank">app.climatepolicyradar.org</a>, partner sites which
+      <a href="https://app.climatepolicyradar.org" target="_blank">app.climatepolicyradar.org</a>), partner sites which
       use CPR’s technology (for example
       <a href="https://climate-laws.org" target="_blank">climate-laws.org</a>, and any other CPR software (for example
       gst1.org), collectively referred to as ‘websites and apps’. We may update this policy as we expand our online
