@@ -44,30 +44,6 @@
       "social": []
     },
     {
-      "name": "Justine Alford, PhD",
-      "role": "Communication and Partnerships",
-      "image": {
-        "src": "images/team/justine-2-.jpg",
-        "alt": "Headshot of Justine Alford"
-      },
-      "bio": "Justine is a communications and partnerships manager with almost a decade of experience in science communications and engagement.",
-      "group": "Team",
-      "highlights": [
-        "Justine started her career as a science journalist before moving into research communications at Cancer Research UK, where she was a spokesperson for the charity, and Imperial College London's Institute of Global Health Innovation, where she directed all internal and external communications and led external relations.",
-        "She holds a BSc in Biological Sciences and a PhD in Life Sciences from the University of Warwick, where she researched HIV. She also has research experience in climate change and mental health."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/justine-alford-44976167/"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/LamnidaeBlue"
-        }
-      ]
-    },
-    {
       "name": "Callie Coop",
       "role": "People and Operations",
       "group": "Team",
@@ -94,32 +70,6 @@
         "In his own words: “Data is like the fluid of a chemical process, we take in raw data, process it and enrich it to make it usable and valuable in the most efficient and cost-effective way possible; much like a chemical process.” ",
         "Outside of work, Mark is a keen track and field athlete competing internationally for Wales. ",
         "  Mark holds a master's degree in chemical engineering from the University of Birmingham; something that he believes translates well to data engineering."
-      ]
-    },
-    {
-      "name": "Marcus Davies",
-      "role": "Policy",
-      "group": "Team",
-      "image": {
-        "src": "images/team/marcus.jpg",
-        "width": 600,
-        "height": 812,
-        "alt": "Headshot of Marcus Davies"
-      },
-      "bio": "Marcus is a policy analyst with experience working on a range of international climate change policy issues.",
-      "highlights": [
-        "He previously worked in the UK Civil Service on issues including climate diplomacy, trade and climate change and EU policy.  His policy skills include research, analysis, briefing and project management.",
-        "He holds a BA in Classics and French from Oxford University and a Masters in Linguistics from SOAS, where he researched postcolonial sociolinguistics."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/marcus-davies-9b0655143/"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/marcusodavies"
-        }
       ]
     },
     {
