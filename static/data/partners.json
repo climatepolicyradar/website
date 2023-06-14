@@ -1,6 +1,18 @@
 {
   "partnerList": [
     {
+      "url": "https://www.personio.foundation/",
+      "name": "Personio Foundation",
+      "group": "Funders",
+      "logo": "images/partners/personio-logo.png"
+    },
+    {
+      "url": "https://www.climateworks.org/",
+      "logo": "images/partners/climateworks_logo.png",
+      "name": "Climateworks Foundation",
+      "group": "Funders"
+    },
+    {
       "name": "Bezos Earth Fund",
       "group": "Funders",
       "logo": "images/partners/bezos-earth-fund_logo.png",
