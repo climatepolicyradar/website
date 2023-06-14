@@ -1,6 +1,12 @@
 {
   "partnerList": [
     {
+      "name": "Bezos Earth Fund",
+      "group": "Funders",
+      "logo": "images/partners/bezos-earth-fund_logo.png",
+      "url": "https://www.bezosearthfund.org/"
+    },
+    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
