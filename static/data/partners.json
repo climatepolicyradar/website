@@ -1,24 +1,6 @@
 {
   "partnerList": [
     {
-      "url": "https://www.personio.foundation/",
-      "name": "Personio Foundation",
-      "group": "Funders",
-      "logo": "images/partners/personio-logo.png"
-    },
-    {
-      "url": "https://www.climateworks.org/",
-      "logo": "images/partners/climateworks_logo.png",
-      "name": "Climateworks Foundation",
-      "group": "Funders"
-    },
-    {
-      "name": "Bezos Earth Fund",
-      "group": "Funders",
-      "logo": "images/partners/bezos-earth-fund_logo.png",
-      "url": "https://www.bezosearthfund.org/"
-    },
-    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
@@ -35,6 +17,24 @@
       "logo": "images/partners/subak-logo.png",
       "group": "Funders",
       "url": "https://climatesubak.org"
+    },
+    {
+      "url": "https://www.personio.foundation/",
+      "name": "Personio Foundation",
+      "group": "Funders",
+      "logo": "images/partners/personio-logo.png"
+    },
+    {
+      "url": "https://www.climateworks.org/",
+      "logo": "images/partners/climateworks_logo.png",
+      "name": "Climateworks Foundation",
+      "group": "Funders"
+    },
+    {
+      "name": "Bezos Earth Fund",
+      "group": "Funders",
+      "logo": "images/partners/bezos-earth-fund_logo.png",
+      "url": "https://www.bezosearthfund.org/"
     },
     {
       "name": "LSE",
