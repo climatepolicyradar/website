@@ -4,7 +4,7 @@ title: Using Augmented Intelligence to support the UN Global Stocktake
 date: 21 June 2023
 thumb: /images/using-augmented-intelligence-to-support-the-un-global-stocktake/snap-from-bonn-plenary-room.png
 topics:
-  - Blog
+  - News
 excerpt: >-
   The first UN Climate Change Global Stocktake is a crucial opportunity for the
   world to come together and evaluate collective progress towards delivering the
