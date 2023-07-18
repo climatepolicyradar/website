@@ -4,7 +4,7 @@ title: Augmented Intelligence
 date: 18 July 2023
 thumb: /images/augmented-intelligence/augmented-intelligence.png
 topics:
-  - Blog
+  - News
 excerpt: Welcome to Climate Policy Radar’s first newsletter! We have been busy
   over the last few months, and we have some exciting updates to share with you.
 featured: true
