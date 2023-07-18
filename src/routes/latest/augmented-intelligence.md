@@ -7,7 +7,7 @@ topics:
   - Blog
 excerpt: Welcome to Climate Policy Radar’s first newsletter! We have been busy
   over the last few months, and we have some exciting updates to share with you.
-featured: false
+featured: true
 ---
 ### Welcome to Climate Policy Radar’s first newsletter! We have been busy over the last few months, and we have some exciting updates to share with you.
 
