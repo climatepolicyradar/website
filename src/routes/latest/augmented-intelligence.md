@@ -45,7 +45,7 @@ We’re continuing to work together to add new tools and data to this upgraded r
 
 ### Launching the Global Stocktake Explorer﻿
 
-At the UN Climate Change [Bonn Climate Conference](https://unfccc.int/sb58?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Bonn Climate Conference") in June, we launched the [Global Stocktake Explorer](http://gst1.org/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Global Stocktake Explorer"): an AI-powered search engine to enable users to quickly and easily understand and analyse all inputs to the Global Stocktake ahead of the global UN climate conference [COP28](https://www.cop28.com/en/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "COP28") in Dubai this December.
+At the UN Climate Change [Bonn Climate Conference](https://unfccc.int/sb58?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Bonn Climate Conference") in June, we launched the [Global Stocktake Explorer](https://gst1.org/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Global Stocktake Explorer"): an AI-powered search engine to enable users to quickly and easily understand and analyse all inputs to the Global Stocktake ahead of the global UN climate conference [COP28](https://www.cop28.com/en/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "COP28") in Dubai this December.
 
 Designed to assess the global response to the climate crisis every five years, the first UN Climate Change Global Stocktake has pulled together over 1,600 documents with insights and recommendations from governments and non-governmental organisations around the world to help drive climate action this decade.
 
@@ -59,7 +59,7 @@ Our new prototype advances technical capabilities to understand and analyse the 
 
 We hope that this prototype will help deliver immediate impact in support of the official UN process, and we are committed to rapidly iterating and improving our work – we would love to hear from you with any and all ideas, comments, challenges, and thoughts. Find out how to get in touch via [our contact page](https://gst1.org/contact/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Contact Us").
 
-S﻿tart exploring at [gst1.org](gst1.org)
+S﻿tart exploring at [gst1.org](https://gst1.org/)
 
 ![](/images/augmented-intelligence/20230616_123429_original-1-.jpg)
 
