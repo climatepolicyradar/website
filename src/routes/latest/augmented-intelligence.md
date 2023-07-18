@@ -31,6 +31,10 @@ Our [main web app](http://app.climatepolicyradar.org/?utm_source=brevo&utm_camp
 * Events from Climate Policy Radar
 * How to get involved
 
+D﻿on't want to miss future updates? [Sign up to our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv)
+
+[](<A﻿re you new here? [Sign up to our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv)>)
+
 ### Powered by AI: Climate Change Laws of the World
 
 In May this year, we partnered with the Grantham Research Institute on Climate Change and the Environment at the London School of Economics and launched our upgraded version of the [Climate Change Laws of the World database](https://climate-laws.org/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Climate Change Laws of the World"), offering new tools and features to make it easier to understand and analyse the global climate law and policy landscape.
@@ -65,8 +69,6 @@ S﻿tart exploring at [gst1.org](https://gst1.org/)
 
 Our data scientist Kalyan, who led the development of the work on the Global Stocktake Explorer, presented at the Turing Institute’s working group on knowledge graphs. See his slides [here](https://docs.google.com/presentation/d/1MbYrCa1fhcU7v1X-gLh2sxWonxJpw9uZ5Eiy7qLbRt8/edit?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Turing Presentation Slides").
 
-
-
 ### Public Product Roadmap: new features coming soon
 
 In March we published our first [Public Product Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad&utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Public Product Roadmap") – sketching the steps we’re taking today to reach our (very) ambitious future goals.
@@ -78,8 +80,6 @@ We’re currently working to provide automatically generated summaries of docume
 Check out our Public Product Roadmap to see what upgrades are coming next, and let us know if there’s anything you think we should add to the list.
 
 C﻿heck out our [Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad)
-
-
 
 ### Events from Climate Policy Radar
 
@@ -98,12 +98,14 @@ Our CEO Michal also spoke at the [NLP for Sustainable Finance Symposium 2023](h
 * ‘Digital Resources for Climate Law’ panel with our partners from LSE’s Grantham Research Institute, Sabin Center at Columbia Law School, and Laws.Africa at [World Law Congress](https://wlc-nyc.com/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "World Law Congress") on Thursday 20th July
 * [WIRED Impact](https://events.wired.co.uk/impact?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "WIRED Impact") - London, 21 November 2023
 
-
-
 ### G﻿et involved: tell us what you think
 
 Your feedback helps us design our tool better. Can you spare 20 minutes for a quick Zoom call with us? You don’t need to have used Climate Policy Radar, and you don’t need to prepare.
 
 [Sign up for a chat](https://calendly.com/alan-climate-policy-radar/feedback-conversation?month=2022-11&utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email) with our Product Manager, Alan.
+
+
+
+A﻿re you new here? [Sign up to our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv)
 
 <!--EndFragment-->
