@@ -2,7 +2,7 @@
 layout: latest
 title: Augmented Intelligence
 date: 18 July 2023
-thumb: /images/augmented-intelligence/snap-from-bonn-plenary-room.png
+thumb: /images/augmented-intelligence/augmented-intelligence.png
 topics:
   - Blog
 excerpt: Welcome to Climate Policy Radar’s first newsletter! We have been busy
