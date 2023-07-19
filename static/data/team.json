@@ -146,20 +146,6 @@
       ]
     },
     {
-      "name": "Stefan Lavelle",
-      "role": "Data Science",
-      "group": "Team",
-      "image": {
-        "src": "images/team/stefan-lavelle-climate-policy-radar.jpg",
-        "alt": "Headshot of Stefan Lavelle"
-      },
-      "bio": "Stefan is a data scientist and econometrician with extensive experience in policy and climate related work.",
-      "highlights": [
-        "Prior to joining Climate Policy Radar, he worked as a computer vision engineer using satellite data to track emissions at industrial plants. This followed a brief stint in finance as a data scientist at a private equity firm. Previously, Stefan was an economist for the UK civil service and focused on designing and simulating large procurement auctions.",
-        "Stefan holds a degree in economics from the University of Cambridge."
-      ]
-    },
-    {
       "name": "Tina Marchand",
       "role": "Research",
       "group": "Team",
