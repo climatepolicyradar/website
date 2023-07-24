@@ -18,7 +18,7 @@ We believe that by enabling users to search the full text of documents originall
 
 This new functionality is one of our most asked for features, and it has proved popular with users of our [Global Stocktake Explorer](https://gst1.org/) who have had access to translated search matches since June 2023 as part of our work to support the UNFCCC official process this year.
 
-#﻿# How does it work
+## How does it work
 
 Documents are translated to English using Google’s Cloud Translation API. While the quality of auto-translation does not always capture full meaning and nuance from the original language, we hope that it serves as a first step to improve accessibility and reveals which national jurisdictions are discussing and addressing critical areas of climate action that may have previously gone overlooked. 
 
@@ -32,7 +32,7 @@ Searching a non English HTML document will only show English translations of all
 
 Even though the quality of auto-translation does not always capture full meaning and nuance from the original language, this is a significant step forward in enabling researchers, policymakers, and analysts to uncover the full depth and breadth of national legislation and policymaking underway across the world that may have continued unnoticed.
 
-#﻿# Our plans for the future
+## Our plans for the future
 
 Introducing this new functionality is the first step as part of our mission to democratise access to national climate law and policy data. In the coming months we are planning to enable people to:
 -﻿ Switch between the English and original language version of passages that match a search. This will make the passages easier to find and translations easier to compare.
@@ -44,6 +44,6 @@ Both of these features will enable users
 
 Longer term, we want to have a multilingual user interface so that users can search the site and view results in different languages.  French and Portuguese are the first languages that we would like to support. Check out our [public product roadmap](https://www.notion.so/climatepolicyradar/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad) to learn more about our plans for the future.
 
-#﻿# Tell us your thoughts
+### Tell us your thoughts
 
 We’d love to hear feedback on this feature. If you want to share your ideas, please [get in touch](https://climatepolicyradar.org/contact) or [schedule a conversation](https://calendly.com/alan-climate-policy-radar/feedback-conversation) with us to discuss.
