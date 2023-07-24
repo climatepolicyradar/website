@@ -33,8 +33,6 @@ Our [main web app](http://app.climatepolicyradar.org/?utm_source=brevo&utm_camp
 
 D﻿on't want to miss future updates? [Sign up to our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv)
 
-[](<A﻿re you new here? [Sign up to our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv)>)
-
 ### Powered by AI: Climate Change Laws of the World
 
 In May this year, we partnered with the Grantham Research Institute on Climate Change and the Environment at the London School of Economics and launched our upgraded version of the [Climate Change Laws of the World database](https://climate-laws.org/?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Climate Change Laws of the World"), offering new tools and features to make it easier to understand and analyse the global climate law and policy landscape.
