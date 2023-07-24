@@ -160,6 +160,35 @@
       ]
     },
     {
+      "name": "Roshan Melwani",
+      "role": "Policy",
+      "group": "Team",
+      "image": {
+        "src": "images/team/roshan.jpg",
+        "alt": "Roshan headshot"
+      },
+      "bio": "Roshan is a policy officer with six years of experience working at the intersection of climate action, legal advocacy and humanitarian protection across the UN, private and third sector.",
+      "highlights": [
+        "Prior to joining Climate Policy Radar, Roshan worked at UNHCR's Office of the Special Advisor on Climate Action, where he provided strategic guidance and policy input to help shape UNHCR's response to the climate emergency.",
+        "He also brings a prior track record advancing strategic human rights litigation in Hong Kong, co-ordinating public-private partnerships and delivering ambitious CSR outcomes for a multinational apparel manufacturer.",
+        "Roshan holds an LLB from the London School of Economics and a Masters of Public Policy from Oxford University's Blavatnik School of Government."
+      ]
+    },
+    {
+      "name": "Nadia Stones",
+      "role": "Business Support",
+      "group": "Team",
+      "image": {
+        "alt": "Headshot of Nadia Stones",
+        "src": "images/team/nadia.jpg"
+      },
+      "bio": "Nadia has a diverse background in supporting executives and People and Business Operations. Her journey spans various industries, including Climate Tech and Premier League Football, providing her with a deep understanding of fast-paced and scaling environments.",
+      "highlights": [
+        "Nadia's academic journey includes studying Professional Sport Management and Administration, and she is currently working towards her CIPD 3 qualification. Moreover, during the pandemic, she trained to support new mothers during their feeding journey, on a voluntary basis. ",
+        " Passionate about climate change, especially climate justice, Nadia is driven to make a positive impact on the environment and society as a whole."
+      ]
+    },
+    {
       "name": "Alan Wright",
       "role": "Product Management",
       "group": "Team",
