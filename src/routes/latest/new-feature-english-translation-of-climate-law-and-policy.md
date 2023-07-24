@@ -24,11 +24,11 @@ Documents are translated to English using Google’s Cloud Translation API. Whil
 
 Searching a non English PDF document will show English translations of all the passages that match the search term. These will also be highlighted in the original language PDF document. Clicking on the matches will navigate the user to the place in the document where the match appears.  Here is an [example search of “flood defence” in the “Adaptation strategy to climate change in the Czech Republic”](https://climate-laws.org/documents/adaptation-strategy-to-climate-change-in-the-czech-republic_213b?q=flood+defence&l=czechia).
 
-LUANGUAGE IMAGE HERE
+![Screenshot of the app of an English translation of a Czech document](/images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.16.57.png "Screenshot of the app of an English translation of a Czech document")
 
 Searching a non English HTML document will only show English translations of all the passages that match the search term.  Highlights over the full text of the document are not available for HTML documents yet, but you can view the original source document and translate it using Google Translate in your browser. Here is an [example search of “marine pollution” in the Vietnamese “Law on Marine and Island Resources and Environment No.82/2015/QH1”](https://climate-laws.org/documents/law-on-marine-and-island-resources-and-environment-no-82-2015-qh1_50b3?q=marine+pollution&l=vietnam).
 
-H﻿TML IMAGE HERE
+![Screenshot of the app of matching passages within an HTML document](/images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.17.27.png "Screenshot of the app of matching passages within an HTML document")
 
 Even though the quality of auto-translation does not always capture full meaning and nuance from the original language, this is a significant step forward in enabling researchers, policymakers, and analysts to uncover the full depth and breadth of national legislation and policymaking underway across the world that may have continued unnoticed.
 
