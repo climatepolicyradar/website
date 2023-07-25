@@ -2,7 +2,7 @@
 layout: latest
 title: "New feature: English translation of climate law and policy"
 date: 25 July 2023
-thumb: /images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.16.57.png
+thumb: /images/new-feature-english-translation-of-climate-law-and-policy/translation_blog.jpg
 topics:
   - News
 excerpt: Climate Policy Radar’s search tool breaks a critical research barrier
