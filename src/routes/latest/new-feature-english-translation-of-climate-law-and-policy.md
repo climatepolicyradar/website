@@ -36,10 +36,9 @@ Even though the quality of auto-translation does not always capture full meaning
 ## Our plans for the future
 
 Introducing this new functionality is the first step as part of our mission to democratise access to national climate law and policy data. In the coming months we are planning to enable people to:
--﻿ Switch between the English and original language version of passages that match a search. This will make the passages easier to find and translations easier to compare.
--﻿ See the full text of the document and highlights, in both English and the original language, for both HTML and PDF documents. This will enable the user to see where the passages appear within the context of the full document.
 
-Both of these features will enable users 
+* Switch between the English and original language version of passages that match a search. This will make the passages easier to find and translations easier to compare.
+* See the full text of the document and highlights, in both English and the original language, for both HTML and PDF documents. This will enable the user to see where the passages appear within the context of the full document.
 
 [Sign up to be notified](https://docs.google.com/forms/d/e/1FAIpQLSc3ZL7n5TpRUqqc7xfcpsj4jf7CIvUcretgy3O9ttuzdn-rBA/viewform) when this functionality is available.
 
