@@ -1,13 +1,14 @@
 ---
 layout: latest
 title: "New feature: English translation of climate law and policy"
-date: 24 July 2023
+date: 25 July 2023
 thumb: /images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.16.57.png
 topics:
   - News
 excerpt: Climate Policy Radar’s search tool breaks a critical research barrier
   by enabling users to search non English law and policy documents, and see
   English translations of passages that match their search.
+author: Alan Wright
 featured: false
 ---
 **Climate Policy Radar’s search tool breaks a critical research barrier by enabling users to search non English law and policy documents, and see English translations of passages that match their search.**
@@ -22,11 +23,11 @@ This new functionality is one of our most asked for features, and it has proved 
 
 Documents are translated to English using Google’s Cloud Translation API. While the quality of auto-translation does not always capture full meaning and nuance from the original language, we hope that it serves as a first step to improve accessibility and reveals which national jurisdictions are discussing and addressing critical areas of climate action that may have previously gone overlooked. 
 
-Searching a non English PDF document will show English translations of all the passages that match the search term. These will also be highlighted in the original language PDF document. Clicking on the matches will navigate the user to the place in the document where the match appears.  Here is an [example search of “flood defence” in the “Adaptation strategy to climate change in the Czech Republic”](https://climate-laws.org/documents/adaptation-strategy-to-climate-change-in-the-czech-republic_213b?q=flood+defence&l=czechia).
+Searching a non English PDF document will show English translations of all the passages that match the search term. These will also be highlighted in the original language PDF document. Clicking on the matches will navigate the user to the place in the document where the match appears.  Here is an [example search](https://climate-laws.org/documents/adaptation-strategy-to-climate-change-in-the-czech-republic_213b?q=flood+defence&l=czechia) of “flood defence” in the “Adaptation strategy to climate change in the Czech Republic”.
 
 ![Screenshot of the app of an English translation of a Czech document](/images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.16.57.png "Screenshot of the app of an English translation of a Czech document")
 
-Searching a non English HTML document will only show English translations of all the passages that match the search term.  Highlights over the full text of the document are not available for HTML documents yet, but you can view the original source document and translate it using Google Translate in your browser. Here is an [example search of “marine pollution” in the Vietnamese “Law on Marine and Island Resources and Environment No.82/2015/QH1”](https://climate-laws.org/documents/law-on-marine-and-island-resources-and-environment-no-82-2015-qh1_50b3?q=marine+pollution&l=vietnam).
+Searching a non English HTML document will only show English translations of all the passages that match the search term.  Highlights over the full text of the document are not available for HTML documents yet, but you can view the original source document and translate it using Google Translate in your browser. Here is an [example search](https://climate-laws.org/documents/law-on-marine-and-island-resources-and-environment-no-82-2015-qh1_50b3?q=marine+pollution&l=vietnam) of “marine pollution” in the Vietnamese “Law on Marine and Island Resources and Environment No.82/2015/QH1”.
 
 ![Screenshot of the app of matching passages within an HTML document](/images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.17.27.png "Screenshot of the app of matching passages within an HTML document")
 
