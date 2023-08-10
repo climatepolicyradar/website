@@ -135,6 +135,21 @@
         </p>
       </li>
       <li>
+        <b>Matomo</b>
+        <p>
+          We use Matomo for the same purposes as Google Analytics. You may opt‐out by configuring your browser settings
+          to block the use of cookies.
+        </p>
+        <p>
+          For further details, please see the Matomo Cloud <a
+            href="https://matomo.org/matomo-cloud-privacy-policy/"
+            target="_blank"
+          >
+            Privacy Policy
+          </a>.
+        </p>
+      </li>
+      <li>
         <b>YouTube</b>
         <p>
           We may embed YouTube videos in our websites and apps that use cookies as part of their operation. This
