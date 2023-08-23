@@ -1,6 +1,12 @@
 {
   "partnerList": [
     {
+      "name": "Schmidt Futures",
+      "group": "Partners",
+      "logo": "images/partners/schmidt_futures_logo.png",
+      "url": "https://www.schmidtfutures.com/"
+    },
+    {
       "name": "Quadrature",
       "logo": "images/partners/quadrature-logo.png",
       "group": "Funders",
