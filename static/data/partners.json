@@ -89,6 +89,12 @@
       "group": "Partners",
       "logo": "images/partners/dla-piper-logo.png",
       "url": "https://www.dlapiper.com/en/uk/"
+    },
+    {
+      "name": "Schmidt Futures",
+      "group": "Partners",
+      "logo": "images/partners/schmidt_futures_logo.png",
+      "url": "https://www.schmidtfutures.com/"
     }
   ]
 }
