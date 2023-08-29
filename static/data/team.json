@@ -146,6 +146,20 @@
       ]
     },
     {
+      "name": "Matyas Juhasz",
+      "role": "Data Science",
+      "group": "Team",
+      "image": {
+        "src": "images/team/matyas.jpg",
+        "alt": "Matyas headshot"
+      },
+      "bio": "Matyas is a data scientist specialising in natural language processing. Before joining CPR, he worked at Cohere, Xapien and PwC.",
+      "highlights": [
+        "Matyas has experience in training LLMs as well as building applications on top of them. He is passionate about understanding and discovering hidden patterns in datasets as well as building ethical AI applications with clear benefits to users and society.",
+        "Matyas holds a MSci in Mathematics with Economics from UCL."
+      ]
+    },
+    {
       "name": "Tina Marchand",
       "role": "Research",
       "group": "Team",
