@@ -13,7 +13,7 @@ excerpt: We are seeking an experienced and well-rounded Communications Lead to
 
 C﻿limate Policy Radar is on a mission to organise, analyse and democratise the world’s climate law and policy data. We build databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies and corporate policies. Harnessing data science and AI and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation.
 
-We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a team of 17 (and growing) we are now seeking an experienced and well-rounded Communications Lead to join the team
+We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a team of 17 (and growing) we are now seeking an experienced and well-rounded Communications Lead to join the team.
 
 ## Role overview
 
