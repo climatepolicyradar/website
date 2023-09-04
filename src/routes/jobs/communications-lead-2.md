@@ -7,6 +7,8 @@ date: 4 September 2023
 excerpt: We are seeking an experienced and well-rounded Communications Lead to
   join the team!
 ---
+**Full time | £55,000-£65,000 DOE | Central London-Hybrid**
+
 ## Who we are
 
 C﻿limate Policy Radar is on a mission to organise, analyse and democratise the world’s climate law and policy data. We build databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies and corporate policies. Harnessing data science and AI and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation.
