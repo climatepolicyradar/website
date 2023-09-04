@@ -46,18 +46,19 @@ The primary responsibility of this role is to develop and execute a communicatio
 ## What we offer
 
 * Salary £55-£65k DOE
-* Deep commitment to employee wellbeing: our policies include unlimited leave, hybrid and flexible work hours, and wellbeing allowance. We are currently trialling a 4-day work week (same pay, all Friday’s off) with a hope to make this a permanent arrangement.
+* Deep commitment to employee wellbeing: our policies include unlimited leave, hybrid and flexible work hours, and wellbeing allowance. We are currently trialling a 4-day work week (same pay, all Fridays off) with an intention and hope to make this a permanent arrangement. 
 * We have a fantastic workspace overlooking the river in London’s County Hall Building, and we come into the office twice a week. 
 * Learn more about our values﻿
 
 ## Interview process
 
-We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage. 
+We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating our processes and expectations clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage. 
 
-1. 30-minute introductory call
-2. 2-3 hour at home task
-3. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)
-4. Offer subject to references
+1. A 30-minute introductory call 
+2. A 2-3 hour at home task
+3. 90 minute interview 
+4. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting).  
+5. Offer, subject to references
 
 If you have a disability or special need that requires accommodation during the process of application and selection, please let us know. 
 
