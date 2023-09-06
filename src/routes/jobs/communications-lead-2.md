@@ -67,3 +67,7 @@ If you have a disability or special need that requires accommodation during the 
 Climate Policy Radar is proud to be an equal-opportunity workplace and is an affirmative action employer. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
 
 We actively encourage applicants from diverse and historically underrepresented backgrounds. Not sure if you tick all the boxes? That’s okay - people rarely tick \*all\* the boxes. If you feel you have the potential to do well in this role, and feel like you align with our values, are excited about working in Climate Change and AI? Please apply! We’d love to hear from you.
+
+
+
+A﻿pplication close date: 13 October 2023
