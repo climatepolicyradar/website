@@ -68,6 +68,4 @@ Climate Policy Radar is proud to be an equal-opportunity workplace and is an aff
 
 We actively encourage applicants from diverse and historically underrepresented backgrounds. Not sure if you tick all the boxes? That’s okay - people rarely tick \*all\* the boxes. If you feel you have the potential to do well in this role, and feel like you align with our values, are excited about working in Climate Change and AI? Please apply! We’d love to hear from you.
 
-
-
-A﻿pplication close date: 13 October 2023
+A﻿pplication close date: 29 September 2023
