@@ -69,5 +69,4 @@ We spoke to an economist at an international organisation. They are using spread
 
 These are just some of the many things that we have learnt from user research so far, but we have a lot more to learn. We have many thousands of people using our tools every week.  We want to speak to as many users as we can so we can understand what areas of improvement to focus on and test out designs for new features.
 
-**\
-Would you like to have a user feedback conversation with us? Or do you know anyone who might? [Book a slot](https://calendly.com/alan-climate-policy-radar/feedback-conversation) to speak to our team.**
+**Would you like to have a user feedback conversation with us? Or do you know anyone who might? [Book a slot](https://calendly.com/alan-climate-policy-radar/feedback-conversation) to speak to our team.**
