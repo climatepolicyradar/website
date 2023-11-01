@@ -1,7 +1,7 @@
 ---
 layout: latest
 title: The value of user research
-date: 1 November 2023
+date: 31 October 2023
 thumb: /images/the-value-of-user-research/value-of-user-research.jpg
 topics:
   - Blog
