@@ -5,14 +5,11 @@ date: 1 November 2023
 thumb: /images/the-value-of-user-research/value-of-user-research.jpg
 topics:
   - Blog
-excerpt: "When we started building Climate Policy Radar, we had lots of
-  assumptions about who our users were and what solutions would help them. User
-  research has helped us ensure our research tool meets the needs of the people
-  we’re building it for - mainly “knowledge workers”. These are people
-  processing large quantities of messy textual data: policy analysts, academics
-  and risk modellers. In this blog post, we’ll explain why we carry out user
-  research, how we’ve done it so far, what we’re learning, and some of the
-  improvements we’re making in response."
+excerpt: When we started building Climate Policy Radar, we had lots of
+  assumptions about who our users were and what solutions would help them. In
+  this blog post, we’ll explain why we carry out user research, how we’ve done
+  it so far, what we’re learning, and some of the improvements we’re making in
+  response.
 author: Alan Wright
 featured: false
 ---
