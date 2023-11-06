@@ -135,16 +135,13 @@
         </p>
       </li>
       <li>
-        <b>Matomo</b>
+        <b>PostHog</b>
         <p>
-          We use Matomo for the same purposes as Google Analytics. You may opt‐out by configuring your browser settings
+          We use PostHog for the same purposes as Google Analytics. You may opt-out by configuring your browser settings
           to block the use of cookies.
         </p>
         <p>
-          For further details, please see the Matomo Cloud <a
-            href="https://matomo.org/matomo-cloud-privacy-policy/"
-            target="_blank"
-          >
+          For further details, please see the PostHog <a href="https://posthog.com/privacy" target="_blank">
             Privacy Policy
           </a>.
         </p>
