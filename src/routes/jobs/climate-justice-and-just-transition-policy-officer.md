@@ -10,9 +10,9 @@ Climate Policy Radar is a startup on a mission to organise, analyse and democrat
 
 We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a team of 17 and growing, we are now looking for a brilliant and committed Climate Justice Researcher/Policy officer to join our team and help ensure we are not only at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape - but that we do so with a clear focus on principles and practices of environmental and climate justice and just transition, in order to:
 
-* contribute to reducing inequalities and injustice related to and exacerbated by climate change  
-* contribute to reducing adverse impacts on communities arising from the climate and energy transitions
-* increase visibility and representation of environmental justice and just transition related issues of impacted communities 
+* Contribute to reducing inequalities and injustice related to and exacerbated by climate change  
+* Contribute to reducing adverse impacts on communities arising from the climate and energy transitions
+* Increase visibility and representation of environmental justice and just transition related issues of impacted communities 
 
 ## R﻿ole and responsibilities
 
