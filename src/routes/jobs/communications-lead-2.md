@@ -7,7 +7,7 @@ date: 4 September 2023
 excerpt: We are seeking an experienced and well-rounded Communications Lead to
   join the team!
 ---
-**Full time | £55,000-£65,000 DOE | Central London-Hybrid**
+Full time | £55,000-£65,000 DOE | Central London-Hybrid
 
 ## Who we are
 
@@ -54,13 +54,17 @@ The primary responsibility of this role is to develop and execute a communicatio
 
 We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating our processes and expectations clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage. 
 
-1. 60-minute introductory interview
+1. 60-minute interview with two members of the team
 2. A 2-3 hour at home task
-3. Second 60-minute interview 
+3. Second 60-minute interview with two members of the team (with time to discuss your task)
 4. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting).  
 5. Offer, subject to references
 
 If you have a disability or special need that requires accommodation during the process of application and selection, please let us know. 
+
+## Right to work in the UK
+
+Unfortunately, we are currently unable to sponsor work visas. Only applicants legally authorised to work in the UK will be considered.
 
 ## Equal opportunities
 
