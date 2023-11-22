@@ -46,8 +46,10 @@ We’re looking for a Climate Justice and Just  Transition Policy Officer with 
 ## We offer
 
 * Salary £40-£50k pa, depending on experience.
-* Deep commitment to employee wellbeing: our policies include unlimited leave, hybrid and flexible work hours, and wellbeing allowance. We are currently trialling a 4-day work week (same pay, all Fridays off) with an intention and hope to make this a permanent arrangement.
-* Hybrid work setup: we meet as a team once or twice weekly. We have a stunning workspace overlooking the river in London’s old County Hall building.
+* A strong commitment to employee wellbeing, including policies such as 4 day workweek, generous leave, and a wellbeing allowance
+* A vibrant, collaborative, and empathetic work culture that thrives on innovation and the impact of our work
+* A hybrid work environment in our fantastic workspace, offering views of the river in London’s County Hall Building. We have a two-day office presence each week
+* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them deeply
 
 ## Interview process
 
