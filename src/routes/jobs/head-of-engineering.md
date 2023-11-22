@@ -9,7 +9,7 @@ excerpt: >
   supporting high-scale, high-impact engineering teams building tools to help
   move the needle on climate change.
 ---
-Full time - 4 day workweek | £110-125k DOE | Central London-Hybrid
+Full time - 4 day work week | £110-125k DOE | Central London-Hybrid
 
 ## Who we are
 
