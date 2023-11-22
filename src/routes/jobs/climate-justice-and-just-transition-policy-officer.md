@@ -6,7 +6,7 @@ topics:
 date: 9 November 2023
 excerpt: We're looking for a Climate Justice and Just Transition Policy Officer!
 ---
-Full time | £40k - £50k pa | London-Hybrid (unfortunately, cannot consider candidates outside of the UK)
+Full time - 4 day work week | £40k - £50k pa | London-Hybrid (unfortunately, cannot consider candidates outside of the UK)
 
 ## Who we are
 
