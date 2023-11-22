@@ -7,7 +7,7 @@ date: 4 September 2023
 excerpt: We are seeking an experienced and well-rounded Communications Lead to
   join the team!
 ---
-Full time | £55,000-£65,000 DOE | Central London-Hybrid
+Full time - 4 day workweek | £55,000-£65,000 DOE | Central London-Hybrid
 
 ## Who we are
 
@@ -46,9 +46,10 @@ The primary responsibility of this role is to develop and execute a communicatio
 ## What we offer
 
 * Salary £55-£65k DOE
-* Deep commitment to employee wellbeing: our policies include unlimited leave, hybrid and flexible work hours, and wellbeing allowance. We are currently trialling a 4-day work week (same pay, all Fridays off) with an intention and hope to make this a permanent arrangement. 
-* We have a fantastic workspace overlooking the river in London’s County Hall Building, and we come into the office twice a week. 
-* Learn more about our values﻿
+* A strong commitment to employee wellbeing, including policies such as 4 day workweek, generous leave, and a wellbeing allowance
+* A vibrant, collaborative, and empathetic work culture that thrives on innovation and the impact of our work
+* A hybrid work environment in our fantastic workspace, offering views of the river in London’s County Hall Building. We have a two-day office presence each week
+* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them deeply
 
 ## Interview process
 
