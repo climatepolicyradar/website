@@ -7,7 +7,7 @@ date: 4 September 2023
 excerpt: We are seeking an experienced and well-rounded Communications Lead to
   join the team!
 ---
-Full time - 4 day workweek | £55,000-£65,000 DOE | Central London-Hybrid
+Full time - 4 day workweek | £55-£65k DOE | Central London-Hybrid
 
 ## Who we are
 
