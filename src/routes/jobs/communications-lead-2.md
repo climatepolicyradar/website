@@ -56,7 +56,7 @@ We know that applying for a new job can be full of uncertainties - and we aim to
 
 1. 1-hour interview with two members of the team
 2. A 2-3 hour at home task
-3. 1-h-our interview with two members of the team (with time to discuss your task)
+3. 1-hour interview with two members of the team (with time to discuss your task)
 4. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting).  
 5. Offer, subject to references
 
