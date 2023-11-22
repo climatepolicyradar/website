@@ -15,7 +15,7 @@ Full time | £110-125k DOE | Central London-Hybrid
 
 Climate Policy Radar is on a mission to organise, analyse and democratise the world’s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies and corporate policies. Harnessing data science and AI and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation. We are embarking on an ambitious roadmap, transforming our [search engine](https://app.climatepolicyradar.org) into a research assistant for the climate world, powered by a unique open knowledge graph and significantly scaling our datasets, capabilities, team, and impact. If you are passionate about having an impact on the global climate response, Climate Policy Radar is the perfect opportunity for you. We are deeply embedded in the global climate and AI communities, and count some of the most important organisations and global climate leaders amongst our users, advocates, friends and advisors.
 
-We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. Our team is currently 17 and we are embarking on a significant growth phase, expanding to around 30.
+We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. Our team is currently 17 and we are embarking on a significant growth phase.
 
 We are seeking a Head of Engineering who will be instrumental in our journey, supporting high-scale, high-impact engineering teams building tools to help move the needle on climate change.
 
@@ -62,12 +62,14 @@ Across our roadmap, we are building out an extensive MLOps platform including to
 
 ## What we offer
 
-* Salary £110-125k DOE
-* Deep commitment to employee wellbeing: our policies include unlimited leave, hybrid and flexible work hours, a wellbeing allowance
-* We are currently trialling a 4-day work week (same pay, all Fridays off) with the hope of make this a permanent arrangement
+* Salary ranging from £110k to £125k depending on experience
+* A strong commitment to employee wellbeing, including policies such as 4 day workweek, generous leave, and a wellbeing allowance
 * A vibrant, collaborative, and empathetic work culture that thrives on innovation and the impact of our work
-* We have a fantastic workspace overlooking the river in London’s County Hall Building. We are a hybrid team, with some colleagues remote only. The hybrid members of the team come into the office twice a week
-* Learn more about our values [here](https://climatepolicyradar.org/about#values) (we care about them a lot!)
+* A hybrid work environment in our fantastic workspace, offering views of the river in London’s County Hall Building. We have a two-day office presence each week
+
+<!---->
+
+* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them Deeply.
 
 ## Interview process
 
