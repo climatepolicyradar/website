@@ -6,6 +6,10 @@ topics:
 date: 9 November 2023
 excerpt: We're looking for a Climate Justice and Just Transition Policy Officer!
 ---
+Full time | £40k - £50k pa | London-Hybrid (unfortunately, cannot consider candidates outside of the UK)
+
+## Who we are
+
 Climate Policy Radar is a startup on a mission to organise, analyse and democratise the world’s climate law and policy data. We build databases and research tools so people can discover, understand and generate data-driven law and policy insights. Harnessing data science and AI and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data, and helps governments, researchers, civil society and the private sector to understand and advance effective climate policies, enhance accountability, deploy climate finance, and promote data democratisation. 
 
 We’re a Community Interest Company (not-for-profit), championing an open science approach that aims to promote collaboration, transparency and justice. With a team of 17 and growing, we are now looking for a brilliant and committed Climate Justice Researcher/Policy officer to join our team and help ensure we are not only at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape - but that we do so with a clear focus on principles and practices of environmental and climate justice and just transition, in order to:
