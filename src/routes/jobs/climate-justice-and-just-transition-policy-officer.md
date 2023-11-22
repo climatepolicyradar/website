@@ -53,12 +53,11 @@ We’re looking for a Climate Justice and Just  Transition Policy Officer with 
 
 We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage. 
 
-1. 30-minute introductory call
-2. Take home task
-3. 1-2 hour at home task
-4. 1.5 hour interview with two members of the team with time to discuss your task, subject to satisfactory at home task
-5. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)
-6. Offer subject to references
+1. 60-minute interview with two  members of the team
+2. 1-2 hour at home task
+3. 60-minute interview with two members of the team (with time to discuss your task), subject to satisfactory at home task
+4. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)
+5. Offer subject to references
 
 If you have a disability or special need that requires accommodation during the process of application and selection, please let us know
 
