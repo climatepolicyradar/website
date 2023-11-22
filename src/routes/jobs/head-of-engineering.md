@@ -50,8 +50,6 @@ We are looking for candidates with experience leading engineering teams through 
 
 ## Our technology stack
 
-We use:
-
 * Python for our containerised backend services and data science, using FastAPI, Flask, SQLAlchemy; Next.js/React for our frontends
 * AWS, including Postgres on RDS, AppRunner, Batch, Step functions, Cloudfront, Cloudwatch, S3, and Opensearch
 * Pulumi to manage infrastructure as code
