@@ -1,12 +1,12 @@
 <script>
-import Button from "./Button.svelte";
+  import Button from './Button.svelte'
 
-  export let title = undefined;
-  export let excerpt = undefined;
-  export let link = undefined;
-  export let linkCopy = 'Apply';
-  export let target = '_self';
-  export let rel = '';
+  export let title = undefined
+  export let excerpt = undefined
+  export let link = undefined
+  export let linkCopy = 'Apply'
+  export let target = '_self'
+  export let rel = ''
 </script>
 
 <a class="c-card c-card--compact" href={link} {target} {rel}>
@@ -40,6 +40,14 @@ import Button from "./Button.svelte";
     transition: background-color 0.2s ease-in, box-shadow 0.3s ease-in;
   }
 
+  a.c-card--compact {
+    text-decoration: none;
+  }
+
+  a.c-card--compact .c-card__title {
+    text-decoration: underline;
+  }
+
   @media only screen and (min-width: 321px) {
     .c-card--compact {
       padding: 32px;
@@ -71,13 +79,14 @@ import Button from "./Button.svelte";
   .c-card__content {
     padding-right: 3rem;
   }
-  
+
   .c-card__title {
     margin-bottom: 1rem;
   }
 
   .c-card__excerpt {
     color: var(--color-indigo-500);
+    text-decoration: none;
   }
 
   .c-card__footer {
@@ -91,6 +100,6 @@ import Button from "./Button.svelte";
   @media only screen and (min-width: 720px) {
     :global(.c-card--compact .c-card__cta) {
       margin-top: 0;
-    } 
+    }
   }
 </style>
