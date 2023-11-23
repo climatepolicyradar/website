@@ -6,8 +6,8 @@
       "image": {
         "src": "images/team/michal.jpg",
         "alt": "Headshot of Michal Nachmany",
-        "width": 600,
-        "height": 812
+        "width": "",
+        "height": ""
       },
       "group": "Team",
       "bio": "Michal is an international climate policy and governance expert with a background in law, finance, and multinational project management. Before founding Climate Policy Radar, she spent a decade at the Grantham Research Institute, LSE, where she led the work on the Institute’s structured datasets and tools, building evidence-based decision-making tools for national legislation and policy and low-carbon investment.",
@@ -31,10 +31,10 @@
       "role": "CTO",
       "group": "Team",
       "image": {
-        "src": "images/team/henry-franks-climate-policy-radar.jpg",
+        "src": "images/team/henry.jpg",
         "alt": "Headshot of Henry Franks",
-        "width": 600,
-        "height": 811
+        "width": "",
+        "height": ""
       },
       "bio": "Henry is a technology and product leader with over a decade of experience building startups deploying innovative data- and machine learning-dense products",
       "highlights": [
@@ -42,6 +42,18 @@
         "Henry has worked on products involving search, topic modelling, time series analytics, risk modelling, and IoT data at high scale, and is a guest lecturer on AI ethics and regulation at the Dickson Poon School of Law KCL and Notre Dame University."
       ],
       "social": []
+    },
+    {
+      "name": "Katy Baulch",
+      "role": "Software Engineering",
+      "group": "Team",
+      "bio": "Katy is a software engineer with over five years of experience. Prior to joining CPR, Katy worked at Thales where she designed and built APIs and microservices that were used to process and exploit flight data to help empower informed decision-making within military aircraft support teams.",
+      "highlights": [
+        "Katy completed her degree in Digital and Technology Solutions via the University of Warwick's degree apprenticeship programme, which she believes has uniquely equipped her for an increasingly digital engineering environment/landscape"
+      ],
+      "image": {
+        "src": "images/team/katy.jpg"
+      }
     },
     {
       "name": "Callie Coop",
@@ -61,7 +73,7 @@
       "name": "Mark Cottam",
       "role": "Data Engineering",
       "image": {
-        "src": "images/team/mark_photo.jpeg",
+        "src": "images/team/mark.jpg",
         "alt": "Headshot of Mark Cottam"
       },
       "group": "Team",
@@ -104,7 +116,7 @@
       "role": "Software Engineering",
       "group": "Team",
       "image": {
-        "src": "images/team/patrick_white.jpeg",
+        "src": "images/team/patrick.jpg",
         "width": -2,
         "alt": "Headshot of Patrick Fawbert Mills"
       },
@@ -134,7 +146,7 @@
       "role": "Policy",
       "group": "Team",
       "image": {
-        "src": "images/team/sarah-cpr.jpg",
+        "src": "images/team/sarah.jpg",
         "alt": "Headshot of Sarah from Climate Policy Radar",
         "width": 600,
         "height": 812
@@ -151,7 +163,7 @@
       "group": "Team",
       "bio": "Peter has over 25 years experience in a variety of industry sectors as a software developer and a senior technical lead.",
       "image": {
-        "src": "images/team/peter_white-2.jpg",
+        "src": "images/team/peter.jpg",
         "alt": "Headshot of Peter Hooper"
       },
       "highlights": [
@@ -203,6 +215,31 @@
       ]
     },
     {
+      "name": "Fred O'Loughlin",
+      "group": "Team",
+      "role": "Data Engineering",
+      "bio": "Fred is passionate about building impactful data infrastructure, specialising in MLOps and Data Engineering.",
+      "highlights": [
+        "He has worked to productionize a range of impactful machine learning projects. These have helped users to identify relevant online learning material via a recommendation engine, improved search results by using Large Language Models (LLMs) to identify important themes in content, and sped up the feedback cycle of improvements via a tool for analysing surveys using Natural Language Processing (NLP).",
+        "His experience includes creating large-scale data warehouses from the ground up, and expanding a global data mesh across regions. Involving the extraction of a wide variety of data from a range of sources, managing the infrastructure that the data is loaded into, and programmatically transforming to maximise use and reliability. Supporting invoice automation, personalised marketing, observability metrics, predictive analytics, and a range of other use cases."
+      ],
+      "image": {
+        "src": "images/team/fred.jpg"
+      }
+    },
+    {
+      "name": "Harrison Pim",
+      "role": "Data Science",
+      "group": "Team",
+      "bio": "Harrison is a data scientist with a history of building large search engines, knowledge graphs, and recommendation systems. He’s passionate about ethically augmenting and enriching those systems with machine learning.",
+      "highlights": [
+        "Before joining Climate Policy Radar, he worked in some of London’s biggest and weirdest museums. He holds a Masters in physics from UCL, where he specialised in quantum/computational physics."
+      ],
+      "image": {
+        "src": "images/team/harrison.jpg"
+      }
+    },
+    {
       "name": "Nadia Stones",
       "role": "Business Support",
       "group": "Team",
@@ -221,27 +258,13 @@
       "role": "Product Management",
       "group": "Team",
       "image": {
-        "src": "images/team/alan-climate-policy-radar.jpg",
+        "src": "images/team/alan.jpg",
         "alt": "Headshot of Alan Wright"
       },
       "bio": "Alan is a product manager with more than a decade of experience managing digital products.",
       "highlights": [
         "Before joining Climate Policy Radar he worked on some great products including GOV.UK, BBC iPlayer and Cazoo.  Most of his recent experience is in the UK public bector, but he has also worked in startups/scaleups, digital agencies, non profits, political campaigns and video games. A long time ago in a place not so far away, he also completed a degree in Economics, Politics and International Studies from the University of Warwick. ",
         " He is passionate about building products that meet user needs and make a positive difference to the world."
-      ]
-    },
-    {
-      "name": "Joel Wright, PhD",
-      "role": "Software Engineering",
-      "group": "Team",
-      "image": {
-        "src": "images/team/joel-2-.jpg",
-        "alt": "Headshot of Joel Wright"
-      },
-      "bio": "Joel is a technical architect and software developer with over 15 years of experience solving challenges in a variety of commercial and research settings.",
-      "highlights": [
-        "Before joining Climate Policy Radar, he was a senior software engineer at Genomics plc where he designed and implemented tools, APIs, and pipelines used for processing genomic information to deliver genome-derived health insights.",
-        "He holds a PhD in Computer Science from the University of Nottingham and has previous experience in machine learning, large-scale data transfer, long-term archiving and workflow systems."
       ]
     },
     {
