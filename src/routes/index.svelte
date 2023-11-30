@@ -47,7 +47,7 @@
 <MetaTags {title} {excerpt} {image} {path} />
 
 <Banner size="lg" theme="dark" contentType="full-width">
-  <h1 slot="heading">Building the evidence base for evidence-based decision-making</h1>
+  <h1 slot="heading">PATRICK TEST</h1>
   <p slot="subheading">
     We build tools that open up the messy black box of climate laws, policies and case law globally, helping
     decision-makers design more effective climate change strategies.
