@@ -54,15 +54,16 @@ We are seeking a Chief Operating Officer to join our senior leadership team on t
 
 ## Interview process
 
-We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage.
+We know that applying for a new job can be full of uncertainties, - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage.
 
 If you have a disability or special need that requires accommodation during the process of application and selection, please let us know.
 
 Process:
 
-* Introductory interview with CEO 
+* Interview with CEO 
 * Interview with CTO and Head of People 
-* Opportunity to meet other team members
+* I﻿nterview with board/advisory 
+* Informal meeting with team 
 * Final interview with CEO
 
 ## Right to Work in the UK
