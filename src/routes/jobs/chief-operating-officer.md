@@ -14,7 +14,7 @@ Full time | 4-day workweek | Central London-Hybrid | £110,000 - £125,000 DOE 
 
 ## Who we are
 
-[Climate Policy Radar](http://climatepolicyradar.org/) is a startup on a mission to organise, analyse, and democratise the world’s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies. Our work helps governments, researchers, international organisations, civil society, and the private sector to understand and advance effective climate policies and deploy climate finance.
+[Climate Policy Radar](http://climatepolicyradar.org/) is a start-up on a mission to organise, analyse, and democratise the world’s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies. Our work helps governments, researchers, international organisations, civil society, and the private sector to understand and advance effective climate policies and deploy climate finance.
 
 Harnessing data science and AI, and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data. This serves to enhance accountability, and promote data democratisation, transforming our [search engine](https://app.climatepolicyradar.org) into a virtual research assistant for the climate world, powered by a unique open knowledge graph. We are deeply embedded in the global climate and AI communities, and count some of the most important organisations and global climate leaders amongst our users, advocates, friends and advisors.
 
