@@ -60,8 +60,8 @@ If you have a disability or special need that requires accommodation during the 
 
 Process:
 
-* Introductory interview with CEO 60 min
-* Interview with CTO and Head of People 60 min
+* Introductory interview with CEO 
+* Interview with CTO and Head of People 
 * Opportunity to meet other team members
 * Final interview with CEO
 
