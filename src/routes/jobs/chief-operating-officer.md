@@ -10,11 +10,7 @@ excerpt: "We are hiring a Chief Operating Officer to join our senior leadership
 ---
 <!--StartFragment-->
 
-# Chief Operating Officer
-
 Full time | 4-day workweek | Central London-Hybrid | £110,000 - £125,000 DOE 
-
-
 
 ## Who we are
 
@@ -24,13 +20,9 @@ Harnessing data science and AI, and pioneering the application of natural langua
 
 We’re a Community Interest Company (CIC), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. [Our team](https://climatepolicyradar.org/about#team) is currently 17 and we are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.
 
-
-
 ## Role Overview
 
 We are seeking a Chief Operating Officer to join our senior leadership team on this transformative journey. You will play a pivotal part in shaping processes that support organisational growth, resilience, and well being.  
-
-
 
 ### Core responsibilities include:
 
@@ -42,8 +34,6 @@ We are seeking a Chief Operating Officer to join our senior leadership team on t
 * Resource Management: Oversee the allocation and utilisation of organisational resources, encompassing budgets, people, and technology.
 * Collaboration: Work closely with the CEO and the senior leadership team,  and maintain close collaboration with the board of directors, providing regular updates on operational performance and strategic initiatives.
 
-
-
 ## Who you are
 
 * Demonstrated experience in senior leadership roles in tech, collaborating and inspiring teams to achieve mission-driven objectives.
@@ -53,8 +43,6 @@ We are seeking a Chief Operating Officer to join our senior leadership team on t
 * A steadfast dedication to open science, data democratisation, collaboration, transparency, and justice.
 * A passion for contributing to the global climate response. 
 * The ability to thrive in a dynamic and growth-focused environment.
-
-
 
 ## What we offer
 
@@ -92,7 +80,5 @@ If you have a disability or special need that requires accommodation in the proc
 ## Applying for this role
 
 To apply, please send a CV and a cover letter telling us why you’d be excellent for this role to jobs@climatepolicyradar.org.
-
-
 
 <!--EndFragment-->
