@@ -8,11 +8,7 @@ excerpt: "We are now looking for two research assistants to support our team on
   an ad hoc basis with a range of tasks critical to scaling up our work and
   delivering major projects this year. "
 ---
-
-
-Contract | £20/hour, between 10-20 hrs a week | London-Hybrid
-
-
+Contract | £20/hour, minimum 10-hours a week | London-Hybrid
 
 ## A﻿bout us
 
@@ -42,10 +38,8 @@ We’re looking for research assistants with an undergraduate or masters degree 
 
 ## We offer
 
-* £20/hour for up to 20 hours a week
-* Hybrid work setup: we meet as a team once or twice weekly. We have a stunning workspace overlooking the river in London’s old County Hall building.
-
-
+* £20/hour for up minimum of 10-hours a week
+* Hybrid work setup: we meet as a team once or twice weekly. We have a stunning workspace overlooking the river in London’s old County Hall building, however, we are open to a remote set up.
 
 ## Interview process
 
