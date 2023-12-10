@@ -4,8 +4,8 @@ title: Full Stack Python Developer (contract)
 topics:
   - jobs
 date: 10 December 2023
-excerpt: "We are seeking a Python contractor for a 6 months contract to work
-  with us and support high-scale, high-impact work. "
+excerpt: We are seeking a Python contractor for a 6 months contract to work with
+  us on building user-management and content management tools.
 ---
 <!--StartFragment-->
 
