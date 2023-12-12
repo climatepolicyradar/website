@@ -21,8 +21,6 @@ We’re a Community Interest Company (CIC), championing an open science approach
 
 We are seeking a Python contractor to work with us and support high-scale, high-impact engineering teams building tools to help move the needle on climate change.
 
-
-
 ## Role Overview
 
 We are looking for a full-stack engineer to help us develop some of our internal tooling. The tool (our ‘admin service’) is a custom built content management system which enables internal users to create, update and delete entries in our law and policy database, and forms a fundamental part of our product stack. The work will include extending our current offering to include capabilities such as:
@@ -57,17 +55,13 @@ Key languages/libraries/technologies we use include:
 
 ## Application and interview process
 
-<!--StartFragment-->
-
 We know that applying for a new job can be full of uncertainties, and we aim to reduce those by communicating clearly:
 
 * Please submit your CV and a cover letter along with your expected rate to [jobs@climatepolicyradar.org](mailto:jobs@climatepolicyradar.org).
 * If you have any samples of work (e.g. on GitHub) please send those along as well.
-* Shortlisted candidates will be invited to a 30-minute interview with two members of the team.
+* Shortlisted candidates will be invited to a 1.5-hour interview which will include a 1-hour pair programming task and a 30-minute interview with two members of the team.
 * After this, we aim to get back to you within a week. 
 * If you have a disability or special need that requires accommodation during the process of application and selection, please let us know.
-
-<!--EndFragment-->
 
 ## Right to Work in the UK
 
@@ -78,7 +72,5 @@ Unfortunately, we are currently unable to sponsor work visas. Only applicants le
 Climate Policy Radar is proud to be an equal-opportunity workplace and an affirmative action employer. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements.
 
 We actively encourage applicants from diverse and historically under-represented backgrounds. 
-
-
 
 <!--EndFragment-->
