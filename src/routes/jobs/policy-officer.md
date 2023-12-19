@@ -57,7 +57,7 @@ We’re looking for a Policy Officer with a solid background in climate policy o
 We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we’ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage. 
 
 1. 30-minute introductory call
-2. Take home task (up to 2 hours)
+2. Up to 2 hour take home task
 3. 1.5 hour interview with two members (with time to discuss your task), subject to satisfactory task
 4. Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)
 5. Offer subject to references
