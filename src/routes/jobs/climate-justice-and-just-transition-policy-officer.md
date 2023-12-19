@@ -4,7 +4,8 @@ title: Policy Officer (Climate Justice)
 topics:
   - jobs
 date: 9 November 2023
-excerpt: We're looking for a Climate Justice and Just Transition Policy Officer!
+excerpt: We're looking for a Policy Officer focusing on Climate Justice to help
+  us expand and deepen our work in the space.
 ---
 Full time - 4 day work week | £40k - £50k pa | London-Hybrid (unfortunately, cannot consider candidates outside of the UK)
 
@@ -20,9 +21,9 @@ We’re a Community Interest Company (not-for-profit), championing an open scien
 
 ## R﻿ole and responsibilities
 
-We’re looking for a Climate Justice and Just  Transition Policy Officer with a solid background in climate justice policy/research work either within civil society organisations or research organisations/think tanks, with brilliant research and analytical skills. You will work within the policy and research teams, and in close collaboration with the data science and other teams:
+We’re looking for a Climate Justice Policy Officer with a solid background in climate justice policy/research work either within civil society organisations or research organisations/think tanks, with brilliant research and analytical skills. You will work within the policy and research teams, and in close collaboration with the data science and other teams:
 
-* Using your domain knowledge, you’ll contribute to research to develop climate justice and just transition related taxonomies, that will feed into natural language processing and machine learning models for analysis of global climate-related legal and policy texts (no prior knowledge of data science or machine learning models is needed, though a keen interest and desire to learn is necessary!)
+* Using your domain knowledge, you’ll contribute to research to develop climate justice related concepts, that will feed into natural language processing and machine learning models for analysis of global climate related legal and policy texts (no prior knowledge of data science or machine learning models is needed, though a keen interest and desire to learn is necessary! 
 * Track emerging trends and proposals on climate justice and equity and provide analysis and advice to influence the product features that we introduce 
 * Develop and maintain a network of partners and collaborators (academia and research institutions, IGOs, impacted communities, civil society and more), to:
 
@@ -37,7 +38,7 @@ We’re looking for a Climate Justice and Just  Transition Policy Officer with 
 * At least 5 years experience in climate justice policy/research work, either within civil society organisations or research organisations/academia/think tanks
 * Rigorous, detail-oriented, methodical research and analytical skills
 * Creativity in your approach to problem solving
-* Broad horizons and familiarity with a wide range of climate change-related concepts and issues (e.g. mitigation and adaptation policy approaches, basics of climate science, economics, climate-related technologies, international negotiations and the UNFCCC process). Note we are not seeking in-depth expertise in all of those, but rather appreciate a rounded, well-informed ‘Climatese’ speaker. 
+* Broad horizons and familiarity with a wide range of climate change-related concepts and issues (e.g. mitigation and adaptation policy approaches, basics of climate science, economics, climate related technologies, international negotiations and the UNFCCC process). Note we are not seeking in-depth expertise in all of those, but rather appreciate a rounded, well-informed ‘Climatese’ speaker. 
 * Remarkable interpersonal and communication skills, and the ability to communicate and translate knowledge to different audiences.
 * A voracious appetite for knowledge, and a knack for finding it and putting it to good use. 
 * Excitement about the environment that a startup presents.[](https://climatepolicyradar.org/about#values) 
