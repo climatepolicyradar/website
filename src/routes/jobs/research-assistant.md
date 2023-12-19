@@ -55,3 +55,5 @@ We actively encourage applicants from diverse and historically underrepresented 
 
 **\
 To apply, please send a CV to [jobs@climatepolicyradar.org](mailto:jobs@climatepolicyradar.org).**
+
+**Any applications received after the 20th of December will be responded to in the new year.**
