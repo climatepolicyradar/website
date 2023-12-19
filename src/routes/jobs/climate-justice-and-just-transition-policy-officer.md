@@ -1,6 +1,6 @@
 ---
 layout: jobs
-title: Climate Justice and Just Transition Policy Officer
+title: Policy Officer (Climate Justice)
 topics:
   - jobs
 date: 9 November 2023
