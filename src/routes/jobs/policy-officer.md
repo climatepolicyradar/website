@@ -8,6 +8,8 @@ excerpt: We are now looking for a Policy Officer to join our policy team to
   ensure we forefront of understanding and analysing the rapidly evolving
   climate law and policy landscape Policy.
 ---
+Full time | 4 day workweek | Central London-Hybrid (2 days a week in the office) | £30,000 - £40,000 pa DOE
+
 ## About us
 
 Climate Policy Radar is a start-up on a mission to organise, analyse, and democratise the world’s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies. Our work helps governments, researchers, international organisations, civil society, and the private sector to understand and advance effective climate policies and deploy climate finance.
