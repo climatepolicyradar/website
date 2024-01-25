@@ -44,6 +44,20 @@
       "social": []
     },
     {
+      "name": "Inez Bartram Vilar",
+      "role": "Communications",
+      "group": "Team",
+      "image": {
+        "src": "images/team/inez.jpg",
+        "alt": "Headshot of Inez Bartram Vilar"
+      },
+      "bio": "Inez has over 6 years of experience in Strategy & Communications with a focus on climate, agriculture and renewables.",
+      "highlights": [
+        "She previously worked at Brunswick Group, where she worked on global climate campaigns and supported mission-driven organisations of all sizes on profile raising, investor relations and reputation management. Most recently, Inez was based in Melbourne, where she worked with climate-oriented organisations on business development, strategy, communications and organisational culture. She also completed a diploma in Urban Farming from CERES School of Sustainability and the Environment.",
+        "Inez holds a BSc in Geography from University College London (UCL). She is passionate about scaling startups and Diversity, Equity & Inclusion."
+      ]
+    },
+    {
       "name": "Katy Baulch",
       "role": "Software Engineering",
       "group": "Team",
@@ -198,6 +212,20 @@
         "Prior to joining Climate Policy Radar, Roshan worked at UNHCR's Office of the Special Advisor on Climate Action, where he provided strategic guidance and policy input to help shape UNHCR's response to the climate emergency.",
         "He also brings a prior track record advancing strategic human rights litigation in Hong Kong, co-ordinating public-private partnerships and delivering ambitious CSR outcomes for a multinational apparel manufacturer.",
         "Roshan holds an LLB from the London School of Economics and a Masters of Public Policy from Oxford University's Blavatnik School of Government."
+      ]
+    },
+    {
+      "name": "Tamara Miner",
+      "group": "Team",
+      "role": "Director of Engineering",
+      "image": {
+        "src": "images/team/tam.jpg",
+        "alt": "Headshot of Tamara Miner"
+      },
+      "bio": "\n\nTamara Miner has worked on infrastructure and developer tools for nearly 20 years in the US and Europe. She is currently the Director of Engineering at CPR, and is a coach and mentor in her spare time.",
+      "highlights": [
+        "She has previously been a VP Engineering and strategy advisor. Previously, Tamara launched multiple SaaS products for several London-based startups, Riot Games, and Microsoft Azure.",
+        "She received the Forbes U30 and the XBox Women in Gaming Rising Star awards and has published essays in “97 Things Every SRE Should Know."
       ]
     },
     {
