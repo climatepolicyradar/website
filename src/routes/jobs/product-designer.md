@@ -74,12 +74,10 @@ Unfortunately, we are currently unable to sponsor work visas. Only applicants le
 
 ## Equal opportunities
 
-Climate Policy Radar is proud to be an equal-opportunity workplace and an affirmative action employer. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements.
+Climate Policy Radar is proud to be an equal-opportunity workplace. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements.
 
 We actively encourage applicants from diverse and historically under-represented backgrounds. Not sure if you tick all the boxes but feel like you align with our values, are excited about working in Climate Change and AI, and have the potential to do well in the role? Click apply! We’d love to hear from you.
 
 To apply, please send a CV and a cover letter telling us why you’d be excellent for this role to jobs@climatepolicyradar.org.
-
-
 
 <!--EndFragment-->
