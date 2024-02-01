@@ -18,9 +18,11 @@ Harnessing data science and AI, and pioneering the application of natural langua
 
 We’re a Community Interest Company (CIC), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. [Our team](https://climatepolicyradar.org/about#team) is currently 17 and we are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.
 
+We are seeking a Product Designer who will be instrumental in this journey, supporting high-scale, high-impact engineering teams building tools to help move the needle on climate change.
+
 ## Role Overview
 
-The role of the product designer is to ensure that we build products that are simple, intuitive, accessible and useful. You will be our first full-time product design hire and will work across the full spectrum of design activities. As part of this, you will:
+The role of the product designer is to ensure that we build products that are simple, intuitive, accessible and useful. You will be our first full-time product design hire and will operate end to end in the product design process (discovery, interaction, etc). As part of this, you will:
 
 * Lead design work from conceptual ideas to live products
 * Work in a highly collaborative environment with product management, data, engineering and policy
@@ -32,18 +34,6 @@ The role of the product designer is to ensure that we build products that are si
 ## Who you are
 
 We’re looking for someone who:
-
-* Has created excellent products that users love, particularly products that tame complexity with the right balance of simplicity and power.
-* Has a strong eye for visual polish.
-* Is user-obsessed and excited to spend time with users.
-* Is skilled in designing for the web. Hands-on engineering experience is great but not necessary.
-* Is excited to go deep on climate law and policy and become an expert in that space. Prior experience in this space is not necessary.
-* Is fascinated by AI technologies, and excited by the challenge of integrating them into the user experience
-* Wants to join a startup, take responsibility for the fate of the company, and move fast.
-* Is comfortable with wearing many hats and juggling competing priorities
-* A passion for contributing to the global climate response. 
-* The ability to thrive in a dynamic and growth-focused environment.
-* Strong alignment with our [values](https://climatepolicyradar.org/about#values)
 
 ## What we offer
 
