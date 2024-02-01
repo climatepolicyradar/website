@@ -31,10 +31,6 @@ The role of the product designer is to ensure that we build products that are si
 * Help create a best-in-class product & brand
 * Occasionally deliver other ad hoc design tasks when required (eg. designing a flyer for us to use at UN climate conferences)
 
-## Who you are
-
-We’re looking for someone who:
-
 ## What we offer
 
 * Salary ranging from £75,000 - £85,000 DOE depending on experience
