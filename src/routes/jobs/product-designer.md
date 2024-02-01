@@ -20,8 +20,6 @@ We’re a Community Interest Company (CIC), championing an open science approach
 
 We are seeking a Product Designer who will be instrumental in this journey, supporting high-scale, high-impact engineering teams building tools to help move the needle on climate change.
 
-
-
 ## Role Overview
 
 The role of the product designer is to ensure that we build products that are simple, intuitive, accessible and useful. You will be our first full-time product design hire and will operate end to end in the product design process (discovery, interaction, etc). As part of this, you will:
@@ -36,23 +34,6 @@ The role of the product designer is to ensure that we build products that are si
 ## Who you are
 
 We’re looking for someone who:
-
-* <!--StartFragment-->
-
-  * Wants to join a startup, take responsibility for the fate of the company, and move fast.
-  * Is comfortable with wearing many hats and juggling competing priorities
-  * Has created excellent products that users love, particularly products that tame complexity with the right balance of simplicity and power
-  * Is user-obsessed and excited to spend time with users
-  * Is skilled in designing for the web. Hands-on engineering experience is great but not necessary
-  * Detail oriented, a strong eye for visual polish
-  * Experience with either data-dense products or creating compelling visualisations based on product data
-  * At least one of: 
-
-    * Is excited to go deep on climate law and policy and become an expert in that space. Prior experience in this space is not necessary. OR
-    * Is fascinated by innovative and AI technologies, and excited by the challenge of integrating them into the user experience
-  * A passion for contributing to the global climate response
-  * The ability to thrive in a dynamic and growth-focused environment
-  * Strong alignment with our [values](https://climatepolicyradar.org/about#values) - we care about them deeply
 
 ## What we offer
 
