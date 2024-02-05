@@ -16,7 +16,7 @@ Full time | 4-day workweek | Central London-Hybrid | £75,000 - £85,000 DOE
 
 Harnessing data science and AI, and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data. This serves to enhance accountability, and promote data democratisation, transforming our [search engine](https://app.climatepolicyradar.org) into a virtual research assistant for the climate world, powered by a unique open knowledge graph. We are deeply embedded in the global climate and AI communities, and count some of the most important organisations and global climate leaders amongst our users, advocates, friends and advisors.
 
-We’re a Community Interest Company (CIC), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. [Our team](https://climatepolicyradar.org/about#team) is currently 17 and we are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.
+We’re a Community Interest Company (CIC), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. [Our team](https://climatepolicyradar.org/about#team) is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.
 
 We are seeking a Product Designer who will be instrumental in this journey, supporting high-scale, high-impact engineering teams building tools to help move the needle on climate change.
 
@@ -29,13 +29,13 @@ The role of the product designer is to ensure that we build products that are si
 * Use your user experience, interaction design, visual design and information architecture skills to help us create great products
 * Conduct discovery research and usability testing
 * Help create a best-in-class product & brand
-* Occasionally deliver other ad hoc design tasks when required (eg. designing a flyer for us to use at UN climate conferences)
+* Occasionally deliver other ad hoc design tasks when required (e.g. designing a flyer for us to use at UN climate conferences)
 
 ## Who you are
 
 We’re looking for someone who:
 
-* Wants to join a startup, take responsibility for the fate of the company, and move fast.
+* Wants to join a startup, take responsibility for the fate of the company, and move fast
 * Is comfortable with wearing many hats and juggling competing priorities
 * Has created excellent products that users love, particularly products that tame complexity with the right balance of simplicity and power
 * Is user-obsessed and excited to spend time with users
