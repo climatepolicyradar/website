@@ -1,6 +1,6 @@
 ---
 layout: jobs
-title: Product Designer
+title: Senior Product Designer
 topics:
   - jobs
 date: 19 December 2023
@@ -43,7 +43,8 @@ We’re looking for someone who:
 * Detail oriented, a strong eye for visual polish
 * Experience with either data dense products or creating compelling visualisations based on product data
 * At least one of: 
-* * Is excited to go deep on climate law and policy and become an expert in that space. Prior experience in this space is not necessary. OR
+
+  * Is excited to go deep on climate law and policy and become an expert in that space. Prior experience in this space is not necessary. OR
   * Is fascinated by innovative and AI technologies, and excited by the challenge of integrating them into the user experience
 * A passion for contributing to the global climate response
 * The ability to thrive in a dynamic and growth-focused environment
