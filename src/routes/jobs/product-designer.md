@@ -57,7 +57,7 @@ We’re looking for someone who:
 * A strong commitment to employee wellbeing, including policies such as 4 day workweek, generous leave, and a wellbeing allowance
 * A vibrant, collaborative, and empathetic work culture that thrives on innovation and the impact of our work
 * A hybrid work environment in our fantastic workspace, offering views of the river in London’s County Hall Building. We have a two-day office presence each week
-* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them deeply.
+* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them deeply
 
 ## Interview process
 
