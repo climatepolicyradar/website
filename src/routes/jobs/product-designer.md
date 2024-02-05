@@ -48,9 +48,9 @@ If you have a disability or special need that requires accommodation during the 
 Process:
 
 * You share with your CV, cover letter and portfolio
+* 30-minute screening call
 * 1 hour interview with hiring manager and one other member of the team
-* 1-2 hour at home task 
-* 1-hour interview with two other members of the team (with time to discuss your task), subject to satisfactory task
+* 90-minute pairing task and interview with two other members of the team
 * Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)
 * Offer subject to references
 
