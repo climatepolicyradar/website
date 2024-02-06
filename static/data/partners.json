@@ -1,28 +1,10 @@
 {
   "partnerList": [
     {
-      "name": "Quadrature",
-      "logo": "images/partners/quadrature-logo.png",
+      "name": "Bezos Earth Fund",
       "group": "Funders",
-      "url": "https://quadrature.ai"
-    },
-    {
-      "group": "Funders",
-      "logo": "images/partners/patrick-mcgovern-foundation-logo.png",
-      "url": "https://www.mcgovern.org/",
-      "name": "Patrick J McGovern Foundation"
-    },
-    {
-      "name": "Subak",
-      "logo": "images/partners/subak-logo.png",
-      "group": "Funders",
-      "url": "https://climatesubak.org"
-    },
-    {
-      "url": "https://www.personio.foundation/",
-      "name": "Personio Foundation",
-      "group": "Funders",
-      "logo": "images/partners/personio-logo.png"
+      "logo": "images/partners/bezos-earth-fund_logo.png",
+      "url": "https://www.bezosearthfund.org/"
     },
     {
       "url": "https://www.climateworks.org/",
@@ -31,10 +13,28 @@
       "group": "Funders"
     },
     {
-      "name": "Bezos Earth Fund",
       "group": "Funders",
-      "logo": "images/partners/bezos-earth-fund_logo.png",
-      "url": "https://www.bezosearthfund.org/"
+      "logo": "images/partners/patrick-mcgovern-foundation-logo.png",
+      "url": "https://www.mcgovern.org/",
+      "name": "Patrick J McGovern Foundation"
+    },
+    {
+      "url": "https://www.personio.foundation/",
+      "name": "Personio Foundation",
+      "group": "Funders",
+      "logo": "images/partners/personio-logo.png"
+    },
+    {
+      "name": "Quadrature",
+      "logo": "images/partners/quadrature-logo.png",
+      "group": "Funders",
+      "url": "https://quadrature.ai"
+    },
+    {
+      "name": "Subak",
+      "logo": "images/partners/subak-logo.png",
+      "group": "Funders",
+      "url": "https://climatesubak.org"
     },
     {
       "name": "LSE",
