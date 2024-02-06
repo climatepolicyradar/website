@@ -1,10 +1,28 @@
 {
   "partnerList": [
     {
-      "name": "Google.org",
+      "name": "Open Society Foundations",
       "group": "Funders",
-      "url": "http://google.org",
-      "logo": "images/partners/adobe-logo.png"
+      "logo": "images/partners/osf.png",
+      "url": "https://www.opensocietyfoundations.org/"
+    },
+    {
+      "name": "Environmental Defense Fund",
+      "group": "Funders",
+      "url": "https://www.edf.org/",
+      "logo": "images/partners/edf.png"
+    },
+    {
+      "name": "Schmidt Futures",
+      "group": "Funders",
+      "url": "https://www.schmidtfutures.org/",
+      "logo": "images/partners/schmidt_futures_logo.png"
+    },
+    {
+      "name": "Sequoia Climate Foundation",
+      "url": "https://sequoiaclimate.org/",
+      "group": "Funders",
+      "logo": "images/partners/sequoia-climate-foundation.jpg"
     },
     {
       "name": "Bezos Earth Fund",
@@ -19,6 +37,12 @@
       "group": "Funders"
     },
     {
+      "name": "Google.org",
+      "group": "Funders",
+      "url": "http://google.org",
+      "logo": "images/partners/google_org.png"
+    },
+    {
       "group": "Funders",
       "logo": "images/partners/patrick-mcgovern-foundation-logo.png",
       "url": "https://www.mcgovern.org/",
@@ -31,8 +55,8 @@
       "logo": "images/partners/personio-logo.png"
     },
     {
-      "name": "Quadrature",
-      "logo": "images/partners/quadrature-logo.png",
+      "name": "Quadrature Climate Foundation",
+      "logo": "images/partners/qcf.png",
       "group": "Funders",
       "url": "https://quadrature.ai"
     },
