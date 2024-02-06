@@ -133,5 +133,5 @@
 <Spacer size="lg" />
 
 <section>
-  <Partners {partnerList} extended />
+  <Partners {partnerList} />
 </section>

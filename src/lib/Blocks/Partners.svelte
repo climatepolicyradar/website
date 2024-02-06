@@ -12,7 +12,6 @@
   }
 
   export let partnerList
-  export let extended
   const groups = setGroups()
 </script>
 
@@ -23,6 +22,11 @@
         <div class="b-partners__group__header">
           <h3 class="u-type-body-xxl">Our {group}</h3>
         </div>
+        {#if group === 'Funders'}
+          <p class="u-type-body-xl">
+            We are grateful to our funders and partners — past and present — for their generous support
+          </p>
+        {/if}
         <div class="b-partners__group__items b-partners__group__items--partners">
           {#each partnerList as partner}
             {#if partner.group === group}
@@ -32,34 +36,10 @@
             {/if}
           {/each}
         </div>
-        {#if group === 'Partners' && extended}
-          <p class="u-type-body-xl">
-            We work with a range of partners to collect and expose more data, define research and development
-            priorities, and provide tools to generate policy insights. We’re always open to collaborate - if you have an
-            idea and want to work with us, <a href="/contact">get in touch</a>.
-          </p>
-        {/if}
-        {#if group === 'Partners' && !extended}
+        {#if group === 'Partners'}
           <p class="u-type-body-xl">
             We are always seeking new collaborations on data, research and outreach. If you have an idea and want to
             work with us, <a href="/contact">get in touch</a>.
-          </p>
-        {/if}
-        {#if group === 'Funders' && extended}
-          <p class="u-type-body-xl">
-            We are not-for-profit as we believe people shouldn’t need to pay for the data they need to bring more
-            effective and informed climate action. If you’d like to support our mission, <a
-              href="mailto:info@climatepolicyradar.org"
-              target="_blank">get in touch</a
-            >.
-          </p>
-        {/if}
-        {#if group === 'Funders' && !extended}
-          <p class="u-type-body-xl">
-            Do you want to support our work and help bring about informed climate action? <a
-              href="mailto:info@climatepolicyradar.org"
-              target="_blank">get in touch</a
-            >.
           </p>
         {/if}
       </div>
@@ -84,6 +64,10 @@
 
   .b-partners__group__header {
     margin-bottom: 32px;
+  }
+
+  .b-partners__group__header:has(+ p) {
+    margin-bottom: 0;
   }
 
   .b-partners__group__items {
