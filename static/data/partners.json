@@ -1,6 +1,12 @@
 {
   "partnerList": [
     {
+      "name": "Google.org",
+      "group": "Funders",
+      "url": "http://google.org",
+      "logo": "images/partners/adobe-logo.png"
+    },
+    {
       "name": "Bezos Earth Fund",
       "group": "Funders",
       "logo": "images/partners/bezos-earth-fund_logo.png",
