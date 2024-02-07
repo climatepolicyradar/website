@@ -1,16 +1,14 @@
 ---
 layout: latest
-title: "Apprenticeships, flight simulators & guide-dogs: meet Katy Baulch"
+title: Apprenticeships, flight simulators & guide-dogs
 date: 8 February 2024
 thumb: /images/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch/apprenticeships-min.jpg
 topics:
   - Blog
-excerpt: "This week we start a new series of posts, taking you ‘behind the
-  curtain’ for an insight into the inner workings of Climate Policy Radar, our
-  team, and what drives them: both inside and outside work. In honour of
-  National Apprenticeship Week, we speak to our multifaceted software engineer
-  Katy about climate change, her search for a job with purpose, and the
-  #SkillsForLife she took away from her apprenticeship degree."
+excerpt: "In honour of National Apprenticeship Week, we speak to our
+  multifaceted software engineer Katy about climate change, her search for a job
+  with purpose, and the #SkillsForLife she took away from her apprenticeship
+  degree."
 author: Katy Baulch
 featured: false
 ---
