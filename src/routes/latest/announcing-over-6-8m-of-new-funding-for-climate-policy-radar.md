@@ -2,7 +2,7 @@
 layout: latest
 title: Announcing over $6.8M of new funding for Climate Policy Radar
 date: 20 February 2024
-thumb: /images/new-funding-2-1-.jpg
+thumb: /images/announcing-over-6-8m-of-new-funding-for-climate-policy-radar/new-funding-2-1-.jpg
 topics:
   - Blog
 excerpt: "Climate Policy Radar is thrilled to announce that it has secured over
