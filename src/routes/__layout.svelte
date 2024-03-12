@@ -1,12 +1,36 @@
 <script context="module">
+  import { XMLParser } from 'fast-xml-parser'
+  const parser = new XMLParser()
+
   export async function load({ fetch }) {
-    const res = await fetch(`/jobs/jobs.json`);
-    const { jobs } = await res.json();
-    const teamRes = await fetch(`/data/team.json`);
-    const { team } = await teamRes.json();
+    let jobs = []
+    const res = await fetch('https://climate-policy-radar.jobs.personio.com/xml')
+    const text = await res.text()
+    const json = parser.parse(text, { trim: true })
+    // format the personio data into a jobs array
+    // due to the format of the XML a single job will be an object and multiple jobs will be an array
+    if (json) {
+      if (json['workzag-jobs']) {
+        if (json['workzag-jobs'].position) {
+          const personioJobs = json['workzag-jobs'].position
+          if (Array.isArray(personioJobs)) {
+            jobs = personioJobs.map((job) => ({
+              id: job.id,
+              title: job.name,
+            }))
+          } else {
+            jobs.push({
+              id: personioJobs.id,
+              title: personioJobs.name,
+            })
+          }
+        }
+      }
+    }
+
     return {
-      props: { jobs, team },
-    };
+      props: { jobs },
+    }
   }
 </script>
 
@@ -36,9 +60,7 @@
   };
 
   export let jobs;
-  export let team;
   setContext('jobs', jobs);
-  setContext('team', team);
 
   onMount(() => {
     history.pushState = new Proxy(history.pushState, {
