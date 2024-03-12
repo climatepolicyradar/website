@@ -6,9 +6,14 @@
     let jobs = []
     const res = await fetch('https://climate-policy-radar.jobs.personio.com/xml')
     const text = await res.text()
-    const json = parser.parse(text, { trim: true })
     // format the personio data into a jobs array
     // due to the format of the XML a single job will be an object and multiple jobs will be an array
+    let json = null
+    try {
+      json = parser.parse(text, { trim: true })
+    } catch (e) {
+      console.error(e)
+    }
     if (json) {
       if (json['workzag-jobs']) {
         if (json['workzag-jobs'].position) {
@@ -35,41 +40,41 @@
 </script>
 
 <script>
-  import { onMount, setContext, afterUpdate } from 'svelte';
-  import { browser } from '$app/env';
-  import { page, navigating } from '$app/stores';
-  import Header from '$lib/Components/Header.svelte';
-  import Footer from '$lib/Components/Footer.svelte';
-  import PreloadingIndicator from '$lib/Components/PreloadingIndicator.svelte';
-  import { modalStore, mobileMenuOpen } from '$lib/stores/theme';
-  import '../global.css';
-  import MediaQuery from '$lib/Components/MediaQuery.svelte';
-  import CookieConsent from '$lib/Components/CookieConsent.svelte';
-  import GoogleAnalytics from '$lib/Components/GoogleAnalytics.svelte';
+  import { onMount, setContext, afterUpdate } from 'svelte'
+  import { browser } from '$app/env'
+  import { page, navigating } from '$app/stores'
+  import Header from '$lib/Components/Header.svelte'
+  import Footer from '$lib/Components/Footer.svelte'
+  import PreloadingIndicator from '$lib/Components/PreloadingIndicator.svelte'
+  import { modalStore, mobileMenuOpen } from '$lib/stores/theme'
+  import '../global.css'
+  import MediaQuery from '$lib/Components/MediaQuery.svelte'
+  import CookieConsent from '$lib/Components/CookieConsent.svelte'
+  import GoogleAnalytics from '$lib/Components/GoogleAnalytics.svelte'
 
-  $: active = $page.path.split('/')[1];
+  $: active = $page.path.split('/')[1]
 
   // When change url, close the nav
-  $: $navigating, ($mobileMenuOpen = false);
+  $: $navigating, ($mobileMenuOpen = false)
 
   const handleEscapeKey = (e) => {
     if (e.key === 'Escape') {
-      modalStore.closeAll();
-      $mobileMenuOpen = false;
+      modalStore.closeAll()
+      $mobileMenuOpen = false
     }
-  };
+  }
 
-  export let jobs;
-  setContext('jobs', jobs);
+  export let jobs
+  setContext('jobs', jobs)
 
   onMount(() => {
     history.pushState = new Proxy(history.pushState, {
       apply(target, thisArg, argumentsList) {
-        Reflect.apply(target, thisArg, argumentsList);
-        window.scrollTo(0, 0);
+        Reflect.apply(target, thisArg, argumentsList)
+        window.scrollTo(0, 0)
       },
-    });
-  });
+    })
+  })
 </script>
 
 <svelte:body on:keydown={handleEscapeKey} />
