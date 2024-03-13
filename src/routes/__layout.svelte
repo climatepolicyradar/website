@@ -12,7 +12,7 @@
     try {
       json = parser.parse(text, { trim: true })
     } catch (e) {
-      console.error(e)
+      // Mostlikely cause of this failing is that the XML feed has been switched off
     }
     if (json) {
       if (json['workzag-jobs']) {
