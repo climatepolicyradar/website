@@ -14,7 +14,6 @@
     } catch (e) {
       // Mostlikely cause of this failing is that the XML feed has been switched off
       // Uncomment the console for debugging locally
-      // console.error(e)
     }
     if (json) {
       if (json['workzag-jobs']) {
