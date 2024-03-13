@@ -13,7 +13,6 @@
       json = parser.parse(text, { trim: true })
     } catch (e) {
       // Mostlikely cause of this failing is that the XML feed has been switched off
-      // Uncomment the console for debugging locally
     }
     if (json) {
       if (json['workzag-jobs']) {
