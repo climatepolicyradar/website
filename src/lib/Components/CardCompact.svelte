@@ -22,7 +22,7 @@ import Button from "./Button.svelte";
 
   {#if link}
     <div class="c-card__footer">
-      <Button type="cta" color="white" href={link} class="c-card__cta">{linkCopy}</Button>
+      <Button type="cta" color="white" href={link} {target} class="c-card__cta">{linkCopy}</Button>
     </div>
   {/if}
 </a>
@@ -38,6 +38,14 @@ import Button from "./Button.svelte";
     border-radius: 30px;
     margin-bottom: 24px;
     transition: background-color 0.2s ease-in, box-shadow 0.3s ease-in;
+  }
+
+  a.c-card--compact {
+    text-decoration: none;
+  }
+
+  a.c-card--compact .c-card__title {
+    text-decoration: underline;
   }
 
   @media only screen and (min-width: 321px) {
@@ -78,6 +86,7 @@ import Button from "./Button.svelte";
 
   .c-card__excerpt {
     color: var(--color-indigo-500);
+    text-decoration: none;
   }
 
   .c-card__footer {
