@@ -9,7 +9,7 @@ excerpt: "We are looking for a brilliant and committed Climate Justice
   the forefront of understanding and analysing the rapidly evolving climate law
   and policy landscape "
 ---
-**£40k - £50k pa | London-Hybrid | Unlimited leave | Great coffee | unfortunately, cannot consider candidates outside of the UK**
+**£40k - £50k pa | London-Hybrid | Unlimited leave | unfortunately, cannot consider candidates outside of the UK**
 
 ## About us
 
