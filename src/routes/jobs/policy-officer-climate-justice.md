@@ -5,7 +5,7 @@ topics:
   - jobs
 date: 21 March 2024
 excerpt: "We are looking for a brilliant and committed Climate Justice
-  Researcher/Policy officer to join our team and help ensure we are not only at
+  Researcher/Policy Officer to join our team and help ensure we are not only at
   the forefront of understanding and analysing the rapidly evolving climate law
   and policy landscape "
 ---
@@ -19,7 +19,7 @@ Harnessing data science and AI, and pioneering the application of natural langua
 
 We’re a Community Interest Company (CIC), championing an open science approach that aims to promote collaboration, transparency and justice — including open code and data. [Our team](https://climatepolicyradar.org/about#team) is currently 20 and we are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.
 
-We are now looking for a brilliant and committed Climate Justice Researcher/Policy officer to join our team and help ensure we are not only at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape - but that we do so with a clear focus on principles and practices of environmental and climate justice and just transition, in order to:
+We are now looking for a brilliant and committed Climate Justice Researcher/Policy Officer to join our team and help ensure we are not only at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape - but that we do so with a clear focus on principles and practices of environmental and climate justice and just transition, in order to:
 
 * contribute to reducing inequalities and injustice related to and exacerbated by climate change  
 * contribute to reducing adverse impacts on communities arising from the climate and energy transitions
@@ -27,7 +27,7 @@ We are now looking for a brilliant and committed Climate Justice Researcher/Poli
 
 ## Roles and responsibilities
 
-We’re looking for a Climate Justice and Just  Transition Policy Officer with a solid background in climate justice policy/research work either within civil society organisations or research organisations/think tanks, with brilliant research and analytical skills. You will work within the policy and research teams, and in close collaboration with the data science and other teams:
+We’re looking for a Climate Justice and Just Transition Policy Officer with a solid background in climate justice policy/research work either within civil society organisations or research organisations/think tanks, with brilliant research and analytical skills. You will work within the policy and research teams, and in close collaboration with the data science and other teams:
 
 * Using your domain knowledge, you’ll contribute to research to develop climate justice and just transition related taxonomies, that will feed into natural language processing and machine learning models for analysis of global climate-related legal and policy texts (no prior knowledge of data science or machine learning models is needed, though a keen interest and desire to learn is necessary!)
 * Track emerging trends and proposals on climate justice and equity and provide analysis and advice to influence the product features that we introduce 
@@ -44,19 +44,19 @@ We’re looking for a Climate Justice and Just  Transition Policy Officer with 
 * At least 5 years experience in climate justice policy/research work, either within civil society organisations or research organisations/academia/think tanks
 * Rigorous, detail-oriented, methodical research and analytical skills
 * Creativity in your approach to problem solving
-* Broad horizons and familiarity with a wide range of climate change-related concepts and issues (e.g. mitigation and adaptation policy approaches, basics of climate science, economics, climate-related technologies, international negotiations and the UNFCCC process). Note we are not seeking in-depth expertise in all of those, but rather appreciate a rounded, well-informed ‘Climatese’ speaker. 
-* Remarkable interpersonal and communication skills, and the ability to communicate and translate knowledge to different audiences.
+* Broad horizons and familiarity with a wide range of climate change-related concepts and issues (e.g. mitigation and adaptation policy approaches, basics of climate science, economics, climate-related technologies, international negotiations and the UNFCCC process). Note we are not seeking in-depth expertise in all of those, but rather appreciate a rounded, well-informed ‘Climatese’ speaker
+* Remarkable interpersonal and communication skills, and the ability to communicate and translate knowledge to different audiences
 * A voracious appetite for knowledge, and a knack for finding it and putting it to good use. 
-* Excitement about the environment that a startup presents.
-* Values that are aligned with [ours](https://climatepolicyradar.org/about#values). 
+* Excitement about the environment that a startup presents
+* Values that are aligned with [ours](https://climatepolicyradar.org/about#values)
 
 ## We offer
 
-* Salary £40-£50k pa, depending on experience.
-* A deep commitment to employee wellbeing, including policies such as 4 day workweek (same pay, all Friday’s off), generous leave, and a wellbeing allowance
+* Salary £40-£50k pa, depending on experience
+* A deep commitment to employee wellbeing, including policies such as 4 day workweek (same pay, Fridays off), generous leave, and a wellbeing allowance
 * A vibrant, collaborative, and empathetic work culture that thrives on innovation and the impact of our work
 * A hybrid work environment in London’s climate tech hub, offering views of the river in London’s County Hall Building. We have a 50% office presence each week
-* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them deeply.
+* Learn more about our values [here](https://climatepolicyradar.org/about#values). We care about them deeply
 
 ## Interview process
 
@@ -78,11 +78,7 @@ Unfortunately, we are currently unable to sponsor work visas. Only applicants le
 
 Climate Policy Radar is an equal-opportunity workplace. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements. 
 
-
-
 We actively encourage applicants from diverse and historically underrepresented backgrounds. Not sure if you tick all the boxes but feel like you align with our values, are excited about working in Climate Change and AI and have the potential to do well in the role? Click apply! We’d love to hear from you.
-
-
 
 If you have a disability or special need that requires accommodation in the process of application and selection, please let us know. 
 
