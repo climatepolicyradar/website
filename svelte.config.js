@@ -18,6 +18,8 @@ const config = {
     prerender: {
       crawl: true,
       enabled: true,
+      force: true,
+      pages: ['*'],
       entries: ['*'],
       onError: 'continue', // https://github.com/sveltejs/kit/tree/master/packages/adapter-netlify#using-netlify-forms
     },
