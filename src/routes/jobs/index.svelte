@@ -1,3 +1,44 @@
+<script context="module">
+  import { XMLParser } from 'fast-xml-parser'
+  const parser = new XMLParser()
+
+  export async function load({ fetch }) {
+    let jobs = []
+    const res = await fetch('https://climate-policy-radar.jobs.personio.com/xml')
+    const text = await res.text()
+    // format the personio data into a jobs array
+    // due to the format of the XML a single job will be an object and multiple jobs will be an array
+    let json = null
+    try {
+      json = parser.parse(text, { trim: true })
+    } catch (e) {
+      // Mostlikely cause of this failing is that the XML feed has been switched off
+    }
+    if (json) {
+      if (json['workzag-jobs']) {
+        if (json['workzag-jobs'].position) {
+          const personioJobs = json['workzag-jobs'].position
+          if (Array.isArray(personioJobs)) {
+            jobs = personioJobs.map((job) => ({
+              id: job.id,
+              title: job.name,
+            }))
+          } else {
+            jobs.push({
+              id: personioJobs.id,
+              title: personioJobs.name,
+            })
+          }
+        }
+      }
+    }
+
+    return {
+      props: { jobs },
+    }
+  }
+</script>
+
 <script>
   import { getContext } from 'svelte'
   import Banner from '$lib/Blocks/Banner.svelte'
@@ -18,7 +59,7 @@
     footer: 'light',
     header: 'dark',
   }
-  const jobs = getContext('jobs')
+  export let jobs
   const ctaEmptyClass = jobs.length === 0 ? 'empty-list' : ''
   const title = 'Jobs | Climate Policy Radar'
   const excerpt = 'Join us to build tools that help inform better decisions'
