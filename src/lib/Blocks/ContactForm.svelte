@@ -1,3 +1,7 @@
+<script context="module">
+	export const prerender = true;
+</script>
+
 <script>
   import Button from '$lib/Components/Button.svelte';
   import Spacer from '$lib/Components/Spacer.svelte';
