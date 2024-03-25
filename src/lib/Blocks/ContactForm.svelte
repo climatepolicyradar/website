@@ -1,18 +1,18 @@
 <script context="module">
-	export const prerender = true;
+  export const prerender = true
 </script>
 
 <script>
-  import Button from '$lib/Components/Button.svelte';
-  import Spacer from '$lib/Components/Spacer.svelte';
+  import Button from '$lib/Components/Button.svelte'
+  import Spacer from '$lib/Components/Spacer.svelte'
 
-  let status = 'new';
-  let errorMessage = 'An error has occured';
-  let formElement;
+  let status = 'new'
+  let errorMessage = 'An error has occured'
+  let formElement
 
   const handleSubmit = (e) => {
-    e.preventDefault();
-    let formData = new FormData(formElement);
+    e.preventDefault()
+    let formData = new FormData(formElement)
 
     fetch('/', {
       method: 'POST',
@@ -20,16 +20,17 @@
       body: new URLSearchParams(formData).toString(),
     })
       .then(() => {
-        status = 'success';
-        console.log('Form successfully submitted');
+        status = 'success'
+        console.log('Form successfully submitted')
       })
       .catch((error) => {
-        console.error(error);
-        errorMessage = error;
-      });
-  };
+        console.error(error)
+        errorMessage = error
+      })
+  }
 </script>
-{#if status === 'new'}
+
+<!-- {#if status === 'new'}
   <form
     class="c-contact-form"
     name="contact"
@@ -94,13 +95,18 @@
 
     <Button type="submit" color="blue" size="lg" arrow>Send message</Button>
 
-    <!-- Honeypot -->
     <span class="u-no-bees">
       <label>bees: <input name="bee-field" /></label>
     </span>
     <input type="hidden" name="form-name" value="contact" />
   </form>
-{/if}
+{/if} -->
+
+<p>
+  Please email us at <a href="mailto:info@climatepolicyradar.org" target="_blank" rel="noopener noreferrer external"
+    >info@climatepolicyradar.org</a
+  >
+</p>
 
 {#if status === 'success'}
   <Spacer size="md" />
@@ -114,10 +120,12 @@
     <Spacer size="md" />
     <h2>Error: {errorMessage}</h2>
     <Spacer size="sm" />
-    <Button action={() => status = 'new'} arrow>Please try again</Button>
+    <Button action={() => (status = 'new')} arrow>Please try again</Button>
     <Spacer size="sm" />
     <p>
-      Or email us at: <a href="mailto:info@climatepolicyradar.org" target="_blank" rel="noopener noreferrer external">info@climatepolicyradar.org</a>
+      Or email us at: <a href="mailto:info@climatepolicyradar.org" target="_blank" rel="noopener noreferrer external"
+        >info@climatepolicyradar.org</a
+      >
     </p>
   </div>
 {/if}
