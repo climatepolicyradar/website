@@ -42,7 +42,7 @@ Introducing this new functionality is the first step as part of our mission to d
 
 [Sign up to be notified](https://docs.google.com/forms/d/e/1FAIpQLSc3ZL7n5TpRUqqc7xfcpsj4jf7CIvUcretgy3O9ttuzdn-rBA/viewform) when this functionality is available.
 
-Longer term, we want to have a multilingual user interface so that users can search the site and view results in different languages.  French and Portuguese are the first languages that we would like to support. Check out our [public product roadmap](https://www.notion.so/climatepolicyradar/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad) to learn more about our plans for the future.
+Longer term, we want to have a multilingual user interface so that users can search the site and view results in different languages.  French and Portuguese are the first languages that we would like to support. Check out our [public product roadmap](https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c) to learn more about our plans for the future.
 
 ### Tell us your thoughts
 
