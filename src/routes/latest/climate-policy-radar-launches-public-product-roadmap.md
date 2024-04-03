@@ -11,7 +11,7 @@ excerpt: "We’re delighted to share the Climate Policy Radar Public Product
 author: Alan Wright
 featured: true
 ---
-We are delighted to share [Climate Policy Radar's Public Product Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad) - sketching the steps we’re taking today to reach our (very) ambitious future goals. 
+We are delighted to share [Climate Policy Radar's Public Product Roadmap](https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c) - sketching the steps we’re taking today to reach our (very) ambitious future goals. 
 
 Transparency is one of our core values, and it threads through everything we do and advocate for. We believe that being open about our own processes and priorities will lead us to make decisions that are rooted in the needs of our users and stakeholders. It will enable us to move, iterate, fail, and retry faster, in the face of the growing climate emergency.
 
@@ -23,7 +23,7 @@ Alongside charting the direction we’re taking to achieve our goals, we’ve wr
 
 Our goal is to provide data and tools to support better decision-making. Robust, accessible data equips and empowers policymakers to learn from successes and mistakes and design better policy responses. Data helps track and evaluate collective climate action, as well as contributing to policy risk analyses for mobilising public and private finance. Evidence also helps citizens and civil society hold decision-makers to account through democratic engagement and action.
 
-Our work is centred around three strategic pillars that aim to address these systemic challenges: organise, analyse and democratise data. The items on [our roadmap](https://www.notion.so/climatepolicyradar/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad&pvs=4) are segmented into our broad areas of work against these goals - traversing from left to right on the map will guide you through what we’ve built all the way to what we’re dreaming about. Below we’ve mapped out our broad plans across these pillars.
+Our work is centred around three strategic pillars that aim to address these systemic challenges: organise, analyse and democratise data. The items on [our roadmap](https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c) are segmented into our broad areas of work against these goals - traversing from left to right on the map will guide you through what we’ve built all the way to what we’re dreaming about. Below we’ve mapped out our broad plans across these pillars.
 
 ### 1: Bringing in more datasets and documents (on roadmap as “New Data”)
 
