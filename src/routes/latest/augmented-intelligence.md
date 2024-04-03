@@ -69,7 +69,7 @@ Our data scientist Kalyan, who led the development of the work on the Global Sto
 
 ### Public Product Roadmap: new features coming soon
 
-In March we published our first [Public Product Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad&utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email "Public Product Roadmap") – sketching the steps we’re taking today to reach our (very) ambitious future goals.
+In March we published our first [Public Product Roadmap](https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c) – sketching the steps we’re taking today to reach our (very) ambitious future goals.
 
 Our work is centred around three strategic pillars that aim to address systemic challenges in climate decision-making: organise, analyse and democratise data. Our roadmap segments our broad areas of work against these goals.
 
@@ -77,7 +77,7 @@ We’re currently working to provide automatically generated summaries of docume
 
 Check out our Public Product Roadmap to see what upgrades are coming next, and let us know if there’s anything you think we should add to the list.
 
-C﻿heck out our [Roadmap](https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad)
+C﻿heck out our [Roadmap](https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c)
 
 ### Events from Climate Policy Radar
 
@@ -101,8 +101,6 @@ Our CEO Michal also spoke at the [NLP for Sustainable Finance Symposium 2023](h
 Your feedback helps us design our tool better. Can you spare 20 minutes for a quick Zoom call with us? You don’t need to have used Climate Policy Radar, and you don’t need to prepare.
 
 [Sign up for a chat](https://calendly.com/alan-climate-policy-radar/feedback-conversation?month=2022-11&utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email) with our Product Manager, Alan.
-
-
 
 A﻿re you new here? [Sign up to our newsletter](https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv)
 
