@@ -2,13 +2,13 @@
 layout: latest
 title: "Data Engineering, Rugby Sevens and Algorithms: Mark Cottam"
 date: 3 April 2024
-thumb: /images/data-engineering-rugby-sevens-and-algorithms-mark-cottam/cprheadshotsautumn2023-36.jpg
+thumb: /images/data-engineering-rugby-sevens-and-algorithms-mark-cottam/53486287052_d1c14d8108_o.jpg
 topics:
   - Blog
-excerpt: "In the third instalment of our new series, introducing you to the
-  brilliant people behind Climate Policy Radar, we spoke to Mark Cottam about
-  the appeal of climate policy, his role as a Data Engineer and balancing
-  sporting commitments with work. "
+excerpt: "In the third instalment of our series introducing you to the brilliant
+  people behind Climate Policy Radar, we spoke to Mark Cottam about the appeal
+  of climate policy, his role as a Data Engineer and balancing sporting
+  commitments with work. "
 author: Mark Cottam
 featured: false
 ---
