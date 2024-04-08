@@ -22,7 +22,7 @@ I was born in Wales to a mother of Jamaican descent and an English father. That 
 
 **How do you fit your sporting commitments around Climate Policy Radar?**
 
-I’m in the office twice a week, and work from home twice a week. I’m in the office twice a week, and work from home twice a week. I’m really grateful for our four day work week – having Fridays off makes training and travelling for tournaments and races much easier.
+I’m in the office twice a week, and work from home twice a week. I’m really grateful for our four day work week – having Fridays off makes training and travelling for tournaments and races much easier.
 
 **Can you tell me a bit about what led you to Climate Policy Radar?**
 
