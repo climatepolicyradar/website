@@ -14,7 +14,7 @@ featured: false
 ---
 **Who is Mark? Tell me a bit about yourself…** 
 
-I studied Chemical Engineering at the University of Birmingham. I went straight from my degree into a graduate scheme with a large aerospace and defence company. I found studying Chemical Engineering vastly different from working in industry, the latter was dominated by safety controls, which meant there wasn’t a huge amount of innovation and dynamism. It was a rotating scheme, and I really found my feet in the company’s data unit – where I was able to problem-solve and actually spend time “engineering” solutions to technical problems, rather than managing documentation and processes. This was what first sparked my interest in software and data. 
+I studied Chemical Engineering at the University of Birmingham. I went straight from my degree into a graduate scheme with a large aerospace and defence company. I found studying Chemical Engineering vastly different from working in industry, the latter was dominated by safety controls, which meant there wasn’t a huge amount of innovation and dynamism. It was a rotating scheme, and I really found my feet in the company’s data unit – where I was able to problem-solve and actually spend time engineering solutions to technical problems, rather than managing documentation and processes. This was what first sparked my interest in software and data. 
 
 **You’ve represented Wales in track (running) events. Can you tell me a bit more about that?**
 
