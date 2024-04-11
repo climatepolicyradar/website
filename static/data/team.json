@@ -44,6 +44,19 @@
       "social": []
     },
     {
+      "name": "Poss Apostolou",
+      "role": "COO",
+      "group": "Team",
+      "image": {
+        "src": "images/team/poss.jpg"
+      },
+      "bio": "Poss is a leader of digital and technology teams, with 20 years experience across the public and private sectors.",
+      "highlights": [
+        "Before joining Climate Policy Radar, Poss was COO at dxw, an employee owned digital design agency with a deep specialism on public good projects.",
+        "Prior to that, Poss was one of the original members of the UK Government Digital Service, helping set open standards and common platforms across the UK public sector."
+      ]
+    },
+    {
       "name": "Tamara Miner",
       "group": "Team",
       "role": "Director of Engineering",
@@ -267,6 +280,18 @@
       ]
     },
     {
+      "bio": "Tabea is a contractor in our Policy team. Prior to joining Climate Policy Radar, Tabea worked for PwC UK in London in the sustainability consulting team, focusing on early-stage climate technologies and climate finance. Prior to moving to the UK she worked for the Swiss technology and innovation outpost in San Francisco, on innovation and tech policy programmes.",
+      "highlights": [
+        "Tabea holds a BA in International Affairs from the University of St. Gallen in Switzerland, and a Masters with Distinction in Environmental Technology from Imperial College London, where she specialised in environmental economics and policy."
+      ],
+      "image": {
+        "src": "images/team/tabea.jpg"
+      },
+      "name": "Tabea Stöckel",
+      "role": "Policy",
+      "group": "Team"
+    },
+    {
       "name": "Nadia Stones",
       "role": "Business Support",
       "group": "Team",
@@ -279,6 +304,18 @@
         "Nadia's academic journey includes studying Professional Sport Management and Administration, and she is currently working towards her CIPD 3 qualification. Moreover, during the pandemic, she trained to support new mothers during their feeding journey, on a voluntary basis. ",
         " Passionate about climate change, especially climate justice, Nadia is driven to make a positive impact on the environment and society as a whole."
       ]
+    },
+    {
+      "name": "Siôn Williams",
+      "role": "Policy",
+      "bio": "Siôn has 15 years of experience at civil society organisations in the vanguard of UK climate response. He coordinated Possible's Lighter Later campaign and worked on a wide range of issues during almost a decade at Friends of the Earth. Most recently he led outreach and networking for mySociety's Climate Programme.",
+      "highlights": [
+        "Siôn holds a BA in International Relations from the University of Sussex and a Masters in Environmental Technology from Imperial College London, where he specialised in environmental economics and policy. Based in Caerdydd (Cardiff) in Cymru (Wales), Siôn pursues a passion for revitalising urban spaces as a trustee of AdFree Cities and Natural Neighbours."
+      ],
+      "image": {
+        "src": "images/team/sion.jpg"
+      },
+      "group": "Team"
     },
     {
       "name": "Alan Wright",
