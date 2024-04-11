@@ -4699,7 +4699,7 @@ var init_shims = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/theme-26732784.js
+// .svelte-kit/output/server/chunks/theme-b64c5b4a.js
 function readable(value, start) {
   return {
     subscribe: writable(value, start).subscribe
@@ -4747,10 +4747,10 @@ function writable(value, start = noop) {
   return { set, update, subscribe: subscribe2 };
 }
 var subscriber_queue, mobileMenuOpen, theme, screenSize, MODAL_DEFAULT, modalStore;
-var init_theme_26732784 = __esm({
-  ".svelte-kit/output/server/chunks/theme-26732784.js"() {
+var init_theme_b64c5b4a = __esm({
+  ".svelte-kit/output/server/chunks/theme-b64c5b4a.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     subscriber_queue = [];
     mobileMenuOpen = writable(false);
     theme = writable({
@@ -4774,12 +4774,12 @@ var init_theme_26732784 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/stores-ee8150ad.js
+// .svelte-kit/output/server/chunks/stores-e56b4427.js
 var getStores, page, navigating;
-var init_stores_ee8150ad = __esm({
-  ".svelte-kit/output/server/chunks/stores-ee8150ad.js"() {
+var init_stores_e56b4427 = __esm({
+  ".svelte-kit/output/server/chunks/stores-e56b4427.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     getStores = () => {
       const stores = getContext("__svelte__");
       return {
@@ -4813,12 +4813,12 @@ var init_stores_ee8150ad = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Button.svelte_svelte&type=style&lang-ef81b81a.js
+// .svelte-kit/output/server/chunks/Icon-0036fe39.js
 var Arrow, ArrowRound, Default, Github, Graph, Impact, Learn, LinkedIn, Machine, Mission, Radar, Research, Trends, Twitter, Wellbeing, css$7, Moonshot, css$6, Excellence, css$5, Truth, css$4, Transparency, css$3, Learning, css$2, EmotionalIntelligence, css$1, Collaboration, Text, SemanticSearch, TextMagnifier, DocSwitch, Knowledge, Graph2, Scales, Spring, Middle, Global, Thinking, Search, Globe, Sun, Central, Policy, Researchers, UserGroup, PrivateSector, css, Icon;
-var init_Button_svelte_svelte_type_style_lang_ef81b81a = __esm({
-  ".svelte-kit/output/server/chunks/Button.svelte_svelte&type=style&lang-ef81b81a.js"() {
+var init_Icon_0036fe39 = __esm({
+  ".svelte-kit/output/server/chunks/Icon-0036fe39.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     Arrow = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { fill = "currentColor" } = $$props;
       if ($$props.fill === void 0 && $$bindings.fill && fill !== void 0)
@@ -5082,13 +5082,13 @@ var init_Button_svelte_svelte_type_style_lang_ef81b81a = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Button-1bdccbb8.js
+// .svelte-kit/output/server/chunks/Button-6294b3d4.js
 var css2, Button;
-var init_Button_1bdccbb8 = __esm({
-  ".svelte-kit/output/server/chunks/Button-1bdccbb8.js"() {
+var init_Button_6294b3d4 = __esm({
+  ".svelte-kit/output/server/chunks/Button-6294b3d4.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
+    init_app_62b9b593();
+    init_Icon_0036fe39();
     css2 = {
       code: ".c-button.svelte-3a6oi{display:inline-flex;position:relative;appearance:none;border:0;border-radius:60px;padding:16px 24px;font-weight:400;font-size:16px;line-height:22px;text-align:center;cursor:pointer;text-decoration:none;user-select:none;line-height:1;transition:background-color 0.2s ease-in-out, box-shadow 0.3s ease-in-out}@media only screen and (min-width: 720px){.c-button.svelte-3a6oi{font-size:24px;padding:24px 40px}}@media only screen and (min-width: 1024px){.c-button.svelte-3a6oi:hover{background-color:var(--color-white);box-shadow:0 0 32px rgba(31, 147, 255, 0.12);color:var(--color-indigo)}}.c-button--cta.svelte-3a6oi{flex-shrink:0;padding:16px 24px;font-size:14px;font-weight:500;line-height:1;justify-content:center;color:var(--color-indigo)}@media only screen and (min-width: 321px){.c-button--cta.svelte-3a6oi{padding:16px 32px}}.c-button--xs.svelte-3a6oi{padding:8px 16px;font-size:14px;line-height:1}@media only screen and (min-width: 321px){.c-button--xs.svelte-3a6oi{padding:16px 24px;font-size:16px}}@media(min-width: 768px){.c-button--xs.svelte-3a6oi{padding:16px 32px}}.c-button--sm.svelte-3a6oi{padding:16px 48px 16px 24px;font-size:14px;line-height:17px}.c-button--md.svelte-3a6oi{font-size:18px}.c-button--no-cta.svelte-3a6oi{padding:16px 32px}@media(min-width: 768px){.c-button--no-cta.svelte-3a6oi{padding:24px 48px}}.c-button--lg.svelte-3a6oi{padding:16px 32px;font-size:18px;min-width:280px;font-weight:500}.c-button--white.svelte-3a6oi{color:var(--color-indigo);background-color:#fff}.c-button--white.svelte-3a6oi:hover{color:var(--color-indigo);background-color:var(--color-sky)}.c-button--blue.svelte-3a6oi{color:#fff;background-color:var(--color-blue-600)}.c-button--blue.svelte-3a6oi:hover{color:#fff;background-color:var(--color-indigo)}.c-button--dark.svelte-3a6oi{background-color:var(--color-indigo);color:#fff}.c-button--dark-glow.svelte-3a6oi{background-color:var(--color-indigo);color:#fff}.c-button--dark-glow.svelte-3a6oi:hover{background-color:var(--color-blue);color:#fff}.c-button--dark-glow.svelte-3a6oi::before,.c-button--blue.svelte-3a6oi:hover::before,.c-button--white.svelte-3a6oi::before{position:absolute;content:'';inset:0;z-index:-1;background:linear-gradient(149.87deg, #236cde 0%, #ffffff 120.59%);opacity:0.4;box-shadow:0px 4px 14px rgba(7, 30, 74, 0.09);filter:blur(14px);border-radius:30px}.c-button--grey.svelte-3a6oi{background-color:var(--color-grey);color:var(--color-indigo)}.c-button--sky-fade.svelte-3a6oi{background-color:rgba(235, 242, 255, 0.4);color:#fff}.c-button--has-icon.svelte-3a6oi{justify-content:space-between;align-items:center}.c-button--lg.c-button--has-icon.svelte-3a6oi{padding-right:23px}@media(min-width: 768px){.c-button--has-icon.svelte-3a6oi{min-width:280px;padding:24px 32px}}.c-button .c-icon{margin-left:1rem}.c-button span{display:contents}",
       map: null
@@ -5140,25 +5140,25 @@ var init_Button_1bdccbb8 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/CardsList-d0a3f71d.js
+// .svelte-kit/output/server/chunks/CardsList-6ae1b2c7.js
 var CardsList;
-var init_CardsList_d0a3f71d = __esm({
-  ".svelte-kit/output/server/chunks/CardsList-d0a3f71d.js"() {
+var init_CardsList_6ae1b2c7 = __esm({
+  ".svelte-kit/output/server/chunks/CardsList-6ae1b2c7.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     CardsList = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `${slots.default ? slots.default({}) : ``}`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/CardSplit-533aee4e.js
+// .svelte-kit/output/server/chunks/CardSplit-e2e2d13a.js
 var css3, CardSplit;
-var init_CardSplit_533aee4e = __esm({
-  ".svelte-kit/output/server/chunks/CardSplit-533aee4e.js"() {
+var init_CardSplit_e2e2d13a = __esm({
+  ".svelte-kit/output/server/chunks/CardSplit-e2e2d13a.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
+    init_app_62b9b593();
+    init_Icon_0036fe39();
     css3 = {
       code: ".c-card--split.svelte-17bh13s.svelte-17bh13s{display:block;background-color:var(--color-grey);border-radius:30px;padding:10px;color:var(--color-indigo-600);margin-bottom:24px;text-decoration:none}.c-card--split.c-card--split-dark.svelte-17bh13s.svelte-17bh13s{background-color:var(--color-indigo-600);color:var(--color-grey)}@media only screen and (min-width: 720px){.c-card--split.svelte-17bh13s.svelte-17bh13s{display:flex;padding:24px;margin-bottom:40px}}@media only screen and (min-width: 720px){.c-card--split.svelte-17bh13s.svelte-17bh13s{display:flex}}.c-card__media.svelte-17bh13s.svelte-17bh13s{border-radius:30px;overflow:hidden}.c-card__image.svelte-17bh13s.svelte-17bh13s{width:100%;height:100%;object-fit:cover}.c-card__content.svelte-17bh13s.svelte-17bh13s{display:flex;flex-direction:column;padding:16px}@media only screen and (min-width: 720px){.c-card__content.svelte-17bh13s.svelte-17bh13s{padding:24px 0 0 48px}}@media only screen and (min-width: 720px){.c-card__media.svelte-17bh13s.svelte-17bh13s,.c-card__content.svelte-17bh13s.svelte-17bh13s{flex-basis:50%}}.c-card__date.svelte-17bh13s.svelte-17bh13s{display:inline-block;margin-bottom:8px;color:var(--color-indigo-500)}.c-card--split.c-card--split-dark.svelte-17bh13s .c-card__date.svelte-17bh13s{color:var(--color-indigo-200)}.c-card__excerpt.svelte-17bh13s.svelte-17bh13s{line-height:24px}.c-card__footer.svelte-17bh13s.svelte-17bh13s{display:flex;justify-content:space-between;align-items:center;margin-top:64px}.c-card__cta.svelte-17bh13s.svelte-17bh13s{font-weight:500}",
       map: null
@@ -5206,12 +5206,12 @@ var init_CardSplit_533aee4e = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Heading-78a63c4a.js
+// .svelte-kit/output/server/chunks/Heading-c6114039.js
 var css4, Heading;
-var init_Heading_78a63c4a = __esm({
-  ".svelte-kit/output/server/chunks/Heading-78a63c4a.js"() {
+var init_Heading_c6114039 = __esm({
+  ".svelte-kit/output/server/chunks/Heading-c6114039.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     css4 = {
       code: ".c-heading.svelte-1gbij8n{display:flex;justify-content:space-between;flex-direction:row;align-items:center;margin-bottom:36px}",
       map: null
@@ -5227,12 +5227,12 @@ var init_Heading_78a63c4a = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Pill-01eed0b5.js
+// .svelte-kit/output/server/chunks/Pill-4fb24242.js
 var css5, Pill;
-var init_Pill_01eed0b5 = __esm({
-  ".svelte-kit/output/server/chunks/Pill-01eed0b5.js"() {
+var init_Pill_4fb24242 = __esm({
+  ".svelte-kit/output/server/chunks/Pill-4fb24242.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     css5 = {
       code: ".c-pill.svelte-m96fl5{display:inline-flex;border-radius:30px;min-width:98px;padding:10px 15px;font-size:14px;line-height:1;align-items:center;justify-content:center}.c-pill--upper.svelte-m96fl5{font-size:12px;text-transform:uppercase;letter-spacing:0.2em;font-weight:500}.c-pill--white.svelte-m96fl5{color:var(--color-indigo);background-color:#fff}.c-pill--blue.svelte-m96fl5{color:#fff;background-color:var(--color-blue-600)}.c-pill--indigo.svelte-m96fl5{color:#fff;background-color:var(--color-indigo)}.c-pill--blue-100.svelte-m96fl5{color:var(--color-indigo);background-color:var(--color-blue-100)}.c-pill--grey.svelte-m96fl5{color:var(--color-indigo);background-color:var(--color-grey)}",
       map: null
@@ -5254,12 +5254,12 @@ var init_Pill_01eed0b5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/PostContent-b83b3251.js
+// .svelte-kit/output/server/chunks/PostContent-afb41819.js
 var css6, PostContent;
-var init_PostContent_b83b3251 = __esm({
-  ".svelte-kit/output/server/chunks/PostContent-b83b3251.js"() {
+var init_PostContent_afb41819 = __esm({
+  ".svelte-kit/output/server/chunks/PostContent-afb41819.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     css6 = {
       code: ".b-content__wrapper.svelte-1oomwjq p,.b-content__wrapper.svelte-1oomwjq li,.b-content__wrapper.svelte-1oomwjq a,.b-content__wrapper.svelte-1oomwjq span{font-size:16px;line-height:24px}.b-content__wrapper.svelte-1oomwjq h3{font-size:24px;line-height:28px;font-weight:500}@media only screen and (min-width: 720px){.b-content__wrapper.svelte-1oomwjq h3{font-size:21px;line-height:24px}}.b-content__wrapper.svelte-1oomwjq a{display:inline-block;position:relative;color:var(--color-indigo-600);font-weight:500;text-decoration:none}.b-content__wrapper.svelte-1oomwjq img{max-width:100%;border-radius:30px}.b-content__wrapper.svelte-1oomwjq a::after{content:'';display:block;position:absolute;width:100%;height:1px;background-color:var(--color-indigo-600);bottom:1px}@media only screen and (min-width: 720px){.b-content__wrapper.svelte-1oomwjq p,.b-content__wrapper.svelte-1oomwjq li,.b-content__wrapper.svelte-1oomwjq a,.b-content__wrapper.svelte-1oomwjq span{font-size:18px;line-height:28px}}.b-content__wrapper.svelte-1oomwjq p{margin-bottom:24px}@media only screen and (min-width: 720px){.b-content__wrapper.svelte-1oomwjq p{margin-bottom:32px}}.b-content__wrapper.svelte-1oomwjq ol,.b-content__wrapper.svelte-1oomwjq ul{margin-bottom:32px}.b-content__wrapper.svelte-1oomwjq ul{padding-left:20px}.b-content__wrapper.svelte-1oomwjq ul.c-icon-list,.b-content__wrapper.svelte-1oomwjq ol{padding-left:0}.b-content__wrapper.svelte-1oomwjq ol{counter-reset:ordered-counter;list-style:none}.b-content__wrapper.svelte-1oomwjq ol li{counter-increment:ordered-counter}.b-content__wrapper.svelte-1oomwjq ol li::before{content:counter(ordered-counter);display:inline-flex;width:36px;height:36px;border-radius:50%;justify-content:center;align-items:center;background-color:var(--color-grey);margin-right:18px}.b-content__wrapper.svelte-1oomwjq li{margin-bottom:20px}.b-content__wrapper.svelte-1oomwjq ul li::marker{color:var(--color-blue-500);font-size:22px}.b-content__wrapper.svelte-1oomwjq h1,.b-content__wrapper.svelte-1oomwjq h2{margin-top:50px}.b-content__wrapper.svelte-1oomwjq h3,.b-content__wrapper.svelte-1oomwjq h4,.b-content__wrapper.svelte-1oomwjq h5{margin-top:32px}.b-content__wrapper.svelte-1oomwjq h2{font-size:21px;line-height:27px;font-weight:400;margin-bottom:24px}.b-content__wrapper.svelte-1oomwjq .c-card__title{margin:0;font-size:24px;line-height:28px;font-weight:400}@media only screen and (min-width: 720px){.b-content__wrapper.svelte-1oomwjq h2{font-size:36px;line-height:42px}}.b-content__wrapper.svelte-1oomwjq>p:first-child{font-size:21px;line-height:24px;margin-top:0}.b-content__wrapper.svelte-1oomwjq>p:first-child a{font-size:21px;line-height:24px}@media only screen and (min-width: 720px){.b-content__wrapper.svelte-1oomwjq>p:first-child{font-size:24px;line-height:32px}}@media only screen and (min-width: 720px){.b-content__wrapper.svelte-1oomwjq>p:first-child a{font-size:24px;line-height:32px}}@media only screen and (max-width: 767px){.b-content__wrapper.svelte-1oomwjq .c-icon-list-item--horizontal{flex-direction:column}}",
       map: null
@@ -5272,12 +5272,12 @@ var init_PostContent_b83b3251 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Spacer-8d9ee981.js
+// .svelte-kit/output/server/chunks/Spacer-ca908798.js
 var css7, Spacer;
-var init_Spacer_8d9ee981 = __esm({
-  ".svelte-kit/output/server/chunks/Spacer-8d9ee981.js"() {
+var init_Spacer_ca908798 = __esm({
+  ".svelte-kit/output/server/chunks/Spacer-ca908798.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     css7 = {
       code: ".o-spacer.svelte-5e0zcj{width:100%;min-height:1px}.o-spacer--xs.svelte-5e0zcj{height:24px}.o-spacer--sm.svelte-5e0zcj{height:32px}.o-spacer--md.svelte-5e0zcj{height:64px}.o-spacer--lg.svelte-5e0zcj{height:96px}.o-spacer--xl.svelte-5e0zcj{height:96px}@media only screen and (min-width: 720px){.o-spacer--xl.svelte-5e0zcj{height:120px}}.o-spacer--2xl.svelte-5e0zcj{height:96px}@media only screen and (min-width: 321px){.o-spacer--2xl.svelte-5e0zcj{height:120px}}@media only screen and (min-width: 720px){.o-spacer--2xl.svelte-5e0zcj{height:160px}}.o-spacer--3xl.svelte-5e0zcj{height:160px}@media only screen and (min-width: 720px){.o-spacer--3xl.svelte-5e0zcj{height:192px}}.o-spacer--4xl.svelte-5e0zcj{height:192px}@media only screen and (min-width: 720px){.o-spacer--3xl.svelte-5e0zcj{height:240px}}",
       map: null
@@ -5292,12 +5292,12 @@ var init_Spacer_8d9ee981 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/Wrapper-838da94e.js
+// .svelte-kit/output/server/chunks/Wrapper-55866edb.js
 var css8, Wrapper;
-var init_Wrapper_838da94e = __esm({
-  ".svelte-kit/output/server/chunks/Wrapper-838da94e.js"() {
+var init_Wrapper_55866edb = __esm({
+  ".svelte-kit/output/server/chunks/Wrapper-55866edb.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     css8 = {
       code: ".o-wrapper.svelte-k6b43q{width:100%;padding:0 16px}@media(min-width: 321px){.o-wrapper.svelte-k6b43q{padding:0 24px}}.o-wrapper--full.svelte-k6b43q{padding:0}.o-wrapper--center.svelte-k6b43q{margin-left:auto;margin-right:auto}.o-wrapper--x-wide.svelte-k6b43q{max-width:1440px;padding:0 8px}.o-wrapper--wide.svelte-k6b43q{max-width:1280px}.o-wrapper--standard.svelte-k6b43q{max-width:1100px}.o-wrapper--content.svelte-k6b43q{padding:0;max-width:768px}.o-wrapper--content-wide.svelte-k6b43q{max-width:1160px}",
       map: null
@@ -5316,12 +5316,12 @@ var init_Wrapper_838da94e = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/MetaTags-0d7cff3e.js
+// .svelte-kit/output/server/chunks/MetaTags-d573097a.js
 var MetaTags, MetaTags_1;
-var init_MetaTags_0d7cff3e = __esm({
-  ".svelte-kit/output/server/chunks/MetaTags-0d7cff3e.js"() {
+var init_MetaTags_d573097a = __esm({
+  ".svelte-kit/output/server/chunks/MetaTags-d573097a.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     MetaTags = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { title: title10 = "" } = $$props;
       let { noindex = false } = $$props;
@@ -5472,28 +5472,28 @@ ${validate_component(MetaTags, "MetaTags").$$render($$result, {
   }
 });
 
-// .svelte-kit/output/server/chunks/layout-0c4d9049.js
-var layout_0c4d9049_exports = {};
-__export(layout_0c4d9049_exports, {
+// .svelte-kit/output/server/chunks/layout-7c3c9193.js
+var layout_7c3c9193_exports = {};
+__export(layout_7c3c9193_exports, {
   default: () => Layout
 });
 var css$22, BlogShare, css$12, PostMeta, css9, relatedPostsLimit, Layout;
-var init_layout_0c4d9049 = __esm({
-  ".svelte-kit/output/server/chunks/layout-0c4d9049.js"() {
+var init_layout_7c3c9193 = __esm({
+  ".svelte-kit/output/server/chunks/layout-7c3c9193.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     css$22 = {
       code: ".c-share.svelte-11yuefj{display:flex;align-items:center;background-color:var(--color-grey);padding:16px 32px;border-radius:50px;margin-bottom:40px;max-width:250px}@media only screen and (min-width: 1024px){.c-share.svelte-11yuefj{position:sticky;top:150px;right:0;margin-bottom:0}}.c-share__links.svelte-11yuefj{margin-left:48px}.c-share__link.svelte-11yuefj{display:inline-block;margin-right:24px}",
       map: null
@@ -5613,30 +5613,30 @@ ${validate_component(Wrapper, "Wrapper").$$render($$result, { type: "content-wid
   }
 });
 
-// .svelte-kit/output/server/chunks/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that-cfd86a57.js
-var a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57_exports = {};
-__export(a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57_exports, {
+// .svelte-kit/output/server/chunks/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that-02b9b309.js
+var a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309_exports = {};
+__export(a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309_exports, {
   default: () => A_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that,
   metadata: () => metadata
 });
 var metadata, A_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that;
-var init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57 = __esm({
-  ".svelte-kit/output/server/chunks/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that-cfd86a57.js"() {
+var init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309 = __esm({
+  ".svelte-kit/output/server/chunks/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that-02b9b309.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata = {
       "layout": "latest",
       "title": "A treaty on plastic pollution - what can we find in national policy documents? ",
@@ -5667,30 +5667,30 @@ var init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_t
   }
 });
 
-// .svelte-kit/output/server/chunks/announcing-climate-policy-radar-1280941c.js
-var announcing_climate_policy_radar_1280941c_exports = {};
-__export(announcing_climate_policy_radar_1280941c_exports, {
+// .svelte-kit/output/server/chunks/announcing-climate-policy-radar-bed37ef0.js
+var announcing_climate_policy_radar_bed37ef0_exports = {};
+__export(announcing_climate_policy_radar_bed37ef0_exports, {
   default: () => Announcing_climate_policy_radar,
   metadata: () => metadata2
 });
 var metadata2, Announcing_climate_policy_radar;
-var init_announcing_climate_policy_radar_1280941c = __esm({
-  ".svelte-kit/output/server/chunks/announcing-climate-policy-radar-1280941c.js"() {
+var init_announcing_climate_policy_radar_bed37ef0 = __esm({
+  ".svelte-kit/output/server/chunks/announcing-climate-policy-radar-bed37ef0.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata2 = {
       "layout": "latest",
       "title": "Announcing Climate Policy Radar - on a mission to map and analyse the global climate policy landscape",
@@ -5722,30 +5722,30 @@ var init_announcing_climate_policy_radar_1280941c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/announcing-over-6-8m-of-new-funding-for-climate-policy-radar-6ddbac7c.js
-var announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c_exports = {};
-__export(announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c_exports, {
+// .svelte-kit/output/server/chunks/announcing-over-6-8m-of-new-funding-for-climate-policy-radar-1f0d89ba.js
+var announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba_exports = {};
+__export(announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba_exports, {
   default: () => Announcing_over_6_8m_of_new_funding_for_climate_policy_radar,
   metadata: () => metadata3
 });
 var metadata3, Announcing_over_6_8m_of_new_funding_for_climate_policy_radar;
-var init_announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c = __esm({
-  ".svelte-kit/output/server/chunks/announcing-over-6-8m-of-new-funding-for-climate-policy-radar-6ddbac7c.js"() {
+var init_announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba = __esm({
+  ".svelte-kit/output/server/chunks/announcing-over-6-8m-of-new-funding-for-climate-policy-radar-1f0d89ba.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata3 = {
       "layout": "latest",
       "title": "Announcing over $6.8M of new funding for Climate Policy Radar",
@@ -5775,30 +5775,30 @@ For enquiries, please contact <a href="${"mailto:info@climatepolicyradar.org"}">
   }
 });
 
-// .svelte-kit/output/server/chunks/announcing-partnership-with-world-policy-analysis-center-f0873a43.js
-var announcing_partnership_with_world_policy_analysis_center_f0873a43_exports = {};
-__export(announcing_partnership_with_world_policy_analysis_center_f0873a43_exports, {
+// .svelte-kit/output/server/chunks/announcing-partnership-with-world-policy-analysis-center-020aa52d.js
+var announcing_partnership_with_world_policy_analysis_center_020aa52d_exports = {};
+__export(announcing_partnership_with_world_policy_analysis_center_020aa52d_exports, {
   default: () => Announcing_partnership_with_world_policy_analysis_center,
   metadata: () => metadata4
 });
 var metadata4, Announcing_partnership_with_world_policy_analysis_center;
-var init_announcing_partnership_with_world_policy_analysis_center_f0873a43 = __esm({
-  ".svelte-kit/output/server/chunks/announcing-partnership-with-world-policy-analysis-center-f0873a43.js"() {
+var init_announcing_partnership_with_world_policy_analysis_center_020aa52d = __esm({
+  ".svelte-kit/output/server/chunks/announcing-partnership-with-world-policy-analysis-center-020aa52d.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata4 = {
       "layout": "latest",
       "title": "Announcing CPR's partnership with WORLD Policy Analysis Center",
@@ -5821,30 +5821,30 @@ var init_announcing_partnership_with_world_policy_analysis_center_f0873a43 = __e
   }
 });
 
-// .svelte-kit/output/server/chunks/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch-f877f5dc.js
-var apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc_exports = {};
-__export(apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc_exports, {
+// .svelte-kit/output/server/chunks/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch-1781e846.js
+var apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846_exports = {};
+__export(apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846_exports, {
   default: () => Apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch,
   metadata: () => metadata5
 });
 var metadata5, Apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch;
-var init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc = __esm({
-  ".svelte-kit/output/server/chunks/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch-f877f5dc.js"() {
+var init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846 = __esm({
+  ".svelte-kit/output/server/chunks/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch-1781e846.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata5 = {
       "layout": "latest",
       "title": "Apprenticeships, flight simulators & guide-dogs",
@@ -5882,30 +5882,30 @@ var init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc 
   }
 });
 
-// .svelte-kit/output/server/chunks/augmented-intelligence-e9ad681d.js
-var augmented_intelligence_e9ad681d_exports = {};
-__export(augmented_intelligence_e9ad681d_exports, {
+// .svelte-kit/output/server/chunks/augmented-intelligence-7cf0ea1c.js
+var augmented_intelligence_7cf0ea1c_exports = {};
+__export(augmented_intelligence_7cf0ea1c_exports, {
   default: () => Augmented_intelligence,
   metadata: () => metadata6
 });
 var metadata6, Augmented_intelligence;
-var init_augmented_intelligence_e9ad681d = __esm({
-  ".svelte-kit/output/server/chunks/augmented-intelligence-e9ad681d.js"() {
+var init_augmented_intelligence_7cf0ea1c = __esm({
+  ".svelte-kit/output/server/chunks/augmented-intelligence-7cf0ea1c.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata6 = {
       "layout": "latest",
       "title": "Augmented Intelligence",
@@ -5951,11 +5951,11 @@ var init_augmented_intelligence_e9ad681d = __esm({
 <p><img src="${"/images/augmented-intelligence/20230616_123429_original-1-.jpg"}"></p>
 <p>Our data scientist Kalyan, who led the development of the work on the Global Stocktake Explorer, presented at the Turing Institute\u2019s working group on knowledge graphs. See his slides\xA0<a href="${"https://docs.google.com/presentation/d/1MbYrCa1fhcU7v1X-gLh2sxWonxJpw9uZ5Eiy7qLbRt8/edit?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email"}" title="${"Turing Presentation Slides"}" rel="${"nofollow"}">here</a>.</p>
 <h3>Public Product Roadmap: new features coming soon</h3>
-<p>In March we published our first\xA0<a href="${"https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad&utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email"}" title="${"Public Product Roadmap"}" rel="${"nofollow"}">Public Product Roadmap</a>\xA0\u2013 sketching the steps we\u2019re taking today to reach our (very) ambitious future goals.</p>
+<p>In March we published our first\xA0<a href="${"https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c"}" rel="${"nofollow"}">Public Product Roadmap</a>\xA0\u2013 sketching the steps we\u2019re taking today to reach our (very) ambitious future goals.</p>
 <p>Our work is centred around three strategic pillars that aim to address systemic challenges in climate decision-making: organise, analyse and democratise data. Our roadmap segments our broad areas of work against these goals.</p>
 <p>We\u2019re currently working to provide automatically generated summaries of documents, saving time and effort. In addition, we\u2019re designing and experimenting with new ways to explore our database, including interactive maps and visualisations.</p>
 <p>Check out our Public Product Roadmap to see what upgrades are coming next, and let us know if there\u2019s anything you think we should add to the list.</p>
-<p>C\uFEFFheck out our <a href="${"https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad"}" rel="${"nofollow"}">Roadmap</a></p>
+<p>C\uFEFFheck out our <a href="${"https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c"}" rel="${"nofollow"}">Roadmap</a></p>
 <h3>Events from Climate Policy Radar</h3>
 
 <p>Our CEO Michal spoke at a\xA0<a href="${"https://www.linkedin.com/posts/climate-arc_artificialintelligence-climatedata-ai-activity-7075458464117878784-Uroi?utm_source=brevo&utm_medium=email&utm_campaign=Newsletter%201"}" title="${"Climate Arc - Chatham House"}" rel="${"nofollow"}">Climate Arc - Chatham House event</a>\xA0on how AI can revolutionise climate financing on June 26th at Chatham House, and at a\xA0<a href="${"https://indiaglobalforum.com/Leading-with-Purpose/index.html?utm_source=brevo&utm_campaign=Newsletter%201&utm_medium=email"}" title="${"UK-INDIA WEEK 2023"}" rel="${"nofollow"}">UK-INDIA WEEK 2023</a>\xA0event organised by the India Global Forum also on June 26th.</p>
@@ -5975,30 +5975,30 @@ var init_augmented_intelligence_e9ad681d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/being-a-data-scientist-in-climate-policy-b6ce31ac.js
-var being_a_data_scientist_in_climate_policy_b6ce31ac_exports = {};
-__export(being_a_data_scientist_in_climate_policy_b6ce31ac_exports, {
+// .svelte-kit/output/server/chunks/being-a-data-scientist-in-climate-policy-ceec0b78.js
+var being_a_data_scientist_in_climate_policy_ceec0b78_exports = {};
+__export(being_a_data_scientist_in_climate_policy_ceec0b78_exports, {
   default: () => Being_a_data_scientist_in_climate_policy,
   metadata: () => metadata7
 });
 var metadata7, Being_a_data_scientist_in_climate_policy;
-var init_being_a_data_scientist_in_climate_policy_b6ce31ac = __esm({
-  ".svelte-kit/output/server/chunks/being-a-data-scientist-in-climate-policy-b6ce31ac.js"() {
+var init_being_a_data_scientist_in_climate_policy_ceec0b78 = __esm({
+  ".svelte-kit/output/server/chunks/being-a-data-scientist-in-climate-policy-ceec0b78.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata7 = {
       "layout": "latest",
       "title": "Being a data scientist in climate policy",
@@ -6048,30 +6048,30 @@ var init_being_a_data_scientist_in_climate_policy_b6ce31ac = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/building-natural-language-search-for-climate-change-laws-and-policies-219ee5da.js
-var building_natural_language_search_for_climate_change_laws_and_policies_219ee5da_exports = {};
-__export(building_natural_language_search_for_climate_change_laws_and_policies_219ee5da_exports, {
+// .svelte-kit/output/server/chunks/building-natural-language-search-for-climate-change-laws-and-policies-2c66cbf5.js
+var building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5_exports = {};
+__export(building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5_exports, {
   default: () => Building_natural_language_search_for_climate_change_laws_and_policies,
   metadata: () => metadata8
 });
 var metadata8, Building_natural_language_search_for_climate_change_laws_and_policies;
-var init_building_natural_language_search_for_climate_change_laws_and_policies_219ee5da = __esm({
-  ".svelte-kit/output/server/chunks/building-natural-language-search-for-climate-change-laws-and-policies-219ee5da.js"() {
+var init_building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5 = __esm({
+  ".svelte-kit/output/server/chunks/building-natural-language-search-for-climate-change-laws-and-policies-2c66cbf5.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata8 = {
       "layout": "latest",
       "title": "Building natural language search for climate change laws and policies",
@@ -6123,30 +6123,30 @@ var init_building_natural_language_search_for_climate_change_laws_and_policies_2
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource-227f7add.js
-var climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add_exports = {};
-__export(climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource-903db7f3.js
+var climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3_exports = {};
+__export(climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3_exports, {
   default: () => Climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource,
   metadata: () => metadata9
 });
 var metadata9, Climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource;
-var init_climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource-227f7add.js"() {
+var init_climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3 = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource-903db7f3.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata9 = {
       "layout": "latest",
       "title": "Climate Policy Radar and Grantham Research Institute launch revamped research resource",
@@ -6180,30 +6180,30 @@ var init_climate_policy_radar_and_grantham_research_institute_launch_revamped_re
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-at-cop26-bbffa70d.js
-var climate_policy_radar_at_cop26_bbffa70d_exports = {};
-__export(climate_policy_radar_at_cop26_bbffa70d_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-at-cop26-5b1a807f.js
+var climate_policy_radar_at_cop26_5b1a807f_exports = {};
+__export(climate_policy_radar_at_cop26_5b1a807f_exports, {
   default: () => Climate_policy_radar_at_cop26,
   metadata: () => metadata10
 });
 var metadata10, Climate_policy_radar_at_cop26;
-var init_climate_policy_radar_at_cop26_bbffa70d = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-at-cop26-bbffa70d.js"() {
+var init_climate_policy_radar_at_cop26_5b1a807f = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-at-cop26-5b1a807f.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata10 = {
       "layout": "latest",
       "title": "Climate Policy Radar  at COP26",
@@ -6275,30 +6275,30 @@ var init_climate_policy_radar_at_cop26_bbffa70d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-at-cop27-where-to-find-us-eb5506a6.js
-var climate_policy_radar_at_cop27_where_to_find_us_eb5506a6_exports = {};
-__export(climate_policy_radar_at_cop27_where_to_find_us_eb5506a6_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-at-cop27-where-to-find-us-489838f2.js
+var climate_policy_radar_at_cop27_where_to_find_us_489838f2_exports = {};
+__export(climate_policy_radar_at_cop27_where_to_find_us_489838f2_exports, {
   default: () => Climate_policy_radar_at_cop27_where_to_find_us,
   metadata: () => metadata11
 });
 var metadata11, Climate_policy_radar_at_cop27_where_to_find_us;
-var init_climate_policy_radar_at_cop27_where_to_find_us_eb5506a6 = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-at-cop27-where-to-find-us-eb5506a6.js"() {
+var init_climate_policy_radar_at_cop27_where_to_find_us_489838f2 = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-at-cop27-where-to-find-us-489838f2.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata11 = {
       "layout": "latest",
       "title": "Climate Policy Radar at COP27- where to find us",
@@ -6330,30 +6330,30 @@ var init_climate_policy_radar_at_cop27_where_to_find_us_eb5506a6 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-features-in-tech-eu-7a30f15e.js
-var climate_policy_radar_features_in_tech_eu_7a30f15e_exports = {};
-__export(climate_policy_radar_features_in_tech_eu_7a30f15e_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-features-in-tech-eu-48c16529.js
+var climate_policy_radar_features_in_tech_eu_48c16529_exports = {};
+__export(climate_policy_radar_features_in_tech_eu_48c16529_exports, {
   default: () => Climate_policy_radar_features_in_tech_eu,
   metadata: () => metadata12
 });
 var metadata12, Climate_policy_radar_features_in_tech_eu;
-var init_climate_policy_radar_features_in_tech_eu_7a30f15e = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-features-in-tech-eu-7a30f15e.js"() {
+var init_climate_policy_radar_features_in_tech_eu_48c16529 = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-features-in-tech-eu-48c16529.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata12 = {
       "layout": "latest",
       "title": "Climate Policy Radar features in tech.eu",
@@ -6378,30 +6378,30 @@ var init_climate_policy_radar_features_in_tech_eu_7a30f15e = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-is-back-from-glasgow-6235a076.js
-var climate_policy_radar_is_back_from_glasgow_6235a076_exports = {};
-__export(climate_policy_radar_is_back_from_glasgow_6235a076_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-is-back-from-glasgow-c416489e.js
+var climate_policy_radar_is_back_from_glasgow_c416489e_exports = {};
+__export(climate_policy_radar_is_back_from_glasgow_c416489e_exports, {
   default: () => Climate_policy_radar_is_back_from_glasgow,
   metadata: () => metadata13
 });
 var metadata13, Climate_policy_radar_is_back_from_glasgow;
-var init_climate_policy_radar_is_back_from_glasgow_6235a076 = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-is-back-from-glasgow-6235a076.js"() {
+var init_climate_policy_radar_is_back_from_glasgow_c416489e = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-is-back-from-glasgow-c416489e.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata13 = {
       "layout": "latest",
       "title": "Climate Policy Radar is back from Glasgow's COP26",
@@ -6450,30 +6450,30 @@ var init_climate_policy_radar_is_back_from_glasgow_6235a076 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-launches-its-global-climate-policy-database-c6833a51.js
-var climate_policy_radar_launches_its_global_climate_policy_database_c6833a51_exports = {};
-__export(climate_policy_radar_launches_its_global_climate_policy_database_c6833a51_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-launches-its-global-climate-policy-database-cacf057e.js
+var climate_policy_radar_launches_its_global_climate_policy_database_cacf057e_exports = {};
+__export(climate_policy_radar_launches_its_global_climate_policy_database_cacf057e_exports, {
   default: () => Climate_policy_radar_launches_its_global_climate_policy_database,
   metadata: () => metadata14
 });
 var metadata14, Climate_policy_radar_launches_its_global_climate_policy_database;
-var init_climate_policy_radar_launches_its_global_climate_policy_database_c6833a51 = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-launches-its-global-climate-policy-database-c6833a51.js"() {
+var init_climate_policy_radar_launches_its_global_climate_policy_database_cacf057e = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-launches-its-global-climate-policy-database-cacf057e.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata14 = {
       "layout": "latest",
       "title": "Climate Policy Radar launches its global climate policy database",
@@ -6517,30 +6517,30 @@ var init_climate_policy_radar_launches_its_global_climate_policy_database_c6833a
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-launches-public-changelog-ee2987b3.js
-var climate_policy_radar_launches_public_changelog_ee2987b3_exports = {};
-__export(climate_policy_radar_launches_public_changelog_ee2987b3_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-launches-public-changelog-b11ab58b.js
+var climate_policy_radar_launches_public_changelog_b11ab58b_exports = {};
+__export(climate_policy_radar_launches_public_changelog_b11ab58b_exports, {
   default: () => Climate_policy_radar_launches_public_changelog,
   metadata: () => metadata15
 });
 var metadata15, Climate_policy_radar_launches_public_changelog;
-var init_climate_policy_radar_launches_public_changelog_ee2987b3 = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-launches-public-changelog-ee2987b3.js"() {
+var init_climate_policy_radar_launches_public_changelog_b11ab58b = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-launches-public-changelog-b11ab58b.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata15 = {
       "layout": "latest",
       "title": "Climate Policy Radar launches public changelog",
@@ -6564,30 +6564,30 @@ var init_climate_policy_radar_launches_public_changelog_ee2987b3 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-launches-public-product-roadmap-0f5449f9.js
-var climate_policy_radar_launches_public_product_roadmap_0f5449f9_exports = {};
-__export(climate_policy_radar_launches_public_product_roadmap_0f5449f9_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-launches-public-product-roadmap-892701ec.js
+var climate_policy_radar_launches_public_product_roadmap_892701ec_exports = {};
+__export(climate_policy_radar_launches_public_product_roadmap_892701ec_exports, {
   default: () => Climate_policy_radar_launches_public_product_roadmap,
   metadata: () => metadata16
 });
 var metadata16, Climate_policy_radar_launches_public_product_roadmap;
-var init_climate_policy_radar_launches_public_product_roadmap_0f5449f9 = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-launches-public-product-roadmap-0f5449f9.js"() {
+var init_climate_policy_radar_launches_public_product_roadmap_892701ec = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-launches-public-product-roadmap-892701ec.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata16 = {
       "layout": "latest",
       "title": "Climate Policy Radar launches public product roadmap",
@@ -6600,13 +6600,13 @@ var init_climate_policy_radar_launches_public_product_roadmap_0f5449f9 = __esm({
     };
     Climate_policy_radar_launches_public_product_roadmap = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata16), {}, {
-        default: () => `<p>We are delighted to share <a href="${"https://climatepolicyradar.notion.site/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad"}" rel="${"nofollow"}">Climate Policy Radar\u2019s Public Product Roadmap</a> - sketching the steps we\u2019re taking today to reach our (very) ambitious future goals. </p>
+        default: () => `<p>We are delighted to share <a href="${"https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c"}" rel="${"nofollow"}">Climate Policy Radar\u2019s Public Product Roadmap</a> - sketching the steps we\u2019re taking today to reach our (very) ambitious future goals. </p>
 <p>Transparency is one of our core values, and it threads through everything we do and advocate for. We believe that being open about our own processes and priorities will lead us to make decisions that are rooted in the needs of our users and stakeholders. It will enable us to move, iterate, fail, and retry faster, in the face of the growing climate emergency.</p>
 <p>Our roadmap is both practical and aspirational. You can use it to track the progress we\u2019ve already made on developing our <a href="${"https://app.climatepolicyradar.org/"}" rel="${"nofollow"}">research tool</a>, what we\u2019re working on now, and what we plan to work on in the future. We\u2019ve set our sights high.</p>
 <p>Alongside charting the direction we\u2019re taking to achieve our goals, we\u2019ve written a brief description under most items on the roadmap so you can learn more about what the work involves. </p>
 <h2>Organising, analysing and democratising data</h2>
 <p>Our goal is to provide data and tools to support better decision-making. Robust, accessible data equips and empowers policymakers to learn from successes and mistakes and design better policy responses. Data helps track and evaluate collective climate action, as well as contributing to policy risk analyses for mobilising public and private finance. Evidence also helps citizens and civil society hold decision-makers to account through democratic engagement and action.</p>
-<p>Our work is centred around three strategic pillars that aim to address these systemic challenges: organise, analyse and democratise data. The items on <a href="${"https://www.notion.so/climatepolicyradar/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad&pvs=4"}" rel="${"nofollow"}">our roadmap</a> are segmented into our broad areas of work against these goals - traversing from left to right on the map will guide you through what we\u2019ve built all the way to what we\u2019re dreaming about. Below we\u2019ve mapped out our broad plans across these pillars.</p>
+<p>Our work is centred around three strategic pillars that aim to address these systemic challenges: organise, analyse and democratise data. The items on <a href="${"https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c"}" rel="${"nofollow"}">our roadmap</a> are segmented into our broad areas of work against these goals - traversing from left to right on the map will guide you through what we\u2019ve built all the way to what we\u2019re dreaming about. Below we\u2019ve mapped out our broad plans across these pillars.</p>
 <h3>1: Bringing in more datasets and documents (on roadmap as \u201CNew Data\u201D)</h3>
 <p>We build data pipelines that ingest and translate documents, bringing them onto a single platform to make them easily discoverable and comparable. </p>
 <p>On our immediate horizon (this year) is widening our data offering by bringing in a range of other datasets. This includes documents from the UNFCCC (for example, NDCs and documents submitted under the first Global Stocktake); climate litigation documents from our partners at the Sabin Center; disaster risk reduction policies (with UNDRR\u2019s Preventionweb); policies about nature-based solutions (with Open Earth Foundation and Arboretica), and more. Beyond that, we\u2019re dreaming of collating state- and city-level documents, and expanding beyond climate to other closely intertwined domains like biodiversity and health. </p>
@@ -6633,30 +6633,30 @@ var init_climate_policy_radar_launches_public_product_roadmap_0f5449f9 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-selected-for-personio-foundation’s-impact-portfolio-86a5f63a.js
-var climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a_exports = {};
-__export(climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-selected-for-personio-foundation’s-impact-portfolio-3c035c60.js
+var climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60_exports = {};
+__export(climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60_exports, {
   default: () => Climate_policy_radar_selected_for_personio_foundationuE2u80u99s_impact_portfolio,
   metadata: () => metadata17
 });
 var metadata17, Climate_policy_radar_selected_for_personio_foundationuE2u80u99s_impact_portfolio;
-var init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio-86a5f63a.js"() {
+var init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60 = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio-3c035c60.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata17 = {
       "layout": "latest",
       "title": "Climate Policy Radar selected for Personio Foundation\u2019s Impact Portfolio",
@@ -6680,30 +6680,30 @@ var init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfoli
   }
 });
 
-// .svelte-kit/output/server/chunks/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development-e05c1829.js
-var climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829_exports = {};
-__export(climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829_exports, {
+// .svelte-kit/output/server/chunks/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development-7a92d180.js
+var climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180_exports = {};
+__export(climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180_exports, {
   default: () => Climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development,
   metadata: () => metadata18
 });
 var metadata18, Climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development;
-var init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829 = __esm({
-  ".svelte-kit/output/server/chunks/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development-e05c1829.js"() {
+var init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180 = __esm({
+  ".svelte-kit/output/server/chunks/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development-7a92d180.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata18 = {
       "layout": "latest",
       "title": "Climate Policy Radar selected in global top 100 AI projects for sustainable development",
@@ -6721,38 +6721,93 @@ var init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustain
 <p>Our work to open up climate law and policy data to support evidence-based decision-making was rated \u2018Excellent\u2019 by the List, which aims to scope and showcase solutions from around the world and contribute to the SDGs by creating the world\u2019s largest sustainable solutions platform.</p>
 <p>Our research tools offer open access to the world\u2019s climate laws and policies, helping people discover, understand and generate data-driven insights that can inform climate action. </p>
 <p>Beyond climate change, this effort cuts across almost all of the SDGs. Laws and policies in question are relevant to many other global goals including (clean) energy access, innovation and infrastructure, sustainable cities, responsible production and consumption, and gender equality (underpinning climate resilience).</p>
-<p>While our current focus is the climate, our goal is to extend and apply our framework to tackle other areas vital for sustainable development such as biodiversity, health and finance. We\u2019re already charting our steps towards this goal - you can find out what we\u2019re developing, planning and dreaming about in our <a href="${"https://climatepolicyradar.org/latest/climate-policy-radar-launches-public-product-roadmap"}" rel="${"nofollow"}">public roadmap</a>.</p>
+<p>While our current focus is the climate, our goal is to extend and apply our framework to tackle other areas vital for sustainable development such as biodiversity, health and finance. We\u2019re already charting our steps towards this goal - you can find out what we\u2019re developing, planning and dreaming about in our <a href="${"https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c"}" rel="${"nofollow"}">public roadmap</a>.</p>
 <p><em>Stay updated with the latest updates and developments from our team - <a href="${"https://3566c5a7.sibforms.com/serve/MUIEAPkXK4liqQjleE87527EfcD9gDzY26dQhnJOxNeXZK_TvEAjl_Qu7rrkysJS2ODrj1LioiH24HTGbul2vS1sAxYCPHtu7PgnhZrAE9yCfaFrJ7vzmvBc3u87cs_pkC_99nQ2AqBONHtLwErrV7mcVga2qNlO1xetSeqVVWYsrVPRjg6Rc978eQEMasGQc4PFgIfMFza8TJEv"}" rel="${"nofollow"}">sign up for our newsletter</a>, and follow our <a href="${"https://climatepolicyradar.notion.site/Climate-Policy-Radar-s-Public-Changelog-1f028d2141e946adaebb8a420f50029c"}" rel="${"nofollow"}">Changelog</a>.</em></p>`
       })}`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up-4fa9b67a.js
-var epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a_exports = {};
-__export(epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a_exports, {
-  default: () => Epic_sprints_anduE2u80uA6comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up,
+// .svelte-kit/output/server/chunks/data-engineering-rugby-sevens-and-algorithms-mark-cottam-f31a9a02.js
+var data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02_exports = {};
+__export(data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02_exports, {
+  default: () => Data_engineering_rugby_sevens_and_algorithms_mark_cottam,
   metadata: () => metadata19
 });
-var metadata19, Epic_sprints_anduE2u80uA6comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up;
-var init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a = __esm({
-  ".svelte-kit/output/server/chunks/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up-4fa9b67a.js"() {
+var metadata19, Data_engineering_rugby_sevens_and_algorithms_mark_cottam;
+var init_data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02 = __esm({
+  ".svelte-kit/output/server/chunks/data-engineering-rugby-sevens-and-algorithms-mark-cottam-f31a9a02.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     metadata19 = {
+      "layout": "latest",
+      "title": "Data Engineering, Rugby Sevens and Algorithms: Mark Cottam",
+      "date": "3 April 2024",
+      "thumb": "/images/data-engineering-rugby-sevens-and-algorithms-mark-cottam/53486287052_d1c14d8108_o.jpg",
+      "topics": ["Blog"],
+      "excerpt": "In the third instalment of our series introducing you to the brilliant people behind Climate Policy Radar, we spoke to Mark Cottam about the appeal of climate policy, his role as a Data Engineer and balancing sporting commitments with work. ",
+      "author": "Mark Cottam",
+      "featured": false
+    };
+    Data_engineering_rugby_sevens_and_algorithms_mark_cottam = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata19), {}, {
+        default: () => `<p><strong>Who is Mark? Tell me a bit about yourself\u2026</strong>\xA0</p>
+<p>I studied Chemical Engineering at the University of Birmingham. I went straight from my degree into a graduate scheme with a large aerospace and defence company. I found studying Chemical Engineering vastly different from working in industry, the latter was dominated by safety controls, which meant there wasn\u2019t a huge amount of innovation and dynamism. It was a rotating scheme, and I really found my feet in the company\u2019s data unit \u2013 where I was able to problem-solve and actually spend time engineering solutions to technical problems, rather than managing documentation and processes. This was what first sparked my interest in software and data.\xA0</p>
+<p><strong>You\u2019ve represented Wales in track (running) events. Can you tell me a bit more about that?</strong></p>
+<p>I was born in Wales to a mother of Jamaican descent and an English father. That meant that growing up, I had the potential to represent three nations in sport (!) I\u2019ve always done athletics. My grandfather used to run for Jamaica so it (quite literally) runs in the family. This culminated in representing Wales twice at DNA in Glasgow and the Loughborough International in 2022. I now represent Jamaica in Rugby Sevens.</p>
+<p><strong>How do you fit your sporting commitments around Climate Policy Radar?</strong></p>
+<p>I\u2019m in the office twice a week, and work from home twice a week. I\u2019m really grateful for our four day work week \u2013 having Fridays off makes training and travelling for tournaments and races much easier.</p>
+<p><strong>Can you tell me a bit about what led you to Climate Policy Radar?</strong></p>
+<p>I knew I wanted to work in a dynamic and fast-paced environment, working for an organisation solving a large-scale societal problem that would attract other passionate people. I quite literally searched for \u2018climate tech startups\u2019 on Google and came across Climate Policy Radar. They stood out because policy is really the \u2018macro lever\u2019 for climate action. If you get policy and regulation right, industry will follow suit.\xA0</p>
+<p><strong>What excites you about Climate Policy Radar?</strong></p>
+<p>Coming in at the stage that I did (nearly two years ago) and being a part of building out the data infrastructure, was a very exciting opportunity. We\u2019re doing pretty cutting edge stuff, like RAG (retrieval augmented generation) for in-document search \u2013 effectively allowing users to ask complex questions of our dataset. I think we\u2019re well-positioned to make the most of emerging technologies like generative AI. The way I see it, tech allows us to even the playing field \u2013 less people will be able to do more. Take litigation: you won\u2019t need to be a huge company with 100 lawyers to hold others to account, a small group of climate lawyers would be able to use a tool like ours, and other AI tools, to put up a good fight.\xA0</p>
+<p><strong>What does a day in the life of a data engineer look like?</strong></p>
+<p>I was the first data engineering hire at Climate Policy Radar. We\u2019re a lean team, so you have to be able to work across a range of technologies. We take raw document data \u2013 PDFs and HTML documents \u2013 and extract useful information (like targets) from text, as well as managing metadata and document hierarchy. The data engineers use cloud services to process documents at scale, manage machine learning models and all the tasks associated with that. The analogy I always use for data engineering is to compare it to brewing. In both examples, what you\u2019re doing is taking a raw material, and producing a finished product at scale, in a safe, observable, efficient and cost-effective way. That\u2019s also what we do in data engineering, but instead of fluid flow and chemical reactions, we handle data flows and algorithms.</p>
+<p><strong>Where can you be found on a Friday?</strong></p>
+<p>I\u2019ll often be at tournaments or running, spending time visiting friends and family, or (on a more boring note) doing life admin, laundry and so on. I\u2019m also developing a side-project at the moment: a mobile app for track and field athletes.</p>`
+      })}`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/epic-sprints-and…comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up-5123ad39.js
+var epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39_exports = {};
+__export(epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39_exports, {
+  default: () => Epic_sprints_anduE2u80uA6comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up,
+  metadata: () => metadata20
+});
+var metadata20, Epic_sprints_anduE2u80uA6comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up;
+var init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39 = __esm({
+  ".svelte-kit/output/server/chunks/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up-5123ad39.js"() {
+    init_shims();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata20 = {
       "layout": "latest",
       "title": "Epic Sprints and\u2026Comedy Gigs? The Experience of a Non-Tech Person in a Climate Tech Start-Up",
       "date": "17 February 2022",
@@ -6763,7 +6818,7 @@ var init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_t
       "featured": false
     };
     Epic_sprints_anduE2u80uA6comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata19), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata20), {}, {
         default: () => `<p>When I joined Climate Policy Radar back at the start of December last year, I knew pretty much nothing about tech products, natural language processing, data science, product management, or the tech startup world in general. With a PhD on international climate negotiations at the UNFCCC, and some time in DG CLIMA of the European Commission, my background is mostly in academia, with a little in the public sector.</p>
 <p>So, you can imagine how bizarre and confusing the following sentence sounded to me when said by our data scientist Kalyan in a stand-up meeting during my first week:</p>
 <p>\u201COK, cool \u2013 so I\u2019ll move the extraction epic in Github from the icebox to the sprint backlog \u2013 and you can view it in Zenhub as well, by the way\u201D.</p>
@@ -6786,31 +6841,31 @@ var init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_t
   }
 });
 
-// .svelte-kit/output/server/chunks/experimenting-to-make-climate-policy-documents-easier-to-digest-a0b2bc86.js
-var experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86_exports = {};
-__export(experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86_exports, {
+// .svelte-kit/output/server/chunks/experimenting-to-make-climate-policy-documents-easier-to-digest-15a51be3.js
+var experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3_exports = {};
+__export(experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3_exports, {
   default: () => Experimenting_to_make_climate_policy_documents_easier_to_digest,
-  metadata: () => metadata20
+  metadata: () => metadata21
 });
-var metadata20, Experimenting_to_make_climate_policy_documents_easier_to_digest;
-var init_experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86 = __esm({
-  ".svelte-kit/output/server/chunks/experimenting-to-make-climate-policy-documents-easier-to-digest-a0b2bc86.js"() {
+var metadata21, Experimenting_to_make_climate_policy_documents_easier_to_digest;
+var init_experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3 = __esm({
+  ".svelte-kit/output/server/chunks/experimenting-to-make-climate-policy-documents-easier-to-digest-15a51be3.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata20 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata21 = {
       "layout": "latest",
       "title": "Experimenting to make climate policy documents easier to digest",
       "date": "15 February 2023",
@@ -6821,7 +6876,7 @@ var init_experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc8
       "featured": false
     };
     Experimenting_to_make_climate_policy_documents_easier_to_digest = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata20), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata21), {}, {
         default: () => `<p>We recently experimented with some common <a href="${"https://climatepolicyradar.org/latest/building-natural-language-search-for-climate-change-laws-and-policies"}" rel="${"nofollow"}">natural language processing</a> techniques to turn climate policies and laws into timelines of the dates mentioned within them. </p>
 <p>Dates can serve as key data points to track progress and climate commitments - who committed to halving emissions by 2030, phasing out gasoline and diesel cars by 2028, or doubling renewables by next year? </p>
 <p>We think timelines can be an efficient and powerful way to present key information from long law and policy documents (the average length of laws and policies in our database is over 60 pages), making them easier to digest by the people tasked with their analysis. Our idea was inspired by a demo we saw on <a href="${"https://observablehq.com/@winkjs/how-to-visualize-timeline-of-a-wiki-article"}" rel="${"nofollow"}">building a timeline from a Wikipedia page</a>.</p>
@@ -6851,31 +6906,31 @@ var init_experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc8
   }
 });
 
-// .svelte-kit/output/server/chunks/greening-the-uk-steel-industry-behind-the-headlines-cef6627c.js
-var greening_the_uk_steel_industry_behind_the_headlines_cef6627c_exports = {};
-__export(greening_the_uk_steel_industry_behind_the_headlines_cef6627c_exports, {
+// .svelte-kit/output/server/chunks/greening-the-uk-steel-industry-behind-the-headlines-8828e02f.js
+var greening_the_uk_steel_industry_behind_the_headlines_8828e02f_exports = {};
+__export(greening_the_uk_steel_industry_behind_the_headlines_8828e02f_exports, {
   default: () => Greening_the_uk_steel_industry_behind_the_headlines,
-  metadata: () => metadata21
+  metadata: () => metadata22
 });
-var metadata21, Greening_the_uk_steel_industry_behind_the_headlines;
-var init_greening_the_uk_steel_industry_behind_the_headlines_cef6627c = __esm({
-  ".svelte-kit/output/server/chunks/greening-the-uk-steel-industry-behind-the-headlines-cef6627c.js"() {
+var metadata22, Greening_the_uk_steel_industry_behind_the_headlines;
+var init_greening_the_uk_steel_industry_behind_the_headlines_8828e02f = __esm({
+  ".svelte-kit/output/server/chunks/greening-the-uk-steel-industry-behind-the-headlines-8828e02f.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata21 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata22 = {
       "layout": "latest",
       "title": "Greening the UK steel industry: behind the headlines",
       "date": "27 January 2023",
@@ -6886,7 +6941,7 @@ var init_greening_the_uk_steel_industry_behind_the_headlines_cef6627c = __esm({
       "featured": true
     };
     Greening_the_uk_steel_industry_behind_the_headlines = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata21), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata22), {}, {
         default: () => `<p>The British Chancellor, Jeremy Hunt, is expected to confirm this week that the <a href="${"https://app.climatepolicyradar.org/geographies/united-kingdom"}" rel="${"nofollow"}">UK</a>\u2019s two largest steel manufacturers, British Steel and Tata, will receive a total of \xA3600 million in support to incentivise the decarbonisation of the sector, and <a href="${"https://www.ft.com/content/94eab3e5-87dd-424f-9c5a-be0d79d7cb5c"}" rel="${"nofollow"}">will consult on further measures</a>. The move speaks to the extent to which climate policies are interdependent on a global level.</p>
 <p>The decarbonisation of heavy industry is a longstanding headache for policymakers. This is partly due to the sheer emissions intensity of sectors like steel, which alone accounts for <a href="${"https://www.oecd.org/industry/ind/assessing-steel-decarbonisation-progress.pdf"}" rel="${"nofollow"}">nearly 8% of global emissions</a> from the energy sector; the steel plant at Port Talbot in South Wales <a href="${"https://www.bbc.co.uk/news/uk-64366998?utm_source=cbnewsletter&utm_medium=email&utm_term=2023-01-23&utm_campaign=Daily+Briefing+23+01+2023"}" rel="${"nofollow"}">accounts for 2% of UK emissions</a>.</p>
 <p>There are various methods to make steel production less emissions-intensive \u2014 the question is how to incentivise steelmakers to invest in adopting them. One of the policy tools historically used to this end has been the carbon pricing mechanism, which charges industry for its emissions. But this approach has run up against issues of global policy coordination.</p>
@@ -6899,31 +6954,31 @@ var init_greening_the_uk_steel_industry_behind_the_headlines_cef6627c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/hacking-ai-for-climate-policy-b48573d5.js
-var hacking_ai_for_climate_policy_b48573d5_exports = {};
-__export(hacking_ai_for_climate_policy_b48573d5_exports, {
+// .svelte-kit/output/server/chunks/hacking-ai-for-climate-policy-af5fc90d.js
+var hacking_ai_for_climate_policy_af5fc90d_exports = {};
+__export(hacking_ai_for_climate_policy_af5fc90d_exports, {
   default: () => Hacking_ai_for_climate_policy,
-  metadata: () => metadata22
+  metadata: () => metadata23
 });
-var metadata22, Hacking_ai_for_climate_policy;
-var init_hacking_ai_for_climate_policy_b48573d5 = __esm({
-  ".svelte-kit/output/server/chunks/hacking-ai-for-climate-policy-b48573d5.js"() {
+var metadata23, Hacking_ai_for_climate_policy;
+var init_hacking_ai_for_climate_policy_af5fc90d = __esm({
+  ".svelte-kit/output/server/chunks/hacking-ai-for-climate-policy-af5fc90d.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata22 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata23 = {
       "layout": "latest",
       "title": "Hacking AI for climate policy",
       "date": "15 December 2022",
@@ -6934,7 +6989,7 @@ var init_hacking_ai_for_climate_policy_b48573d5 = __esm({
       "featured": true
     };
     Hacking_ai_for_climate_policy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata22), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata23), {}, {
         default: () => `<p>In November, we teamed up with OpenAI for their first <a href="${"https://openai.com/hackathon"}" rel="${"nofollow"}">hackathon</a> dedicated to climate change. </p>
 <p>Its aspiration was to explore how AI \u2013 specifically language models \u2013 could help drive ambitious climate action, drawing parallels with <a href="${"https://climatepolicyradar.org/what-we-do#ai"}" rel="${"nofollow"}">what we do</a> at Climate Policy Radar.</p>
 <p>We threw data into the ring by building and sharing an open <a href="${"https://github.com/climatepolicyradar/open-dat"}" rel="${"nofollow"}">repository on GitHub</a> of all the data we have in our <a href="${"https://app.climatepolicyradar.org/"}" rel="${"nofollow"}">searchable open database</a>: over 3,000 documents covering climate laws and policies from every country. </p>
@@ -6978,31 +7033,31 @@ var init_hacking_ai_for_climate_policy_b48573d5 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/lisa-long-joins-climate-policy-radar-board-d6daf4d6.js
-var lisa_long_joins_climate_policy_radar_board_d6daf4d6_exports = {};
-__export(lisa_long_joins_climate_policy_radar_board_d6daf4d6_exports, {
+// .svelte-kit/output/server/chunks/lisa-long-joins-climate-policy-radar-board-0b46330e.js
+var lisa_long_joins_climate_policy_radar_board_0b46330e_exports = {};
+__export(lisa_long_joins_climate_policy_radar_board_0b46330e_exports, {
   default: () => Lisa_long_joins_climate_policy_radar_board,
-  metadata: () => metadata23
+  metadata: () => metadata24
 });
-var metadata23, Lisa_long_joins_climate_policy_radar_board;
-var init_lisa_long_joins_climate_policy_radar_board_d6daf4d6 = __esm({
-  ".svelte-kit/output/server/chunks/lisa-long-joins-climate-policy-radar-board-d6daf4d6.js"() {
+var metadata24, Lisa_long_joins_climate_policy_radar_board;
+var init_lisa_long_joins_climate_policy_radar_board_0b46330e = __esm({
+  ".svelte-kit/output/server/chunks/lisa-long-joins-climate-policy-radar-board-0b46330e.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata23 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata24 = {
       "layout": "latest",
       "title": "Lisa Long joins Climate Policy Radar Board",
       "date": "7 March 2022",
@@ -7012,7 +7067,7 @@ var init_lisa_long_joins_climate_policy_radar_board_d6daf4d6 = __esm({
       "featured": false
     };
     Lisa_long_joins_climate_policy_radar_board = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata23), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata24), {}, {
         default: () => `<p>We are delighted that Lisa Long - a serial entrepreneur, non-executive director, and private equity advisor - has joined Climate Policy Radar\u2019s board as a non-executive director.</p>
 <p>Lisa says: \u201D<em>I am very excited to be joining the team at Climate Policy Radar, and contributing to their work in rising to the challenge of better climate policymaking. To be working at global level in this way, with scalable impact and open source access, is a privilege and pleasure. I am looking forward to this journey and to those beyond, where insight-enabling data fundamentally changes the landscape of our collective decision-making</em>.\u201D</p>
 <p>In her own company Before You Code, she provides executive coaching and product management advisory for start-up and growth companies. She currently serves on the board of Vilmer in Norway, the product advisory council for Ushahidi, and is an advisor to private equity firm Spring Capital. </p>
@@ -7022,31 +7077,31 @@ var init_lisa_long_joins_climate_policy_radar_board_d6daf4d6 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/new-feature-english-translation-of-climate-law-and-policy-4ea2472a.js
-var new_feature_english_translation_of_climate_law_and_policy_4ea2472a_exports = {};
-__export(new_feature_english_translation_of_climate_law_and_policy_4ea2472a_exports, {
+// .svelte-kit/output/server/chunks/new-feature-english-translation-of-climate-law-and-policy-b09c0383.js
+var new_feature_english_translation_of_climate_law_and_policy_b09c0383_exports = {};
+__export(new_feature_english_translation_of_climate_law_and_policy_b09c0383_exports, {
   default: () => New_feature_english_translation_of_climate_law_and_policy,
-  metadata: () => metadata24
+  metadata: () => metadata25
 });
-var metadata24, New_feature_english_translation_of_climate_law_and_policy;
-var init_new_feature_english_translation_of_climate_law_and_policy_4ea2472a = __esm({
-  ".svelte-kit/output/server/chunks/new-feature-english-translation-of-climate-law-and-policy-4ea2472a.js"() {
+var metadata25, New_feature_english_translation_of_climate_law_and_policy;
+var init_new_feature_english_translation_of_climate_law_and_policy_b09c0383 = __esm({
+  ".svelte-kit/output/server/chunks/new-feature-english-translation-of-climate-law-and-policy-b09c0383.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata24 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata25 = {
       "layout": "latest",
       "title": "New feature: English translation of climate law and policy",
       "date": "25 July 2023",
@@ -7057,7 +7112,7 @@ var init_new_feature_english_translation_of_climate_law_and_policy_4ea2472a = __
       "featured": false
     };
     New_feature_english_translation_of_climate_law_and_policy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata24), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata25), {}, {
         default: () => `<p><strong>Climate Policy Radar\u2019s search tool breaks a critical research barrier by enabling users to search non English law and policy documents, and see English translations of passages that match their search.</strong></p>
 <p>Effective policies are paramount to tackling climate change. Yet existing data about existing laws and policies - and which ones work - are sparse, siloed and not readily accessible. One of the greatest barriers is language: national laws and policies are written in a variety of different languages, providing a considerable challenge for researchers, policymakers, and analysts trying to understand the law and policy landscape.</p>
 <p>We believe that by enabling users to search the full text of documents originally written in any language, we can help break down barriers between climate law and policy professionals working in different regions of the world. Longer term, we aim to have a multilingual user interface so that users can search the site and view results in different languages as part of our mission to democratise access to national climate law and policy data.</p>
@@ -7074,7 +7129,7 @@ var init_new_feature_english_translation_of_climate_law_and_policy_4ea2472a = __
 <ul><li>Switch between the English and original language version of passages that match a search. This will make the passages easier to find and translations easier to compare.</li>
 <li>See the full text of the document and highlights, in both English and the original language, for both HTML and PDF documents. This will enable the user to see where the passages appear within the context of the full document.</li></ul>
 <p><a href="${"https://docs.google.com/forms/d/e/1FAIpQLSc3ZL7n5TpRUqqc7xfcpsj4jf7CIvUcretgy3O9ttuzdn-rBA/viewform"}" rel="${"nofollow"}">Sign up to be notified</a> when this functionality is available.</p>
-<p>Longer term, we want to have a multilingual user interface so that users can search the site and view results in different languages.  French and Portuguese are the first languages that we would like to support. Check out our <a href="${"https://www.notion.so/climatepolicyradar/8071896b79f540e3b975ff564791ed4a?v=bf5633ead154432ba5dfea6fc435edad"}" rel="${"nofollow"}">public product roadmap</a> to learn more about our plans for the future.</p>
+<p>Longer term, we want to have a multilingual user interface so that users can search the site and view results in different languages.  French and Portuguese are the first languages that we would like to support. Check out our <a href="${"https://www.notion.so/climatepolicyradar/Climate-Policy-Radar-Public-Product-Roadmap-250fdc6416824160b7b34aef4ef29e1c"}" rel="${"nofollow"}">public product roadmap</a> to learn more about our plans for the future.</p>
 <h3>Tell us your thoughts</h3>
 <p>We\u2019d love to hear feedback on this feature. If you want to share your ideas, please <a href="${"https://climatepolicyradar.org/contact"}" rel="${"nofollow"}">get in touch</a> or <a href="${"https://calendly.com/alan-climate-policy-radar/feedback-conversation"}" rel="${"nofollow"}">schedule a conversation</a> with us to discuss.</p>`
       })}`;
@@ -7082,31 +7137,31 @@ var init_new_feature_english_translation_of_climate_law_and_policy_4ea2472a = __
   }
 });
 
-// .svelte-kit/output/server/chunks/new-partnership-launches-ai-powered-global-climate-law-and-policy-database-d0b261a8.js
-var new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8_exports = {};
-__export(new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8_exports, {
+// .svelte-kit/output/server/chunks/new-partnership-launches-ai-powered-global-climate-law-and-policy-database-ea594a26.js
+var new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26_exports = {};
+__export(new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26_exports, {
   default: () => New_partnership_launches_ai_powered_global_climate_law_and_policy_database,
-  metadata: () => metadata25
+  metadata: () => metadata26
 });
-var metadata25, New_partnership_launches_ai_powered_global_climate_law_and_policy_database;
-var init_new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8 = __esm({
-  ".svelte-kit/output/server/chunks/new-partnership-launches-ai-powered-global-climate-law-and-policy-database-d0b261a8.js"() {
+var metadata26, New_partnership_launches_ai_powered_global_climate_law_and_policy_database;
+var init_new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26 = __esm({
+  ".svelte-kit/output/server/chunks/new-partnership-launches-ai-powered-global-climate-law-and-policy-database-ea594a26.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata25 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata26 = {
       "layout": "latest",
       "title": "New partnership launches AI-powered global climate law and policy database",
       "date": "10 November 2022",
@@ -7117,7 +7172,7 @@ var init_new_partnership_launches_ai_powered_global_climate_law_and_policy_datab
       "featured": true
     };
     New_partnership_launches_ai_powered_global_climate_law_and_policy_database = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata25), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata26), {}, {
         default: () => `<p>The Grantham Research Institute on Climate Change and the Environment at the London School of Economics, the Sabin Center for Climate Change Law at Columbia University, and Climate Policy Radar are delighted to announce a new partnership to offer upgraded open data resources on global climate laws, policies and legal cases. </p>
 <p>The collaboration will bring together the partners\u2019 world-leading databases on global climate law - the Grantham Research Institute\u2019s Climate Change Laws of the World and the Sabin Center\u2019s Global Climate Litigation Database - and enhance them with artificial intelligence-powered features developed by tech startup Climate Policy Radar. </p>
 <p>The partners are launching these revamped online resources to strengthen understanding of climate legislation, policy and litigation. For the first time, users will be able to search the complete text of thousands of climate law, policy and litigation documents from every country. (Previously, search functionality was limited to document summaries only.) </p>
@@ -7141,31 +7196,31 @@ var init_new_partnership_launches_ai_powered_global_climate_law_and_policy_datab
   }
 });
 
-// .svelte-kit/output/server/chunks/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation-5944178d.js
-var new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d_exports = {};
-__export(new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d_exports, {
+// .svelte-kit/output/server/chunks/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation-e4d3fdf5.js
+var new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5_exports = {};
+__export(new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5_exports, {
   default: () => New_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation,
-  metadata: () => metadata26
+  metadata: () => metadata27
 });
-var metadata26, New_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation;
-var init_new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d = __esm({
-  ".svelte-kit/output/server/chunks/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation-5944178d.js"() {
+var metadata27, New_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation;
+var init_new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5 = __esm({
+  ".svelte-kit/output/server/chunks/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation-e4d3fdf5.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata26 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata27 = {
       "layout": "latest",
       "title": "New partnership with Climate Parliament will provide free information resources to support climate legislation",
       "date": "8 February 2023",
@@ -7176,7 +7231,7 @@ var init_new_partnership_with_climate_parliament_will_provide_free_information_r
       "featured": true
     };
     New_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata26), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata27), {}, {
         default: () => `<p>We\u2019re delighted to announce our partnership with The Climate Parliament to provide legislators and policymakers worldwide with data and knowledge resources to help advance timely, ambitious and effective climate action, and enhance their role in the implementation of the Paris Agreement in the run-up to COP28 and beyond. </p>
 <p>Together we will generate and offer information on climate change strategies - laws, policies and nationally determined contributions (NDCs). This will support shared learning and ideation between legislators from different nations, enabling leaders to draw on each other\u2019s experiences, best practices and successes. And by allowing the comparison of rules and commitments across regions and nations, the work will help to highlight law and policy gaps, and opportunities for action.</p>
 <p>Central to this will be efforts to strengthen the capacity of and drive the involvement of MPs in the implementation of NDCs - pledges to slash emissions and adapt to climate change - which are core to achieving the goals of the Paris Agreement.</p>
@@ -7188,31 +7243,31 @@ var init_new_partnership_with_climate_parliament_will_provide_free_information_r
   }
 });
 
-// .svelte-kit/output/server/chunks/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data-c2275752.js
-var pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752_exports = {};
-__export(pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752_exports, {
+// .svelte-kit/output/server/chunks/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data-8536d598.js
+var pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598_exports = {};
+__export(pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598_exports, {
   default: () => Pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data,
-  metadata: () => metadata27
+  metadata: () => metadata28
 });
-var metadata27, Pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data;
-var init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752 = __esm({
-  ".svelte-kit/output/server/chunks/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data-c2275752.js"() {
+var metadata28, Pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data;
+var init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598 = __esm({
+  ".svelte-kit/output/server/chunks/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data-8536d598.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata27 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata28 = {
       "layout": "latest",
       "title": "PDF Parsing: Using AI to turn (messy) climate policy documents into (readable) structured data",
       "date": "23 November 2022",
@@ -7223,7 +7278,7 @@ var init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readab
       "featured": false
     };
     Pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata27), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata28), {}, {
         default: () => `<p>The ability to extract structured text from PDFs has haunted developers for 30 years. </p>
 <p>PDFs were designed for creating and viewing flexibly formatted documents without the user having to worry about which device, operating system or browser they were using. This versatility revolutionised information sharing.</p>
 <p>Yet the lack of formatting constraints made extracting structured information nearly impossible. As most climate-relevant law and policy documents are PDFs, this presents a challenge to our goal of making them fully searchable.</p>
@@ -7263,31 +7318,93 @@ var init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readab
   }
 });
 
-// .svelte-kit/output/server/chunks/the-value-of-user-research-5e70375d.js
-var the_value_of_user_research_5e70375d_exports = {};
-__export(the_value_of_user_research_5e70375d_exports, {
-  default: () => The_value_of_user_research,
-  metadata: () => metadata28
+// .svelte-kit/output/server/chunks/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores-2bd97f85.js
+var tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85_exports = {};
+__export(tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85_exports, {
+  default: () => Tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores,
+  metadata: () => metadata29
 });
-var metadata28, The_value_of_user_research;
-var init_the_value_of_user_research_5e70375d = __esm({
-  ".svelte-kit/output/server/chunks/the-value-of-user-research-5e70375d.js"() {
+var metadata29, Tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores;
+var init_tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85 = __esm({
+  ".svelte-kit/output/server/chunks/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores-2bd97f85.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata28 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata29 = {
+      "layout": "latest",
+      "title": "Tech for Good, Schmidt Futures and getting lost in the sauce: Alanna Flores",
+      "date": "6 March 2024",
+      "thumb": "/images/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores/image_50405121.jpg",
+      "topics": ["Blog"],
+      "excerpt": "For the second instalment of our new series, introducing you to the brilliant people behind Climate Policy Radar, we spoke to Alanna Flores. Alanna spent the last 6 months working in Climate Policy Radar\u2019s data science team as part of Schmidt Futures Technologists for Global Transformation, a programme designed to broaden the pool of technologists working for public benefit. As we bid Alanna farewell, we caught up with her about her time at Climate Policy Radar and the programme.",
+      "author": "Alanna Flores",
+      "featured": false
+    };
+    Tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata29), {}, {
+        default: () => `<p>For the second instalment of our new series, introducing you to the brilliant people behind Climate Policy Radar, we spoke to Alanna Flores. Alanna spent the last 6 months working in Climate Policy Radar\u2019s data science team as part of Schmidt Futures Technologists for Global Transformation, a programme designed to broaden the pool of technologists working for public benefit. As we bid Alanna farewell, we caught up with her about her time at Climate Policy Radar and the programme.</p>
+<p><strong>Who is Alanna? Tell me a bit about yourself\u2026</strong></p>
+<p>I grew up in a small town in New Jersey. As the youngest of four children, I was the last to leave home. I decided to move to California and did my undergraduate and master\u2019s degrees at Stanford in the Bay Area. I wasn\u2019t sure what I wanted to do \u2013 I thought I wanted to study policy and political science, but when I got there Computer Science was so popular (as it is in Silicon Valley) so I took the Intro to Computer Science class. To my surprise, I fell in love with it. I really enjoyed the process of coding, how logical it was, and how creative it could be. Being able to think of anything (within reason) and having the tools to create it was something that was fascinating to me.\xA0</p>
+<p><strong>Tell us about the Technologists for Global Transformation programme at Schmidt Futures and how you found it?</strong></p>
+<p>Two years into my degree I thought to myself \u2018wait, what kind of job do I want to do?\u2019 \u2013 I didn\u2019t want to be a Software Engineer, or necessarily work in Big Tech. As I mentioned, I arrived at university with an interest in policy. I was trying to find ways to marry what I liked doing in my day-to-day and what I really cared about\u2026 what made me want to get up in the morning. I found a position at a lab that did computational policy research and realised it was a niche I wanted to keep exploring: doing engineering-type work in a policy setting.\xA0</p>
+<p>I found out about Schmidt Futures and my programme shortly after. The programme is an opportunity for people who have a computer science or engineering background to work at impact organisations in six to twelve month rotations, often working in product management.\xA0 Starting out in the programme, I thought product management could be a neat fit: I could still be close to technical work, but with more people interaction. In the programme you do four placements, which gives you a pretty unique opportunity to work in different areas. It turned out that product management wasn\u2019t as great a fit for me as I had thought, but through the programme, I\u2019ve found my footing with data science.</p>
+<p><strong>What are the merits of the Schmidt programme?</strong>\xA0</p>
+<p>It\u2019s really exciting that the Schmidt programme exists because I don\u2019t think a lot of recent graduates with technical degrees see many opportunities to connect their skills to non-profit work. Rather, there is a focus on getting early career experience in a corporate setting to improve your technical skills and credibility. My programme is a fantastic alternative for socially conscious technical people to build their careers around the issues that motivate them. I hope that more people, even outside of this programme, can be open to all the opportunities social impact work in tech has to offer. I\u2019ve found that working at smaller organisations and on close-knit teams has allowed me to learn a broad set of skills and made me feel incredibly valued as a team member. Having this realisation and these experiences early on in my career is such a blessing.\xA0</p>
+<p><strong>What led you to Climate Policy Radar?</strong></p>
+<p>Climate change is one of the biggest issues of our time. In terms of issues that I care about, climate is clearly high up on that list. I\u2019ve been a lifelong vegetarian, and I try to think about how my day-to-day actions impact the world around me. I\u2019d never pursued climate in a work setting, so it felt like a natural fit for work to test it out in the programme.</p>
+<p>I found Climate Policy Radar on Google when I was looking for somewhere to do my third placement. I was looking for an international organisation that worked in policy, was climate-adjacent, and used AI, so I hit the jackpot. When I spoke to the team I thought \u2018these people are really on their game, they\u2019re really talented\u2019. I knew right away I wanted to work here.\xA0</p>
+<p><strong>What did a day in your life at Climate Policy Radar look like?</strong></p>
+<p>When I started at CPR, I was primarily doing analysis work and building our new analytics infrastructure, in addition to serving as the Product Manager for the R&amp;D team. In that work, I was spending a lot of time in meetings throughout the day. Now that I\u2019m fully on the data science team within R&amp;D, the structure of my day involves a lot of \u2018focus time\u2019, just me and my computer: coding, testing, iterating. I like to manage my own time, and I love working in a team that values flexibility and empowers each individual to produce high-quality work.\xA0</p>
+<p><strong>What\u2019s the most interesting thing about your role?</strong></p>
+<p>I\u2019ve been able to carve out a role that is pretty interesting and unique in itself. I\u2019m a Data Scientist, but I\u2019ve been able to do a lot of product management work and have been able to get\xA0 involved in many different projects due to the flexibility of the team. My favourite thing about my role is that it is really creative and self-directed\u2014often when I start a task, there isn\u2019t a specific way of doing things, so that exploration process is really exciting.\xA0</p>
+<p>When sourcing a placement for the Schmidt programme, I was looking for non-profits working on cutting-edge technology and AI, which wasn\u2019t necessarily an easy task. Climate Policy Radar is a unique place where there is tons of technical talent, amazing mentorship, and really innovative problems to work on. It\u2019s a beautiful combination.\xA0</p>
+<p>This is the most talented technical team I\u2019ve worked with, so from that perspective, I\u2019ve learnt loads. Kalyan and Harrison in the data science team have been great to learn from, as has Alan, CPR\u2019s Head of Product. I\u2019ve also never worked with a leader like Michal, and I\u2019ve found the people in leadership positions to be very passionate, focused, and inspiring.\xA0</p>
+<p><strong>Spending most of your time \u2018in the weeds\u2019 of code, how do you \u2018zoom out\u2019 and connect to Climate Policy Radar\u2019s mission?</strong></p>
+<p>It\u2019s very easy to get \u2018lost in the sauce\u2019. I think, to be honest, I don\u2019t come out of that tunnel vision until I\u2019ve reached a project milestone. I\u2019m working on building a machine-learning classifier at the moment, and after each stage, I\u2019m thinking about how each feature will have a wider impact. I\u2019ve been in the weeds of that for the last two weeks, but I think, in general, as a team, we\u2019re pretty good at reminding ourselves \u2018why\u2019 we\u2019re working on something.\xA0</p>
+<p><strong>Where could you be found on a Friday?</strong></p>
+<p>I honestly used my Fridays for all my personal admin tasks: groceries, laundry, and errands. It was incredible for setting me up for a stress-free weekend and work week.</p>`
+      })}`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/the-value-of-user-research-1c06bbfe.js
+var the_value_of_user_research_1c06bbfe_exports = {};
+__export(the_value_of_user_research_1c06bbfe_exports, {
+  default: () => The_value_of_user_research,
+  metadata: () => metadata30
+});
+var metadata30, The_value_of_user_research;
+var init_the_value_of_user_research_1c06bbfe = __esm({
+  ".svelte-kit/output/server/chunks/the-value-of-user-research-1c06bbfe.js"() {
+    init_shims();
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata30 = {
       "layout": "latest",
       "title": "The value of user research",
       "date": "31 October 2023",
@@ -7298,7 +7415,7 @@ var init_the_value_of_user_research_5e70375d = __esm({
       "featured": false
     };
     The_value_of_user_research = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata28), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata30), {}, {
         default: () => `<p><em>Why we do user research and what we have learned so far</em></p>
 <p>When we started building Climate Policy Radar, we had lots of assumptions about who our users were and what solutions would help them. User research has helped us ensure our research tool meets the needs of the people we\u2019re building it for - mainly \u201Cknowledge workers\u201D. These are people processing large quantities of messy textual data: policy analysts, academics and risk modellers. In this blog post, we\u2019ll explain why we carry out user research, how we\u2019ve done it so far, what we\u2019re learning, and some of the improvements we\u2019re making in response.</p>
 <h2>Why we do user research</h2>
@@ -7335,31 +7452,31 @@ var init_the_value_of_user_research_5e70375d = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/using-augmented-intelligence-to-support-the-un-global-stocktake-90d44b4b.js
-var using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b_exports = {};
-__export(using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b_exports, {
+// .svelte-kit/output/server/chunks/using-augmented-intelligence-to-support-the-un-global-stocktake-7f800603.js
+var using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603_exports = {};
+__export(using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603_exports, {
   default: () => Using_augmented_intelligence_to_support_the_un_global_stocktake,
-  metadata: () => metadata29
+  metadata: () => metadata31
 });
-var metadata29, Using_augmented_intelligence_to_support_the_un_global_stocktake;
-var init_using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b = __esm({
-  ".svelte-kit/output/server/chunks/using-augmented-intelligence-to-support-the-un-global-stocktake-90d44b4b.js"() {
+var metadata31, Using_augmented_intelligence_to_support_the_un_global_stocktake;
+var init_using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603 = __esm({
+  ".svelte-kit/output/server/chunks/using-augmented-intelligence-to-support-the-un-global-stocktake-7f800603.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata29 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata31 = {
       "layout": "latest",
       "title": "Using Augmented Intelligence to support the UN Global Stocktake",
       "date": "21 June 2023",
@@ -7369,7 +7486,7 @@ var init_using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4
       "featured": false
     };
     Using_augmented_intelligence_to_support_the_un_global_stocktake = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata29), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata31), {}, {
         default: () => `<p><em>New AI-powered search engine advances technical capabilities to understand and analyse large quantities of data to drive climate action</em></p>
 <p>The technical phase of the first\xA0<a href="${"https://unfccc.int/topics/global-stocktake?gclid=Cj0KCQjwnMWkBhDLARIsAHBOftoKE4iv1QcRtglD-m8M0KbbiMwkJhX2PzXVVRBzkWmj6mZheLvTeFUaApH0EALw_wcB"}" rel="${"nofollow"}">UN Climate Change Global Stocktake</a>\xA0came to a close at the UN Climate Conference in Bonn last week. The Global Stocktake, which is designed to assess the global response to the climate crisis every five years (and this year, for the first time), has seen together over 1,600 document submissions with insights and recommendations from governments and non-governmental organizations around the world to help drive climate action this decade.</p>
 <p>Mandated by the landmark Paris Agreement in 2015, there are three core questions that the Global Stocktake seeks to answer: what is the current state of collective progress on climate action, where do we need to get to, and what are the immediate steps that Parties and non-Party stakeholders can take within the next 5 years to change course?</p>
@@ -7392,31 +7509,31 @@ var init_using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4
   }
 });
 
-// .svelte-kit/output/server/chunks/working-on-climate-change-as-a-software-engineer-33b75dc7.js
-var working_on_climate_change_as_a_software_engineer_33b75dc7_exports = {};
-__export(working_on_climate_change_as_a_software_engineer_33b75dc7_exports, {
+// .svelte-kit/output/server/chunks/working-on-climate-change-as-a-software-engineer-5a64ba93.js
+var working_on_climate_change_as_a_software_engineer_5a64ba93_exports = {};
+__export(working_on_climate_change_as_a_software_engineer_5a64ba93_exports, {
   default: () => Working_on_climate_change_as_a_software_engineer,
-  metadata: () => metadata30
+  metadata: () => metadata32
 });
-var metadata30, Working_on_climate_change_as_a_software_engineer;
-var init_working_on_climate_change_as_a_software_engineer_33b75dc7 = __esm({
-  ".svelte-kit/output/server/chunks/working-on-climate-change-as-a-software-engineer-33b75dc7.js"() {
+var metadata32, Working_on_climate_change_as_a_software_engineer;
+var init_working_on_climate_change_as_a_software_engineer_5a64ba93 = __esm({
+  ".svelte-kit/output/server/chunks/working-on-climate-change-as-a-software-engineer-5a64ba93.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata30 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata32 = {
       "layout": "latest",
       "title": "Working on climate change as a software engineer",
       "date": "23 January 2023",
@@ -7427,7 +7544,7 @@ var init_working_on_climate_change_as_a_software_engineer_33b75dc7 = __esm({
       "featured": false
     };
     Working_on_climate_change_as_a_software_engineer = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata30), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata32), {}, {
         default: () => `<p>How can software engineers help the world?</p>
 <p>It turns out that people ask the Internet this question a lot. And it\u2019s a question that was at the forefront of one of our own software engineer\u2019s minds, as they contemplated how to use their computer science skills for good in their career. </p>
 <p>As more and more people make the switch to green jobs, Climate Policy Radar\u2019s Peter Hooper tells us about work and life as a software engineer in climate change, and the opportunities for open source to propel technology development.</p>
@@ -7468,31 +7585,31 @@ var init_working_on_climate_change_as_a_software_engineer_33b75dc7 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/“i-felt-a-renewed-passion-for-helping-solve-climate-change”-cpr-welcomes-first-work-experience-student-af2ee52d.js
-var i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d_exports = {};
-__export(i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d_exports, {
+// .svelte-kit/output/server/chunks/“i-felt-a-renewed-passion-for-helping-solve-climate-change”-cpr-welcomes-first-work-experience-student-b120679b.js
+var i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b_exports = {};
+__export(i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b_exports, {
   default: () => UE2u80u9Ci_felt_a_renewed_passion_for_helping_solve_climate_changeuE2u80u9D_cpr_welcomes_first_work_experience_student,
-  metadata: () => metadata31
+  metadata: () => metadata33
 });
-var metadata31, UE2u80u9Ci_felt_a_renewed_passion_for_helping_solve_climate_changeuE2u80u9D_cpr_welcomes_first_work_experience_student;
-var init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d = __esm({
-  ".svelte-kit/output/server/chunks/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student-af2ee52d.js"() {
+var metadata33, UE2u80u9Ci_felt_a_renewed_passion_for_helping_solve_climate_changeuE2u80u9D_cpr_welcomes_first_work_experience_student;
+var init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b = __esm({
+  ".svelte-kit/output/server/chunks/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student-b120679b.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_layout_0c4d9049();
-    init_theme_26732784();
-    init_stores_ee8150ad();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_Pill_01eed0b5();
-    init_PostContent_b83b3251();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    metadata31 = {
+    init_app_62b9b593();
+    init_layout_7c3c9193();
+    init_theme_b64c5b4a();
+    init_stores_e56b4427();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_Pill_4fb24242();
+    init_PostContent_afb41819();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    metadata33 = {
       "layout": "latest",
       "title": "\u201CI felt a renewed passion for helping solve climate change\u201D - CPR welcomes first work experience student",
       "date": "31 August 2022",
@@ -7503,7 +7620,7 @@ var init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_
       "featured": false
     };
     UE2u80u9Ci_felt_a_renewed_passion_for_helping_solve_climate_changeuE2u80u9D_cpr_welcomes_first_work_experience_student = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata31), {}, {
+      return `${validate_component(Layout, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata33), {}, {
         default: () => `<p>From 17-year-old climate activist <a href="${"https://twitter.com/AlexandriaV2005"}" rel="${"nofollow"}">Alexandria Villase\xF1or</a> to climate biologist and activist <a href="${"https://www.ayanaelizabeth.com/"}" rel="${"nofollow"}">Ayana Elizabeth Johnson</a>, climate role models across the world are forging climate solutions and galvanising individuals and communities to take and demand climate action. </p>
 <p>At a time when doom and gloom dominate the discourse, they lead, inspire, and teach. So when 17-year-old student Bella got in touch with CPR seeking inspiration and wanting to shadow us for a day, we knew we wanted to swing our doors wide open:</p>
 <p>\u201CAs the only girl in my computer science class, it is sometimes difficult for me to see role models in the field,\u201D Bella said in her note to us, \u201Cbut seeing the diversity of gender on your board is inspiring.\u201D</p>
@@ -7532,20 +7649,20 @@ var init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_
   }
 });
 
-// .svelte-kit/output/server/chunks/posts.json-e721577c.js
-var posts_json_e721577c_exports = {};
-__export(posts_json_e721577c_exports, {
+// .svelte-kit/output/server/chunks/posts.json-dfecac11.js
+var posts_json_dfecac11_exports = {};
+__export(posts_json_dfecac11_exports, {
   get: () => get
 });
 var get;
-var init_posts_json_e721577c = __esm({
-  ".svelte-kit/output/server/chunks/posts.json-e721577c.js"() {
+var init_posts_json_dfecac11 = __esm({
+  ".svelte-kit/output/server/chunks/posts.json-dfecac11.js"() {
     init_shims();
     get = async () => {
-      let posts = await Promise.all(Object.entries({ "./a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md": () => Promise.resolve().then(() => (init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57(), a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57_exports)), "./announcing-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_climate_policy_radar_1280941c(), announcing_climate_policy_radar_1280941c_exports)), "./announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c(), announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c_exports)), "./announcing-partnership-with-world-policy-analysis-center.md": () => Promise.resolve().then(() => (init_announcing_partnership_with_world_policy_analysis_center_f0873a43(), announcing_partnership_with_world_policy_analysis_center_f0873a43_exports)), "./apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md": () => Promise.resolve().then(() => (init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc(), apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc_exports)), "./augmented-intelligence.md": () => Promise.resolve().then(() => (init_augmented_intelligence_e9ad681d(), augmented_intelligence_e9ad681d_exports)), "./being-a-data-scientist-in-climate-policy.md": () => Promise.resolve().then(() => (init_being_a_data_scientist_in_climate_policy_b6ce31ac(), being_a_data_scientist_in_climate_policy_b6ce31ac_exports)), "./building-natural-language-search-for-climate-change-laws-and-policies.md": () => Promise.resolve().then(() => (init_building_natural_language_search_for_climate_change_laws_and_policies_219ee5da(), building_natural_language_search_for_climate_change_laws_and_policies_219ee5da_exports)), "./climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md": () => Promise.resolve().then(() => (init_climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add(), climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add_exports)), "./climate-policy-radar-at-cop26.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop26_bbffa70d(), climate_policy_radar_at_cop26_bbffa70d_exports)), "./climate-policy-radar-at-cop27-where-to-find-us.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop27_where_to_find_us_eb5506a6(), climate_policy_radar_at_cop27_where_to_find_us_eb5506a6_exports)), "./climate-policy-radar-features-in-tech-eu.md": () => Promise.resolve().then(() => (init_climate_policy_radar_features_in_tech_eu_7a30f15e(), climate_policy_radar_features_in_tech_eu_7a30f15e_exports)), "./climate-policy-radar-is-back-from-glasgow.md": () => Promise.resolve().then(() => (init_climate_policy_radar_is_back_from_glasgow_6235a076(), climate_policy_radar_is_back_from_glasgow_6235a076_exports)), "./climate-policy-radar-launches-its-global-climate-policy-database.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_its_global_climate_policy_database_c6833a51(), climate_policy_radar_launches_its_global_climate_policy_database_c6833a51_exports)), "./climate-policy-radar-launches-public-changelog.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_changelog_ee2987b3(), climate_policy_radar_launches_public_changelog_ee2987b3_exports)), "./climate-policy-radar-launches-public-product-roadmap.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_product_roadmap_0f5449f9(), climate_policy_radar_launches_public_product_roadmap_0f5449f9_exports)), "./climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a(), climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a_exports)), "./climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829(), climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829_exports)), "./epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md": () => Promise.resolve().then(() => (init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a(), epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a_exports)), "./experimenting-to-make-climate-policy-documents-easier-to-digest.md": () => Promise.resolve().then(() => (init_experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86(), experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86_exports)), "./greening-the-uk-steel-industry-behind-the-headlines.md": () => Promise.resolve().then(() => (init_greening_the_uk_steel_industry_behind_the_headlines_cef6627c(), greening_the_uk_steel_industry_behind_the_headlines_cef6627c_exports)), "./hacking-ai-for-climate-policy.md": () => Promise.resolve().then(() => (init_hacking_ai_for_climate_policy_b48573d5(), hacking_ai_for_climate_policy_b48573d5_exports)), "./lisa-long-joins-climate-policy-radar-board.md": () => Promise.resolve().then(() => (init_lisa_long_joins_climate_policy_radar_board_d6daf4d6(), lisa_long_joins_climate_policy_radar_board_d6daf4d6_exports)), "./new-feature-english-translation-of-climate-law-and-policy.md": () => Promise.resolve().then(() => (init_new_feature_english_translation_of_climate_law_and_policy_4ea2472a(), new_feature_english_translation_of_climate_law_and_policy_4ea2472a_exports)), "./new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md": () => Promise.resolve().then(() => (init_new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8(), new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8_exports)), "./new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md": () => Promise.resolve().then(() => (init_new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d(), new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d_exports)), "./pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md": () => Promise.resolve().then(() => (init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752(), pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752_exports)), "./the-value-of-user-research.md": () => Promise.resolve().then(() => (init_the_value_of_user_research_5e70375d(), the_value_of_user_research_5e70375d_exports)), "./using-augmented-intelligence-to-support-the-un-global-stocktake.md": () => Promise.resolve().then(() => (init_using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b(), using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b_exports)), "./working-on-climate-change-as-a-software-engineer.md": () => Promise.resolve().then(() => (init_working_on_climate_change_as_a_software_engineer_33b75dc7(), working_on_climate_change_as_a_software_engineer_33b75dc7_exports)), "./\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md": () => Promise.resolve().then(() => (init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d(), i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d_exports)) }).map(async ([path10, page2]) => {
-        const { metadata: metadata32 } = await page2();
+      let posts = await Promise.all(Object.entries({ "./a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md": () => Promise.resolve().then(() => (init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309(), a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309_exports)), "./announcing-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_climate_policy_radar_bed37ef0(), announcing_climate_policy_radar_bed37ef0_exports)), "./announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba(), announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba_exports)), "./announcing-partnership-with-world-policy-analysis-center.md": () => Promise.resolve().then(() => (init_announcing_partnership_with_world_policy_analysis_center_020aa52d(), announcing_partnership_with_world_policy_analysis_center_020aa52d_exports)), "./apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md": () => Promise.resolve().then(() => (init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846(), apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846_exports)), "./augmented-intelligence.md": () => Promise.resolve().then(() => (init_augmented_intelligence_7cf0ea1c(), augmented_intelligence_7cf0ea1c_exports)), "./being-a-data-scientist-in-climate-policy.md": () => Promise.resolve().then(() => (init_being_a_data_scientist_in_climate_policy_ceec0b78(), being_a_data_scientist_in_climate_policy_ceec0b78_exports)), "./building-natural-language-search-for-climate-change-laws-and-policies.md": () => Promise.resolve().then(() => (init_building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5(), building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5_exports)), "./climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md": () => Promise.resolve().then(() => (init_climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3(), climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3_exports)), "./climate-policy-radar-at-cop26.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop26_5b1a807f(), climate_policy_radar_at_cop26_5b1a807f_exports)), "./climate-policy-radar-at-cop27-where-to-find-us.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop27_where_to_find_us_489838f2(), climate_policy_radar_at_cop27_where_to_find_us_489838f2_exports)), "./climate-policy-radar-features-in-tech-eu.md": () => Promise.resolve().then(() => (init_climate_policy_radar_features_in_tech_eu_48c16529(), climate_policy_radar_features_in_tech_eu_48c16529_exports)), "./climate-policy-radar-is-back-from-glasgow.md": () => Promise.resolve().then(() => (init_climate_policy_radar_is_back_from_glasgow_c416489e(), climate_policy_radar_is_back_from_glasgow_c416489e_exports)), "./climate-policy-radar-launches-its-global-climate-policy-database.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_its_global_climate_policy_database_cacf057e(), climate_policy_radar_launches_its_global_climate_policy_database_cacf057e_exports)), "./climate-policy-radar-launches-public-changelog.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_changelog_b11ab58b(), climate_policy_radar_launches_public_changelog_b11ab58b_exports)), "./climate-policy-radar-launches-public-product-roadmap.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_product_roadmap_892701ec(), climate_policy_radar_launches_public_product_roadmap_892701ec_exports)), "./climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60(), climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60_exports)), "./climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180(), climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180_exports)), "./data-engineering-rugby-sevens-and-algorithms-mark-cottam.md": () => Promise.resolve().then(() => (init_data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02(), data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02_exports)), "./epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md": () => Promise.resolve().then(() => (init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39(), epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39_exports)), "./experimenting-to-make-climate-policy-documents-easier-to-digest.md": () => Promise.resolve().then(() => (init_experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3(), experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3_exports)), "./greening-the-uk-steel-industry-behind-the-headlines.md": () => Promise.resolve().then(() => (init_greening_the_uk_steel_industry_behind_the_headlines_8828e02f(), greening_the_uk_steel_industry_behind_the_headlines_8828e02f_exports)), "./hacking-ai-for-climate-policy.md": () => Promise.resolve().then(() => (init_hacking_ai_for_climate_policy_af5fc90d(), hacking_ai_for_climate_policy_af5fc90d_exports)), "./lisa-long-joins-climate-policy-radar-board.md": () => Promise.resolve().then(() => (init_lisa_long_joins_climate_policy_radar_board_0b46330e(), lisa_long_joins_climate_policy_radar_board_0b46330e_exports)), "./new-feature-english-translation-of-climate-law-and-policy.md": () => Promise.resolve().then(() => (init_new_feature_english_translation_of_climate_law_and_policy_b09c0383(), new_feature_english_translation_of_climate_law_and_policy_b09c0383_exports)), "./new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md": () => Promise.resolve().then(() => (init_new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26(), new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26_exports)), "./new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md": () => Promise.resolve().then(() => (init_new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5(), new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5_exports)), "./pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md": () => Promise.resolve().then(() => (init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598(), pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598_exports)), "./tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores.md": () => Promise.resolve().then(() => (init_tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85(), tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85_exports)), "./the-value-of-user-research.md": () => Promise.resolve().then(() => (init_the_value_of_user_research_1c06bbfe(), the_value_of_user_research_1c06bbfe_exports)), "./using-augmented-intelligence-to-support-the-un-global-stocktake.md": () => Promise.resolve().then(() => (init_using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603(), using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603_exports)), "./working-on-climate-change-as-a-software-engineer.md": () => Promise.resolve().then(() => (init_working_on_climate_change_as_a_software_engineer_5a64ba93(), working_on_climate_change_as_a_software_engineer_5a64ba93_exports)), "./\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md": () => Promise.resolve().then(() => (init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b(), i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b_exports)) }).map(async ([path10, page2]) => {
+        const { metadata: metadata35 } = await page2();
         const slug = path10.split("/").pop().split(".").shift();
-        return { ...metadata32, slug };
+        return { ...metadata35, slug };
       }));
       return {
         status: 200,
@@ -7555,20 +7672,173 @@ var init_posts_json_e721577c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/jobs.json-e6d1545c.js
-var jobs_json_e6d1545c_exports = {};
-__export(jobs_json_e6d1545c_exports, {
+// .svelte-kit/output/server/chunks/layout-254d2dc2.js
+var layout_254d2dc2_exports = {};
+__export(layout_254d2dc2_exports, {
+  default: () => Layout2
+});
+var css10, excerpt, image, Layout2;
+var init_layout_254d2dc2 = __esm({
+  ".svelte-kit/output/server/chunks/layout-254d2dc2.js"() {
+    init_shims();
+    init_app_62b9b593();
+    init_PostContent_afb41819();
+    init_Button_6294b3d4();
+    init_MetaTags_d573097a();
+    init_Pill_4fb24242();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_theme_b64c5b4a();
+    init_Icon_0036fe39();
+    css10 = {
+      code: "@media only screen and (min-width: 1024px){.b-content__inner.svelte-7c0rpk{display:flex}}.b-content__cta.svelte-7c0rpk{display:flex;flex-direction:column-reverse;margin-top:24px}@media only screen and (min-width: 1024px){.b-content__cta.svelte-7c0rpk{flex-direction:column;position:relative;margin-left:40px;margin-top:0}}.c-jobs__cta.svelte-7c0rpk{background-color:var(--color-indigo-600);border-radius:30px;padding:36px;color:var(--color-grey)}@media only screen and (min-width: 720px){.c-jobs__cta-copy.svelte-7c0rpk{margin-bottom:64px}}.b-content__cta-link.svelte-7c0rpk{color:var(--color-indigo-600);text-decoration:underline;margin-bottom:80px}@media only screen and (min-width: 1024px){.b-content__cta-link.svelte-7c0rpk{position:absolute;bottom:0;right:0;margin-bottom:0}}@media only screen and (min-width: 720px){.c-jobs__cta.svelte-7c0rpk{min-width:340px;position:sticky;top:150px;right:0}}",
+      map: null
+    };
+    excerpt = "Join us to build tools that help inform better decisions";
+    image = "https://climatepolicyradar.org/images/logo.jpg";
+    Layout2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      let $theme, $$unsubscribe_theme;
+      $$unsubscribe_theme = subscribe(theme, (value) => $theme = value);
+      set_store_value(theme, $theme = { footer: "light", header: "light" }, $theme);
+      let { title: title10 } = $$props;
+      let { applyLink } = $$props;
+      let { topics = [] } = $$props;
+      const metaTitle = `${title10} | Jobs | Climate Policy Radar`;
+      const path10 = `/${title10}`;
+      if ($$props.title === void 0 && $$bindings.title && title10 !== void 0)
+        $$bindings.title(title10);
+      if ($$props.applyLink === void 0 && $$bindings.applyLink && applyLink !== void 0)
+        $$bindings.applyLink(applyLink);
+      if ($$props.topics === void 0 && $$bindings.topics && topics !== void 0)
+        $$bindings.topics(topics);
+      $$result.css.add(css10);
+      $$unsubscribe_theme();
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: metaTitle, excerpt, image, path: path10 }, {}, {})}
+
+${validate_component(Spacer, "Spacer").$$render($$result, { size: "2xl" }, {}, {})}
+
+${validate_component(Wrapper, "Wrapper").$$render($$result, { type: "content-wide" }, {}, {
+        default: () => `${validate_component(Pill, "Pill").$$render($$result, { color: "white" }, {}, { default: () => `Jobs` })}
+  ${validate_component(Spacer, "Spacer").$$render($$result, { size: "xs" }, {}, {})}
+  <h1>${escape(title10)}</h1>
+  ${validate_component(Spacer, "Spacer").$$render($$result, { size: "md" }, {}, {})}
+
+  <div class="${"b-content__inner svelte-7c0rpk"}"><div class="${"b-content__body"}">${validate_component(PostContent, "PostContent").$$render($$result, {}, {}, {
+          default: () => `${slots.default ? slots.default({}) : ``}`
+        })}</div>
+    <div class="${"b-content__cta svelte-7c0rpk"}"><div class="${"c-jobs__cta svelte-7c0rpk"}"><p class="${"c-jobs__cta-copy svelte-7c0rpk"}">To apply for this role, please send us your CV and tell us why you
+          would like to work with us.
+        </p>
+        ${validate_component(Button, "Button").$$render($$result, {
+          type: "cta",
+          color: "white",
+          href: "mailto:jobs@climatepolicyradar.org?subject=" + title10
+        }, {}, { default: () => `Apply now` })}</div>
+      <a href="${"/jobs#open-positions"}" class="${"b-content__cta-link svelte-7c0rpk"}" sveltekit:noscroll>View all other jobs</a></div></div>`
+      })}`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/policy-officer-climate-justice-e0d292ff.js
+var policy_officer_climate_justice_e0d292ff_exports = {};
+__export(policy_officer_climate_justice_e0d292ff_exports, {
+  default: () => Policy_officer_climate_justice,
+  metadata: () => metadata34
+});
+var metadata34, Policy_officer_climate_justice;
+var init_policy_officer_climate_justice_e0d292ff = __esm({
+  ".svelte-kit/output/server/chunks/policy-officer-climate-justice-e0d292ff.js"() {
+    init_shims();
+    init_app_62b9b593();
+    init_layout_254d2dc2();
+    init_PostContent_afb41819();
+    init_Button_6294b3d4();
+    init_Icon_0036fe39();
+    init_MetaTags_d573097a();
+    init_Pill_4fb24242();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_theme_b64c5b4a();
+    metadata34 = {
+      "layout": "jobs",
+      "title": "Policy Officer (Climate Justice)",
+      "topics": ["jobs"],
+      "date": "21 March 2024",
+      "excerpt": "We are looking for a brilliant and committed Climate Justice Researcher/Policy Officer to join our team and help ensure we are not only at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape "
+    };
+    Policy_officer_climate_justice = create_ssr_component(($$result, $$props, $$bindings, slots) => {
+      return `${validate_component(Layout2, "Layout_MDSVEX_DEFAULT").$$render($$result, Object.assign($$props, metadata34), {}, {
+        default: () => `<p><strong>\xA340k - \xA350k pa | London-Hybrid | Unlimited leave | unfortunately, cannot consider candidates outside of the UK</strong></p>
+<h2>About us</h2>
+<p><a href="${"http://climatepolicyradar.org/"}" rel="${"nofollow"}">Climate Policy Radar</a> is on a mission to organise, analyse, and democratise the world\u2019s climate law and policy data. We build open databases and research tools so people can discover, understand and generate data-driven insights on public laws and policies. Our work helps governments, researchers, international organisations, civil society, and the private sector to understand and advance effective climate policies and deploy climate finance.</p>
+<p>Harnessing data science and AI, and pioneering the application of natural language processing to this domain, our work unlocks previously inaccessible, unstructured data. This serves to enhance accountability, and promote data democratisation, transforming our <a href="${"https://app.climatepolicyradar.org"}" rel="${"nofollow"}">search engine</a> into a virtual research assistant for the climate world, powered by a unique open knowledge graph. We are deeply embedded in the global climate and AI communities, and count some of the most important organisations and global climate leaders amongst our users, advocates, friends and advisors.</p>
+<p>We\u2019re a Community Interest Company (CIC), championing an open science approach that aims to promote collaboration, transparency and justice \u2014 including open code and data. <a href="${"https://climatepolicyradar.org/about#team"}" rel="${"nofollow"}">Our team</a> is currently 20 and we are embarking on a significant growth phase. Our team is characterised by its high level of expertise, shared mission-driven ethos, and a strong collaborative spirit that welcomes individuals from diverse backgrounds, perspectives, and experiences.</p>
+<p>We are now looking for a brilliant and committed Climate Justice Researcher/Policy Officer to join our team and help ensure we are not only at the forefront of understanding and analysing the rapidly evolving climate law and policy landscape - but that we do so with a clear focus on principles and practices of environmental and climate justice and just transition, in order to:</p>
+<ul><li>contribute to reducing inequalities and injustice related to and exacerbated by climate change\xA0\xA0</li>
+<li>contribute to reducing adverse impacts on communities arising from the climate and energy transitions</li>
+<li>increase visibility and representation of environmental justice and just transition related issues of impacted communities\xA0</li></ul>
+<h2>Roles and responsibilities</h2>
+<p>We\u2019re looking for a Climate Justice and Just\xA0Transition Policy Officer with a solid background in climate justice policy/research work either within civil society organisations or research organisations/think tanks, with brilliant research and analytical skills. You will work within the policy and research teams, and in close collaboration with the data science and other teams:</p>
+<ul><li><p>Using your domain knowledge, you\u2019ll contribute to research to develop climate justice and just transition related taxonomies, that will feed into natural language processing and machine learning models for analysis of global climate-related legal and policy texts (no prior knowledge of data science or machine learning models is needed, though a keen interest and desire to learn is necessary!)</p></li>
+<li><p>Track emerging trends and proposals on climate justice and equity and provide analysis and advice to influence the product features that we introduce\xA0</p></li>
+<li><p>Develop and maintain a network of partners and collaborators (academia and research institutions, IGOs, impacted communities, civil society and more), to:\xA0</p>
+<ul><li>Make sure we are synced with latest thinking and developments in the field, including representation of impacted communities</li>
+<li>Develop and deliver joint high-impact bespoke projects and programmes\xA0</li>
+<li>Help bring our work to them and their stakeholders.\xA0</li></ul></li>
+<li><p>Further our outreach by independently producing and/or contributing to written output like blog posts, articles, infographics</p></li>
+<li><p>Be a source of knowledge in your field of expertise contributing to the wider team</p></li></ul>
+<h2>You bring with you:</h2>
+<ul><li>At least 5 years experience in climate justice policy/research work, either within civil society organisations or research organisations/academia/think tanks</li>
+<li>Rigorous, detail-oriented, methodical research and analytical skills</li>
+<li>Creativity in your approach to problem solving</li>
+<li>Broad horizons and familiarity with a wide range of climate change-related concepts and issues (e.g. mitigation and adaptation policy approaches, basics of climate science, economics, climate-related technologies, international negotiations and the UNFCCC process). Note we are not seeking in-depth expertise in all of those, but rather appreciate a rounded, well-informed \u2018Climatese\u2019 speaker</li>
+<li>Remarkable interpersonal and communication skills, and the ability to communicate and translate knowledge to different audiences</li>
+<li>A voracious appetite for knowledge, and a knack for finding it and putting it to good use.\xA0</li>
+<li>Excitement about the environment that a startup presents</li>
+<li>Values that are aligned with <a href="${"https://climatepolicyradar.org/about#values"}" rel="${"nofollow"}">ours</a></li></ul>
+<h2>We offer</h2>
+<ul><li>Salary \xA340-\xA350k pa, depending on experience</li>
+<li>A deep commitment to employee wellbeing, including policies such as 4 day workweek (same pay, Fridays off), generous leave, and a wellbeing allowance</li>
+<li>A vibrant, collaborative, and empathetic work culture that thrives on innovation and the impact of our work</li>
+<li>A hybrid work environment in London\u2019s climate tech hub, offering views of the river in London\u2019s County Hall Building. We have a 50% office presence each week</li>
+<li>Learn more about our values <a href="${"https://climatepolicyradar.org/about#values"}" rel="${"nofollow"}">here</a>. We care about them deeply</li></ul>
+<h2>Interview process</h2>
+<p>We know that applying for a new job can be full of uncertainties - and we aim to reduce those by communicating clearly. Our process is made of several stages (see below). After each stage, we\u2019ll contact you as soon as we can and no longer than 2 working days, to let you know if you will be progressing to the next stage.\xA0</p>
+<ol><li>30-minute introductory call</li>
+<li>1-2 hour at home task</li>
+<li>1.5 hour interview with two members (with time to discuss your task), subject to satisfactory at home task</li>
+<li>Opportunity to chat to other team members (this is not an interview, but gives you the opportunity to get to know the team and learn more about us in an informal setting)</li>
+<li>Offer subject to references</li></ol>
+<p>If you have a disability or special need that requires accommodation during the process of application and selection, please let us know</p>
+<h2>Right to Work in the UK</h2>
+<p>Unfortunately, we are currently unable to sponsor work visas. Only applicants legally authorised to work in the UK will be considered.</p>
+<h2>Equal opportunities</h2>
+<p>Climate Policy Radar is an equal-opportunity workplace. We will not discriminate and will take affirmative action measures to ensure against discrimination in employment, recruitment, advertisements for employment, compensation, termination, upgrading, promotions, and other conditions of employment against any employee or job applicant on the bases of heritage, ancestry, national origin, citizenship, religion, sex, sexual orientation, gender identity, age, disabilities, relationship choices and status. We also consider qualified applicants regardless of criminal histories, consistent with legal requirements.\xA0</p>
+<p>We actively encourage applicants from diverse and historically underrepresented backgrounds. Not sure if you tick all the boxes but feel like you align with our values, are excited about working in Climate Change and AI and have the potential to do well in the role? Click apply! We\u2019d love to hear from you.</p>
+<p>If you have a disability or special need that requires accommodation in the process of application and selection, please let us know.\xA0</p>
+<p><strong>\\
+To apply, please send a CV and a cover letter telling us why you\u2019d be excellent for this role to <a href="${"mailto:jobs@climatepolicyradar.org"}">jobs@climatepolicyradar.org</a>.</strong></p>
+`
+      })}`;
+    });
+  }
+});
+
+// .svelte-kit/output/server/chunks/jobs.json-8c609734.js
+var jobs_json_8c609734_exports = {};
+__export(jobs_json_8c609734_exports, {
   get: () => get2
 });
 var get2;
-var init_jobs_json_e6d1545c = __esm({
-  ".svelte-kit/output/server/chunks/jobs.json-e6d1545c.js"() {
+var init_jobs_json_8c609734 = __esm({
+  ".svelte-kit/output/server/chunks/jobs.json-8c609734.js"() {
     init_shims();
     get2 = async () => {
-      let jobs = await Promise.all(Object.entries({}).map(async ([path10, page2]) => {
-        const { metadata: metadata32 } = await page2();
+      let jobs = await Promise.all(Object.entries({ "./policy-officer-climate-justice.md": () => Promise.resolve().then(() => (init_policy_officer_climate_justice_e0d292ff(), policy_officer_climate_justice_e0d292ff_exports)) }).map(async ([path10, page2]) => {
+        const { metadata: metadata35 } = await page2();
         const slug = path10.split("/").pop().split(".").shift();
-        return { ...metadata32, slug };
+        return { ...metadata35, slug };
       }));
       return {
         status: 200,
@@ -9246,9 +9516,9 @@ var require_fxp = __commonJS({
   }
 });
 
-// .svelte-kit/output/server/chunks/__layout-fad80ac0.js
-var layout_fad80ac0_exports = {};
-__export(layout_fad80ac0_exports, {
+// .svelte-kit/output/server/chunks/__layout-fd3fab1c.js
+var layout_fd3fab1c_exports = {};
+__export(layout_fd3fab1c_exports, {
   default: () => _layout,
   load: () => load
 });
@@ -9285,17 +9555,17 @@ async function load({ fetch: fetch2 }) {
   }
   return { props: { jobs } };
 }
-var import_fast_xml_parser, activeSubMenu, menu, css$9, Logo, css$8, Badge, css$72, SubMenu, css$62, Chevron, css$52, Nav, css$42, Header, socialLinks, css$32, Footer, css$23, PreloadingIndicator, MediaQuery, Hotjar, css$13, cookieConsent, CookieConsent, GTM, GoogleAnalytics, css10, parser, _layout;
-var init_layout_fad80ac0 = __esm({
-  ".svelte-kit/output/server/chunks/__layout-fad80ac0.js"() {
+var import_fast_xml_parser, activeSubMenu, menu, css$9, Logo, css$8, Badge, css$72, SubMenu, css$62, Chevron, css$52, Nav, css$42, Header, socialLinks, css$32, Footer, css$23, PreloadingIndicator, MediaQuery, Hotjar, css$13, cookieConsent, CookieConsent, GTM, GoogleAnalytics, css11, parser, _layout;
+var init_layout_fd3fab1c = __esm({
+  ".svelte-kit/output/server/chunks/__layout-fd3fab1c.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     import_fast_xml_parser = __toModule(require_fxp());
-    init_stores_ee8150ad();
-    init_theme_26732784();
-    init_Button_1bdccbb8();
-    init_Wrapper_838da94e();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
+    init_stores_e56b4427();
+    init_theme_b64c5b4a();
+    init_Button_6294b3d4();
+    init_Wrapper_55866edb();
+    init_Icon_0036fe39();
     activeSubMenu = writable(null);
     menu = readable([
       {
@@ -9739,7 +10009,7 @@ ${loadHotjar ? `${validate_component(Hotjar, "Hotjar").$$render($$result, {}, {}
     gtag('config', 'G-ZD1WWE49TL');
   <\/script>`, ""}`;
     });
-    css10 = {
+    css11 = {
       code: "main.svelte-6c7xwg{display:flex;flex-direction:column;min-height:100vh}",
       map: null
     };
@@ -9756,7 +10026,7 @@ ${loadHotjar ? `${validate_component(Hotjar, "Hotjar").$$render($$result, {}, {}
       setContext("jobs", jobs);
       if ($$props.jobs === void 0 && $$bindings.jobs && jobs !== void 0)
         $$bindings.jobs(jobs);
-      $$result.css.add(css10);
+      $$result.css.add(css11);
       active = $page.path.split("/")[1];
       {
         set_store_value(mobileMenuOpen, $mobileMenuOpen = false, $mobileMenuOpen);
@@ -9784,14 +10054,14 @@ ${validate_component(Header, "Header").$$render($$result, { active, jobs }, {}, 
   }
 });
 
-// .svelte-kit/output/server/chunks/Banner-8a244347.js
-var css11, Banner;
-var init_Banner_8a244347 = __esm({
-  ".svelte-kit/output/server/chunks/Banner-8a244347.js"() {
+// .svelte-kit/output/server/chunks/Banner-a132e8df.js
+var css12, Banner;
+var init_Banner_a132e8df = __esm({
+  ".svelte-kit/output/server/chunks/Banner-a132e8df.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Wrapper_838da94e();
-    css11 = {
+    init_app_62b9b593();
+    init_Wrapper_55866edb();
+    css12 = {
       code: ".b-banner.svelte-b7wdj.svelte-b7wdj{position:relative;overflow:hidden}.b-banner__inner.svelte-b7wdj.svelte-b7wdj{padding:160px 0;position:relative}@media only screen and (min-width: 321px){.b-banner__inner.svelte-b7wdj.svelte-b7wdj{padding:160px 0}}@media only screen and (min-width: 768px){.b-banner--lg.svelte-b7wdj .b-banner__inner.svelte-b7wdj{padding-top:calc(160px + 92px)}}.b-banner--lg.svelte-b7wdj.svelte-b7wdj::before{content:'';width:2000px;height:2000px;position:absolute;top:0;left:-25%;background-image:url('/images/arc-bg.png')}@media only screen and (min-width: 720px){.b-banner.svelte-b7wdj.svelte-b7wdj::before{top:360px;left:50%}}.b-banner--dark.svelte-b7wdj.svelte-b7wdj{color:#fff;background-color:var(--color-indigo-600);background:linear-gradient(\n      134.5deg,\n      rgba(50, 35, 50, 1) 0%,\n      rgba(7, 29, 73, 1) 0%,\n      rgba(7, 29, 73, 1) 45%,\n      rgba(22, 134, 238, 1) 100%\n    )}.b-banner--light.svelte-b7wdj.svelte-b7wdj::before{content:'';width:2000px;height:2000px;position:absolute;top:0;left:-25%;background-image:url('/images/arc-bg-light.png')}@media only screen and (min-width: 720px){.b-banner--light.svelte-b7wdj.svelte-b7wdj::before{left:35%}}.b-banner--md.svelte-b7wdj.svelte-b7wdj::before{content:'';width:2000px;height:2000px;position:absolute;top:0;left:-25%;background-image:url('/images/arc-bg-minimal.png')}@media only screen and (min-width: 720px){.b-banner--md.svelte-b7wdj.svelte-b7wdj::before{left:35%}}.b-banner--sm.svelte-b7wdj .b-banner__inner.svelte-b7wdj{padding:160px 0 80px}@media only screen and (min-width: 321px){.b-banner--sm.svelte-b7wdj .b-banner__inner.svelte-b7wdj{padding:160px 0 60px}}.b-banner--xs.svelte-b7wdj .b-banner__inner.svelte-b7wdj{padding:240px 0 96px}.b-banner--xxs.svelte-b7wdj .b-banner__inner.svelte-b7wdj{padding:120px 0 40px}.b-banner__content--normal.svelte-b7wdj.svelte-b7wdj{max-width:860px}.b-banner__content--form.svelte-b7wdj.svelte-b7wdj{max-width:980px}.b-banner__subheading.svelte-b7wdj.svelte-b7wdj{max-width:768px}.b-banner--md.svelte-b7wdj .b-banner__inner.svelte-b7wdj{padding:160px 0}",
       map: null
     };
@@ -9806,7 +10076,7 @@ var init_Banner_8a244347 = __esm({
         $$bindings.size(size);
       if ($$props.contentType === void 0 && $$bindings.contentType && contentType !== void 0)
         $$bindings.contentType(contentType);
-      $$result.css.add(css11);
+      $$result.css.add(css12);
       return `<div class="${"b-banner b-banner--" + escape(theme2) + " b-banner--" + escape(size) + " svelte-b7wdj"}">${validate_component(Wrapper, "Wrapper").$$render($$result, {}, {}, {
         default: () => `<div class="${"b-banner__inner svelte-b7wdj"}"><div class="${"b-banner__content--" + escape(contentType) + " svelte-b7wdj"}">${$$slots.pill ? `${slots.pill ? slots.pill({}) : ``}` : ``}
 
@@ -9825,26 +10095,26 @@ var init_Banner_8a244347 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/__error-3d56cd0f.js
-var error_3d56cd0f_exports = {};
-__export(error_3d56cd0f_exports, {
+// .svelte-kit/output/server/chunks/__error-65815156.js
+var error_65815156_exports = {};
+__export(error_65815156_exports, {
   default: () => _error,
   load: () => load2
 });
 function load2({ error: error2, status }) {
   return { props: { status, error: error2 } };
 }
-var css12, _error;
-var init_error_3d56cd0f = __esm({
-  ".svelte-kit/output/server/chunks/__error-3d56cd0f.js"() {
+var css13, _error;
+var init_error_65815156 = __esm({
+  ".svelte-kit/output/server/chunks/__error-65815156.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Banner_8a244347();
-    init_Pill_01eed0b5();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_theme_26732784();
-    css12 = {
+    init_app_62b9b593();
+    init_Banner_a132e8df();
+    init_Pill_4fb24242();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_theme_b64c5b4a();
+    css13 = {
       code: "pre.svelte-hq5ya3{background-color:#fafafa;border-radius:1rem;padding:2rem;font-size:10px;overflow:auto}",
       map: null
     };
@@ -9858,7 +10128,7 @@ var init_error_3d56cd0f = __esm({
         $$bindings.status(status);
       if ($$props.error === void 0 && $$bindings.error && error2 !== void 0)
         $$bindings.error(error2);
-      $$result.css.add(css12);
+      $$result.css.add(css13);
       $$unsubscribe_theme();
       return `${validate_component(Banner, "Banner").$$render($$result, { theme: "light", size: "sm" }, {}, {
         heading: () => `<h1 slot="${"heading"}" class="${"u-gradient-text--dark-to-blue"}">${escape(error2.name)}: ${escape(error2.message)}</h1>`,
@@ -9871,12 +10141,12 @@ ${``}`;
   }
 });
 
-// .svelte-kit/output/server/chunks/IconListItem-b6007451.js
-var css$14, IconList, css13, IconListItem;
-var init_IconListItem_b6007451 = __esm({
-  ".svelte-kit/output/server/chunks/IconListItem-b6007451.js"() {
+// .svelte-kit/output/server/chunks/IconListItem-655f0f77.js
+var css$14, IconList, css14, IconListItem;
+var init_IconListItem_655f0f77 = __esm({
+  ".svelte-kit/output/server/chunks/IconListItem-655f0f77.js"() {
     init_shims();
-    init_app_c2a38c87();
+    init_app_62b9b593();
     css$14 = {
       code: ".c-icon-list.svelte-1o982vt{list-style:none;margin:0;padding:0}.c-icon-list--vertical .c-icon-list-item{margin-bottom:2rem}.c-icon-list--vertical .c-icon-list-item:last-child{margin-bottom:0}.c-icon-list--horizontal.svelte-1o982vt{display:flex;flex-direction:column;gap:2.5rem}@media only screen and (min-width: 720px){.c-icon-list--horizontal.svelte-1o982vt{flex-direction:row}}.c-icon-list--horizontal .c-icon-list-item{flex:1}",
       map: null
@@ -9889,7 +10159,7 @@ var init_IconListItem_b6007451 = __esm({
       return `<ul class="${"c-icon-list c-icon-list--" + escape(orientation) + " svelte-1o982vt"}">${slots.default ? slots.default({}) : ``}
 </ul>`;
     });
-    css13 = {
+    css14 = {
       code: ".c-icon-list-item.svelte-1nrbzx7{display:flex;color:var(--color-indigo-500)}.c-icon-list-item h3{color:var(--color-indigo)}.c-icon-list-item--horizontal.svelte-1nrbzx7{flex-direction:row;align-items:center}.c-icon-list-item--alignment-top.svelte-1nrbzx7{align-items:flex-start}.c-icon-list-item--vertical.svelte-1nrbzx7{flex-direction:column}.c-icon-list-item .c-icon{margin-right:2rem}",
       map: null
     };
@@ -9900,21 +10170,21 @@ var init_IconListItem_b6007451 = __esm({
         $$bindings.orientation(orientation);
       if ($$props.alignment === void 0 && $$bindings.alignment && alignment !== void 0)
         $$bindings.alignment(alignment);
-      $$result.css.add(css13);
+      $$result.css.add(css14);
       return `<li class="${"u-type-body-lg c-icon-list-item c-icon-list-item--" + escape(orientation) + " c-icon-list-item--alignment-" + escape(alignment) + " svelte-1nrbzx7"}">${slots.default ? slots.default({}) : ``}
 </li>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/ValuePanel-e330bd80.js
-var css14, ValuePanel;
-var init_ValuePanel_e330bd80 = __esm({
-  ".svelte-kit/output/server/chunks/ValuePanel-e330bd80.js"() {
+// .svelte-kit/output/server/chunks/ValuePanel-e9845790.js
+var css15, ValuePanel;
+var init_ValuePanel_e9845790 = __esm({
+  ".svelte-kit/output/server/chunks/ValuePanel-e9845790.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    css14 = {
+    init_app_62b9b593();
+    init_Icon_0036fe39();
+    css15 = {
       code: ".c-panel.svelte-bn9ft{display:flex;flex-direction:column}.c-panel.svelte-bn9ft:not(:first-child){margin-top:32px}@media(min-width: 768px){.c-panel.svelte-bn9ft:not(:first-child){margin-top:0}}.c-panel__col-title.svelte-bn9ft{background:var(--color-indigo);color:white;display:flex;justify-content:flex-start;align-items:center;padding:16px;border-top-left-radius:30px;border-top-right-radius:30px}@media(min-width: 768px){.c-panel__col-title.svelte-bn9ft{padding:24px}}.c-panel__title.svelte-bn9ft{font-size:16px;padding-left:8px}@media(min-width: 768px){.c-panel__title.svelte-bn9ft{font-size:24px}}.c-panel__col-text.svelte-bn9ft{background:var(--color-indigo-200);padding:16px;border-bottom-left-radius:30px;border-bottom-right-radius:30px;font-size:14px;line-height:1.25em}@media(min-width: 768px){.c-panel__col-text.svelte-bn9ft{padding:24px;font-size:18px;flex-grow:1}}.c-panel__col-text a{color:var(--color-indigo)}",
       map: null
     };
@@ -9931,7 +10201,7 @@ var init_ValuePanel_e330bd80 = __esm({
         $$bindings.description1(description1);
       if ($$props.description2 === void 0 && $$bindings.description2 && description2 !== void 0)
         $$bindings.description2(description2);
-      $$result.css.add(css14);
+      $$result.css.add(css15);
       return `<div class="${"c-panel svelte-bn9ft"}"><div class="${"c-panel__col c-panel__col-title left svelte-bn9ft"}">${icon ? `${validate_component(Icon, "Icon").$$render($$result, { name: icon }, {}, {})}` : ``}
     <h4 class="${"c-panel__title svelte-bn9ft"}">${escape(title10)}</h4></div>
   <div class="${"c-panel__col c-panel__col-text right svelte-bn9ft"}"><p><!-- HTML_TAG_START -->${description1}<!-- HTML_TAG_END --></p>
@@ -9941,14 +10211,14 @@ var init_ValuePanel_e330bd80 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/SingleColumn-9219e550.js
-var css$15, Partners, css15, SingleColumn;
-var init_SingleColumn_9219e550 = __esm({
-  ".svelte-kit/output/server/chunks/SingleColumn-9219e550.js"() {
+// .svelte-kit/output/server/chunks/SingleColumn-9724cc90.js
+var css$15, Partners, css16, SingleColumn;
+var init_SingleColumn_9724cc90 = __esm({
+  ".svelte-kit/output/server/chunks/SingleColumn-9724cc90.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Wrapper_838da94e();
-    init_ValuePanel_e330bd80();
+    init_app_62b9b593();
+    init_Wrapper_55866edb();
+    init_ValuePanel_e9845790();
     css$15 = {
       code: ".b-partners.svelte-1ol6p2x.svelte-1ol6p2x{padding:32px 0}.b-partners__group.svelte-1ol6p2x.svelte-1ol6p2x{display:flex;flex-direction:column;padding:32px 0}.b-partners__group.svelte-1ol6p2x.svelte-1ol6p2x:first-child{padding-bottom:0}.b-partners__group__header.svelte-1ol6p2x.svelte-1ol6p2x{margin-bottom:32px}.b-partners__group__header.svelte-1ol6p2x.svelte-1ol6p2x:has(+ p){margin-bottom:0}.b-partners__group__items.svelte-1ol6p2x.svelte-1ol6p2x{display:flex;align-items:center;justify-content:center;gap:16px;width:100%;background:var(--color-grey);border-radius:30px;padding:8px}@media only screen and (min-width: 768px){.b-partners__group__items.svelte-1ol6p2x.svelte-1ol6p2x{gap:16px;padding:16px}}@media only screen and (min-width: 1024px){.b-partners__group__items.svelte-1ol6p2x.svelte-1ol6p2x{padding:24px}}.b-partners__group__item.svelte-1ol6p2x.svelte-1ol6p2x{display:flex;align-items:center;justify-content:center;border-radius:30px;height:80px;padding:0 8px;width:50%}@media only screen and (min-width: 720px){.b-partners__group__item.svelte-1ol6p2x.svelte-1ol6p2x{height:120px;padding:0 16px}}.b-partners__group__item.svelte-1ol6p2x img.svelte-1ol6p2x{max-width:100%;max-height:64px;object-fit:contain}@media only screen and (min-width: 720px){.b-partners__group__item.svelte-1ol6p2x img.svelte-1ol6p2x{max-height:96px;max-width:100%}}.b-partners__group__items--partners.svelte-1ol6p2x.svelte-1ol6p2x{flex-wrap:wrap}.b-partners__group__items--partners.svelte-1ol6p2x .b-partners__group__item.svelte-1ol6p2x{width:calc(50% - 8px)}@media only screen and (min-width: 720px){.b-partners__group__items--partners.svelte-1ol6p2x .b-partners__group__item.svelte-1ol6p2x{width:calc(33% - 18px)}}",
       map: null
@@ -9980,7 +10250,7 @@ var init_SingleColumn_9219e550 = __esm({
     </div>`)}`
       })}`;
     });
-    css15 = {
+    css16 = {
       code: ".b-single-column__content.svelte-1iv07vg{max-width:720px;margin:0 auto;font-style:normal;font-weight:500;font-size:36px;line-height:46px;padding:80px 32px}@media only screen and (min-width: 321px){.b-single-column__content.svelte-1iv07vg{padding:80px 72px}}",
       map: null
     };
@@ -9991,16 +10261,16 @@ var init_SingleColumn_9219e550 = __esm({
         $$bindings.theme(theme2);
       if ($$props.id === void 0 && $$bindings.id && id !== void 0)
         $$bindings.id(id);
-      $$result.css.add(css15);
+      $$result.css.add(css16);
       return `<div${add_attribute("id", id, 0)} class="${"b-single-column b-single-column--" + escape(theme2) + " svelte-1iv07vg"}"><div class="${"b-single-column__content svelte-1iv07vg"}">${slots.default ? slots.default({}) : ``}</div>
 </div>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/index-0fc548d0.js
-var index_0fc548d0_exports = {};
-__export(index_0fc548d0_exports, {
+// .svelte-kit/output/server/chunks/index-03edcfe7.js
+var index_03edcfe7_exports = {};
+__export(index_03edcfe7_exports, {
   default: () => Routes,
   load: () => load3
 });
@@ -10012,24 +10282,24 @@ async function load3({ fetch: fetch2 }) {
   const { partnerList } = await partnersRes.json();
   return { props: { featuredPosts, partnerList } };
 }
-var css$63, About, css$53, LatestPosts, css$43, Panel, css$33, AI, css$24, Tool, policymaking, css$16, Policymaking, css16, title, excerpt, image, path, Routes;
-var init_index_0fc548d0 = __esm({
-  ".svelte-kit/output/server/chunks/index-0fc548d0.js"() {
+var css$63, About, css$53, LatestPosts, css$43, Panel, css$33, AI, css$24, Tool, policymaking, css$16, Policymaking, css17, title, excerpt2, image2, path, Routes;
+var init_index_03edcfe7 = __esm({
+  ".svelte-kit/output/server/chunks/index-03edcfe7.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_Button_1bdccbb8();
-    init_Banner_8a244347();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_IconListItem_b6007451();
-    init_Wrapper_838da94e();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_Heading_78a63c4a();
-    init_SingleColumn_9219e550();
-    init_Spacer_8d9ee981();
-    init_MetaTags_0d7cff3e();
-    init_ValuePanel_e330bd80();
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_Button_6294b3d4();
+    init_Banner_a132e8df();
+    init_IconListItem_655f0f77();
+    init_Wrapper_55866edb();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_Heading_c6114039();
+    init_SingleColumn_9724cc90();
+    init_Spacer_ca908798();
+    init_Icon_0036fe39();
+    init_MetaTags_d573097a();
+    init_ValuePanel_e9845790();
     css$63 = {
       code: ".b-about__heading.svelte-13uu9l9{margin-bottom:16px}",
       map: null
@@ -10238,13 +10508,13 @@ var init_index_0fc548d0 = __esm({
         }, {}, {})}`)}</div>`
       })}`;
     });
-    css16 = {
+    css17 = {
       code: ".home-cta .c-button{margin-top:1rem}@media(min-width: 768px){.home-cta .c-button{margin-top:0;margin-right:1rem}}.anchor--banner.svelte-1jpsq00{color:var(--color-white)}",
       map: null
     };
     title = "Climate Policy Radar | AI for climate law and policy research";
-    excerpt = "Use Climate Policy Radar\u2019s data science and AI-powered platform to search and explore thousands of climate change laws, policies and legal cases worldwide";
-    image = "https://climatepolicyradar.org/images/logo.png";
+    excerpt2 = "Use Climate Policy Radar\u2019s data science and AI-powered platform to search and explore thousands of climate change laws, policies and legal cases worldwide";
+    image2 = "https://climatepolicyradar.org/images/logo.jpg";
     path = "/";
     Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
@@ -10256,9 +10526,9 @@ var init_index_0fc548d0 = __esm({
         $$bindings.featuredPosts(featuredPosts);
       if ($$props.partnerList === void 0 && $$bindings.partnerList && partnerList !== void 0)
         $$bindings.partnerList(partnerList);
-      $$result.css.add(css16);
+      $$result.css.add(css17);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title, excerpt, image, path }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title, excerpt: excerpt2, image: image2, path }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, {
         size: "lg",
@@ -10317,29 +10587,29 @@ ${validate_component(LatestPosts, "LatestPosts").$$render($$result, {
   }
 });
 
-// .svelte-kit/output/server/chunks/terms-conditions-6fb7b0e5.js
-var terms_conditions_6fb7b0e5_exports = {};
-__export(terms_conditions_6fb7b0e5_exports, {
+// .svelte-kit/output/server/chunks/terms-conditions-c1b17f3c.js
+var terms_conditions_c1b17f3c_exports = {};
+__export(terms_conditions_c1b17f3c_exports, {
   default: () => Terms_conditions
 });
-var title2, excerpt2, image2, path2, Terms_conditions;
-var init_terms_conditions_6fb7b0e5 = __esm({
-  ".svelte-kit/output/server/chunks/terms-conditions-6fb7b0e5.js"() {
+var title2, excerpt3, image3, path2, Terms_conditions;
+var init_terms_conditions_c1b17f3c = __esm({
+  ".svelte-kit/output/server/chunks/terms-conditions-c1b17f3c.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
     title2 = "Terms &amp; Conditions | Climate Policy Radar";
-    excerpt2 = "Terms and conditions";
-    image2 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt3 = "Terms and conditions";
+    image3 = "https://climatepolicyradar.org/images/logo.jpg";
     path2 = "/terms-conditions";
     Terms_conditions = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
       $$unsubscribe_theme = subscribe(theme, (value) => $theme = value);
       set_store_value(theme, $theme = { footer: "dark", header: "dark" }, $theme);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title2, excerpt: excerpt2, image: image2, path: path2 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title2, excerpt: excerpt3, image: image3, path: path2 }, {}, {})}
 
 ${validate_component(Wrapper, "Wrapper").$$render($$result, { type: "content" }, {}, {
         default: () => `<h1>Terms &amp; Conditions</h1>`
@@ -10348,35 +10618,35 @@ ${validate_component(Wrapper, "Wrapper").$$render($$result, { type: "content" },
   }
 });
 
-// .svelte-kit/output/server/chunks/privacy-policy-b4a51dfb.js
-var privacy_policy_b4a51dfb_exports = {};
-__export(privacy_policy_b4a51dfb_exports, {
+// .svelte-kit/output/server/chunks/privacy-policy-e357ad34.js
+var privacy_policy_e357ad34_exports = {};
+__export(privacy_policy_e357ad34_exports, {
   default: () => Privacy_policy
 });
-var css17, title3, excerpt3, image3, path3, Privacy_policy;
-var init_privacy_policy_b4a51dfb = __esm({
-  ".svelte-kit/output/server/chunks/privacy-policy-b4a51dfb.js"() {
+var css18, title3, excerpt4, image4, path3, Privacy_policy;
+var init_privacy_policy_e357ad34 = __esm({
+  ".svelte-kit/output/server/chunks/privacy-policy-e357ad34.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_Banner_8a244347();
-    init_MetaTags_0d7cff3e();
-    init_Wrapper_838da94e();
-    css17 = {
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_Banner_a132e8df();
+    init_MetaTags_d573097a();
+    init_Wrapper_55866edb();
+    css18 = {
       code: "h2.svelte-1n1xm0h{margin:1em 0}.b-content__wrapper.svelte-1n1xm0h p,.b-content__wrapper.svelte-1n1xm0h li,.b-content__wrapper.svelte-1n1xm0h a,.b-content__wrapper.svelte-1n1xm0h span{font-size:16px;line-height:24px}b.svelte-1n1xm0h{font-weight:500}",
       map: null
     };
     title3 = "Privacy Policy | Climate Policy Radar";
-    excerpt3 = "Climate Policy Radar privacy policy";
-    image3 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt4 = "Climate Policy Radar privacy policy";
+    image4 = "https://climatepolicyradar.org/images/logo.jpg";
     path3 = "/privacy-policy";
     Privacy_policy = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
       $$unsubscribe_theme = subscribe(theme, (value) => $theme = value);
       set_store_value(theme, $theme = { footer: "light", header: "light" }, $theme);
-      $$result.css.add(css17);
+      $$result.css.add(css18);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title3, excerpt: excerpt3, image: image3, path: path3 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title3, excerpt: excerpt4, image: image4, path: path3 }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, { theme: "light", size: "sm" }, {}, {
         heading: () => `<h1 slot="${"heading"}" class="${"u-gradient-text--dark-to-blue"}">Privacy Policy</h1>`,
@@ -10581,22 +10851,22 @@ ${validate_component(Banner, "Banner").$$render($$result, { theme: "light", size
   }
 });
 
-// .svelte-kit/output/server/chunks/maintenance-0e0ee59c.js
-var maintenance_0e0ee59c_exports = {};
-__export(maintenance_0e0ee59c_exports, {
+// .svelte-kit/output/server/chunks/maintenance-cf591546.js
+var maintenance_cf591546_exports = {};
+__export(maintenance_cf591546_exports, {
   default: () => Maintenance
 });
-var css18, Maintenance;
-var init_maintenance_0e0ee59c = __esm({
-  ".svelte-kit/output/server/chunks/maintenance-0e0ee59c.js"() {
+var css19, Maintenance;
+var init_maintenance_cf591546 = __esm({
+  ".svelte-kit/output/server/chunks/maintenance-cf591546.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Banner_8a244347();
-    init_Pill_01eed0b5();
-    init_Spacer_8d9ee981();
-    init_theme_26732784();
-    init_Wrapper_838da94e();
-    css18 = {
+    init_app_62b9b593();
+    init_Banner_a132e8df();
+    init_Pill_4fb24242();
+    init_Spacer_ca908798();
+    init_theme_b64c5b4a();
+    init_Wrapper_55866edb();
+    css19 = {
       code: "p.svelte-1d99sii{font-size:1.2em}a.svelte-1d99sii{color:var(--color-indigo);text-decoration:underline}",
       map: null
     };
@@ -10604,7 +10874,7 @@ var init_maintenance_0e0ee59c = __esm({
       let $theme, $$unsubscribe_theme;
       $$unsubscribe_theme = subscribe(theme, (value) => $theme = value);
       set_store_value(theme, $theme = { footer: "light", header: "light" }, $theme);
-      $$result.css.add(css18);
+      $$result.css.add(css19);
       $$unsubscribe_theme();
       return `${validate_component(Banner, "Banner").$$render($$result, { theme: "light", size: "sm" }, {}, {
         heading: () => `<h1 slot="${"heading"}" class="${"u-gradient-text--dark-to-blue"}">Down for maintenance
@@ -10619,14 +10889,14 @@ var init_maintenance_0e0ee59c = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/TwoColumn-858e20e1.js
-var css19, TwoColumn;
-var init_TwoColumn_858e20e1 = __esm({
-  ".svelte-kit/output/server/chunks/TwoColumn-858e20e1.js"() {
+// .svelte-kit/output/server/chunks/TwoColumn-5f70f092.js
+var css20, TwoColumn;
+var init_TwoColumn_5f70f092 = __esm({
+  ".svelte-kit/output/server/chunks/TwoColumn-5f70f092.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Wrapper_838da94e();
-    css19 = {
+    init_app_62b9b593();
+    init_Wrapper_55866edb();
+    css20 = {
       code: ".c-two-column__content.svelte-1vascyy{display:flex;flex-direction:column;position:relative}@media(min-width: 768px){.c-two-column__content.svelte-1vascyy{flex-direction:row}.c-two-column__col-1.svelte-1vascyy,.c-two-column__col-2.svelte-1vascyy{flex-basis:50%;flex-shrink:0;flex-grow:0}}",
       map: null
     };
@@ -10634,7 +10904,7 @@ var init_TwoColumn_858e20e1 = __esm({
       let { id = void 0 } = $$props;
       if ($$props.id === void 0 && $$bindings.id && id !== void 0)
         $$bindings.id(id);
-      $$result.css.add(css19);
+      $$result.css.add(css20);
       return `<div${add_attribute("id", id, 0)} class="${"c-two-column"}">${validate_component(Wrapper, "Wrapper").$$render($$result, {}, {}, {
         default: () => `<div class="${"c-two-column__content svelte-1vascyy"}"><div class="${"c-two-column__col-1 svelte-1vascyy"}">${slots["col-1"] ? slots["col-1"]({}) : ``}</div>
       <div class="${"c-two-column__col-2 svelte-1vascyy"}">${slots["col-2"] ? slots["col-2"]({}) : ``}</div></div>
@@ -10645,27 +10915,27 @@ var init_TwoColumn_858e20e1 = __esm({
   }
 });
 
-// .svelte-kit/output/server/chunks/what-we-do-64875311.js
-var what_we_do_64875311_exports = {};
-__export(what_we_do_64875311_exports, {
+// .svelte-kit/output/server/chunks/what-we-do-1480e389.js
+var what_we_do_1480e389_exports = {};
+__export(what_we_do_1480e389_exports, {
   default: () => What_we_do
 });
-var css$64, Accordion, css$54, AccordionItem, css$44, ClimateData, dataScience, css$34, DataScience, css$25, Audience, css$17, OpenData, css20, title4, excerpt4, image4, path4, What_we_do;
-var init_what_we_do_64875311 = __esm({
-  ".svelte-kit/output/server/chunks/what-we-do-64875311.js"() {
+var css$64, Accordion, css$54, AccordionItem, css$44, ClimateData, dataScience, css$34, DataScience, css$25, Audience, css$17, OpenData, css21, title4, excerpt5, image5, path4, What_we_do;
+var init_what_we_do_1480e389 = __esm({
+  ".svelte-kit/output/server/chunks/what-we-do-1480e389.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_Wrapper_838da94e();
-    init_Banner_8a244347();
-    init_ValuePanel_e330bd80();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Heading_78a63c4a();
-    init_TwoColumn_858e20e1();
-    init_Spacer_8d9ee981();
-    init_IconListItem_b6007451();
-    init_MetaTags_0d7cff3e();
-    init_Button_1bdccbb8();
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_Wrapper_55866edb();
+    init_Banner_a132e8df();
+    init_ValuePanel_e9845790();
+    init_Icon_0036fe39();
+    init_Heading_c6114039();
+    init_TwoColumn_5f70f092();
+    init_Spacer_ca908798();
+    init_IconListItem_655f0f77();
+    init_MetaTags_d573097a();
+    init_Button_6294b3d4();
     css$64 = {
       code: "@media(min-width: 768px){.c-accordion:not(.c-accordion--simple){display:grid;grid-template-columns:1fr 1fr;grid-gap:40px}}",
       map: null
@@ -10919,21 +11189,21 @@ var init_what_we_do_64875311 = __esm({
       })}
 </div>`;
     });
-    css20 = {
+    css21 = {
       code: ".search__button.svelte-1qcyvgg{text-align:center}",
       map: null
     };
     title4 = "What We Do | Climate Policy Radar";
-    excerpt4 = "Data science and AI for researching climate change policies and laws";
-    image4 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt5 = "Data science and AI for researching climate change policies and laws";
+    image5 = "https://climatepolicyradar.org/images/logo.jpg";
     path4 = "what-we-do";
     What_we_do = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
       $$unsubscribe_theme = subscribe(theme, (value) => $theme = value);
       set_store_value(theme, $theme = { footer: "light", header: "dark" }, $theme);
-      $$result.css.add(css20);
+      $$result.css.add(css21);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title4, excerpt: excerpt4, image: image4, path: path4 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title4, excerpt: excerpt5, image: image5, path: path4 }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, { theme: "dark", size: "sm" }, {}, {
         subheading: () => `<p slot="${"subheading"}">Using leading data science methods and artificial intelligence, we\u2019re building the world\u2019s largest open knowledge
@@ -11001,61 +11271,30 @@ ${validate_component(Spacer, "Spacer").$$render($$result, { size: "lg" }, {}, {}
   }
 });
 
-// .svelte-kit/output/server/chunks/contact-7dfc43f6.js
-var contact_7dfc43f6_exports = {};
-__export(contact_7dfc43f6_exports, {
+// .svelte-kit/output/server/chunks/contact-5bbe60d0.js
+var contact_5bbe60d0_exports = {};
+__export(contact_5bbe60d0_exports, {
   default: () => Contact,
   prerender: () => prerender
 });
-var css21, ContactForm, prerender, title5, excerpt5, image5, path5, Contact;
-var init_contact_7dfc43f6 = __esm({
-  ".svelte-kit/output/server/chunks/contact-7dfc43f6.js"() {
+var css22, ContactForm, prerender, title5, excerpt6, image6, path5, Contact;
+var init_contact_5bbe60d0 = __esm({
+  ".svelte-kit/output/server/chunks/contact-5bbe60d0.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Wrapper_838da94e();
-    init_Spacer_8d9ee981();
-    init_Button_1bdccbb8();
-    init_MetaTags_0d7cff3e();
-    init_Banner_8a244347();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    css21 = {
-      code: ".c-contact-form.svelte-1433hvw.svelte-1433hvw{max-width:800px;font-size:21px;font-weight:500;line-height:1.7}.c-contact-form.svelte-1433hvw input[type='text'].svelte-1433hvw,.c-contact-form.svelte-1433hvw input[type='email'].svelte-1433hvw,.c-contact-form.svelte-1433hvw select.svelte-1433hvw{width:100%;margin-bottom:0;font-size:21px;font-weight:500;line-height:1;background-color:transparent;border:none;border-bottom:1px solid rgba(255, 255, 255, 0.35);color:var(--color-indigo-500)}.c-contact-form.svelte-1433hvw input[type='text'].svelte-1433hvw:focus-within,.c-contact-form.svelte-1433hvw input[type='email'].svelte-1433hvw:focus-within,.c-contact-form.svelte-1433hvw select.svelte-1433hvw:focus-within,.c-contact-form.svelte-1433hvw textarea.svelte-1433hvw:focus-within{outline:2px solid var(--color-sky-600)}.c-contact-form.svelte-1433hvw input.svelte-1433hvw::placeholder{color:var(--color-indigo-500);opacity:1}.c-contact-form.svelte-1433hvw textarea.svelte-1433hvw{width:100%;padding:24px;margin-top:1rem;line-height:1.2;background-color:var(--color-sky-600);border-radius:15px}.c-contact-form__field.svelte-1433hvw.svelte-1433hvw{display:flex;width:100%;align-items:baseline}.c-contact-form__field.svelte-1433hvw label.svelte-1433hvw{flex-grow:1;margin-left:12px;margin-right:12px}@media(min-width: 768px){.c-contact-form.svelte-1433hvw.svelte-1433hvw{font-size:36px;line-height:1.4}.c-contact-form.svelte-1433hvw input[type='text'].svelte-1433hvw,.c-contact-form.svelte-1433hvw input[type='email'].svelte-1433hvw,.c-contact-form.svelte-1433hvw select.svelte-1433hvw{margin-left:12px;margin-right:12px;font-size:36px}.c-contact-form.svelte-1433hvw input[type='text'].svelte-1433hvw,.c-contact-form.svelte-1433hvw select.svelte-1433hvw{max-width:300px}.c-contact-form__row.svelte-1433hvw.svelte-1433hvw{display:flex}}.u-no-bees.svelte-1433hvw.svelte-1433hvw{display:none}",
+    init_app_62b9b593();
+    init_Wrapper_55866edb();
+    init_Spacer_ca908798();
+    init_MetaTags_d573097a();
+    init_Banner_a132e8df();
+    css22 = {
+      code: "@media(min-width: 768px){}",
       map: null
     };
     ContactForm = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      let formElement;
-      $$result.css.add(css21);
-      return `${`<form class="${"c-contact-form svelte-1433hvw"}" name="${"contact"}" method="${"POST"}" netlify${add_attribute("this", formElement, 0)}><span>Hello,</span>
+      $$result.css.add(css22);
+      return `
 
-    <div class="${"c-contact-form__row svelte-1433hvw"}"><div class="${"c-contact-form__field svelte-1433hvw"}">I&#39;m
-        <label class="${"c-contact-form__label svelte-1433hvw"}"><span class="${"u-sr-only"}">Name</span>
-          <input type="${"text"}" name="${"name"}" placeholder="${"Name"}" autocomplete="${"name"}" required class="${"svelte-1433hvw"}"></label></div>
-
-      <div class="${"c-contact-form__field svelte-1433hvw"}">from:
-        <label class="${"svelte-1433hvw"}"><span class="${"u-sr-only"}">Organisation</span>
-          <input type="${"text"}" name="${"organisation"}" placeholder="${"organisation"}" autocomplete="${"organization"}" class="${"svelte-1433hvw"}"></label></div></div>
-
-    <div class="${"c-contact-form__row svelte-1433hvw"}">and I&#39;m getting in touch about
-      <label><span class="${"u-sr-only"}">Topic</span>
-        <select name="${"topic[]"}" class="${"svelte-1433hvw"}"><option selected value="${"select topic"}">select topic</option><option value="${"research"}">Collaborating on research</option><option value="${"open_source"}">Contributing to open source code</option><option value="${"careers"}">Working at Climate Policy Radar</option><option value="${"offer"}">Offering you a service/product</option><option value="${"media_enquiries"}">Media enquiries</option><option value="${"other"}">Something else</option></select></label></div>
-
-    <div class="${"c-contact-form__row svelte-1433hvw"}">You can email me at
-      <label><span class="${"u-sr-only"}">Email</span>
-        <input type="${"email"}" name="${"email"}" placeholder="${"email address"}" autocomplete="${"email"}" required class="${"svelte-1433hvw"}"></label></div>
-
-    <label><span class="${"u-sr-only"}">Message</span>
-      <textarea name="${"message"}" placeholder="${"Your message"}" rows="${"6"}" class="${"svelte-1433hvw"}"></textarea></label>
-
-    ${validate_component(Button, "Button").$$render($$result, {
-        type: "submit",
-        color: "blue",
-        size: "lg",
-        arrow: true
-      }, {}, { default: () => `Send message` })}
-
-    
-    <span class="${"u-no-bees svelte-1433hvw"}"><label>bees: <input name="${"bee-field"}" class="${"svelte-1433hvw"}"></label></span>
-    <input type="${"hidden"}" name="${"form-name"}" value="${"contact"}" class="${"svelte-1433hvw"}"></form>`}
+<p>Please email us at <a href="${"mailto:info@climatepolicyradar.org"}" target="${"_blank"}" rel="${"noopener noreferrer external"}">info@climatepolicyradar.org</a></p>
 
 ${``}
 
@@ -11063,11 +11302,11 @@ ${``}`;
     });
     prerender = true;
     title5 = "Contact | Climate Policy Radar";
-    excerpt5 = "Get in touch with not-for profit data-led climate startup, Climate Policy Radar";
-    image5 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt6 = "Get in touch with not-for profit data-led climate startup, Climate Policy Radar";
+    image6 = "https://climatepolicyradar.org/images/logo.jpg";
     path5 = "/contact";
     Contact = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title5, excerpt: excerpt5, image: image5, path: path5 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title5, excerpt: excerpt6, image: image6, path: path5 }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, { theme: "dark", size: "sm" }, {}, {
         "subheading-2": () => `<p slot="${"subheading-2"}">We are always seeking new collaborations on data, research and outreach. Please get in touch to discuss how we can
@@ -11091,13 +11330,13 @@ ${validate_component(Spacer, "Spacer").$$render($$result, { size: "md" }, {}, {}
   }
 });
 
-// .svelte-kit/output/server/chunks/CardsGrid-5ed816b0.js
-var css22, CardsGrid;
-var init_CardsGrid_5ed816b0 = __esm({
-  ".svelte-kit/output/server/chunks/CardsGrid-5ed816b0.js"() {
+// .svelte-kit/output/server/chunks/CardsGrid-de677ea9.js
+var css23, CardsGrid;
+var init_CardsGrid_de677ea9 = __esm({
+  ".svelte-kit/output/server/chunks/CardsGrid-de677ea9.js"() {
     init_shims();
-    init_app_c2a38c87();
-    css22 = {
+    init_app_62b9b593();
+    css23 = {
       code: ".c-cards-grid.svelte-jgid90{display:flex;flex-wrap:wrap;gap:var(--gap);width:100%}.c-cards-grid .c-card{flex-basis:calc((100% / var(--tiny-cols)) - ((var(--tiny-cols) - 1) * var(--gap)) / var(--tiny-cols));flex-grow:0;flex-shrink:0}@media(min-width: 321px){.c-cards-grid .c-card{flex-basis:calc((100% / var(--mobile-cols)) - ((var(--mobile-cols) - 1) * var(--gap)) / var(--mobile-cols));flex-grow:0;flex-shrink:0}}@media(min-width: 580px){.c-cards-grid .c-card{flex-basis:calc((100% / var(--tablet-cols)) - ((var(--tablet-cols) - 1) * var(--gap)) / var(--tablet-cols))}}@media(min-width: 900px){.c-cards-grid .c-card{flex-basis:calc((100% / var(--desktop-cols)) - ((var(--desktop-cols) - 1) * var(--gap)) / var(--desktop-cols))}}",
       map: null
     };
@@ -11117,25 +11356,25 @@ var init_CardsGrid_5ed816b0 = __esm({
         $$bindings.columnsDesktop(columnsDesktop);
       if ($$props.gap === void 0 && $$bindings.gap && gap !== void 0)
         $$bindings.gap(gap);
-      $$result.css.add(css22);
+      $$result.css.add(css23);
       return `<div class="${"c-cards-grid svelte-jgid90"}" style="${"--desktop-cols: " + escape(columnsDesktop) + "; --tablet-cols: " + escape(columnsTablet) + "; --mobile-cols: " + escape(columnsMobile) + "; --tiny-cols: " + escape(columnsTiny) + "; --gap: " + escape(gap) + ";"}">${slots.default ? slots.default({}) : ``}
 </div>`;
     });
   }
 });
 
-// .svelte-kit/output/server/chunks/Press-525316e6.js
-var css23, CardSquare, Press;
-var init_Press_525316e6 = __esm({
-  ".svelte-kit/output/server/chunks/Press-525316e6.js"() {
+// .svelte-kit/output/server/chunks/Press-db7c7695.js
+var css24, CardSquare, Press;
+var init_Press_db7c7695 = __esm({
+  ".svelte-kit/output/server/chunks/Press-db7c7695.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Button_1bdccbb8();
-    init_CardsGrid_5ed816b0();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Pill_01eed0b5();
-    init_Spacer_8d9ee981();
-    css23 = {
+    init_app_62b9b593();
+    init_Button_6294b3d4();
+    init_CardsGrid_de677ea9();
+    init_Icon_0036fe39();
+    init_Pill_4fb24242();
+    init_Spacer_ca908798();
+    css24 = {
       code: ".c-card.svelte-s3lqu2.svelte-s3lqu2{text-decoration:none}.c-card--square.svelte-s3lqu2.svelte-s3lqu2{display:flex;flex-direction:column;background-color:var(--color-indigo-100);color:var(--color-indigo);border-radius:30px;transition:background-color 0.2s ease-in, box-shadow 0.4s ease-in}.c-card--square.svelte-s3lqu2.svelte-s3lqu2:hover{background-color:var(--color-white);box-shadow:-8px -8px 16px rgba(0,0,0, 0.12)}.c-card__header.svelte-s3lqu2.svelte-s3lqu2{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;margin-bottom:1rem;padding:24px 36px;border-top-left-radius:30px;border-top-right-radius:30px;transition:filter 1s}.c-card__date.svelte-s3lqu2.svelte-s3lqu2{opacity:0.8;color:var(--color-white)}.c-card__logo-wrapper.svelte-s3lqu2.svelte-s3lqu2{width:100%;margin-top:1.5rem;display:flex;justify-content:center}.c-card__logo.svelte-s3lqu2.svelte-s3lqu2{height:36px;object-fit:contain;object-position:left center;transform:scale(1);transition:transform 1s}.c-card--square.svelte-s3lqu2:hover .c-card__logo.svelte-s3lqu2{transform:scale(1.2)}.c-card--square.svelte-s3lqu2:hover .c-card__header.svelte-s3lqu2{filter:brightness(115%)}.c-card__content.svelte-s3lqu2.svelte-s3lqu2{padding:24px 36px}.c-card__footer.svelte-s3lqu2.svelte-s3lqu2{display:flex;margin-top:auto;margin-bottom:0;justify-content:space-between;align-items:center;padding:0 36px 24px 36px}.c-card__title.svelte-s3lqu2.svelte-s3lqu2{margin-bottom:1rem}.c-card__excerpt.svelte-s3lqu2.svelte-s3lqu2{margin-bottom:1rem;font-size:14px;line-height:18px;opacity:0.7;overflow:hidden;position:relative}.c-card__cta.svelte-s3lqu2.svelte-s3lqu2{font-weight:500}.c-card--square .c-icon{transition:transform 0.2s ease-in}",
       map: null
     };
@@ -11179,7 +11418,7 @@ var init_Press_525316e6 = __esm({
         $$bindings.logoHeight(logoHeight);
       if ($$props.logoAlt === void 0 && $$bindings.logoAlt && logoAlt !== void 0)
         $$bindings.logoAlt(logoAlt);
-      $$result.css.add(css23);
+      $$result.css.add(css24);
       return `<a class="${"c-card c-card--square svelte-s3lqu2"}"${add_attribute("href", link, 0)}${add_attribute("target", target, 0)}${add_attribute("rel", rel, 0)}><div class="${"c-card__header svelte-s3lqu2"}" style="${"background: " + escape(background)}">${pill ? `${validate_component(Pill, "Pill").$$render($$result, { color: "indigo" }, {}, { default: () => `${escape(pill)}` })}` : ``}
 
     ${date ? `<span class="${"c-card__date u-type-body-xs svelte-s3lqu2"}">${escape(date)}</span>` : ``}
@@ -11257,9 +11496,9 @@ ${link ? `<div class="${"u-text-center"}">${validate_component(Button, "Button")
   }
 });
 
-// .svelte-kit/output/server/chunks/index-7f5623fd.js
-var index_7f5623fd_exports = {};
-__export(index_7f5623fd_exports, {
+// .svelte-kit/output/server/chunks/index-971a39cb.js
+var index_971a39cb_exports = {};
+__export(index_971a39cb_exports, {
   default: () => Latest,
   load: () => load4
 });
@@ -11272,27 +11511,27 @@ async function load4({ fetch: fetch2 }) {
   const { pressClippings } = pressData;
   return { props: { posts, pressClippings } };
 }
-var title6, excerpt6, image6, path6, Latest;
-var init_index_7f5623fd = __esm({
-  ".svelte-kit/output/server/chunks/index-7f5623fd.js"() {
+var title6, excerpt7, image7, path6, Latest;
+var init_index_971a39cb = __esm({
+  ".svelte-kit/output/server/chunks/index-971a39cb.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Banner_8a244347();
-    init_CardsList_d0a3f71d();
-    init_CardSplit_533aee4e();
-    init_MetaTags_0d7cff3e();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_Heading_78a63c4a();
-    init_Press_525316e6();
-    init_theme_26732784();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Button_1bdccbb8();
-    init_CardsGrid_5ed816b0();
-    init_Pill_01eed0b5();
+    init_app_62b9b593();
+    init_Banner_a132e8df();
+    init_CardsList_6ae1b2c7();
+    init_CardSplit_e2e2d13a();
+    init_MetaTags_d573097a();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_Heading_c6114039();
+    init_Press_db7c7695();
+    init_theme_b64c5b4a();
+    init_Icon_0036fe39();
+    init_Button_6294b3d4();
+    init_CardsGrid_de677ea9();
+    init_Pill_4fb24242();
     title6 = "Latest | Climate Policy Radar";
-    excerpt6 = "All the latest from our journey to map and analyse the climate policy landscape";
-    image6 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt7 = "All the latest from our journey to map and analyse the climate policy landscape";
+    image7 = "https://climatepolicyradar.org/images/logo.jpg";
     path6 = "/latest";
     Latest = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
@@ -11305,7 +11544,7 @@ var init_index_7f5623fd = __esm({
       if ($$props.posts === void 0 && $$bindings.posts && posts !== void 0)
         $$bindings.posts(posts);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title6, excerpt: excerpt6, image: image6, path: path6 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title6, excerpt: excerpt7, image: image7, path: path6 }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, { theme: "light", size: "xs" }, {}, {
         heading: () => `<h1 slot="${"heading"}" class="${"u-gradient-text--dark-to-blue"}">News and views from Climate Policy Radar</h1>`
@@ -11335,28 +11574,28 @@ ${validate_component(Spacer, "Spacer").$$render($$result, { size: "lg" }, {}, {}
   }
 });
 
-// .svelte-kit/output/server/chunks/about-48a02280.js
-var about_48a02280_exports = {};
-__export(about_48a02280_exports, {
+// .svelte-kit/output/server/chunks/about-c1f2dc6e.js
+var about_c1f2dc6e_exports = {};
+__export(about_c1f2dc6e_exports, {
   default: () => About2,
   load: () => load5
 });
-var css$65, CardTeam, css$55, Overlay, css$45, Modal, css$35, CardTeamCta, css$26, TeamProfile, css$18, Team, values, css24, OurValues, load5, title7, excerpt7, image7, path7, About2;
-var init_about_48a02280 = __esm({
-  ".svelte-kit/output/server/chunks/about-48a02280.js"() {
+var css$65, CardTeam, css$55, Overlay, css$45, Modal, css$35, CardTeamCta, css$26, TeamProfile, css$18, Team, values, css25, OurValues, load5, title7, excerpt8, image8, path7, About2;
+var init_about_c1f2dc6e = __esm({
+  ".svelte-kit/output/server/chunks/about-c1f2dc6e.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_Wrapper_838da94e();
-    init_Banner_8a244347();
-    init_Spacer_8d9ee981();
-    init_SingleColumn_9219e550();
-    init_CardsGrid_5ed816b0();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_Heading_78a63c4a();
-    init_ValuePanel_e330bd80();
-    init_IconListItem_b6007451();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_Wrapper_55866edb();
+    init_Banner_a132e8df();
+    init_Spacer_ca908798();
+    init_SingleColumn_9724cc90();
+    init_CardsGrid_de677ea9();
+    init_Icon_0036fe39();
+    init_Heading_c6114039();
+    init_ValuePanel_e9845790();
+    init_IconListItem_655f0f77();
+    init_MetaTags_d573097a();
     css$65 = {
       code: ".c-card--team.svelte-phgkfi.svelte-phgkfi{display:flex;margin-bottom:24px;flex-direction:column;gap:16px;border-radius:30px}@media only screen and (min-width: 321px){.c-card--team.svelte-phgkfi.svelte-phgkfi{margin-bottom:24px}}@media only screen and (min-width: 768px){.c-card--team.svelte-phgkfi.svelte-phgkfi{margin-bottom:40px;gap:33px}}.c-card__media.svelte-phgkfi.svelte-phgkfi{position:relative}.c-card__image.svelte-phgkfi.svelte-phgkfi{max-width:100%;height:auto;object-fit:contain;border-radius:30px;transition:box-shadow 0.3s ease-in-out}.c-card--team.has-bio.svelte-phgkfi:hover .c-card__image.svelte-phgkfi{cursor:pointer;box-shadow:0 0 32px rgba(255, 255, 255, 0.4)}.c-card__name.svelte-phgkfi.svelte-phgkfi{margin-bottom:8px}.c-card--team .c-icon{position:absolute;bottom:16px;right:16px}",
       map: null
@@ -11568,14 +11807,14 @@ var init_about_48a02280 = __esm({
         icon: "collaboration"
       }
     ]);
-    css24 = {
+    css25 = {
       code: "@media(min-width: 768px){.b-values__content.svelte-5u7fgh{display:grid;grid-template-columns:1fr 1fr;column-gap:3rem;row-gap:3rem;align-content:stretch}.c-panel{align-self:stretch}}.b-values .b-values__header .c-heading{margin-bottom:0}.c-accordion-item__button{position:absolute}",
       map: null
     };
     OurValues = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $values, $$unsubscribe_values;
       $$unsubscribe_values = subscribe(values, (value) => $values = value);
-      $$result.css.add(css24);
+      $$result.css.add(css25);
       $$unsubscribe_values();
       return `${validate_component(Wrapper, "Wrapper").$$render($$result, {}, {}, {
         default: () => `<div class="${"b-values__header"}">${validate_component(Heading, "Heading").$$render($$result, {}, {}, {
@@ -11606,8 +11845,8 @@ var init_about_48a02280 = __esm({
       };
     };
     title7 = "About | Climate Policy Radar";
-    excerpt7 = "We are an open data climate startup";
-    image7 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt8 = "We are an open data climate startup";
+    image8 = "https://climatepolicyradar.org/images/logo.jpg";
     path7 = "/about";
     About2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
@@ -11640,7 +11879,7 @@ var init_about_48a02280 = __esm({
         $$bindings.partnerList(partnerList);
       sortedTeam = team ? sortAdvisory() : [];
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title7, excerpt: excerpt7, image: image7, path: path7 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title7, excerpt: excerpt8, image: image8, path: path7 }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, { theme: "dark", size: "sm" }, {}, {
         subheading: () => `<p slot="${"subheading"}">Pioneering the application of natural language processing to climate law and policy, and championing open science
@@ -11699,27 +11938,27 @@ ${validate_component(Spacer, "Spacer").$$render($$result, { size: "lg" }, {}, {}
   }
 });
 
-// .svelte-kit/output/server/chunks/media-cb0fa65a.js
-var media_cb0fa65a_exports = {};
-__export(media_cb0fa65a_exports, {
+// .svelte-kit/output/server/chunks/media-4f76d372.js
+var media_4f76d372_exports = {};
+__export(media_4f76d372_exports, {
   default: () => Media,
   load: () => load6
 });
-var Body2, load6, title8, excerpt8, image8, path8, Media;
-var init_media_cb0fa65a = __esm({
-  ".svelte-kit/output/server/chunks/media-cb0fa65a.js"() {
+var Body2, load6, title8, excerpt9, image9, path8, Media;
+var init_media_4f76d372 = __esm({
+  ".svelte-kit/output/server/chunks/media-4f76d372.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_theme_26732784();
-    init_Banner_8a244347();
-    init_Pill_01eed0b5();
-    init_Press_525316e6();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_MetaTags_0d7cff3e();
-    init_Button_1bdccbb8();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_CardsGrid_5ed816b0();
+    init_app_62b9b593();
+    init_theme_b64c5b4a();
+    init_Banner_a132e8df();
+    init_Pill_4fb24242();
+    init_Press_db7c7695();
+    init_Spacer_ca908798();
+    init_Wrapper_55866edb();
+    init_MetaTags_d573097a();
+    init_Button_6294b3d4();
+    init_Icon_0036fe39();
+    init_CardsGrid_de677ea9();
     Body2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let { class: classes = "" } = $$props;
       let { style } = $$props;
@@ -11737,8 +11976,8 @@ var init_media_cb0fa65a = __esm({
       return { props: { pressClippings } };
     };
     title8 = "Media | Climate Policy Radar";
-    excerpt8 = "Climate Policy Radar in the Media";
-    image8 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt9 = "Climate Policy Radar in the Media";
+    image9 = "https://climatepolicyradar.org/images/logo.jpg";
     path8 = "/media";
     Media = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
@@ -11748,7 +11987,7 @@ var init_media_cb0fa65a = __esm({
       if ($$props.pressClippings === void 0 && $$bindings.pressClippings && pressClippings !== void 0)
         $$bindings.pressClippings(pressClippings);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title8, excerpt: excerpt8, image: image8, path: path8 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title8, excerpt: excerpt9, image: image9, path: path8 }, {}, {})}
 
 ${validate_component(Body2, "Body").$$render($$result, { class: "has-gradient--blue-to-white" }, {}, {})}
 
@@ -11765,27 +12004,27 @@ ${validate_component(Wrapper, "Wrapper").$$render($$result, {}, {}, {
   }
 });
 
-// .svelte-kit/output/server/chunks/index-d6692016.js
-var index_d6692016_exports = {};
-__export(index_d6692016_exports, {
+// .svelte-kit/output/server/chunks/index-2458fe7f.js
+var index_2458fe7f_exports = {};
+__export(index_2458fe7f_exports, {
   default: () => Jobs
 });
-var css$19, CardCompact, css25, title9, excerpt9, image9, path9, Jobs;
-var init_index_d6692016 = __esm({
-  ".svelte-kit/output/server/chunks/index-d6692016.js"() {
+var css$19, CardCompact, css26, title9, excerpt10, image10, path9, Jobs;
+var init_index_2458fe7f = __esm({
+  ".svelte-kit/output/server/chunks/index-2458fe7f.js"() {
     init_shims();
-    init_app_c2a38c87();
-    init_Banner_8a244347();
-    init_Button_1bdccbb8();
-    init_CardsList_d0a3f71d();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    init_IconListItem_b6007451();
-    init_Pill_01eed0b5();
-    init_Spacer_8d9ee981();
-    init_TwoColumn_858e20e1();
-    init_Wrapper_838da94e();
-    init_theme_26732784();
-    init_MetaTags_0d7cff3e();
+    init_app_62b9b593();
+    init_Banner_a132e8df();
+    init_Button_6294b3d4();
+    init_CardsList_6ae1b2c7();
+    init_Icon_0036fe39();
+    init_IconListItem_655f0f77();
+    init_Pill_4fb24242();
+    init_Spacer_ca908798();
+    init_TwoColumn_5f70f092();
+    init_Wrapper_55866edb();
+    init_theme_b64c5b4a();
+    init_MetaTags_d573097a();
     css$19 = {
       code: ".c-card--compact.svelte-1oc77pb.svelte-1oc77pb{display:flex;flex-direction:column;justify-content:space-between;padding:24px;background-color:var(--color-grey);color:var(--color-indigo);border-radius:30px;margin-bottom:24px;transition:background-color 0.2s ease-in, box-shadow 0.3s ease-in}a.c-card--compact.svelte-1oc77pb.svelte-1oc77pb{text-decoration:none}a.c-card--compact.svelte-1oc77pb .c-card__title.svelte-1oc77pb{text-decoration:underline}@media only screen and (min-width: 321px){.c-card--compact.svelte-1oc77pb.svelte-1oc77pb{padding:32px}}@media only screen and (min-width: 720px){.c-card--compact.svelte-1oc77pb.svelte-1oc77pb{flex-direction:row;align-items:center;padding:40px}}.c-card--compact.svelte-1oc77pb.svelte-1oc77pb:last-of-type{margin-bottom:0}@media only screen and (min-width: 720px){.c-card--compact.svelte-1oc77pb.svelte-1oc77pb{margin-bottom:40px}}.c-card--compact.svelte-1oc77pb.svelte-1oc77pb:hover{box-shadow:0 0 48px rgba(31, 147, 255, 0.12)}.c-card__content.svelte-1oc77pb.svelte-1oc77pb{padding-right:3rem}.c-card__title.svelte-1oc77pb.svelte-1oc77pb{margin-bottom:1rem}.c-card__excerpt.svelte-1oc77pb.svelte-1oc77pb{color:var(--color-indigo-500);text-decoration:none}.c-card__footer.svelte-1oc77pb.svelte-1oc77pb{flex-shrink:0}.c-card--compact .c-card__cta{margin-top:32px}@media only screen and (min-width: 720px){.c-card--compact .c-card__cta{margin-top:0}}",
       map: null
@@ -11823,13 +12062,13 @@ var init_index_d6692016 = __esm({
       }, {}, { default: () => `${escape(linkCopy)}` })}</div>` : ``}
 </a>`;
     });
-    css25 = {
+    css26 = {
       code: ".b-open-postion .c-two-column{padding-top:0}.b-open-postion.svelte-1ubyfui.svelte-1ubyfui{padding-top:32px}@media only screen and (min-width: 720px){.b-open-postion.svelte-1ubyfui.svelte-1ubyfui{padding-top:64px}}.b-working-here__cta.svelte-1ubyfui.svelte-1ubyfui{display:flex;justify-content:center;margin-top:64px}.b-open-postion__header.svelte-1ubyfui.svelte-1ubyfui{display:flex;flex-direction:column;height:100%;justify-content:space-between;margin-bottom:32px}.b-open-postion__cta.svelte-1ubyfui.svelte-1ubyfui{padding-top:90px}@media only screen and (min-width: 720px){.b-open-postion__cta.svelte-1ubyfui.svelte-1ubyfui{position:absolute;bottom:0;left:0;max-width:28ch;padding-top:0}.b-open-postion__cta.empty-list.svelte-1ubyfui.svelte-1ubyfui{bottom:auto;top:220px}}@media only screen and (min-width: 768px){.b-open-postion__cta.empty-list.svelte-1ubyfui.svelte-1ubyfui{top:180px}}.b-working-here__cta.svelte-1ubyfui span.svelte-1ubyfui{text-decoration:underline;margin-left:4px}.b-open-postion__cta.svelte-1ubyfui a.svelte-1ubyfui{color:var(--color-indigo);text-decoration:underline}",
       map: null
     };
     title9 = "Jobs | Climate Policy Radar";
-    excerpt9 = "Join us to build tools that help inform better decisions";
-    image9 = "https://climatepolicyradar.org/images/logo.png";
+    excerpt10 = "Join us to build tools that help inform better decisions";
+    image10 = "https://climatepolicyradar.org/images/logo.jpg";
     path9 = "/jobs";
     Jobs = create_ssr_component(($$result, $$props, $$bindings, slots) => {
       let $theme, $$unsubscribe_theme;
@@ -11837,9 +12076,9 @@ var init_index_d6692016 = __esm({
       set_store_value(theme, $theme = { footer: "light", header: "dark" }, $theme);
       const jobs = getContext("jobs");
       const ctaEmptyClass = jobs.length === 0 ? "empty-list" : "";
-      $$result.css.add(css25);
+      $$result.css.add(css26);
       $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title9, excerpt: excerpt9, image: image9, path: path9 }, {}, {})}
+      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: title9, excerpt: excerpt10, image: image10, path: path9 }, {}, {})}
 
 ${validate_component(Banner, "Banner").$$render($$result, { theme: "dark", size: "sm" }, {}, {
         heading: () => `<h1 slot="${"heading"}">Join us to build tools that help inform better decisions</h1>`,
@@ -11915,75 +12154,7 @@ ${validate_component(Spacer, "Spacer").$$render($$result, { size: "2xl" }, {}, {
   }
 });
 
-// .svelte-kit/output/server/chunks/layout-422d33ad.js
-var layout_422d33ad_exports = {};
-__export(layout_422d33ad_exports, {
-  default: () => Layout2
-});
-var css26, excerpt10, image10, Layout2;
-var init_layout_422d33ad = __esm({
-  ".svelte-kit/output/server/chunks/layout-422d33ad.js"() {
-    init_shims();
-    init_app_c2a38c87();
-    init_PostContent_b83b3251();
-    init_Button_1bdccbb8();
-    init_MetaTags_0d7cff3e();
-    init_Pill_01eed0b5();
-    init_Spacer_8d9ee981();
-    init_Wrapper_838da94e();
-    init_theme_26732784();
-    init_Button_svelte_svelte_type_style_lang_ef81b81a();
-    css26 = {
-      code: "@media only screen and (min-width: 1024px){.b-content__inner.svelte-7c0rpk{display:flex}}.b-content__cta.svelte-7c0rpk{display:flex;flex-direction:column-reverse;margin-top:24px}@media only screen and (min-width: 1024px){.b-content__cta.svelte-7c0rpk{flex-direction:column;position:relative;margin-left:40px;margin-top:0}}.c-jobs__cta.svelte-7c0rpk{background-color:var(--color-indigo-600);border-radius:30px;padding:36px;color:var(--color-grey)}@media only screen and (min-width: 720px){.c-jobs__cta-copy.svelte-7c0rpk{margin-bottom:64px}}.b-content__cta-link.svelte-7c0rpk{color:var(--color-indigo-600);text-decoration:underline;margin-bottom:80px}@media only screen and (min-width: 1024px){.b-content__cta-link.svelte-7c0rpk{position:absolute;bottom:0;right:0;margin-bottom:0}}@media only screen and (min-width: 720px){.c-jobs__cta.svelte-7c0rpk{min-width:340px;position:sticky;top:150px;right:0}}",
-      map: null
-    };
-    excerpt10 = "Join us to build tools that help inform better decisions";
-    image10 = "https://climatepolicyradar.org/images/logo.png";
-    Layout2 = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-      let $theme, $$unsubscribe_theme;
-      $$unsubscribe_theme = subscribe(theme, (value) => $theme = value);
-      set_store_value(theme, $theme = { footer: "light", header: "light" }, $theme);
-      let { title: title10 } = $$props;
-      let { applyLink } = $$props;
-      let { topics = [] } = $$props;
-      const metaTitle = `${title10} | Jobs | Climate Policy Radar`;
-      const path10 = `/${title10}`;
-      if ($$props.title === void 0 && $$bindings.title && title10 !== void 0)
-        $$bindings.title(title10);
-      if ($$props.applyLink === void 0 && $$bindings.applyLink && applyLink !== void 0)
-        $$bindings.applyLink(applyLink);
-      if ($$props.topics === void 0 && $$bindings.topics && topics !== void 0)
-        $$bindings.topics(topics);
-      $$result.css.add(css26);
-      $$unsubscribe_theme();
-      return `${validate_component(MetaTags_1, "MetaTags").$$render($$result, { title: metaTitle, excerpt: excerpt10, image: image10, path: path10 }, {}, {})}
-
-${validate_component(Spacer, "Spacer").$$render($$result, { size: "2xl" }, {}, {})}
-
-${validate_component(Wrapper, "Wrapper").$$render($$result, { type: "content-wide" }, {}, {
-        default: () => `${validate_component(Pill, "Pill").$$render($$result, { color: "white" }, {}, { default: () => `Jobs` })}
-  ${validate_component(Spacer, "Spacer").$$render($$result, { size: "xs" }, {}, {})}
-  <h1>${escape(title10)}</h1>
-  ${validate_component(Spacer, "Spacer").$$render($$result, { size: "md" }, {}, {})}
-
-  <div class="${"b-content__inner svelte-7c0rpk"}"><div class="${"b-content__body"}">${validate_component(PostContent, "PostContent").$$render($$result, {}, {}, {
-          default: () => `${slots.default ? slots.default({}) : ``}`
-        })}</div>
-    <div class="${"b-content__cta svelte-7c0rpk"}"><div class="${"c-jobs__cta svelte-7c0rpk"}"><p class="${"c-jobs__cta-copy svelte-7c0rpk"}">To apply for this role, please send us your CV and tell us why you
-          would like to work with us.
-        </p>
-        ${validate_component(Button, "Button").$$render($$result, {
-          type: "cta",
-          color: "white",
-          href: "mailto:jobs@climatepolicyradar.org?subject=" + title10
-        }, {}, { default: () => `Apply now` })}</div>
-      <a href="${"/jobs#open-positions"}" class="${"b-content__cta-link svelte-7c0rpk"}" sveltekit:noscroll>View all other jobs</a></div></div>`
-      })}`;
-    });
-  }
-});
-
-// .svelte-kit/output/server/chunks/app-c2a38c87.js
+// .svelte-kit/output/server/chunks/app-62b9b593.js
 function get_single_valued_header(headers, key) {
   const value = headers[key];
   if (Array.isArray(value)) {
@@ -13322,9 +13493,9 @@ function init(settings = default_settings) {
     amp: false,
     dev: false,
     entry: {
-      file: assets + "/_app/start-33b25c2a.js",
+      file: assets + "/_app/start-c1aaf563.js",
       css: [assets + "/_app/assets/start-61d1577b.css"],
-      js: [assets + "/_app/start-33b25c2a.js", assets + "/_app/chunks/vendor-acc34977.js"]
+      js: [assets + "/_app/start-c1aaf563.js", assets + "/_app/chunks/vendor-58d882ec.js"]
     },
     fetched: void 0,
     floc: false,
@@ -13368,8 +13539,8 @@ function render(request, {
   return respond({ ...request, host }, options, { prerender: prerender2 });
 }
 var __accessCheck, __privateGet, __privateAdd, __privateSet, _map, chars, unsafeChars, reserved, escaped$1, objectProtoOwnPropertyNames, subscriber_queue2, escape_json_string_in_html_dict, escape_html_attr_dict, s$1, s, absolute, ReadOnlyFormData, current_component, boolean_attributes, invalid_attribute_name_character, escaped, missing_component, on_destroy, css27, Root, base, assets, user_hooks, template, options, default_settings, empty, manifest, get_hooks, module_lookup, metadata_lookup;
-var init_app_c2a38c87 = __esm({
-  ".svelte-kit/output/server/chunks/app-c2a38c87.js"() {
+var init_app_62b9b593 = __esm({
+  ".svelte-kit/output/server/chunks/app-62b9b593.js"() {
     init_shims();
     __accessCheck = (obj, member, msg) => {
       if (!member.has(obj))
@@ -13563,7 +13734,7 @@ ${``}`;
     default_settings = { paths: { "base": "", "assets": "" } };
     empty = () => ({});
     manifest = {
-      assets: [{ "file": ".DS_Store", "size": 10244, "type": null }, { "file": "Icon\r", "size": 0, "type": null }, { "file": "_redirects", "size": 1281, "type": null }, { "file": "admin/config.yml", "size": 8196, "type": "text/yaml" }, { "file": "admin/index.html", "size": 8285, "type": "text/html" }, { "file": "data/partners.json", "size": 3760, "type": "application/json" }, { "file": "data/press.json", "size": 10464, "type": "application/json" }, { "file": "data/team.json", "size": 26027, "type": "application/json" }, { "file": "favicon.png", "size": 39322, "type": "image/png" }, { "file": "favicon.svg", "size": 1990, "type": "image/svg+xml" }, { "file": "fonts/5548986/0058324c-ca31-42b1-bf5b-b9d9025c1a9c.woff", "size": 24296, "type": "font/woff" }, { "file": "fonts/5548986/4746c4e5-3355-4f8f-8395-3f7abfcbf4b8.woff2", "size": 23884, "type": "font/woff2" }, { "file": "fonts/5548986/Icon\r", "size": 0, "type": null }, { "file": "fonts/5549031/5e356b56-25c1-43ac-9524-44e597eb7172.woff2", "size": 23448, "type": "font/woff2" }, { "file": "fonts/5549031/Icon\r", "size": 0, "type": null }, { "file": "fonts/5549031/bb63728c-a742-41fb-929f-64692e41d2e7.woff", "size": 23469, "type": "font/woff" }, { "file": "fonts/Icon\r", "size": 0, "type": null }, { "file": "fonts/subset-NeueHaasDisplay-Medium.woff", "size": 29880, "type": "font/woff" }, { "file": "fonts/subset-NeueHaasDisplay-Medium.woff2", "size": 22056, "type": "font/woff2" }, { "file": "fonts/subset-NeueHaasDisplay-Roman.woff", "size": 29252, "type": "font/woff" }, { "file": "fonts/subset-NeueHaasDisplay-Roman.woff2", "size": 21492, "type": "font/woff2" }, { "file": "images/.DS_Store", "size": 12292, "type": null }, { "file": "images/Icon\r", "size": 0, "type": null }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/blog-pic-3.png", "size": 154559, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/blog-pic-4.png", "size": 189354, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/cropped-plastic-pollution-gif.gif", "size": 300960, "type": "image/gif" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/new-blog-pic-1.png", "size": 169878, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/new-blog-pic-2.png", "size": 125469, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/plastic-picture.jpg", "size": 374894, "type": "image/jpeg" }, { "file": "images/announcing-climate-policy-radar/Icon\r", "size": 0, "type": null }, { "file": "images/announcing-climate-policy-radar/doodle-sketch.png", "size": 159167, "type": "image/png" }, { "file": "images/announcing-climate-policy-radar/thumb.png", "size": 536010, "type": "image/png" }, { "file": "images/announcing-over-6-8m-of-new-funding-for-climate-policy-radar/new-funding-2-1-.jpg", "size": 23496, "type": "image/jpeg" }, { "file": "images/announcing-partnership-with-world-policy-analysis-center/Icon\r", "size": 0, "type": null }, { "file": "images/announcing-partnership-with-world-policy-analysis-center/thumb.jpg", "size": 10024, "type": "image/jpeg" }, { "file": "images/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch/apprenticeships-min.jpg", "size": 27105, "type": "image/jpeg" }, { "file": "images/arc-bg-light.png", "size": 387585, "type": "image/png" }, { "file": "images/arc-bg-minimal.png", "size": 122464, "type": "image/png" }, { "file": "images/arc-bg.png", "size": 62807, "type": "image/png" }, { "file": "images/augmented-intelligence/20230616_123429_original-1-.jpg", "size": 2201242, "type": "image/jpeg" }, { "file": "images/augmented-intelligence/3738e3f1-f200-4ec3-bc82-4c16bfdda59d.jpeg", "size": 41933, "type": "image/jpeg" }, { "file": "images/augmented-intelligence/augmented-intelligence.png", "size": 190555, "type": "image/png" }, { "file": "images/augmented-intelligence/snap-from-bonn-plenary-room.png", "size": 1609154, "type": "image/png" }, { "file": "images/augmented-intelligence/subsidies-for-electric-vehicles.jpg", "size": 101264, "type": "image/jpeg" }, { "file": "images/being-a-data-scientist-in-climate-policy/kalyan-and-climate-policy-radar-teammate-callie-foraging.jpg", "size": 124186, "type": "image/jpeg" }, { "file": "images/being-a-data-scientist-in-climate-policy/kalyan-dutia-data-scientist.jpg", "size": 161494, "type": "image/jpeg" }, { "file": "images/being-a-data-scientist-in-climate-policy/openai-experiment.jpg", "size": 129286, "type": "image/jpeg" }, { "file": "images/building-natural-language-search-for-climate-change-laws-and-policies/dense-retrieval-for-urban-mitigation-on-climate-policy-radar.jpg", "size": 75896, "type": "image/jpeg" }, { "file": "images/building-natural-language-search-for-climate-change-laws-and-policies/natural-language-search-of-climate-laws-and-policies.jpg", "size": 206442, "type": "image/jpeg" }, { "file": "images/building-natural-language-search-for-climate-change-laws-and-policies/natural-language-search-on-climate-policy-radar.jpg", "size": 230173, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource/adaptation-finance.jpg", "size": 102197, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource/climate-change-laws-of-the-world.jpg", "size": 88805, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource/subsidies-for-electric-vehicles.jpg", "size": 101264, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-at-cop26/Icon\r", "size": 0, "type": null }, { "file": "images/climate-policy-radar-at-cop26/thumb.png", "size": 21307, "type": "image/png" }, { "file": "images/climate-policy-radar-at-cop27-where-to-find-us/cop27_egypt.jpg", "size": 182046, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-features-in-tech-eu/climate-152.gif", "size": 5580702, "type": "image/gif" }, { "file": "images/climate-policy-radar-features-in-tech-eu/cpr-tech.eu.png", "size": 945166, "type": "image/png" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/20211104_093354.jpg", "size": 400622, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/c8314c4e-b505-4a47-b8f1-4b45998ec7eb.jpg", "size": 218759, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg", "size": 840558, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/img_7578.jpg", "size": 2304909, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/screenshot_20211119-213514_gallery.jpg", "size": 162778, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-1.jpg", "size": 97518, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-2.jpg", "size": 111685, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-3.jpg", "size": 141569, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-4.jpg", "size": 191585, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-5.jpg", "size": 148857, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/image-5-.png", "size": 192259, "type": "image/png" }, { "file": "images/climate-policy-radar-launches-public-changelog/climate-policy-radar-public-changelog-1-.jpg", "size": 197614, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-public-product-roadmap/climate-policy-radar-public-product-roadmap.jpg", "size": 103244, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-public-product-roadmap/wind-road.jpg", "size": 101151, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio/climate-policy-radar-team-1-.jpg", "size": 104563, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio/cpr-team-2.jpg", "size": 128988, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development/ircai_top100_excellent_badge.jpg", "size": 241146, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development/ircai_top100_excellent_banner_b-1-.jpg", "size": 101424, "type": "image/jpeg" }, { "file": "images/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/blogimage.jpg", "size": 72102, "type": "image/jpeg" }, { "file": "images/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/sprints.jpg", "size": 179901, "type": "image/jpeg" }, { "file": "images/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/zenhub.jpg", "size": 386277, "type": "image/jpeg" }, { "file": "images/experimenting-to-make-climate-policy-documents-easier-to-digest/cpr-timeline.jpg", "size": 122354, "type": "image/jpeg" }, { "file": "images/experimenting-to-make-climate-policy-documents-easier-to-digest/timeline-view-cpr.png", "size": 114408, "type": "image/png" }, { "file": "images/favicon.ico", "size": 5430, "type": "image/vnd.microsoft.icon" }, { "file": "images/greening-the-uk-steel-industry-behind-the-headlines/steel-industry.jpg", "size": 99738, "type": "image/jpeg" }, { "file": "images/hacking-ai-for-climate-policy/ai-hackathon.jpg", "size": 2379012, "type": "image/jpeg" }, { "file": "images/icons/.DS_Store", "size": 8196, "type": null }, { "file": "images/icons/icon-central.png", "size": 1792, "type": "image/png" }, { "file": "images/icons/icon-doc-switch.png", "size": 1178, "type": "image/png" }, { "file": "images/icons/icon-global.png", "size": 6383, "type": "image/png" }, { "file": "images/icons/icon-globe.png", "size": 6834, "type": "image/png" }, { "file": "images/icons/icon-graph.png", "size": 900, "type": "image/png" }, { "file": "images/icons/icon-knowledge.png", "size": 3082, "type": "image/png" }, { "file": "images/icons/icon-middle.png", "size": 1026, "type": "image/png" }, { "file": "images/icons/icon-policy.png", "size": 2631, "type": "image/png" }, { "file": "images/icons/icon-private-sector.png", "size": 2239, "type": "image/png" }, { "file": "images/icons/icon-researchers.png", "size": 2185, "type": "image/png" }, { "file": "images/icons/icon-scales.png", "size": 1644, "type": "image/png" }, { "file": "images/icons/icon-search.png", "size": 2455, "type": "image/png" }, { "file": "images/icons/icon-semantic-search.png", "size": 2944, "type": "image/png" }, { "file": "images/icons/icon-spring.png", "size": 3438, "type": "image/png" }, { "file": "images/icons/icon-sun.png", "size": 2521, "type": "image/png" }, { "file": "images/icons/icon-text-magnifier.png", "size": 2501, "type": "image/png" }, { "file": "images/icons/icon-text.png", "size": 215, "type": "image/png" }, { "file": "images/icons/icon-thinking.png", "size": 2906, "type": "image/png" }, { "file": "images/icons/icon-user-group.png", "size": 4645, "type": "image/png" }, { "file": "images/lisa-long-joins-climate-policy-radar-board/lisalong.jpg", "size": 130190, "type": "image/jpeg" }, { "file": "images/logo.png", "size": 74654, "type": "image/png" }, { "file": "images/logo.svg", "size": 8122, "type": "image/svg+xml" }, { "file": "images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.16.57.png", "size": 678315, "type": "image/png" }, { "file": "images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.17.27.png", "size": 198444, "type": "image/png" }, { "file": "images/new-feature-english-translation-of-climate-law-and-policy/translation_blog.jpg", "size": 134981, "type": "image/jpeg" }, { "file": "images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-powered-climate-change-laws-of-the-world.png", "size": 546506, "type": "image/png" }, { "file": "images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-search-on-climate-change-laws-of-the-world.png", "size": 180080, "type": "image/png" }, { "file": "images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/climate-policy-radar-ai-climate-law-and-policy-tool.png", "size": 485385, "type": "image/png" }, { "file": "images/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation/legislators-in-a-meeting.jpg", "size": 115192, "type": "image/jpeg" }, { "file": "images/partners/979de58c-027b-453d-8a56-ba9e119e5613-1569064075413.png", "size": 29021, "type": "image/png" }, { "file": "images/partners/Icon\r", "size": 0, "type": null }, { "file": "images/partners/adobe-logo.png", "size": 8035, "type": "image/png" }, { "file": "images/partners/bezos-earth-fund_logo.png", "size": 25035, "type": "image/png" }, { "file": "images/partners/cdkn-logo.png", "size": 54590, "type": "image/png" }, { "file": "images/partners/climate-parliament-logo.png", "size": 19181, "type": "image/png" }, { "file": "images/partners/climate_parl_logo_minus_strap-11-.jpg", "size": 1785682, "type": "image/jpeg" }, { "file": "images/partners/climateworks_logo.png", "size": 16368, "type": "image/png" }, { "file": "images/partners/dla-piper-logo.png", "size": 14604, "type": "image/png" }, { "file": "images/partners/edf.png", "size": 110627, "type": "image/png" }, { "file": "images/partners/google_org.png", "size": 41461, "type": "image/png" }, { "file": "images/partners/grantham-logo.png", "size": 92533, "type": "image/png" }, { "file": "images/partners/lse-logo.png", "size": 3698, "type": "image/png" }, { "file": "images/partners/osf.png", "size": 16363, "type": "image/png" }, { "file": "images/partners/patrick-mcgovern-foundation-logo-1.png", "size": 38676, "type": "image/png" }, { "file": "images/partners/patrick-mcgovern-foundation-logo.png", "size": 36300, "type": "image/png" }, { "file": "images/partners/personio-logo.png", "size": 5376, "type": "image/png" }, { "file": "images/partners/qcf.png", "size": 69090, "type": "image/png" }, { "file": "images/partners/quadrature-logo.png", "size": 5185, "type": "image/png" }, { "file": "images/partners/schmidt_futures_logo.png", "size": 7859, "type": "image/png" }, { "file": "images/partners/sequoia-climate-foundation.jpg", "size": 15789, "type": "image/jpeg" }, { "file": "images/partners/sequoia_logo.png", "size": 31340, "type": "image/png" }, { "file": "images/partners/south-south-north-logo.png", "size": 25936, "type": "image/png" }, { "file": "images/partners/subak-logo.png", "size": 56868, "type": "image/png" }, { "file": "images/partners/ucl-logo.png", "size": 3907, "type": "image/png" }, { "file": "images/partners/ucl_logo.png", "size": 48132, "type": "image/png" }, { "file": "images/partners/world-bank-logo.png", "size": 21004, "type": "image/png" }, { "file": "images/partners/world-policy-logo.png", "size": 45441, "type": "image/png" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/example-of-an-output-from-the-pdf-parsing-model.png", "size": 1512578, "type": "image/png" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/image-from-rawpixel-id-5901986-original.jpg", "size": 1146416, "type": "image/jpeg" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/object-recognition.jpg", "size": 658098, "type": "image/jpeg" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/pdf-code.png", "size": 115168, "type": "image/png" }, { "file": "images/peter_white-2.jpg", "size": 72518, "type": "image/jpeg" }, { "file": "images/press/1920px-business_insider_logo.svg.png", "size": 38483, "type": "image/png" }, { "file": "images/press/799px-globes_logo.svg.png", "size": 17182, "type": "image/png" }, { "file": "images/press/800px-cbs_news.svg.png", "size": 30191, "type": "image/png" }, { "file": "images/press/Icon\r", "size": 0, "type": null }, { "file": "images/press/bbc-london.svg", "size": 4821, "type": "image/svg+xml" }, { "file": "images/press/bwlogo.png", "size": 9840, "type": "image/png" }, { "file": "images/press/bwlogo.svg", "size": 6781, "type": "image/svg+xml" }, { "file": "images/press/current-news.svg", "size": 2662, "type": "image/svg+xml" }, { "file": "images/press/eandt-logo.png", "size": 6328, "type": "image/png" }, { "file": "images/press/globes.svg", "size": 3359, "type": "image/svg+xml" }, { "file": "images/press/n1_logo.svg.png", "size": 5518, "type": "image/png" }, { "file": "images/press/sifted-logo.avif", "size": 8087, "type": "image/avif" }, { "file": "images/press/sky-news-logo.svg", "size": 4567, "type": "image/svg+xml" }, { "file": "images/press/tech-exec.png", "size": 1336, "type": "image/png" }, { "file": "images/press/tech.eu-logo-positive-web-1-.png", "size": 32739, "type": "image/png" }, { "file": "images/press/the-observer.png", "size": 11980, "type": "image/png" }, { "file": "images/team/Icon\r", "size": 0, "type": null }, { "file": "images/team/adrian.jpg", "size": 39260, "type": "image/jpeg" }, { "file": "images/team/alan-climate-policy-radar.jpg", "size": 100819, "type": "image/jpeg" }, { "file": "images/team/alan.jpg", "size": 319483, "type": "image/jpeg" }, { "file": "images/team/alanna.jpg", "size": 12526, "type": "image/jpeg" }, { "file": "images/team/angel-hsu-climate-policy-radar.jpg", "size": 85934, "type": "image/jpeg" }, { "file": "images/team/annett-moehner-climate-policy-radar.jpg", "size": 83061, "type": "image/jpeg" }, { "file": "images/team/baroness-bryony-climate-policy-radar.jpg", "size": 93725, "type": "image/jpeg" }, { "file": "images/team/callie.jpg", "size": 439954, "type": "image/jpeg" }, { "file": "images/team/danny.jpg", "size": 91399, "type": "image/jpeg" }, { "file": "images/team/david-jensen-climate-policy-radar.jpg", "size": 93558, "type": "image/jpeg" }, { "file": "images/team/fred.jpg", "size": 370027, "type": "image/jpeg" }, { "file": "images/team/gareth-visagie-climate-policy-radar.jpg", "size": 99784, "type": "image/jpeg" }, { "file": "images/team/graham-gannon-climate-policy-radar.jpg", "size": 92140, "type": "image/jpeg" }, { "file": "images/team/harrison.jpg", "size": 399991, "type": "image/jpeg" }, { "file": "images/team/henry-franks-climate-policy-radar.jpg", "size": 103131, "type": "image/jpeg" }, { "file": "images/team/henry.jpg", "size": 325859, "type": "image/jpeg" }, { "file": "images/team/inez.jpg", "size": 45304, "type": "image/jpeg" }, { "file": "images/team/joana-setzer-climate-policy-radar.jpg", "size": 100709, "type": "image/jpeg" }, { "file": "images/team/jody-heyman-climate-policy-radar.jpg", "size": 91993, "type": "image/jpeg" }, { "file": "images/team/joel-1-.jpg", "size": 71423, "type": "image/jpeg" }, { "file": "images/team/joel-2-.jpg", "size": 74159, "type": "image/jpeg" }, { "file": "images/team/justine-2-.jpg", "size": 56549, "type": "image/jpeg" }, { "file": "images/team/kalyan.jpg", "size": 284860, "type": "image/jpeg" }, { "file": "images/team/katy.jpg", "size": 389092, "type": "image/jpeg" }, { "file": "images/team/kristyna.jpg", "size": 40833, "type": "image/jpeg" }, { "file": "images/team/kyra.jpg", "size": 96571, "type": "image/jpeg" }, { "file": "images/team/lisalong-climate-policy-radar-1-.jpg", "size": 100072, "type": "image/jpeg" }, { "file": "images/team/lisalong.jpg", "size": 130190, "type": "image/jpeg" }, { "file": "images/team/marcus.jpg", "size": 32656, "type": "image/jpeg" }, { "file": "images/team/mark.jpg", "size": 255819, "type": "image/jpeg" }, { "file": "images/team/mark_photo.jpeg", "size": 84031, "type": "image/jpeg" }, { "file": "images/team/matyas.jpg", "size": 401635, "type": "image/jpeg" }, { "file": "images/team/michal.jpg", "size": 351858, "type": "image/jpeg" }, { "file": "images/team/my-project-1-2-.png", "size": 523886, "type": "image/png" }, { "file": "images/team/nadia.jpg", "size": 63321, "type": "image/jpeg" }, { "file": "images/team/patrick.jpg", "size": 416351, "type": "image/jpeg" }, { "file": "images/team/patrick_jpeg_white.jpg", "size": 358077, "type": "image/jpeg" }, { "file": "images/team/patrick_white.jpeg", "size": 99660, "type": "image/jpeg" }, { "file": "images/team/paula.jpg", "size": 44960, "type": "image/jpeg" }, { "file": "images/team/peter.jpg", "size": 449975, "type": "image/jpeg" }, { "file": "images/team/peter_white-2.jpg", "size": 72548, "type": "image/jpeg" }, { "file": "images/team/peter_white.jpg", "size": 69979, "type": "image/jpeg" }, { "file": "images/team/placeholder.jpg", "size": 12407, "type": "image/jpeg" }, { "file": "images/team/rory-sullivan-climate-policy-radar.jpg", "size": 123993, "type": "image/jpeg" }, { "file": "images/team/roshan.jpg", "size": 296560, "type": "image/jpeg" }, { "file": "images/team/sam.jpg", "size": 30491, "type": "image/jpeg" }, { "file": "images/team/sarah-cpr.jpg", "size": 75339, "type": "image/jpeg" }, { "file": "images/team/sarah-goodenough-climate-policy-radaer.jpg", "size": 99876, "type": "image/jpeg" }, { "file": "images/team/sarah.jpg", "size": 425588, "type": "image/jpeg" }, { "file": "images/team/screenshot-2021-10-13-at-12.40.49.png", "size": 120298, "type": "image/png" }, { "file": "images/team/screenshot-2021-10-18-at-11.24.19.png", "size": 172964, "type": "image/png" }, { "file": "images/team/shehnaaz-moosa-climate-policy-radar.jpg", "size": 96191, "type": "image/jpeg" }, { "file": "images/team/shehnaaz-moosa-climate-policy-radar.png", "size": 1523156, "type": "image/png" }, { "file": "images/team/stefan-lavelle-climate-policy-radar.jpg", "size": 105163, "type": "image/jpeg" }, { "file": "images/team/stefan.jpg", "size": 48067, "type": "image/jpeg" }, { "file": "images/team/tam.jpg", "size": 42416, "type": "image/jpeg" }, { "file": "images/team/tina-1-.jpg", "size": 18932, "type": "image/jpeg" }, { "file": "images/team/tina_white.jpg", "size": 52631, "type": "image/jpeg" }, { "file": "images/the-value-of-user-research/screenshot-2023-11-01-at-10.53.08.png", "size": 128640, "type": "image/png" }, { "file": "images/the-value-of-user-research/value-of-user-research.jpg", "size": 139627, "type": "image/jpeg" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/bonn-twitter-key-features-w-logos.png", "size": 332544, "type": "image/png" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/screenshot-2023-06-14-174654.png", "size": 181299, "type": "image/png" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/screenshot-2023-06-14-175141.png", "size": 100218, "type": "image/png" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/snap-from-bonn-plenary-room.png", "size": 1609154, "type": "image/png" }, { "file": "images/working-on-climate-change-as-a-software-engineer/cpr-s-peter-hooper-and-bubbles.jpg", "size": 95918, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-and-climate-policy-radar-colleagues.jpg", "size": 97644, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar-1-.jpg", "size": 132633, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar.jpg", "size": 782582, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-hooper-climate-policy-radar.jpg", "size": 66984, "type": "image/jpeg" }, { "file": "images/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student/bella-cpr-work-experience.jpg", "size": 98775, "type": "image/jpeg" }, { "file": "images/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student/cpr-team-photo.jpg", "size": 414777, "type": "image/jpeg" }, { "file": "media/.DS_Store", "size": 6148, "type": null }, { "file": "media/CPR alpha demo.mp4", "size": 93483596, "type": "video/mp4" }, { "file": "preview.css", "size": 19008, "type": "text/css" }],
+      assets: [{ "file": ".DS_Store", "size": 10244, "type": null }, { "file": "Icon\r", "size": 0, "type": null }, { "file": "_redirects", "size": 1281, "type": null }, { "file": "admin/config.yml", "size": 8196, "type": "text/yaml" }, { "file": "admin/index.html", "size": 8285, "type": "text/html" }, { "file": "data/partners.json", "size": 3760, "type": "application/json" }, { "file": "data/press.json", "size": 10464, "type": "application/json" }, { "file": "data/team.json", "size": 25064, "type": "application/json" }, { "file": "favicon.png", "size": 39322, "type": "image/png" }, { "file": "favicon.svg", "size": 1990, "type": "image/svg+xml" }, { "file": "fonts/5548986/0058324c-ca31-42b1-bf5b-b9d9025c1a9c.woff", "size": 24296, "type": "font/woff" }, { "file": "fonts/5548986/4746c4e5-3355-4f8f-8395-3f7abfcbf4b8.woff2", "size": 23884, "type": "font/woff2" }, { "file": "fonts/5548986/Icon\r", "size": 0, "type": null }, { "file": "fonts/5549031/5e356b56-25c1-43ac-9524-44e597eb7172.woff2", "size": 23448, "type": "font/woff2" }, { "file": "fonts/5549031/Icon\r", "size": 0, "type": null }, { "file": "fonts/5549031/bb63728c-a742-41fb-929f-64692e41d2e7.woff", "size": 23469, "type": "font/woff" }, { "file": "fonts/Icon\r", "size": 0, "type": null }, { "file": "fonts/subset-NeueHaasDisplay-Medium.woff", "size": 29880, "type": "font/woff" }, { "file": "fonts/subset-NeueHaasDisplay-Medium.woff2", "size": 22056, "type": "font/woff2" }, { "file": "fonts/subset-NeueHaasDisplay-Roman.woff", "size": 29252, "type": "font/woff" }, { "file": "fonts/subset-NeueHaasDisplay-Roman.woff2", "size": 21492, "type": "font/woff2" }, { "file": "images/.DS_Store", "size": 12292, "type": null }, { "file": "images/Icon\r", "size": 0, "type": null }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/blog-pic-3.png", "size": 154559, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/blog-pic-4.png", "size": 189354, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/cropped-plastic-pollution-gif.gif", "size": 300960, "type": "image/gif" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/new-blog-pic-1.png", "size": 169878, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/new-blog-pic-2.png", "size": 125469, "type": "image/png" }, { "file": "images/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that/plastic-picture.jpg", "size": 374894, "type": "image/jpeg" }, { "file": "images/announcing-climate-policy-radar/Icon\r", "size": 0, "type": null }, { "file": "images/announcing-climate-policy-radar/doodle-sketch.png", "size": 159167, "type": "image/png" }, { "file": "images/announcing-climate-policy-radar/thumb.png", "size": 536010, "type": "image/png" }, { "file": "images/announcing-over-6-8m-of-new-funding-for-climate-policy-radar/new-funding-2-1-.jpg", "size": 23496, "type": "image/jpeg" }, { "file": "images/announcing-partnership-with-world-policy-analysis-center/Icon\r", "size": 0, "type": null }, { "file": "images/announcing-partnership-with-world-policy-analysis-center/thumb.jpg", "size": 10024, "type": "image/jpeg" }, { "file": "images/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch/apprenticeships-min.jpg", "size": 27105, "type": "image/jpeg" }, { "file": "images/arc-bg-light.png", "size": 387585, "type": "image/png" }, { "file": "images/arc-bg-minimal.png", "size": 122464, "type": "image/png" }, { "file": "images/arc-bg.png", "size": 62807, "type": "image/png" }, { "file": "images/augmented-intelligence/20230616_123429_original-1-.jpg", "size": 2201242, "type": "image/jpeg" }, { "file": "images/augmented-intelligence/3738e3f1-f200-4ec3-bc82-4c16bfdda59d.jpeg", "size": 41933, "type": "image/jpeg" }, { "file": "images/augmented-intelligence/augmented-intelligence.png", "size": 190555, "type": "image/png" }, { "file": "images/augmented-intelligence/snap-from-bonn-plenary-room.png", "size": 1609154, "type": "image/png" }, { "file": "images/augmented-intelligence/subsidies-for-electric-vehicles.jpg", "size": 101264, "type": "image/jpeg" }, { "file": "images/being-a-data-scientist-in-climate-policy/kalyan-and-climate-policy-radar-teammate-callie-foraging.jpg", "size": 124186, "type": "image/jpeg" }, { "file": "images/being-a-data-scientist-in-climate-policy/kalyan-dutia-data-scientist.jpg", "size": 161494, "type": "image/jpeg" }, { "file": "images/being-a-data-scientist-in-climate-policy/openai-experiment.jpg", "size": 129286, "type": "image/jpeg" }, { "file": "images/building-natural-language-search-for-climate-change-laws-and-policies/dense-retrieval-for-urban-mitigation-on-climate-policy-radar.jpg", "size": 75896, "type": "image/jpeg" }, { "file": "images/building-natural-language-search-for-climate-change-laws-and-policies/natural-language-search-of-climate-laws-and-policies.jpg", "size": 206442, "type": "image/jpeg" }, { "file": "images/building-natural-language-search-for-climate-change-laws-and-policies/natural-language-search-on-climate-policy-radar.jpg", "size": 230173, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource/adaptation-finance.jpg", "size": 102197, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource/climate-change-laws-of-the-world.jpg", "size": 88805, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource/subsidies-for-electric-vehicles.jpg", "size": 101264, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-at-cop26/Icon\r", "size": 0, "type": null }, { "file": "images/climate-policy-radar-at-cop26/thumb.png", "size": 21307, "type": "image/png" }, { "file": "images/climate-policy-radar-at-cop27-where-to-find-us/cop27_egypt.jpg", "size": 182046, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-features-in-tech-eu/climate-152.gif", "size": 5580702, "type": "image/gif" }, { "file": "images/climate-policy-radar-features-in-tech-eu/cpr-tech.eu.png", "size": 945166, "type": "image/png" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/20211104_093354.jpg", "size": 400622, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/c8314c4e-b505-4a47-b8f1-4b45998ec7eb.jpg", "size": 218759, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/image-from-ios-2-.jpg", "size": 840558, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/img_7578.jpg", "size": 2304909, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-is-back-from-glasgow/screenshot_20211119-213514_gallery.jpg", "size": 162778, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-1.jpg", "size": 97518, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-2.jpg", "size": 111685, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-3.jpg", "size": 141569, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-4.jpg", "size": 191585, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/climate-policy-radar-demo-5.jpg", "size": 148857, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-its-global-climate-policy-database/image-5-.png", "size": 192259, "type": "image/png" }, { "file": "images/climate-policy-radar-launches-public-changelog/climate-policy-radar-public-changelog-1-.jpg", "size": 197614, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-public-product-roadmap/climate-policy-radar-public-product-roadmap.jpg", "size": 103244, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-launches-public-product-roadmap/wind-road.jpg", "size": 101151, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio/climate-policy-radar-team-1-.jpg", "size": 104563, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio/cpr-team-2.jpg", "size": 128988, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development/ircai_top100_excellent_badge.jpg", "size": 241146, "type": "image/jpeg" }, { "file": "images/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development/ircai_top100_excellent_banner_b-1-.jpg", "size": 101424, "type": "image/jpeg" }, { "file": "images/data-engineering-rugby-sevens-and-algorithms-mark-cottam/53486287052_d1c14d8108_o.jpg", "size": 4067381, "type": "image/jpeg" }, { "file": "images/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/blogimage.jpg", "size": 72102, "type": "image/jpeg" }, { "file": "images/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/sprints.jpg", "size": 179901, "type": "image/jpeg" }, { "file": "images/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up/zenhub.jpg", "size": 386277, "type": "image/jpeg" }, { "file": "images/experimenting-to-make-climate-policy-documents-easier-to-digest/cpr-timeline.jpg", "size": 122354, "type": "image/jpeg" }, { "file": "images/experimenting-to-make-climate-policy-documents-easier-to-digest/timeline-view-cpr.png", "size": 114408, "type": "image/png" }, { "file": "images/favicon.ico", "size": 5430, "type": "image/vnd.microsoft.icon" }, { "file": "images/greening-the-uk-steel-industry-behind-the-headlines/steel-industry.jpg", "size": 99738, "type": "image/jpeg" }, { "file": "images/hacking-ai-for-climate-policy/ai-hackathon.jpg", "size": 2379012, "type": "image/jpeg" }, { "file": "images/icons/.DS_Store", "size": 8196, "type": null }, { "file": "images/icons/icon-central.png", "size": 1792, "type": "image/png" }, { "file": "images/icons/icon-doc-switch.png", "size": 1178, "type": "image/png" }, { "file": "images/icons/icon-global.png", "size": 6383, "type": "image/png" }, { "file": "images/icons/icon-globe.png", "size": 6834, "type": "image/png" }, { "file": "images/icons/icon-graph.png", "size": 900, "type": "image/png" }, { "file": "images/icons/icon-knowledge.png", "size": 3082, "type": "image/png" }, { "file": "images/icons/icon-middle.png", "size": 1026, "type": "image/png" }, { "file": "images/icons/icon-policy.png", "size": 2631, "type": "image/png" }, { "file": "images/icons/icon-private-sector.png", "size": 2239, "type": "image/png" }, { "file": "images/icons/icon-researchers.png", "size": 2185, "type": "image/png" }, { "file": "images/icons/icon-scales.png", "size": 1644, "type": "image/png" }, { "file": "images/icons/icon-search.png", "size": 2455, "type": "image/png" }, { "file": "images/icons/icon-semantic-search.png", "size": 2944, "type": "image/png" }, { "file": "images/icons/icon-spring.png", "size": 3438, "type": "image/png" }, { "file": "images/icons/icon-sun.png", "size": 2521, "type": "image/png" }, { "file": "images/icons/icon-text-magnifier.png", "size": 2501, "type": "image/png" }, { "file": "images/icons/icon-text.png", "size": 215, "type": "image/png" }, { "file": "images/icons/icon-thinking.png", "size": 2906, "type": "image/png" }, { "file": "images/icons/icon-user-group.png", "size": 4645, "type": "image/png" }, { "file": "images/lisa-long-joins-climate-policy-radar-board/lisalong.jpg", "size": 130190, "type": "image/jpeg" }, { "file": "images/logo.jpg", "size": 60861, "type": "image/jpeg" }, { "file": "images/logo.svg", "size": 8122, "type": "image/svg+xml" }, { "file": "images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.16.57.png", "size": 678315, "type": "image/png" }, { "file": "images/new-feature-english-translation-of-climate-law-and-policy/screenshot-2023-07-24-at-18.17.27.png", "size": 198444, "type": "image/png" }, { "file": "images/new-feature-english-translation-of-climate-law-and-policy/translation_blog.jpg", "size": 134981, "type": "image/jpeg" }, { "file": "images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-powered-climate-change-laws-of-the-world.png", "size": 546506, "type": "image/png" }, { "file": "images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/ai-search-on-climate-change-laws-of-the-world.png", "size": 180080, "type": "image/png" }, { "file": "images/new-partnership-launches-ai-powered-global-climate-law-and-policy-database/climate-policy-radar-ai-climate-law-and-policy-tool.png", "size": 485385, "type": "image/png" }, { "file": "images/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation/legislators-in-a-meeting.jpg", "size": 115192, "type": "image/jpeg" }, { "file": "images/partners/979de58c-027b-453d-8a56-ba9e119e5613-1569064075413.png", "size": 29021, "type": "image/png" }, { "file": "images/partners/Icon\r", "size": 0, "type": null }, { "file": "images/partners/adobe-logo.png", "size": 8035, "type": "image/png" }, { "file": "images/partners/bezos-earth-fund_logo.png", "size": 25035, "type": "image/png" }, { "file": "images/partners/cdkn-logo.png", "size": 54590, "type": "image/png" }, { "file": "images/partners/climate-parliament-logo.png", "size": 19181, "type": "image/png" }, { "file": "images/partners/climate_parl_logo_minus_strap-11-.jpg", "size": 1785682, "type": "image/jpeg" }, { "file": "images/partners/climateworks_logo.png", "size": 16368, "type": "image/png" }, { "file": "images/partners/dla-piper-logo.png", "size": 14604, "type": "image/png" }, { "file": "images/partners/edf.png", "size": 110627, "type": "image/png" }, { "file": "images/partners/google_org.png", "size": 41461, "type": "image/png" }, { "file": "images/partners/grantham-logo.png", "size": 92533, "type": "image/png" }, { "file": "images/partners/lse-logo.png", "size": 3698, "type": "image/png" }, { "file": "images/partners/osf.png", "size": 16363, "type": "image/png" }, { "file": "images/partners/patrick-mcgovern-foundation-logo-1.png", "size": 38676, "type": "image/png" }, { "file": "images/partners/patrick-mcgovern-foundation-logo.png", "size": 36300, "type": "image/png" }, { "file": "images/partners/personio-logo.png", "size": 5376, "type": "image/png" }, { "file": "images/partners/qcf.png", "size": 69090, "type": "image/png" }, { "file": "images/partners/quadrature-logo.png", "size": 5185, "type": "image/png" }, { "file": "images/partners/schmidt_futures_logo.png", "size": 7859, "type": "image/png" }, { "file": "images/partners/sequoia-climate-foundation.jpg", "size": 15789, "type": "image/jpeg" }, { "file": "images/partners/sequoia_logo.png", "size": 31340, "type": "image/png" }, { "file": "images/partners/south-south-north-logo.png", "size": 25936, "type": "image/png" }, { "file": "images/partners/subak-logo.png", "size": 56868, "type": "image/png" }, { "file": "images/partners/ucl-logo.png", "size": 3907, "type": "image/png" }, { "file": "images/partners/ucl_logo.png", "size": 48132, "type": "image/png" }, { "file": "images/partners/world-bank-logo.png", "size": 21004, "type": "image/png" }, { "file": "images/partners/world-policy-logo.png", "size": 45441, "type": "image/png" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/example-of-an-output-from-the-pdf-parsing-model.png", "size": 1512578, "type": "image/png" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/image-from-rawpixel-id-5901986-original.jpg", "size": 1146416, "type": "image/jpeg" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/object-recognition.jpg", "size": 658098, "type": "image/jpeg" }, { "file": "images/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data/pdf-code.png", "size": 115168, "type": "image/png" }, { "file": "images/peter_white-2.jpg", "size": 72518, "type": "image/jpeg" }, { "file": "images/press/1920px-business_insider_logo.svg.png", "size": 38483, "type": "image/png" }, { "file": "images/press/799px-globes_logo.svg.png", "size": 17182, "type": "image/png" }, { "file": "images/press/800px-cbs_news.svg.png", "size": 30191, "type": "image/png" }, { "file": "images/press/Icon\r", "size": 0, "type": null }, { "file": "images/press/bbc-london.svg", "size": 4821, "type": "image/svg+xml" }, { "file": "images/press/bwlogo.png", "size": 9840, "type": "image/png" }, { "file": "images/press/bwlogo.svg", "size": 6781, "type": "image/svg+xml" }, { "file": "images/press/current-news.svg", "size": 2662, "type": "image/svg+xml" }, { "file": "images/press/eandt-logo.png", "size": 6328, "type": "image/png" }, { "file": "images/press/globes.svg", "size": 3359, "type": "image/svg+xml" }, { "file": "images/press/n1_logo.svg.png", "size": 5518, "type": "image/png" }, { "file": "images/press/sifted-logo.avif", "size": 8087, "type": "image/avif" }, { "file": "images/press/sky-news-logo.svg", "size": 4567, "type": "image/svg+xml" }, { "file": "images/press/tech-exec.png", "size": 1336, "type": "image/png" }, { "file": "images/press/tech.eu-logo-positive-web-1-.png", "size": 32739, "type": "image/png" }, { "file": "images/press/the-observer.png", "size": 11980, "type": "image/png" }, { "file": "images/team/Icon\r", "size": 0, "type": null }, { "file": "images/team/adrian.jpg", "size": 39260, "type": "image/jpeg" }, { "file": "images/team/alan-climate-policy-radar.jpg", "size": 100819, "type": "image/jpeg" }, { "file": "images/team/alan.jpg", "size": 319483, "type": "image/jpeg" }, { "file": "images/team/alanna.jpg", "size": 12526, "type": "image/jpeg" }, { "file": "images/team/angel-hsu-climate-policy-radar.jpg", "size": 85934, "type": "image/jpeg" }, { "file": "images/team/annett-moehner-climate-policy-radar.jpg", "size": 83061, "type": "image/jpeg" }, { "file": "images/team/baroness-bryony-climate-policy-radar.jpg", "size": 93725, "type": "image/jpeg" }, { "file": "images/team/callie.jpg", "size": 439954, "type": "image/jpeg" }, { "file": "images/team/danny.jpg", "size": 91399, "type": "image/jpeg" }, { "file": "images/team/david-jensen-climate-policy-radar.jpg", "size": 93558, "type": "image/jpeg" }, { "file": "images/team/fred.jpg", "size": 370027, "type": "image/jpeg" }, { "file": "images/team/gareth-visagie-climate-policy-radar.jpg", "size": 99784, "type": "image/jpeg" }, { "file": "images/team/graham-gannon-climate-policy-radar.jpg", "size": 92140, "type": "image/jpeg" }, { "file": "images/team/harrison.jpg", "size": 399991, "type": "image/jpeg" }, { "file": "images/team/henry-franks-climate-policy-radar.jpg", "size": 103131, "type": "image/jpeg" }, { "file": "images/team/henry.jpg", "size": 325859, "type": "image/jpeg" }, { "file": "images/team/inez.jpg", "size": 45304, "type": "image/jpeg" }, { "file": "images/team/joana-setzer-climate-policy-radar.jpg", "size": 100709, "type": "image/jpeg" }, { "file": "images/team/jody-heyman-climate-policy-radar.jpg", "size": 91993, "type": "image/jpeg" }, { "file": "images/team/joel-1-.jpg", "size": 71423, "type": "image/jpeg" }, { "file": "images/team/joel-2-.jpg", "size": 74159, "type": "image/jpeg" }, { "file": "images/team/justine-2-.jpg", "size": 56549, "type": "image/jpeg" }, { "file": "images/team/kalyan.jpg", "size": 284860, "type": "image/jpeg" }, { "file": "images/team/katy.jpg", "size": 389092, "type": "image/jpeg" }, { "file": "images/team/kristyna.jpg", "size": 40833, "type": "image/jpeg" }, { "file": "images/team/kyra.jpg", "size": 96571, "type": "image/jpeg" }, { "file": "images/team/lisalong-climate-policy-radar-1-.jpg", "size": 100072, "type": "image/jpeg" }, { "file": "images/team/lisalong.jpg", "size": 130190, "type": "image/jpeg" }, { "file": "images/team/marcus.jpg", "size": 32656, "type": "image/jpeg" }, { "file": "images/team/mark.jpg", "size": 255819, "type": "image/jpeg" }, { "file": "images/team/mark_photo.jpeg", "size": 84031, "type": "image/jpeg" }, { "file": "images/team/matyas.jpg", "size": 401635, "type": "image/jpeg" }, { "file": "images/team/michal.jpg", "size": 351858, "type": "image/jpeg" }, { "file": "images/team/my-project-1-2-.png", "size": 523886, "type": "image/png" }, { "file": "images/team/nadia.jpg", "size": 63321, "type": "image/jpeg" }, { "file": "images/team/patrick.jpg", "size": 416351, "type": "image/jpeg" }, { "file": "images/team/patrick_jpeg_white.jpg", "size": 358077, "type": "image/jpeg" }, { "file": "images/team/patrick_white.jpeg", "size": 99660, "type": "image/jpeg" }, { "file": "images/team/paula.jpg", "size": 44960, "type": "image/jpeg" }, { "file": "images/team/peter.jpg", "size": 449975, "type": "image/jpeg" }, { "file": "images/team/peter_white-2.jpg", "size": 72548, "type": "image/jpeg" }, { "file": "images/team/peter_white.jpg", "size": 69979, "type": "image/jpeg" }, { "file": "images/team/placeholder.jpg", "size": 12407, "type": "image/jpeg" }, { "file": "images/team/rory-sullivan-climate-policy-radar.jpg", "size": 123993, "type": "image/jpeg" }, { "file": "images/team/roshan.jpg", "size": 296560, "type": "image/jpeg" }, { "file": "images/team/sam.jpg", "size": 30491, "type": "image/jpeg" }, { "file": "images/team/sarah-cpr.jpg", "size": 75339, "type": "image/jpeg" }, { "file": "images/team/sarah-goodenough-climate-policy-radaer.jpg", "size": 99876, "type": "image/jpeg" }, { "file": "images/team/sarah.jpg", "size": 425588, "type": "image/jpeg" }, { "file": "images/team/screenshot-2021-10-13-at-12.40.49.png", "size": 120298, "type": "image/png" }, { "file": "images/team/screenshot-2021-10-18-at-11.24.19.png", "size": 172964, "type": "image/png" }, { "file": "images/team/shehnaaz-moosa-climate-policy-radar.jpg", "size": 96191, "type": "image/jpeg" }, { "file": "images/team/shehnaaz-moosa-climate-policy-radar.png", "size": 1523156, "type": "image/png" }, { "file": "images/team/stefan-lavelle-climate-policy-radar.jpg", "size": 105163, "type": "image/jpeg" }, { "file": "images/team/stefan.jpg", "size": 48067, "type": "image/jpeg" }, { "file": "images/team/tam.jpg", "size": 42416, "type": "image/jpeg" }, { "file": "images/team/tina-1-.jpg", "size": 18932, "type": "image/jpeg" }, { "file": "images/team/tina_white.jpg", "size": 52631, "type": "image/jpeg" }, { "file": "images/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores/image_50405121.jpg", "size": 185575, "type": "image/jpeg" }, { "file": "images/the-value-of-user-research/screenshot-2023-11-01-at-10.53.08.png", "size": 128640, "type": "image/png" }, { "file": "images/the-value-of-user-research/value-of-user-research.jpg", "size": 139627, "type": "image/jpeg" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/bonn-twitter-key-features-w-logos.png", "size": 332544, "type": "image/png" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/screenshot-2023-06-14-174654.png", "size": 181299, "type": "image/png" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/screenshot-2023-06-14-175141.png", "size": 100218, "type": "image/png" }, { "file": "images/using-augmented-intelligence-to-support-the-un-global-stocktake/snap-from-bonn-plenary-room.png", "size": 1609154, "type": "image/png" }, { "file": "images/working-on-climate-change-as-a-software-engineer/cpr-s-peter-hooper-and-bubbles.jpg", "size": 95918, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-and-climate-policy-radar-colleagues.jpg", "size": 97644, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar-1-.jpg", "size": 132633, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-and-colleagues-at-climate-policy-radar.jpg", "size": 782582, "type": "image/jpeg" }, { "file": "images/working-on-climate-change-as-a-software-engineer/peter-hooper-climate-policy-radar.jpg", "size": 66984, "type": "image/jpeg" }, { "file": "images/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student/bella-cpr-work-experience.jpg", "size": 98775, "type": "image/jpeg" }, { "file": "images/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student/cpr-team-photo.jpg", "size": 414777, "type": "image/jpeg" }, { "file": "media/.DS_Store", "size": 6148, "type": null }, { "file": "media/CPR alpha demo.mp4", "size": 93483596, "type": "video/mp4" }, { "file": "preview.css", "size": 19008, "type": "text/css" }],
       layout: "src/routes/__layout.svelte",
       error: "src/routes/__error.svelte",
       routes: [
@@ -13674,6 +13845,13 @@ ${``}`;
         },
         {
           type: "page",
+          pattern: /^\/latest\/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/latest/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores.md"],
+          b: ["src/routes/__error.svelte"]
+        },
+        {
+          type: "page",
           pattern: /^\/latest\/climate-policy-radar-selected-for-personio-foundation’s-impact-portfolio\/?$/,
           params: empty,
           a: ["src/routes/__layout.svelte", "src/routes/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md"],
@@ -13733,6 +13911,13 @@ ${``}`;
           pattern: /^\/latest\/announcing-partnership-with-world-policy-analysis-center\/?$/,
           params: empty,
           a: ["src/routes/__layout.svelte", "src/routes/latest/announcing-partnership-with-world-policy-analysis-center.md"],
+          b: ["src/routes/__error.svelte"]
+        },
+        {
+          type: "page",
+          pattern: /^\/latest\/data-engineering-rugby-sevens-and-algorithms-mark-cottam\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/latest/data-engineering-rugby-sevens-and-algorithms-mark-cottam.md"],
           b: ["src/routes/__error.svelte"]
         },
         {
@@ -13837,7 +14022,7 @@ ${``}`;
           type: "endpoint",
           pattern: /^\/latest\/posts\.json$/,
           params: empty,
-          load: () => Promise.resolve().then(() => (init_posts_json_e721577c(), posts_json_e721577c_exports))
+          load: () => Promise.resolve().then(() => (init_posts_json_dfecac11(), posts_json_dfecac11_exports))
         },
         {
           type: "page",
@@ -13868,10 +14053,17 @@ ${``}`;
           b: ["src/routes/__error.svelte"]
         },
         {
+          type: "page",
+          pattern: /^\/jobs\/policy-officer-climate-justice\/?$/,
+          params: empty,
+          a: ["src/routes/__layout.svelte", "src/routes/jobs/policy-officer-climate-justice.md"],
+          b: ["src/routes/__error.svelte"]
+        },
+        {
           type: "endpoint",
           pattern: /^\/jobs\/jobs\.json$/,
           params: empty,
-          load: () => Promise.resolve().then(() => (init_jobs_json_e6d1545c(), jobs_json_e6d1545c_exports))
+          load: () => Promise.resolve().then(() => (init_jobs_json_8c609734(), jobs_json_8c609734_exports))
         },
         {
           type: "page",
@@ -13889,53 +14081,56 @@ ${``}`;
       externalFetch: hooks.externalFetch || fetch
     });
     module_lookup = {
-      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_fad80ac0(), layout_fad80ac0_exports)),
-      "src/routes/__error.svelte": () => Promise.resolve().then(() => (init_error_3d56cd0f(), error_3d56cd0f_exports)),
-      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_0fc548d0(), index_0fc548d0_exports)),
-      "src/routes/terms-conditions.svelte": () => Promise.resolve().then(() => (init_terms_conditions_6fb7b0e5(), terms_conditions_6fb7b0e5_exports)),
-      "src/routes/privacy-policy.svelte": () => Promise.resolve().then(() => (init_privacy_policy_b4a51dfb(), privacy_policy_b4a51dfb_exports)),
-      "src/routes/maintenance.svelte": () => Promise.resolve().then(() => (init_maintenance_0e0ee59c(), maintenance_0e0ee59c_exports)),
-      "src/routes/what-we-do.svelte": () => Promise.resolve().then(() => (init_what_we_do_64875311(), what_we_do_64875311_exports)),
-      "src/routes/contact.svelte": () => Promise.resolve().then(() => (init_contact_7dfc43f6(), contact_7dfc43f6_exports)),
-      "src/routes/latest/index.svelte": () => Promise.resolve().then(() => (init_index_7f5623fd(), index_7f5623fd_exports)),
-      "src/routes/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md": () => Promise.resolve().then(() => (init_new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d(), new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_5944178d_exports)),
-      "src/routes/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md": () => Promise.resolve().then(() => (init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d(), i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_af2ee52d_exports)),
-      "src/routes/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md": () => Promise.resolve().then(() => (init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752(), pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_c2275752_exports)),
-      "src/routes/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829(), climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_e05c1829_exports)),
-      "src/routes/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md": () => Promise.resolve().then(() => (init_climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add(), climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_227f7add_exports)),
-      "src/routes/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md": () => Promise.resolve().then(() => (init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a(), epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_4fa9b67a_exports)),
-      "src/routes/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md": () => Promise.resolve().then(() => (init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57(), a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_cfd86a57_exports)),
-      "src/routes/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md": () => Promise.resolve().then(() => (init_new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8(), new_partnership_launches_ai_powered_global_climate_law_and_policy_database_d0b261a8_exports)),
-      "src/routes/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a(), climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_86a5f63a_exports)),
-      "src/routes/latest/building-natural-language-search-for-climate-change-laws-and-policies.md": () => Promise.resolve().then(() => (init_building_natural_language_search_for_climate_change_laws_and_policies_219ee5da(), building_natural_language_search_for_climate_change_laws_and_policies_219ee5da_exports)),
-      "src/routes/latest/climate-policy-radar-launches-its-global-climate-policy-database.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_its_global_climate_policy_database_c6833a51(), climate_policy_radar_launches_its_global_climate_policy_database_c6833a51_exports)),
-      "src/routes/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md": () => Promise.resolve().then(() => (init_experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86(), experimenting_to_make_climate_policy_documents_easier_to_digest_a0b2bc86_exports)),
-      "src/routes/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md": () => Promise.resolve().then(() => (init_using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b(), using_augmented_intelligence_to_support_the_un_global_stocktake_90d44b4b_exports)),
-      "src/routes/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md": () => Promise.resolve().then(() => (init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc(), apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_f877f5dc_exports)),
-      "src/routes/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c(), announcing_over_6_8m_of_new_funding_for_climate_policy_radar_6ddbac7c_exports)),
-      "src/routes/latest/new-feature-english-translation-of-climate-law-and-policy.md": () => Promise.resolve().then(() => (init_new_feature_english_translation_of_climate_law_and_policy_4ea2472a(), new_feature_english_translation_of_climate_law_and_policy_4ea2472a_exports)),
-      "src/routes/latest/announcing-partnership-with-world-policy-analysis-center.md": () => Promise.resolve().then(() => (init_announcing_partnership_with_world_policy_analysis_center_f0873a43(), announcing_partnership_with_world_policy_analysis_center_f0873a43_exports)),
-      "src/routes/latest/climate-policy-radar-launches-public-product-roadmap.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_product_roadmap_0f5449f9(), climate_policy_radar_launches_public_product_roadmap_0f5449f9_exports)),
-      "src/routes/latest/greening-the-uk-steel-industry-behind-the-headlines.md": () => Promise.resolve().then(() => (init_greening_the_uk_steel_industry_behind_the_headlines_cef6627c(), greening_the_uk_steel_industry_behind_the_headlines_cef6627c_exports)),
-      "src/routes/latest/working-on-climate-change-as-a-software-engineer.md": () => Promise.resolve().then(() => (init_working_on_climate_change_as_a_software_engineer_33b75dc7(), working_on_climate_change_as_a_software_engineer_33b75dc7_exports)),
-      "src/routes/latest/climate-policy-radar-at-cop27-where-to-find-us.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop27_where_to_find_us_eb5506a6(), climate_policy_radar_at_cop27_where_to_find_us_eb5506a6_exports)),
-      "src/routes/latest/climate-policy-radar-launches-public-changelog.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_changelog_ee2987b3(), climate_policy_radar_launches_public_changelog_ee2987b3_exports)),
-      "src/routes/latest/lisa-long-joins-climate-policy-radar-board.md": () => Promise.resolve().then(() => (init_lisa_long_joins_climate_policy_radar_board_d6daf4d6(), lisa_long_joins_climate_policy_radar_board_d6daf4d6_exports)),
-      "src/routes/latest/climate-policy-radar-is-back-from-glasgow.md": () => Promise.resolve().then(() => (init_climate_policy_radar_is_back_from_glasgow_6235a076(), climate_policy_radar_is_back_from_glasgow_6235a076_exports)),
-      "src/routes/latest/being-a-data-scientist-in-climate-policy.md": () => Promise.resolve().then(() => (init_being_a_data_scientist_in_climate_policy_b6ce31ac(), being_a_data_scientist_in_climate_policy_b6ce31ac_exports)),
-      "src/routes/latest/climate-policy-radar-features-in-tech-eu.md": () => Promise.resolve().then(() => (init_climate_policy_radar_features_in_tech_eu_7a30f15e(), climate_policy_radar_features_in_tech_eu_7a30f15e_exports)),
-      "src/routes/latest/announcing-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_climate_policy_radar_1280941c(), announcing_climate_policy_radar_1280941c_exports)),
-      "src/routes/latest/climate-policy-radar-at-cop26.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop26_bbffa70d(), climate_policy_radar_at_cop26_bbffa70d_exports)),
-      "src/routes/latest/hacking-ai-for-climate-policy.md": () => Promise.resolve().then(() => (init_hacking_ai_for_climate_policy_b48573d5(), hacking_ai_for_climate_policy_b48573d5_exports)),
-      "src/routes/latest/the-value-of-user-research.md": () => Promise.resolve().then(() => (init_the_value_of_user_research_5e70375d(), the_value_of_user_research_5e70375d_exports)),
-      "src/routes/latest/augmented-intelligence.md": () => Promise.resolve().then(() => (init_augmented_intelligence_e9ad681d(), augmented_intelligence_e9ad681d_exports)),
-      "src/routes/latest/layout.svelte": () => Promise.resolve().then(() => (init_layout_0c4d9049(), layout_0c4d9049_exports)),
-      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_48a02280(), about_48a02280_exports)),
-      "src/routes/media.svelte": () => Promise.resolve().then(() => (init_media_cb0fa65a(), media_cb0fa65a_exports)),
-      "src/routes/jobs/index.svelte": () => Promise.resolve().then(() => (init_index_d6692016(), index_d6692016_exports)),
-      "src/routes/jobs/layout.svelte": () => Promise.resolve().then(() => (init_layout_422d33ad(), layout_422d33ad_exports))
+      "src/routes/__layout.svelte": () => Promise.resolve().then(() => (init_layout_fd3fab1c(), layout_fd3fab1c_exports)),
+      "src/routes/__error.svelte": () => Promise.resolve().then(() => (init_error_65815156(), error_65815156_exports)),
+      "src/routes/index.svelte": () => Promise.resolve().then(() => (init_index_03edcfe7(), index_03edcfe7_exports)),
+      "src/routes/terms-conditions.svelte": () => Promise.resolve().then(() => (init_terms_conditions_c1b17f3c(), terms_conditions_c1b17f3c_exports)),
+      "src/routes/privacy-policy.svelte": () => Promise.resolve().then(() => (init_privacy_policy_e357ad34(), privacy_policy_e357ad34_exports)),
+      "src/routes/maintenance.svelte": () => Promise.resolve().then(() => (init_maintenance_cf591546(), maintenance_cf591546_exports)),
+      "src/routes/what-we-do.svelte": () => Promise.resolve().then(() => (init_what_we_do_1480e389(), what_we_do_1480e389_exports)),
+      "src/routes/contact.svelte": () => Promise.resolve().then(() => (init_contact_5bbe60d0(), contact_5bbe60d0_exports)),
+      "src/routes/latest/index.svelte": () => Promise.resolve().then(() => (init_index_971a39cb(), index_971a39cb_exports)),
+      "src/routes/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md": () => Promise.resolve().then(() => (init_new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5(), new_partnership_with_climate_parliament_will_provide_free_information_resources_to_support_climate_legislation_e4d3fdf5_exports)),
+      "src/routes/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md": () => Promise.resolve().then(() => (init_i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b(), i_felt_a_renewed_passion_for_helping_solve_climate_change_cpr_welcomes_first_work_experience_student_b120679b_exports)),
+      "src/routes/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md": () => Promise.resolve().then(() => (init_pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598(), pdf_parsing_using_ai_to_turn_messy_climate_policy_documents_into_readable_structured_data_8536d598_exports)),
+      "src/routes/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180(), climate_policy_radar_selected_in_global_top_100_ai_projects_for_sustainable_development_7a92d180_exports)),
+      "src/routes/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md": () => Promise.resolve().then(() => (init_climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3(), climate_policy_radar_and_grantham_research_institute_launch_revamped_research_resource_903db7f3_exports)),
+      "src/routes/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md": () => Promise.resolve().then(() => (init_epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39(), epic_sprints_and_comedy_gigs_the_experience_of_a_non_tech_person_in_a_tech_start_up_5123ad39_exports)),
+      "src/routes/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md": () => Promise.resolve().then(() => (init_a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309(), a_treaty_on_plastic_pollution_needs_an_evidence_base_we_can_help_with_that_02b9b309_exports)),
+      "src/routes/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md": () => Promise.resolve().then(() => (init_new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26(), new_partnership_launches_ai_powered_global_climate_law_and_policy_database_ea594a26_exports)),
+      "src/routes/latest/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores.md": () => Promise.resolve().then(() => (init_tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85(), tech_for_good_schmidt_futures_and_getting_lost_in_the_sauce_alanna_flores_2bd97f85_exports)),
+      "src/routes/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md": () => Promise.resolve().then(() => (init_climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60(), climate_policy_radar_selected_for_personio_foundation_s_impact_portfolio_3c035c60_exports)),
+      "src/routes/latest/building-natural-language-search-for-climate-change-laws-and-policies.md": () => Promise.resolve().then(() => (init_building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5(), building_natural_language_search_for_climate_change_laws_and_policies_2c66cbf5_exports)),
+      "src/routes/latest/climate-policy-radar-launches-its-global-climate-policy-database.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_its_global_climate_policy_database_cacf057e(), climate_policy_radar_launches_its_global_climate_policy_database_cacf057e_exports)),
+      "src/routes/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md": () => Promise.resolve().then(() => (init_experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3(), experimenting_to_make_climate_policy_documents_easier_to_digest_15a51be3_exports)),
+      "src/routes/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md": () => Promise.resolve().then(() => (init_using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603(), using_augmented_intelligence_to_support_the_un_global_stocktake_7f800603_exports)),
+      "src/routes/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md": () => Promise.resolve().then(() => (init_apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846(), apprenticeships_flight_simulators_guide_dogs_meet_katy_baulch_1781e846_exports)),
+      "src/routes/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba(), announcing_over_6_8m_of_new_funding_for_climate_policy_radar_1f0d89ba_exports)),
+      "src/routes/latest/new-feature-english-translation-of-climate-law-and-policy.md": () => Promise.resolve().then(() => (init_new_feature_english_translation_of_climate_law_and_policy_b09c0383(), new_feature_english_translation_of_climate_law_and_policy_b09c0383_exports)),
+      "src/routes/latest/announcing-partnership-with-world-policy-analysis-center.md": () => Promise.resolve().then(() => (init_announcing_partnership_with_world_policy_analysis_center_020aa52d(), announcing_partnership_with_world_policy_analysis_center_020aa52d_exports)),
+      "src/routes/latest/data-engineering-rugby-sevens-and-algorithms-mark-cottam.md": () => Promise.resolve().then(() => (init_data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02(), data_engineering_rugby_sevens_and_algorithms_mark_cottam_f31a9a02_exports)),
+      "src/routes/latest/climate-policy-radar-launches-public-product-roadmap.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_product_roadmap_892701ec(), climate_policy_radar_launches_public_product_roadmap_892701ec_exports)),
+      "src/routes/latest/greening-the-uk-steel-industry-behind-the-headlines.md": () => Promise.resolve().then(() => (init_greening_the_uk_steel_industry_behind_the_headlines_8828e02f(), greening_the_uk_steel_industry_behind_the_headlines_8828e02f_exports)),
+      "src/routes/latest/working-on-climate-change-as-a-software-engineer.md": () => Promise.resolve().then(() => (init_working_on_climate_change_as_a_software_engineer_5a64ba93(), working_on_climate_change_as_a_software_engineer_5a64ba93_exports)),
+      "src/routes/latest/climate-policy-radar-at-cop27-where-to-find-us.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop27_where_to_find_us_489838f2(), climate_policy_radar_at_cop27_where_to_find_us_489838f2_exports)),
+      "src/routes/latest/climate-policy-radar-launches-public-changelog.md": () => Promise.resolve().then(() => (init_climate_policy_radar_launches_public_changelog_b11ab58b(), climate_policy_radar_launches_public_changelog_b11ab58b_exports)),
+      "src/routes/latest/lisa-long-joins-climate-policy-radar-board.md": () => Promise.resolve().then(() => (init_lisa_long_joins_climate_policy_radar_board_0b46330e(), lisa_long_joins_climate_policy_radar_board_0b46330e_exports)),
+      "src/routes/latest/climate-policy-radar-is-back-from-glasgow.md": () => Promise.resolve().then(() => (init_climate_policy_radar_is_back_from_glasgow_c416489e(), climate_policy_radar_is_back_from_glasgow_c416489e_exports)),
+      "src/routes/latest/being-a-data-scientist-in-climate-policy.md": () => Promise.resolve().then(() => (init_being_a_data_scientist_in_climate_policy_ceec0b78(), being_a_data_scientist_in_climate_policy_ceec0b78_exports)),
+      "src/routes/latest/climate-policy-radar-features-in-tech-eu.md": () => Promise.resolve().then(() => (init_climate_policy_radar_features_in_tech_eu_48c16529(), climate_policy_radar_features_in_tech_eu_48c16529_exports)),
+      "src/routes/latest/announcing-climate-policy-radar.md": () => Promise.resolve().then(() => (init_announcing_climate_policy_radar_bed37ef0(), announcing_climate_policy_radar_bed37ef0_exports)),
+      "src/routes/latest/climate-policy-radar-at-cop26.md": () => Promise.resolve().then(() => (init_climate_policy_radar_at_cop26_5b1a807f(), climate_policy_radar_at_cop26_5b1a807f_exports)),
+      "src/routes/latest/hacking-ai-for-climate-policy.md": () => Promise.resolve().then(() => (init_hacking_ai_for_climate_policy_af5fc90d(), hacking_ai_for_climate_policy_af5fc90d_exports)),
+      "src/routes/latest/the-value-of-user-research.md": () => Promise.resolve().then(() => (init_the_value_of_user_research_1c06bbfe(), the_value_of_user_research_1c06bbfe_exports)),
+      "src/routes/latest/augmented-intelligence.md": () => Promise.resolve().then(() => (init_augmented_intelligence_7cf0ea1c(), augmented_intelligence_7cf0ea1c_exports)),
+      "src/routes/latest/layout.svelte": () => Promise.resolve().then(() => (init_layout_7c3c9193(), layout_7c3c9193_exports)),
+      "src/routes/about.svelte": () => Promise.resolve().then(() => (init_about_c1f2dc6e(), about_c1f2dc6e_exports)),
+      "src/routes/media.svelte": () => Promise.resolve().then(() => (init_media_4f76d372(), media_4f76d372_exports)),
+      "src/routes/jobs/index.svelte": () => Promise.resolve().then(() => (init_index_2458fe7f(), index_2458fe7f_exports)),
+      "src/routes/jobs/policy-officer-climate-justice.md": () => Promise.resolve().then(() => (init_policy_officer_climate_justice_e0d292ff(), policy_officer_climate_justice_e0d292ff_exports)),
+      "src/routes/jobs/layout.svelte": () => Promise.resolve().then(() => (init_layout_254d2dc2(), layout_254d2dc2_exports))
     };
-    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-41c88173.js", "css": ["assets/pages/__layout.svelte-60ec175d.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/__layout.svelte-41c88173.js", "chunks/vendor-acc34977.js", "chunks/stores-e2757ac0.js", "chunks/theme-d2bdbdd4.js", "chunks/Button-0c8c108b.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Wrapper-d9844a7c.js"], "styles": [] }, "src/routes/__error.svelte": { "entry": "pages/__error.svelte-e6e83bc2.js", "css": ["assets/pages/__error.svelte-92e82203.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/__error.svelte-e6e83bc2.js", "chunks/vendor-acc34977.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/Pill-49f38848.js", "chunks/Spacer-feaa7328.js", "chunks/theme-d2bdbdd4.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-08e4be88.js", "css": ["assets/pages/index.svelte-b4ddb9d4.css", "assets/AccordionItem.svelte_svelte&type=style&lang-d8ab8615.css", "assets/TwoColumn.svelte_svelte&type=style&lang-28aa183f.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/IconListItem-7b188e5d.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/SingleColumn-7fceb23e.css", "assets/ValuePanel-9ea957b3.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/index.svelte-08e4be88.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/Button-0c8c108b.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/IconListItem-83aee6b8.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/SingleColumn-19e899c1.js", "chunks/ValuePanel-9ccd4142.js", "chunks/Spacer-feaa7328.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/terms-conditions.svelte": { "entry": "pages/terms-conditions.svelte-c0f9238b.js", "css": ["assets/Wrapper-d7bd07d8.css"], "js": ["pages/terms-conditions.svelte-c0f9238b.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/privacy-policy.svelte": { "entry": "pages/privacy-policy.svelte-003fa93a.js", "css": ["assets/pages/privacy-policy.svelte-d78f7fec.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/privacy-policy.svelte-003fa93a.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/maintenance.svelte": { "entry": "pages/maintenance.svelte-64b18ffb.js", "css": ["assets/pages/maintenance.svelte-585a6a5a.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/maintenance.svelte-64b18ffb.js", "chunks/vendor-acc34977.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/Pill-49f38848.js", "chunks/Spacer-feaa7328.js", "chunks/theme-d2bdbdd4.js"], "styles": [] }, "src/routes/what-we-do.svelte": { "entry": "pages/what-we-do.svelte-8c76bebc.js", "css": ["assets/pages/what-we-do.svelte-01300ea7.css", "assets/AccordionItem.svelte_svelte&type=style&lang-d8ab8615.css", "assets/TwoColumn.svelte_svelte&type=style&lang-28aa183f.css", "assets/Wrapper-d7bd07d8.css", "assets/Banner-17f03ae2.css", "assets/ValuePanel-9ea957b3.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Heading-d85c0115.css", "assets/Spacer-8e3b356c.css", "assets/IconListItem-7b188e5d.css"], "js": ["pages/what-we-do.svelte-8c76bebc.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/Wrapper-d9844a7c.js", "chunks/Banner-38a29363.js", "chunks/ValuePanel-9ccd4142.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Heading-1500e913.js", "chunks/TwoColumn-00e8616a.js", "chunks/Spacer-feaa7328.js", "chunks/IconListItem-83aee6b8.js", "chunks/MetaTags-eb204750.js", "chunks/Button-0c8c108b.js"], "styles": [] }, "src/routes/contact.svelte": { "entry": "pages/contact.svelte-0ea4e3f8.js", "css": ["assets/pages/contact.svelte-03d1c074.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Wrapper-d7bd07d8.css", "assets/Spacer-8e3b356c.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Banner-17f03ae2.css"], "js": ["pages/contact.svelte-0ea4e3f8.js", "chunks/vendor-acc34977.js", "chunks/Wrapper-d9844a7c.js", "chunks/Spacer-feaa7328.js", "chunks/Button-0c8c108b.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/MetaTags-eb204750.js", "chunks/Banner-38a29363.js"], "styles": [] }, "src/routes/latest/index.svelte": { "entry": "pages/latest/index.svelte-a74446c9.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/CardSplit-d14f2214.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Spacer-8e3b356c.css", "assets/Heading-d85c0115.css", "assets/Press-4a5c8152.css", "assets/CardsGrid-bab3118c.css"], "js": ["pages/latest/index.svelte-a74446c9.js", "chunks/vendor-acc34977.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/MetaTags-eb204750.js", "chunks/Spacer-feaa7328.js", "chunks/Heading-1500e913.js", "chunks/Press-b1773661.js", "chunks/Button-0c8c108b.js", "chunks/CardsGrid-44b636e7.js", "chunks/Pill-49f38848.js", "chunks/theme-d2bdbdd4.js"], "styles": [] }, "src/routes/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md": { "entry": "pages/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md-970a1b58.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md-970a1b58.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md": { "entry": "pages/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md-cc637a09.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md-cc637a09.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md": { "entry": "pages/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md-8cc0e863.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md-8cc0e863.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md": { "entry": "pages/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md-f6d48a4e.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md-f6d48a4e.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md": { "entry": "pages/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md-be5cf698.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md-be5cf698.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md": { "entry": "pages/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md-f2d553ec.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md-f2d553ec.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md": { "entry": "pages/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md-2bc55099.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md-2bc55099.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md": { "entry": "pages/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md-116980fe.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md-116980fe.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md": { "entry": "pages/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md-703d7de8.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md-703d7de8.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/building-natural-language-search-for-climate-change-laws-and-policies.md": { "entry": "pages/latest/building-natural-language-search-for-climate-change-laws-and-policies.md-c01bd01d.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/building-natural-language-search-for-climate-change-laws-and-policies.md-c01bd01d.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-launches-its-global-climate-policy-database.md": { "entry": "pages/latest/climate-policy-radar-launches-its-global-climate-policy-database.md-93252a79.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-launches-its-global-climate-policy-database.md-93252a79.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md": { "entry": "pages/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md-402ec9a6.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md-402ec9a6.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md": { "entry": "pages/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md-b0311b26.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md-b0311b26.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md": { "entry": "pages/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md-afe9716e.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md-afe9716e.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md": { "entry": "pages/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md-ab19fa99.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md-ab19fa99.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/new-feature-english-translation-of-climate-law-and-policy.md": { "entry": "pages/latest/new-feature-english-translation-of-climate-law-and-policy.md-21e30fb6.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/new-feature-english-translation-of-climate-law-and-policy.md-21e30fb6.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/announcing-partnership-with-world-policy-analysis-center.md": { "entry": "pages/latest/announcing-partnership-with-world-policy-analysis-center.md-d89dbb41.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/announcing-partnership-with-world-policy-analysis-center.md-d89dbb41.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-launches-public-product-roadmap.md": { "entry": "pages/latest/climate-policy-radar-launches-public-product-roadmap.md-4046dfd9.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-launches-public-product-roadmap.md-4046dfd9.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/greening-the-uk-steel-industry-behind-the-headlines.md": { "entry": "pages/latest/greening-the-uk-steel-industry-behind-the-headlines.md-59516920.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/greening-the-uk-steel-industry-behind-the-headlines.md-59516920.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/working-on-climate-change-as-a-software-engineer.md": { "entry": "pages/latest/working-on-climate-change-as-a-software-engineer.md-70eae194.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/working-on-climate-change-as-a-software-engineer.md-70eae194.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-at-cop27-where-to-find-us.md": { "entry": "pages/latest/climate-policy-radar-at-cop27-where-to-find-us.md-f1bd618f.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-at-cop27-where-to-find-us.md-f1bd618f.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-launches-public-changelog.md": { "entry": "pages/latest/climate-policy-radar-launches-public-changelog.md-c92d6e93.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-launches-public-changelog.md-c92d6e93.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/lisa-long-joins-climate-policy-radar-board.md": { "entry": "pages/latest/lisa-long-joins-climate-policy-radar-board.md-62ac8672.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/lisa-long-joins-climate-policy-radar-board.md-62ac8672.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-is-back-from-glasgow.md": { "entry": "pages/latest/climate-policy-radar-is-back-from-glasgow.md-7b0a9eb2.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-is-back-from-glasgow.md-7b0a9eb2.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/being-a-data-scientist-in-climate-policy.md": { "entry": "pages/latest/being-a-data-scientist-in-climate-policy.md-35580411.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/being-a-data-scientist-in-climate-policy.md-35580411.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-features-in-tech-eu.md": { "entry": "pages/latest/climate-policy-radar-features-in-tech-eu.md-450b1c07.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-features-in-tech-eu.md-450b1c07.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/announcing-climate-policy-radar.md": { "entry": "pages/latest/announcing-climate-policy-radar.md-38052b61.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/announcing-climate-policy-radar.md-38052b61.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-at-cop26.md": { "entry": "pages/latest/climate-policy-radar-at-cop26.md-99f0e6b9.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-at-cop26.md-99f0e6b9.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/hacking-ai-for-climate-policy.md": { "entry": "pages/latest/hacking-ai-for-climate-policy.md-5817debb.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/hacking-ai-for-climate-policy.md-5817debb.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/the-value-of-user-research.md": { "entry": "pages/latest/the-value-of-user-research.md-428adb7b.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/the-value-of-user-research.md-428adb7b.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/augmented-intelligence.md": { "entry": "pages/latest/augmented-intelligence.md-62f5eba0.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/augmented-intelligence.md-62f5eba0.js", "chunks/vendor-acc34977.js", "pages/latest/layout.svelte-fc63c838.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/latest/layout.svelte": { "entry": "pages/latest/layout.svelte-fc63c838.js", "css": ["assets/pages/latest/layout.svelte-129f9c39.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/layout.svelte-fc63c838.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/stores-e2757ac0.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/Button-0c8c108b.js", "chunks/CardsList-586ca73e.js", "chunks/CardSplit-bf3f5669.js", "chunks/Heading-1500e913.js", "chunks/Pill-49f38848.js", "chunks/PostContent-134e875f.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-ae64e490.js", "css": ["assets/pages/about.svelte-7953a9e3.css", "assets/Wrapper-d7bd07d8.css", "assets/Banner-17f03ae2.css", "assets/Spacer-8e3b356c.css", "assets/SingleColumn-7fceb23e.css", "assets/ValuePanel-9ea957b3.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardsGrid-bab3118c.css", "assets/Heading-d85c0115.css", "assets/IconListItem-7b188e5d.css"], "js": ["pages/about.svelte-ae64e490.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/Wrapper-d9844a7c.js", "chunks/Banner-38a29363.js", "chunks/Spacer-feaa7328.js", "chunks/SingleColumn-19e899c1.js", "chunks/ValuePanel-9ccd4142.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/CardsGrid-44b636e7.js", "chunks/Heading-1500e913.js", "chunks/IconListItem-83aee6b8.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/media.svelte": { "entry": "pages/media.svelte-01b23b1b.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Press-4a5c8152.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardsGrid-bab3118c.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/media.svelte-01b23b1b.js", "chunks/vendor-acc34977.js", "chunks/theme-d2bdbdd4.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/Pill-49f38848.js", "chunks/Press-b1773661.js", "chunks/Button-0c8c108b.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/CardsGrid-44b636e7.js", "chunks/Spacer-feaa7328.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/jobs/index.svelte": { "entry": "pages/jobs/index.svelte-b03d7e19.js", "css": ["assets/pages/jobs/index.svelte-c079f180.css", "assets/CardCompact.svelte_svelte&type=style&lang-5bb4b801.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/TwoColumn.svelte_svelte&type=style&lang-28aa183f.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/IconListItem-7b188e5d.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/jobs/index.svelte-b03d7e19.js", "chunks/vendor-acc34977.js", "chunks/Banner-38a29363.js", "chunks/Wrapper-d9844a7c.js", "chunks/Button-0c8c108b.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/CardsList-586ca73e.js", "chunks/IconListItem-83aee6b8.js", "chunks/Pill-49f38848.js", "chunks/Spacer-feaa7328.js", "chunks/TwoColumn-00e8616a.js", "chunks/theme-d2bdbdd4.js", "chunks/MetaTags-eb204750.js"], "styles": [] }, "src/routes/jobs/layout.svelte": { "entry": "pages/jobs/layout.svelte-9d446be7.js", "css": ["assets/pages/jobs/layout.svelte-b29c3ea7.css", "assets/CardCompact.svelte_svelte&type=style&lang-5bb4b801.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/PostContent-722707b5.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/jobs/layout.svelte-9d446be7.js", "chunks/vendor-acc34977.js", "chunks/PostContent-134e875f.js", "chunks/Button-0c8c108b.js", "chunks/Button.svelte_svelte&type=style&lang-1e7e193a.js", "chunks/MetaTags-eb204750.js", "chunks/Pill-49f38848.js", "chunks/Spacer-feaa7328.js", "chunks/Wrapper-d9844a7c.js", "chunks/theme-d2bdbdd4.js"], "styles": [] } };
+    metadata_lookup = { "src/routes/__layout.svelte": { "entry": "pages/__layout.svelte-c1296bcb.js", "css": ["assets/pages/__layout.svelte-60ec175d.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/__layout.svelte-c1296bcb.js", "chunks/vendor-58d882ec.js", "chunks/stores-82d353d1.js", "chunks/theme-b3e2e456.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Wrapper-3d51291b.js"], "styles": [] }, "src/routes/__error.svelte": { "entry": "pages/__error.svelte-56358e83.js", "css": ["assets/pages/__error.svelte-92e82203.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/__error.svelte-56358e83.js", "chunks/vendor-58d882ec.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/Pill-0c8956aa.js", "chunks/Spacer-346d5bce.js", "chunks/theme-b3e2e456.js"], "styles": [] }, "src/routes/index.svelte": { "entry": "pages/index.svelte-9db79cdd.js", "css": ["assets/pages/index.svelte-b4ddb9d4.css", "assets/AccordionItem.svelte_svelte&type=style&lang-d8ab8615.css", "assets/TwoColumn.svelte_svelte&type=style&lang-28aa183f.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/IconListItem-7b188e5d.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/SingleColumn-7fceb23e.css", "assets/ValuePanel-9ea957b3.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/index.svelte-9db79cdd.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/IconListItem-6843358d.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/SingleColumn-6314c3d1.js", "chunks/ValuePanel-c1f8d3f8.js", "chunks/Spacer-346d5bce.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/terms-conditions.svelte": { "entry": "pages/terms-conditions.svelte-7e4ba1d4.js", "css": ["assets/Wrapper-d7bd07d8.css"], "js": ["pages/terms-conditions.svelte-7e4ba1d4.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/privacy-policy.svelte": { "entry": "pages/privacy-policy.svelte-d3d536c1.js", "css": ["assets/pages/privacy-policy.svelte-d78f7fec.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/privacy-policy.svelte-d3d536c1.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/maintenance.svelte": { "entry": "pages/maintenance.svelte-166a72a3.js", "css": ["assets/pages/maintenance.svelte-585a6a5a.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/maintenance.svelte-166a72a3.js", "chunks/vendor-58d882ec.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/Pill-0c8956aa.js", "chunks/Spacer-346d5bce.js", "chunks/theme-b3e2e456.js"], "styles": [] }, "src/routes/what-we-do.svelte": { "entry": "pages/what-we-do.svelte-8e1783c6.js", "css": ["assets/pages/what-we-do.svelte-01300ea7.css", "assets/AccordionItem.svelte_svelte&type=style&lang-d8ab8615.css", "assets/TwoColumn.svelte_svelte&type=style&lang-28aa183f.css", "assets/Wrapper-d7bd07d8.css", "assets/Banner-17f03ae2.css", "assets/ValuePanel-9ea957b3.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Heading-d85c0115.css", "assets/Spacer-8e3b356c.css", "assets/IconListItem-7b188e5d.css"], "js": ["pages/what-we-do.svelte-8e1783c6.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/Wrapper-3d51291b.js", "chunks/Banner-5feccb18.js", "chunks/ValuePanel-c1f8d3f8.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Heading-0d632c9a.js", "chunks/TwoColumn-bd1d99e7.js", "chunks/Spacer-346d5bce.js", "chunks/IconListItem-6843358d.js", "chunks/MetaTags-87ad36bb.js", "chunks/Button-8fbd8cba.js"], "styles": [] }, "src/routes/contact.svelte": { "entry": "pages/contact.svelte-fe77f0be.js", "css": ["assets/pages/contact.svelte-827c8b99.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Wrapper-d7bd07d8.css", "assets/Spacer-8e3b356c.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Banner-17f03ae2.css"], "js": ["pages/contact.svelte-fe77f0be.js", "chunks/vendor-58d882ec.js", "chunks/Wrapper-3d51291b.js", "chunks/Spacer-346d5bce.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/MetaTags-87ad36bb.js", "chunks/Banner-5feccb18.js"], "styles": [] }, "src/routes/latest/index.svelte": { "entry": "pages/latest/index.svelte-167d076f.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/CardSplit-d14f2214.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Spacer-8e3b356c.css", "assets/Heading-d85c0115.css", "assets/Press-4a5c8152.css", "assets/CardsGrid-bab3118c.css"], "js": ["pages/latest/index.svelte-167d076f.js", "chunks/vendor-58d882ec.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/MetaTags-87ad36bb.js", "chunks/Spacer-346d5bce.js", "chunks/Heading-0d632c9a.js", "chunks/Press-eff31731.js", "chunks/Button-8fbd8cba.js", "chunks/CardsGrid-d14123a2.js", "chunks/Pill-0c8956aa.js", "chunks/theme-b3e2e456.js"], "styles": [] }, "src/routes/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md": { "entry": "pages/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md-e927f6b6.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/new-partnership-with-climate-parliament-will-provide-free-information-resources-to-support-climate-legislation.md-e927f6b6.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md": { "entry": "pages/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md-2050c599.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/\u201Ci-felt-a-renewed-passion-for-helping-solve-climate-change\u201D-cpr-welcomes-first-work-experience-student.md-2050c599.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md": { "entry": "pages/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md-93269f5a.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/pdf-parsing-using-ai-to-turn-messy-climate-policy-documents-into-readable-structured-data.md-93269f5a.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md": { "entry": "pages/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md-7f48d202.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-selected-in-global-top-100-ai-projects-for-sustainable-development.md-7f48d202.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md": { "entry": "pages/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md-286500a3.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-and-grantham-research-institute-launch-revamped-research-resource.md-286500a3.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md": { "entry": "pages/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md-5698f4c8.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/epic-sprints-and\u2026comedy-gigs-the-experience-of-a-non-tech-person-in-a-tech-start-up.md-5698f4c8.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md": { "entry": "pages/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md-2b2232b1.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/a-treaty-on-plastic-pollution-needs-an-evidence-base-we-can-help-with-that.md-2b2232b1.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md": { "entry": "pages/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md-103b0099.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/new-partnership-launches-ai-powered-global-climate-law-and-policy-database.md-103b0099.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores.md": { "entry": "pages/latest/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores.md-7cddf5db.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/tech-for-good-schmidt-futures-and-getting-lost-in-the-sauce-alanna-flores.md-7cddf5db.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md": { "entry": "pages/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md-98facaa2.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-selected-for-personio-foundation\u2019s-impact-portfolio.md-98facaa2.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/building-natural-language-search-for-climate-change-laws-and-policies.md": { "entry": "pages/latest/building-natural-language-search-for-climate-change-laws-and-policies.md-b79cb756.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/building-natural-language-search-for-climate-change-laws-and-policies.md-b79cb756.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-launches-its-global-climate-policy-database.md": { "entry": "pages/latest/climate-policy-radar-launches-its-global-climate-policy-database.md-2506782c.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-launches-its-global-climate-policy-database.md-2506782c.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md": { "entry": "pages/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md-0194dc72.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/experimenting-to-make-climate-policy-documents-easier-to-digest.md-0194dc72.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md": { "entry": "pages/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md-dbc2f6d8.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/using-augmented-intelligence-to-support-the-un-global-stocktake.md-dbc2f6d8.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md": { "entry": "pages/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md-f8b0aac7.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch.md-f8b0aac7.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md": { "entry": "pages/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md-609ca9ee.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/announcing-over-6-8m-of-new-funding-for-climate-policy-radar.md-609ca9ee.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/new-feature-english-translation-of-climate-law-and-policy.md": { "entry": "pages/latest/new-feature-english-translation-of-climate-law-and-policy.md-0129a79c.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/new-feature-english-translation-of-climate-law-and-policy.md-0129a79c.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/announcing-partnership-with-world-policy-analysis-center.md": { "entry": "pages/latest/announcing-partnership-with-world-policy-analysis-center.md-5d30ba8c.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/announcing-partnership-with-world-policy-analysis-center.md-5d30ba8c.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/data-engineering-rugby-sevens-and-algorithms-mark-cottam.md": { "entry": "pages/latest/data-engineering-rugby-sevens-and-algorithms-mark-cottam.md-af9426ee.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/data-engineering-rugby-sevens-and-algorithms-mark-cottam.md-af9426ee.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-launches-public-product-roadmap.md": { "entry": "pages/latest/climate-policy-radar-launches-public-product-roadmap.md-a4cb03fb.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-launches-public-product-roadmap.md-a4cb03fb.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/greening-the-uk-steel-industry-behind-the-headlines.md": { "entry": "pages/latest/greening-the-uk-steel-industry-behind-the-headlines.md-f5c27869.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/greening-the-uk-steel-industry-behind-the-headlines.md-f5c27869.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/working-on-climate-change-as-a-software-engineer.md": { "entry": "pages/latest/working-on-climate-change-as-a-software-engineer.md-25b005f7.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/working-on-climate-change-as-a-software-engineer.md-25b005f7.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-at-cop27-where-to-find-us.md": { "entry": "pages/latest/climate-policy-radar-at-cop27-where-to-find-us.md-f3eaeeb6.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-at-cop27-where-to-find-us.md-f3eaeeb6.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-launches-public-changelog.md": { "entry": "pages/latest/climate-policy-radar-launches-public-changelog.md-227fe101.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-launches-public-changelog.md-227fe101.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/lisa-long-joins-climate-policy-radar-board.md": { "entry": "pages/latest/lisa-long-joins-climate-policy-radar-board.md-3751dbe0.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/lisa-long-joins-climate-policy-radar-board.md-3751dbe0.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-is-back-from-glasgow.md": { "entry": "pages/latest/climate-policy-radar-is-back-from-glasgow.md-ead89f4b.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-is-back-from-glasgow.md-ead89f4b.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/being-a-data-scientist-in-climate-policy.md": { "entry": "pages/latest/being-a-data-scientist-in-climate-policy.md-32cd630e.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/being-a-data-scientist-in-climate-policy.md-32cd630e.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-features-in-tech-eu.md": { "entry": "pages/latest/climate-policy-radar-features-in-tech-eu.md-8aea3f56.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-features-in-tech-eu.md-8aea3f56.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/announcing-climate-policy-radar.md": { "entry": "pages/latest/announcing-climate-policy-radar.md-7afaaeb1.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/announcing-climate-policy-radar.md-7afaaeb1.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/climate-policy-radar-at-cop26.md": { "entry": "pages/latest/climate-policy-radar-at-cop26.md-a69d9306.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/climate-policy-radar-at-cop26.md-a69d9306.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/hacking-ai-for-climate-policy.md": { "entry": "pages/latest/hacking-ai-for-climate-policy.md-848d66b7.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/hacking-ai-for-climate-policy.md-848d66b7.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/the-value-of-user-research.md": { "entry": "pages/latest/the-value-of-user-research.md-af0b2ef9.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/the-value-of-user-research.md-af0b2ef9.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/augmented-intelligence.md": { "entry": "pages/latest/augmented-intelligence.md-f8b99fc1.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/latest/layout.svelte-129f9c39.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/augmented-intelligence.md-f8b99fc1.js", "chunks/vendor-58d882ec.js", "pages/latest/layout.svelte-be6ea308.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/latest/layout.svelte": { "entry": "pages/latest/layout.svelte-be6ea308.js", "css": ["assets/pages/latest/layout.svelte-129f9c39.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardSplit-d14f2214.css", "assets/Heading-d85c0115.css", "assets/PostContent-722707b5.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/latest/layout.svelte-be6ea308.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/stores-82d353d1.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/Button-8fbd8cba.js", "chunks/CardsList-b47e3dde.js", "chunks/CardSplit-83f472ac.js", "chunks/Heading-0d632c9a.js", "chunks/Pill-0c8956aa.js", "chunks/PostContent-680d7028.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/about.svelte": { "entry": "pages/about.svelte-3c9dfc67.js", "css": ["assets/pages/about.svelte-7953a9e3.css", "assets/Wrapper-d7bd07d8.css", "assets/Banner-17f03ae2.css", "assets/Spacer-8e3b356c.css", "assets/SingleColumn-7fceb23e.css", "assets/ValuePanel-9ea957b3.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardsGrid-bab3118c.css", "assets/Heading-d85c0115.css", "assets/IconListItem-7b188e5d.css"], "js": ["pages/about.svelte-3c9dfc67.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/Wrapper-3d51291b.js", "chunks/Banner-5feccb18.js", "chunks/Spacer-346d5bce.js", "chunks/SingleColumn-6314c3d1.js", "chunks/ValuePanel-c1f8d3f8.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/CardsGrid-d14123a2.js", "chunks/Heading-0d632c9a.js", "chunks/IconListItem-6843358d.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/media.svelte": { "entry": "pages/media.svelte-a2098a1e.js", "css": ["assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Press-4a5c8152.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/CardsGrid-bab3118c.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/media.svelte-a2098a1e.js", "chunks/vendor-58d882ec.js", "chunks/theme-b3e2e456.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/Pill-0c8956aa.js", "chunks/Press-eff31731.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/CardsGrid-d14123a2.js", "chunks/Spacer-346d5bce.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/jobs/index.svelte": { "entry": "pages/jobs/index.svelte-2b8fd852.js", "css": ["assets/pages/jobs/index.svelte-c079f180.css", "assets/CardCompact.svelte_svelte&type=style&lang-5bb4b801.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/TwoColumn.svelte_svelte&type=style&lang-28aa183f.css", "assets/Banner-17f03ae2.css", "assets/Wrapper-d7bd07d8.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/IconListItem-7b188e5d.css", "assets/Spacer-8e3b356c.css"], "js": ["pages/jobs/index.svelte-2b8fd852.js", "chunks/vendor-58d882ec.js", "chunks/Banner-5feccb18.js", "chunks/Wrapper-3d51291b.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/CardsList-b47e3dde.js", "chunks/IconListItem-6843358d.js", "chunks/Pill-0c8956aa.js", "chunks/Spacer-346d5bce.js", "chunks/TwoColumn-bd1d99e7.js", "chunks/theme-b3e2e456.js", "chunks/MetaTags-87ad36bb.js"], "styles": [] }, "src/routes/jobs/policy-officer-climate-justice.md": { "entry": "pages/jobs/policy-officer-climate-justice.md-905fbf57.js", "css": ["assets/CardCompact.svelte_svelte&type=style&lang-5bb4b801.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/pages/jobs/layout.svelte-b29c3ea7.css", "assets/PostContent-722707b5.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/jobs/policy-officer-climate-justice.md-905fbf57.js", "chunks/vendor-58d882ec.js", "pages/jobs/layout.svelte-3ce67def.js", "chunks/PostContent-680d7028.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/MetaTags-87ad36bb.js", "chunks/Pill-0c8956aa.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/theme-b3e2e456.js"], "styles": [] }, "src/routes/jobs/layout.svelte": { "entry": "pages/jobs/layout.svelte-3ce67def.js", "css": ["assets/pages/jobs/layout.svelte-b29c3ea7.css", "assets/CardCompact.svelte_svelte&type=style&lang-5bb4b801.css", "assets/Pill.svelte_svelte&type=style&lang-28f93bba.css", "assets/PostContent-722707b5.css", "assets/Button.svelte_svelte&type=style&lang-838bcc8f.css", "assets/Spacer-8e3b356c.css", "assets/Wrapper-d7bd07d8.css"], "js": ["pages/jobs/layout.svelte-3ce67def.js", "chunks/vendor-58d882ec.js", "chunks/PostContent-680d7028.js", "chunks/Button-8fbd8cba.js", "chunks/Button.svelte_svelte&type=style&lang-40cf6993.js", "chunks/MetaTags-87ad36bb.js", "chunks/Pill-0c8956aa.js", "chunks/Spacer-346d5bce.js", "chunks/Wrapper-3d51291b.js", "chunks/theme-b3e2e456.js"], "styles": [] } };
   }
 });
 
@@ -13947,7 +14142,7 @@ init_shims();
 
 // .svelte-kit/output/server/app.js
 init_shims();
-init_app_c2a38c87();
+init_app_62b9b593();
 
 // .svelte-kit/netlify/entry.js
 init();
