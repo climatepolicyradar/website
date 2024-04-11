@@ -17,7 +17,7 @@
   }
   const title = 'What We Do | Climate Policy Radar'
   const excerpt = 'Data science and AI for researching climate change policies and laws'
-  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const image = 'https://climatepolicyradar.org/images/logo.jpg'
   const path = 'what-we-do'
 </script>
 

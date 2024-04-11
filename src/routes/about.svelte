@@ -62,7 +62,7 @@
   $: sortedTeam = team ? sortAdvisory() : []
   const title = 'About | Climate Policy Radar'
   const excerpt = 'We are an open data climate startup'
-  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const image = 'https://climatepolicyradar.org/images/logo.jpg'
   const path = '/about'
 </script>
 

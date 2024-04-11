@@ -9,7 +9,7 @@
   };
   const title = 'Terms &amp; Conditions | Climate Policy Radar';
   const excerpt = 'Terms and conditions';
-  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const image = 'https://climatepolicyradar.org/images/logo.jpg';
   const path = '/terms-conditions';
 </script>
 

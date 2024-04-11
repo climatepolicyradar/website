@@ -9,7 +9,7 @@
   }
   const title = 'Privacy Policy | Climate Policy Radar'
   const excerpt = 'Climate Policy Radar privacy policy'
-  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const image = 'https://climatepolicyradar.org/images/logo.jpg'
   const path = '/privacy-policy'
 </script>
 

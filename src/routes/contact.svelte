@@ -12,7 +12,7 @@
 
   const title = 'Contact | Climate Policy Radar'
   const excerpt = 'Get in touch with not-for profit data-led climate startup, Climate Policy Radar'
-  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const image = 'https://climatepolicyradar.org/images/logo.jpg'
   const path = '/contact'
 </script>
 
