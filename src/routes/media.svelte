@@ -24,7 +24,7 @@
   };
   const title = 'Media | Climate Policy Radar';
   const excerpt = 'Climate Policy Radar in the Media';
-  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const image = 'https://climatepolicyradar.org/images/logo.jpg';
   const path = '/media';
 </script>
 

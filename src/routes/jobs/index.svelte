@@ -22,7 +22,7 @@
   const ctaEmptyClass = jobs.length === 0 ? 'empty-list' : ''
   const title = 'Jobs | Climate Policy Radar'
   const excerpt = 'Join us to build tools that help inform better decisions'
-  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const image = 'https://climatepolicyradar.org/images/logo.jpg'
   const path = '/jobs'
 </script>
 

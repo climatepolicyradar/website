@@ -18,7 +18,7 @@
   export let topics = [];
   const metaTitle = `${title} | Jobs | Climate Policy Radar`;
   const excerpt = 'Join us to build tools that help inform better decisions';
-  const image = 'https://climatepolicyradar.org/images/logo.png';
+  const image = 'https://climatepolicyradar.org/images/logo.jpg';
   const path = `/${title}`;
 </script>
 

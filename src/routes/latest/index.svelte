@@ -36,7 +36,7 @@
   export let posts
   const title = 'Latest | Climate Policy Radar'
   const excerpt = 'All the latest from our journey to map and analyse the climate policy landscape'
-  const image = 'https://climatepolicyradar.org/images/logo.png'
+  const image = 'https://climatepolicyradar.org/images/logo.jpg'
   const path = '/latest'
 </script>
 
