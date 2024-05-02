@@ -2,7 +2,7 @@
 layout: latest
 title: "NLP, Friday rituals and connecting the dots: Matyas Juhasz"
 date: 2 May 2024
-thumb: /images/nlp-friday-rituals-and-connecting-the-dots-matyas-juhasz/image-from-ios-1-.jpg
+thumb: /images/nlp-friday-rituals-and-connecting-the-dots-matyas-juhasz/image-from-ios.jpg
 topics:
   - Blog
 excerpt: "In the fourth instalment of our series introducing you to the
