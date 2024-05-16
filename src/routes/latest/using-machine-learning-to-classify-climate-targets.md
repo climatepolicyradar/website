@@ -6,16 +6,16 @@ thumb: /images/using-machine-learning-to-classify-climate-targets/newplot.png
 topics:
   - Blog
 excerpt: >-
-  With the fist biennial transparency report (BTR) submissions due to the UNFCCC
-  this year, and the next round of nationally determined contributions (NDCs) in
-  2025, all eyes will be on targets: reporting on targets, and progress against
-  them. 
+  With the first biennial transparency report (BTR) submissions due to the
+  UNFCCC this year, and the next round of nationally determined contributions
+  (NDCs) in 2025, all eyes will be on targets: reporting on targets, and
+  progress against them. 
 
 
   That is why the team at Climate Policy Radar has developed a classifier that automatically extracts net zero targets, emissions reduction targets, and any other quantified target by a national government.
 featured: false
 ---
-With the fist [biennial transparency report](https://unfccc.int/biennial-transparency-reports) (BTR) submissions due to the UNFCCC this year, and the next round of [nationally determined contributions](https://sdg.iisd.org/news/un-initiative-enters-next-phase-to-support-new-round-of-ndcs/#:~:text=The%20next%20round%20of%20nationally,is%20able%20to%20do%20so.%E2%80%9D) (NDCs) in 2025, all eyes will be on targets: reporting on targets, and progress against them. 
+With the first [biennial transparency report](https://unfccc.int/biennial-transparency-reports) (BTR) submissions due to the UNFCCC this year, and the next round of [nationally determined contributions](https://sdg.iisd.org/news/un-initiative-enters-next-phase-to-support-new-round-of-ndcs/#:~:text=The%20next%20round%20of%20nationally,is%20able%20to%20do%20so.%E2%80%9D) (NDCs) in 2025, all eyes will be on targets: reporting on targets, and progress against them. 
 
 That is why the team at Climate Policy Radar has developed a classifier that automatically extracts net zero targets, emissions reduction targets, and any other quantified target by a national government.
 
