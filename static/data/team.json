@@ -169,20 +169,6 @@
       ]
     },
     {
-      "name": "Alanna Flores",
-      "role": "Product Management",
-      "group": "Team",
-      "image": {
-        "src": "images/team/alanna.jpg",
-        "alt": "Alanna headshot"
-      },
-      "bio": "Alanna Flores is a product manager who has joined Climate Policy Radar as part of the Technologists for Global Transformation program at Schmidt Futures.",
-      "highlights": [
-        "She previously worked at The Washington Post on their election model and at Recidiviz, a tech non-profit focused on criminal justice reform. She has also conducted research at the Stanford Computational Policy Lab and developed tools for Open Source Wellness, a community-based health program.",
-        "Alanna holds an M.S. in Management Science and Engineering and a B.S. in Computer Science from Stanford University."
-      ]
-    },
-    {
       "name": "Sarah Goodenough",
       "role": "Policy",
       "group": "Team",
