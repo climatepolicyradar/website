@@ -3,7 +3,7 @@ layout: latest
 title: "The UN Global Stocktake, community-based adaptation and baking fresh
   bread: Sarah Goodenough"
 date: 5 June 2024
-thumb: /images/1702994091608.jpg
+thumb: /images/the-un-global-stocktake-community-based-adaptation-and-baking-fresh-bread-sarah-goodenough/sarah-goodenough-headshot-1.png
 topics:
   - Blog
 excerpt: In the latest instalment of our series introducing you to the brilliant
