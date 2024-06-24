@@ -62,7 +62,7 @@
     },
     {
       "name": "Inez Bartram Vilar",
-      "role": "Communications",
+      "role": "Chief of Staff",
       "group": "Team",
       "image": {
         "src": "images/team/inez.jpg",
@@ -305,6 +305,18 @@
       "highlights": [
         "Before joining Climate Policy Radar he worked on some great products including GOV.UK, BBC iPlayer and Cazoo.  Most of his recent experience is in the UK public sector, but he has also worked in startups/scaleups, digital agencies, non profits, political campaigns and video games. A long time ago in a place not so far away, he also completed a degree in Economics, Politics and International Studies from the University of Warwick. ",
         " He is passionate about building products that meet user needs and make a positive difference to the world."
+      ]
+    },
+    {
+      "name": "Dominyka Zemaityte",
+      "role": "Product",
+      "group": "Team",
+      "image": {
+        "src": "images/team/dominyka.jpg"
+      },
+      "bio": "Dominyka Zemaityte is a product manager with extensive experience in driving sustainable and innovative solutions in the tech industry.",
+      "highlights": [
+        "She previously led the development of an ESG product line at a supply chain start-up, and managed the development of a pioneering SaaS platform integrating blockchain, AI, and IoT to enhance efficiency and reduce waste in the food supply chain. In her spare time, Dominyka volunteers at Climate Ed, promoting environmental education in primary schools."
       ]
     },
     {
