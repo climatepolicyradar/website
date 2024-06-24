@@ -1,6 +1,18 @@
 {
   "team": [
     {
+      "name": "Dominyka Zemaityte",
+      "role": "Product",
+      "group": "Team",
+      "image": {
+        "src": "images/team/dominyka.jpg"
+      },
+      "bio": "Dominyka Zemaityte is a product manager with extensive experience in driving sustainable and innovative solutions in the tech industry.",
+      "highlights": [
+        "She previously led the development of an ESG product line at a supply chain start-up, and managed the development of a pioneering SaaS platform integrating blockchain, AI, and IoT to enhance efficiency and reduce waste in the food supply chain. In her spare time, Dominyka volunteers at Climate Ed, promoting environmental education in primary schools."
+      ]
+    },
+    {
       "name": "Michal Nachmany, PhD",
       "role": "Founder and CEO ",
       "image": {
@@ -62,7 +74,7 @@
     },
     {
       "name": "Inez Bartram Vilar",
-      "role": "Communications",
+      "role": "Chief of Staff",
       "group": "Team",
       "image": {
         "src": "images/team/inez.jpg",
