@@ -1,18 +1,6 @@
 {
   "team": [
     {
-      "group": "Board",
-      "name": "Stephen Ramage",
-      "role": "Non-Executive Director",
-      "image": {
-        "src": "images/team/steven.jpg"
-      },
-      "bio": "Throughout his three-decade long career, Steven has harnessed cutting edge technology for better environmental and socioeconomic decision making. His experience spans the UN, academia, the private sector, and government. As the Founder and CEO of Réseau Consulting, he advances policy, decision making, and action through strategic insights and evidence, international community collaboration and cooperation.",
-      "highlights": [
-        "Steven’s commitment to protecting and future-proofing our planet is evident through his advisory roles with international organisations, including GIZ, NASA, UNEP, UNFCCC, and the World Bank. In his role as Senior Business Advisor at the United Nations, he collaborates with the Science-Policy-Business Forum (UN-SBPF) on crucial issues such as the big data strategy for the environment."
-      ]
-    },
-    {
       "name": "Michal Nachmany, PhD",
       "role": "Founder and CEO ",
       "image": {
@@ -379,6 +367,18 @@
           "network": "linkedin",
           "url": "https://www.linkedin.com/in/llongllong/"
         }
+      ]
+    },
+    {
+      "group": "Board",
+      "name": "Stephen Ramage",
+      "role": "Non-Executive Director",
+      "image": {
+        "src": "images/team/steven.jpg"
+      },
+      "bio": "Throughout his three-decade long career, Steven has harnessed cutting edge technology for better environmental and socioeconomic decision making. His experience spans the UN, academia, the private sector, and government. As the Founder and CEO of Réseau Consulting, he advances policy, decision making, and action through strategic insights and evidence, international community collaboration and cooperation.",
+      "highlights": [
+        "Steven’s commitment to protecting and future-proofing our planet is evident through his advisory roles with international organisations, including GIZ, NASA, UNEP, UNFCCC, and the World Bank. In his role as Senior Business Advisor at the United Nations, he collaborates with the Science-Policy-Business Forum (UN-SBPF) on crucial issues such as the big data strategy for the environment."
       ]
     },
     {
