@@ -80,11 +80,23 @@
       "group": "Team",
       "bio": "Katy is a software engineer with over five years of experience. Prior to joining CPR, Katy worked at Thales where she designed and built APIs and microservices that were used to process and exploit flight data to help empower informed decision-making within military aircraft support teams.",
       "highlights": [
-        "Katy completed her degree in Digital and Technology Solutions via the University of Warwick's degree apprenticeship programme, which she believes has uniquely equipped her for an increasingly digital engineering environment/landscape"
+        "Katy completed her degree in Digital and Technology Solutions via the University of Warwick's degree apprenticeship programme, which she believes has uniquely equipped her for an increasingly digital engineering environment/landscape."
       ],
       "image": {
         "src": "images/team/katy.jpg"
       }
+    },
+    {
+      "name": "Jesse Claven",
+      "role": "Data Engineering",
+      "group": "Team",
+      "image": {
+        "src": "images/team/jesse.jpg"
+      },
+      "bio": "Jesse has eight years working across software, data, and ML engineering. He has worked across early stage startups in several sectors, across cyber security, travel and MLOps. He was previously at Seldon, where he worked on high volume ML inference.",
+      "highlights": [
+        "Jesse has BEng (Hons) from University of Queensland. On a Friday, Jesse can be found working on side projects, running, and reading about ML, data, and other topics."
+      ]
     },
     {
       "name": "Callie Coop",
