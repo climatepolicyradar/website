@@ -1,6 +1,6 @@
 ---
 layout: latest
-title: Apprenticeships, flight simulators & guide-dogs
+title: "Apprenticeships, flight simulators & guide-dogs: Katy Baulch"
 date: 8 February 2024
 thumb: /images/apprenticeships-flight-simulators-guide-dogs-meet-katy-baulch/apprenticeships-min.jpg
 topics:
