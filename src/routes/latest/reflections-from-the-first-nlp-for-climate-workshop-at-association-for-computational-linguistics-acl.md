@@ -3,7 +3,7 @@ layout: latest
 title: Reflections from the first NLP for climate workshop at Association for
   Computational Linguistics (ACL)
 date: 29 August 2024
-thumb: /images/1716195663467.jpg
+thumb: /images/reflections-from-the-first-nlp-for-climate-workshop-at-association-for-computational-linguistics-acl/1716195663467.jpg
 topics:
   - Blog
 excerpt: NLP research has great potential for climate impact in applications
