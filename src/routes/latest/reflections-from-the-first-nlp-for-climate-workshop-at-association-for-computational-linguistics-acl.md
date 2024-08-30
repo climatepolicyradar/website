@@ -79,4 +79,6 @@ As well as co-hosting the Climate NLP workshop we had a chance to attend other w
 
 There was significant overlap between the first [Human-Centered Large Language Modelling](https://hucllm-workshop.github.io/) workshop and our own. Particular highlights were [Barbara Plank](https://bplank.github.io/) speaking about where we can use differing opinions of labellers to our advantage in NLP (they are currently treated like errors), and [Vered Shwartz](https://www.cs.ubc.ca/~vshwartz/) convincingly arguing that we need to carefully consider intercultural communication using LLMs, as she has shown them to contain cultural biases. Another workshop shared insight into working with LLMs on Retrieval Augmented Generation (RAG) problems, which was hugely relevant to Climate Policy Radar’s own work on generative AI and our RAG tool, which we are launching at the Google.org Impact Summit in San Francisco. More on that next week, so watch this space...
 
-Researchers and practitioners from the conference (and more widely) are sharing their work and ideas in an online community that Climate Policy Radar convenes. [If you’re working on Climate NLP and would like to join this community, please reach out.](mailto:info@climatepolicyradar.org)
+**Researchers and practitioners from the conference (and more widely) are sharing their work and ideas in an online community that Climate Policy Radar convenes.** \
+\
+**[If you’re working on Climate NLP and would like to join this community, please reach out.](mailto:info@climatepolicyradar.org)**
