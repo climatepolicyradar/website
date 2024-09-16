@@ -368,35 +368,6 @@
       ]
     },
     {
-      "name": "Professor Sam Fankhauser",
-      "role": "Non-Executive Director",
-      "group": "Board",
-      "image": {
-        "src": "images/team/sam.jpg",
-        "width": 600,
-        "height": 812,
-        "alt": "Headshot of Professor Sam Fankhauser"
-      },
-      "bio": "Sam is Professor of Climate Change Economics and Policy at the University of Oxford Research and Director of Oxford Net Zero.",
-      "highlights": [
-        "Outside academia, Sam is an Associate Director at economics consultancy Vivid Economics.",
-        "He was also an inaugural member of the UK Committee on Climate Change (2008 to 2016) and served as a Non-Executive Director of CDC Group, the UK’s development finance institution (2015-21).",
-        "Before joining Oxford, Sam was Director of the Grantham Research Institute on Climate Change and the Environment at the London School of Economics, where he remains a Visiting Professor.",
-        "Prior to that, he worked at the European Bank for Reconstruction and Development (EBRD), the World Bank and the Global Environment Facility.",
-        "He has studied economics at the University of Berne (Switzerland), the London School of Economics and University College London."
-      ],
-      "social": [
-        {
-          "network": "linkedin",
-          "url": "https://www.linkedin.com/in/sam-fankhauser-137b1ab/"
-        },
-        {
-          "network": "twitter",
-          "url": "https://twitter.com/SamFankhauser"
-        }
-      ]
-    },
-    {
       "name": "Lisa Long",
       "role": "Non-Executive Director",
       "group": "Board",
