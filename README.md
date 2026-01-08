@@ -1,3 +1,8 @@
+> [!IMPORTANT]  
+> This repository is archived as the [website](https://www.climatepolicyradar.org) is hosted on Squarespace and managed externally.
+
+---
+
 # Climate Policy Radar
 
 A microsite for Climate Policy Radar - Building the evidence base for evidence-based policymaking
